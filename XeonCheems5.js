@@ -246,7 +246,7 @@ return list[Math.floor(list.length * Math.random())]
 //auto react all message
 XeonBotInc.sendMessage(m.chat, {
           react: {
-            text: `${pickRandom(['👨🏻‍💻˜¨','👨🏻‍💻˜…','👨🏻‍💻˜‚','👨🏻‍💻˜³','👨🏻‍💻˜Ž', '👨🏻‍💻¥µ', '👨🏻‍💻˜±', '👨🏻‍💻¦', '👨🏻‍💻™„', '👨🏻‍💻¤','👨🏻‍💻—¿','👨🏻‍💻¦','👨🏻‍💻¤¨','👨🏻‍💻¥´','👨🏻‍💻˜','👨🏻‍💻‘†','👨🏻‍💻˜”', '👨🏻‍💻‘€','👨🏻‍💻‘Ž'])}`,
+            text: `${pickRandom(['📸'])}`,
             key: m.key,
           }})
           
@@ -997,10 +997,10 @@ Type *give up* to surrender and admit defeat`
 	case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 teks = `*ã€Œ ${global.botname} Script ã€*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nDont forget to donate 👨🏻‍💻œ`
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'Owner 👨🏻‍💻Œº'}, type: 1}
+{buttonId: `owner`, buttonText: {displayText: 'Owner 👨🏻‍💻'}, type: 1}
 ]
 let buttonMessage = {
-image: {url: `https://i.ibb.co/w46VQ8D/Picsart-22-10-08-06-46-30-674.jpg`},
+image: {url: `https://i.ibb.co/VHchNTC/xpic.jpg`},
 jpegThumbnail: log0,
 caption: teks,
 footer: `${botname}`,
@@ -1284,7 +1284,7 @@ case 'rate': {
                let me = m.sender
                let pjtxt = `Message From : @${me.split('@')[0]} \nFor : @${ownernya.split('@')[0]}\n\n${command} ${text}`
                let ments = [ownernya, me]
-               let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: '👨🏻‍💻™THANKS' }, type: 1 }]
+               let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: '👨🏻‍💻THANKS' }, type: 1 }]
             await XeonBotInc.sendButtonText(ownernya, buttons, pjtxt, botname, m, {mentions: ments, quoted: fdoc})
             let akhji = `*Request has been sent*\n*To Owner @${ownernya.split('@')[0]}*\n_Thank you👨🏻‍💻™_`
             await XeonBotInc.sendButtonText(m.chat, buttons, akhji, botname, m, {mentions: ments, quoted: fkontak})
@@ -1716,7 +1716,7 @@ let read = i.readTimestamp
 let unread = i.receiptTimestamp
 let waktu = read ? read : unread
 teks += `${global.themeemoji} @${i.userJid.split('@')[0]}\n`
-teks += ` 👨🏻‍💻”—👨🏻‍💻”${global.themeemoji} *Time :* ${moment(waktu * 1000).format('DD/MM/YY HH:mm:ss')} ${global.themeemoji} *Status :* ${read ? 'Read' : 'Sent'}\n\n`
+teks += ` 👨🏻‍💻”—👨🏻‍💻”${global.themeemoji} *Time :* ${moment(waktu * 1000).format('DD/MM/YY HH:mm:ss')} ${global.themeemoji} *Status :* ${read ? 'Read' : 'Sent'}\n\n`
 }
 XeonBotInc.sendTextWithMentions(m.chat, teks, m)
 }
@@ -5920,10 +5920,10 @@ $”‚ : ${jumlahharian}
 							}
 						]
 const listMessage = {
-  text: "Please choose the menu",
-  footer: `${botname}\n“YouTube: ${websitex}\nScript: ${botscript}`,
-  title: `Hi ‘‹ ${pushname}`,
-  buttonText: "Menu",
+  text: "Please choose the menu📸",
+  footer: `${botname}\n“🕴🏻YouTube: ${websitex}\n🕴🏻Script: ${botscript}`,
+  title: `Hi👋🏻 ‘‹ ${pushname}`,
+  buttonText: "Menu🙇🏻‍♂️",
   sections
 }
 const sendMsg = await XeonBotInc.sendMessage(m.chat, listMessage)
@@ -7338,7 +7338,7 @@ const buttonMessage = {
 👨🏻‍💻•  ${prefix}sound90
 👨🏻‍💻•  ${prefix}sound91
 👨🏻‍💻•  ${prefix}sound92
-👨🏻‍💻•  ${prefix}sound93
+👨??‍💻•  ${prefix}sound93
 👨🏻‍💻•  ${prefix}sound94
 👨🏻‍💻•  ${prefix}sound95
 👨🏻‍💻•  ${prefix}sound96
