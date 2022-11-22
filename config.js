@@ -3,7 +3,7 @@ const chalk = require('chalk')
 
 //aumto functioner
 global.autoTyping = false //auto tying in gc (true to on, false to off)
-global.autoRecord = true //auto recording (true to on, false to off)
+global.autoRecord = false //auto recording (true to on, false to off)
 
 //documents variants
 global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -30,7 +30,7 @@ global.ownername = "🦄Hidayat Store My Id"
 global.linkz = "https://hidayat-store.my.id" //your theme url which will be displayed on whatsapp
 global.websitex = "https://hidayat-store.my.id" //ur website to be displayed
 global.botscript = 'https://hidayat-store.my.id' //script link
-global.reactmoji = "📸" //ur menu react emoji
+global.reactmoji = "🦄" //ur menu react emoji
 global.themeemoji = "🦄" //ur theme emoji
 global.packname = "Sticker By" //ur sticker watermark packname
 global.author = "Hi Dayat Ganteng-Bot Whatsap" //ur sticker watermark author
@@ -41,18 +41,18 @@ global.sessionName = 'session'
 global.prefa = ['','!','.','#','&']
 global.sp = ''
 global.mess = {
-    success: 'Done✓',
-    admin: 'This feature could be used by admins only!',
-    botAdmin: 'Bot Must Be Admin First!',
-    premime: 'Premium Special Features If You Want to Register Type Rent',
-    owner: 'This feature could be used by owner only',
-    group: 'Features Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This feature could be used by bot only',
-    wait: 'In process...',
-    linkm: 'Where is the link?',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
-    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
+    success: 'Done Ngab',
+    admin: 'Fitur ini hanya dapat digunakan oleh admin!',
+    botAdmin: 'Bot Harus Jadi Admin Dulu!',
+    premime: 'Fitur Khusus Premium Jika Ingin Mendaftar bisa hubungi Owner',
+    owner: 'Fitur ini hanya dapat digunakan oleh owner',
+    group: 'Fitur Hanya Digunakan Untuk Grup!',
+    private: 'Fitur Yang Digunakan Hanya Untuk Obrolan Pribadi!',
+    bot: 'Fitur ini hanya dapat digunakan oleh bot',
+    wait: 'Sabar lagi proses:v...',
+    linkm: 'Mana link nya woi?',
+    endLimit: 'Batas Harian Anda Telah Habis, Batas Akan Direset Setiap 12 Jam',
+    nsfw: 'Fitur nsfw belum diaktifkan, silahkan hubungi admin untuk aktivasi',
 }
 global.limitawal = {
     premium: "Infinity",
