@@ -246,7 +246,7 @@ return list[Math.floor(list.length * Math.random())]
 //auto react all message
 XeonBotInc.sendMessage(m.chat, {
           react: {
-            text: `${pickRandom(['🎠,😂,😭,😁,😆,🤨,🤓,😎,😘,❤‍🩹'])}`,
+            text: `${pickRandom(['❤‍🩹'])}`,
             key: m.key,
           }})
           
