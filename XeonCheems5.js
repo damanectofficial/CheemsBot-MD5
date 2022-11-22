@@ -44,22 +44,22 @@ const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
  if(time2 < "23:59:00"){
-var ucapanWaktu = 'Good night 🔖'
+var ucapanWaktu = 'Selamat Malem, Kenapa belum bobo? 🌝'
  }
  if(time2 < "19:00:00"){
-var ucapanWaktu = 'Good afternoon 🔖'
+var ucapanWaktu = 'Good afternoon 🌞'
  }
  if(time2 < "18:00:00"){
-var ucapanWaktu = 'Good afternoon 🔖…'
+var ucapanWaktu = 'Good afternoon 🌞'
  }
  if(time2 < "15:00:00"){
-var ucapanWaktu = 'Good afternoon 🔖'
+var ucapanWaktu = 'Good afternoon 🌞'
  }
  if(time2 < "11:00:00"){
-var ucapanWaktu = 'Good morning 🔖„'
+var ucapanWaktu = 'Good morning ☀️'
  }
  if(time2 < "05:00:00"){
-var ucapanWaktu = 'Good morning 🔖‰'
+var ucapanWaktu = 'Good morning ☀️'
  } 
 
 // read database
@@ -246,7 +246,7 @@ return list[Math.floor(list.length * Math.random())]
 //auto react all message
 XeonBotInc.sendMessage(m.chat, {
           react: {
-            text: `${pickRandom(['🎠'])}`,
+            text: `${pickRandom(['🎠,😂,😭,😁,😆,🤨,🤓,😎,😘,❤‍🩹'])}`,
             key: m.key,
           }})
           
@@ -995,7 +995,7 @@ Type *give up* to surrender and admit defeat`
             }
             break
 	case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
-teks = `*ã€Œ ${global.botname} Script ã€*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nDont forget to donate 🔖œ`
+teks = `*${global.botname} Script *\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nDont forget to donate 🔖`
 let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -1762,7 +1762,7 @@ break
             case 'hehehe': {
                 reactionMessage = {
                     react: {
-                        text: '🔖¤',
+                        text: '🌚',
                         key: { remoteJid: m.chat, fromMe: true, id: quoted.id }
                     }
                 }
@@ -5734,32 +5734,35 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
             let timestampe = speed();
             let latensie = speed() - timestampe
             let xeonezy = `
-Assalamualaikum 🙇🏻‍♂️‘
-👋🏻 ${pushname} 
-  ${ucapanWaktu}  💭
-
-💲: ${latensie.toFixed(4)} miliseconds
-💲: ${runtime(process.uptime())}
-💲: @${ini_mark.split('@')[0]}
-💲: ${global.botname}
-💲: @${ownernya.split('@')[0]}
-        NO-PREFIX 
-💲: ${XeonBotInc.public ? 'Public' : `Self`}
-💲: ${os.hostname()}
-💲: ${os.platform()}
-💲: ${Object.keys(global.db.data.users).length}
-💲: ${jumlahcmd}
-💲: ${jumlahharian}
-
-🥷🏻: ${pushname}
- 🕴🏻: @${me.split('@')[0]}
-🕴🏻: ${isPremium ? '🧑🏻‍💻' : ``}
-🕴🏻: ${isPremium ? 'Infinity' : `${db.data.users[m.sender].limit}`}
-
-⏰: ${xtime}
-🏷️: ${xdate}
-   🛂  Please Select
-   🛂  The Button Below 🐤
+┌─❖
+│「 Assalamualaikum 🙇🏻‍♂️ 」
+└┬❖ 「 👋🏻 ${pushname} 」
+   │✑  ${ucapanWaktu} 
+   │
+   │✑  ${latensie.toFixed(4)} miliseconds
+   │✑  ${runtime(process.uptime())}
+   │✑  @${ini_mark.split('@')[0]}
+   │✑  ${global.botname}
+   │✑ @${ownernya.split('@')[0]}
+   │       NO-PREFIX
+   │✑  ${XeonBotInc.public ? 'Public' : `Self`}
+   │✑  ${os.hostname()}
+   │✑  ${os.platform()}
+   │✑  ${Object.keys(global.db.data.users).length}
+   │✑  ${jumlahcmd}
+   │✑  ${jumlahharian}
+   │✑
+   │    「 🥷🏻: ${pushname} 」
+   └┬ ✑ 🕴🏻: @${me.split('@')[0]}
+      │✑ 🕴🏻: ${isPremium ? '🧑🏻‍💻' : ``}
+      │✑ 🕴🏻: ${isPremium ? 'Infinity' : `${db.data.users[m.sender].limit}`}
+      │✑
+     ┌─❖
+     │✑ ⏰: ${xtime}
+     │✑ 🏷️: ${xdate}
+     │✑   🛂  Please Select
+     │✑   🛂  The Button Below 🎠
+     └───────────────┈ ⳹
    `
             let ments = [ownernya, me, ini_mark]        
             let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: 'All Menu' }, type: 1 },{ buttonId: 'command', buttonText: { displayText: 'List Menu' }, type: 1 },{ buttonId: 'sc', buttonText: { displayText: 'Script' }, type: 1 }]
@@ -5793,8 +5796,8 @@ Assalamualaikum 🙇🏻‍♂️‘
 								"title": "Initial Features Of Bot 🥷🏻",
 								"rows": [
 									{
-										"title": "Other 🔖•",
-										"description": "Displays The List Of Other Features",
+										"title": "🥷🏻 Other ",
+										"description": "Menampilkan Daftar Other Fitur",
 										"rowId": `${prefix}othermenu`
 									}
 								]
@@ -5804,111 +5807,111 @@ Assalamualaikum 🙇🏻‍♂️‘
 								"rows": [
 									{
 										"title": "All Menu ",
-										"description": "Displays The List Of All The Features!",
+										"description": "Menampilkan Semua Daftar Menu!",
 										"rowId": `${prefix}allmenu`
 									},
 									{
-										"title": "Owner Menu 🔖’ ",
-										"description": "Displays The List Of Owner Features",
+										"title": "Owner Menu 🥷🏻",
+										"description": "Menampilkan Daftar Owner Menu",
 										"rowId": `${prefix}ownermenu`
 										},
 									{
-										"title": "Group Menu 🔖¨",
-										"description": "Displays The List Of Main Features",
+										"title": "Group Menu 🛂",
+										"description": "Menampilkan Daftar Group Menu",
 										"rowId": `${prefix}groupmenu`
 										},
 										{
-										"title": "Maker Menu 🔖",
-										"description": "Displays The List Of Logo Making Features",
+										"title": "Maker Menu 🎨",
+										"description": "Menampilkan Daftar Maker Menu",
 										"rowId": `${prefix}makermenu`
 									},
 									{
-										"title": "Sound Menu 🔖",
-										"description": "Displays The List Of Sound Features",
+										"title": "Sound Menu 🎧",
+										"description": "Menampilkan Daftar Sound Menu",
 										"rowId": `${prefix}soundmenu`
 									},
 									{
-										"title": "Download Menu 🔖",
-										"description": "Displays The List Of Download Features",
+										"title": "Download Menu ⬇️",
+										"description": "Menampilkan Daftar Download Menu",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
-										"title": "Sticker Menu 🔖",
-										"description": "Displays The List Of Sticker Features",
+										"title": "Sticker Menu 🦄",
+										"description": "Menampilkan Daftar Sticker Menu",
 										"rowId": `${prefix}stickermenu`
 									},
 									{
-										"title": "Search Menu 🔖",
-										"description": "Displays The List Of Searching Features",
+										"title": "Search Menu 🔎",
+										"description": "Menampilkan Daftar Search Menu",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
-										"title": "Random Image Menu 🔖",
+										"title": "Random Image Menu 🎠",
 										"description": "Displays The List Of Random Image Features",
 										"rowId": `${prefix}randomimagemenu`
 									},
 									{
-										"title": "Image Effect Menu 🔖",
+										"title": "Image Effect Menu 🎨",
 										"description": "Displays The List Of Image Effect Features",
 										"rowId": `${prefix}imageeffectmenu`
 									},
 										{
-											"title": "Anime Menu 🔖",
+											"title": "Anime Menu 👾",
 										"description": "Displays The List Of Random Anime Features",
 										"rowId": `${prefix}animemenu`
 										},
 										{
-											"title": "Emote Menu 🔖",
+											"title": "Emote Menu 🧚🏻‍♂️",
 										"description": "Displays The List Of Emote Features",
 										"rowId": `${prefix}emotemenu`
 										},
 										{
-										"title": "Anime Sticker Menu 🔖",
+										"title": "Anime Sticker Menu 🧚🏻‍♀️",
 										"description": "Displays The List Of Anime Sticker Features",
 										"rowId": `${prefix}animestickermenu`
 									     },
 									{
-										"title": "Nsfw Menu 🔖“",
+										"title": "Nsfw Menu 🕵🏻‍♂️",
 										"description": "Displays The List Of Nsfe Features",
 										"rowId": `${prefix}nsfwmenu`
 									     },
 										{
-											"title": "Fun Menu 🔖",
+											"title": "Fun Menu 🎈",
 										"description": "Displays The List Of Fun Features",
 										"rowId": `${prefix}funmenu`
 										},
 										{
-										"title": "Game Menu 🔖",
+										"title": "Game Menu 🧚🏻‍♂️",
 										"description": "Displays The List Of Game Features",
 										"rowId": `${prefix}gamemenu`
 									},
 										{
-											"title": "Convert Menu 🔖",
+											"title": "Convert Menu ♾️",
 										"description": "Displays The List Of Convert Features",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
-											"title": "Database Menu 🔖",
+											"title": "Database Menu 📂",
 										"description": "Displays The List Of Database Features",
 										"rowId": `${prefix}databasemenu`
 										}
 								]
 							},
 							{
-								"title": "Chat With Fellow Users 🔖",
+								"title": "Chat With Fellow Users 👤",
 								"rows": [
 									{
-										"title": "Anonymous Chat Menu 🔖",
+										"title": "Anonymous Chat Menu 👤",
 										"description": "Displays The List Of Anonymous Chat Features",
 										"rowId": `${prefix}anonymousmenu`
 									}
 								]
 							},
 							{
-								"title": "Credit 🔖",
+								"title": "Credit 🥷🏻",
 								"rows": [
 									{
-										"title": "Thanks To 🔖",
+										"title": "Thanks To 🎠",
 										"description": "Displays The List Of Credit Of The Bot !!",
 										"rowId": `${prefix}tqtt`
 									}
@@ -5929,7 +5932,7 @@ break
 var unicorn = await getBuffer(picak+'All Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -6582,7 +6585,7 @@ break
       case 'ownermenu':{
 	   var unicorn = await getBuffer(picak+'Owner Menu')
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -6614,7 +6617,7 @@ break
 var unicorn = await getBuffer(picak+'Group Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -6672,7 +6675,7 @@ case 'makermenu':{
 var unicorn = await getBuffer(picak+'Maker Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -6798,7 +6801,7 @@ break
 var unicorn = await getBuffer(picak+'Download Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -6825,7 +6828,7 @@ break
 var unicorn = await getBuffer(picak+'Search Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -6864,7 +6867,7 @@ break
 var unicorn = await getBuffer(picak+'Convert Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -6910,7 +6913,7 @@ case 'randomimagemenu':{
 var unicorn = await getBuffer(picak+'Random Image Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -6940,7 +6943,7 @@ break
 var unicorn = await getBuffer(picak+'Emote Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -6971,7 +6974,7 @@ break
 var unicorn = await getBuffer(picak+'Image Effect Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -6994,7 +6997,7 @@ case 'animemenu':{
 var unicorn = await getBuffer(picak+'Anime Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -7071,7 +7074,7 @@ break
 var unicorn = await getBuffer(picak+'Sticker Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -7098,7 +7101,7 @@ case 'animestickermenu':{
 var unicorn = await getBuffer(picak+'Anime Sticker Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -7146,7 +7149,7 @@ case 'nsfwmenu':{
 var unicorn = await getBuffer(picak+'Nsfw Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -7171,7 +7174,7 @@ case 'funmenu':{
 var unicorn = await getBuffer(picak+'Fun Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -7253,7 +7256,7 @@ case 'soundmenu':{
 var unicorn = await getBuffer(picak+'Sound Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -7366,8 +7369,8 @@ const buttonMessage = {
 🔖•  ${prefix}sound104
 🔖•  ${prefix}sound105
 🔖•  ${prefix}sound106
-🔖•  ${prefix}sound107
-🔖•  ${prefix}sound108
+??•  ${prefix}sound107
+??•  ${prefix}sound108
 🔖•  ${prefix}sound109
 🔖•  ${prefix}sound110
 🔖•  ${prefix}sound111
@@ -7433,7 +7436,7 @@ case 'gamemenu':{
 var unicorn = await getBuffer(picak+'Game Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -7459,7 +7462,7 @@ break
 var unicorn = await getBuffer(picak+'Anonymous Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
@@ -7482,7 +7485,7 @@ case 'databasemenu':{
 var unicorn = await getBuffer(picak+'Database Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
 ]
