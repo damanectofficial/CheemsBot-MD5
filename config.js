@@ -1,6 +1,17 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
+
+// Website Api
+global.APIs = {
+	zenz: 'https://zenzapis.xyz',
+}
+
+// Apikey Website Api
+global.APIKeys = {
+	'https://zenzapis.xyz': 'Your Key',
+}
+
 //aumto functioner
 global.autoTyping = false //auto tying in gc (true to on, false to off)
 global.autoRecord = false //auto recording (true to on, false to off)
