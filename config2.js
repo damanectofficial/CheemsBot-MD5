@@ -19,6 +19,28 @@ global.APIKeys = {
 }
 
 
+//owmner v card
+global.vcardowner = ['6283872273467'] //ur owner number
+global.ownername = "🦄Hidayat Store My Id" //ur owner name
+global.ytname = "YT: Hidayat Store" //ur yt chanel name
+global.socialm = "GitHub: damanectofficial" //ur github or insta name
+global.location = "India, Mizoram, Aizawl" //ur location
+
+//bot bomdy 
+global.owner = ['6283872273467'] //ur number
+global.ownernomer = "6283872273467" //ur number
+global.ownertag = '6283872273467' //ur tag number
+global.premium = ['6283872273467'] //ur premium number
+global.botname = 'Hi Dayat Ganteng-Bot Whatsap' //ur bot name
+global.ownername = "🦄Hidayat Store My Id"
+global.linkz = "https://hidayat-store.my.id" //your theme url which will be displayed on whatsapp
+global.websitex = "https://hidayat-store.my.id" //ur website to be displayed
+global.botscript = 'https://hidayat-store.my.id' //script link
+global.themeemoji = "🦄" //ur theme emoji
+global.packname = "Sticker By" //ur sticker watermark packname
+global.author = "Hi Dayat Ganteng-Bot Whatsap" //ur sticker watermark author
+global.wm = "Hidayat Store My Id" //ur watermark
+
 global.limitawal = {
     premium: "Infinity",
     free: 100
