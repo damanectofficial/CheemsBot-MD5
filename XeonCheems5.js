@@ -627,7 +627,7 @@ m.reply("Emoji error, please enter another emoji\nNOTE : Just enter 1 emoji")
             kuis = true
             let room = _family100['family100'+m.chat]
             let teks = budy.toLowerCase().replace(/[^\w\s\-]+/, '')
-            let isSurender = /^((me)?nyerah|surr?ender)$/i.test(m.text)
+            let isSurender = /^((me)?give up|surr?ender)$/i.test(m.text)
             if (!isSurender) {
                 let index = room.jawaban.findIndex(v => v.toLowerCase().replace(/[^\w\s\-]+/, '') === teks)
                 if (room.terjawab[index]) return !0
@@ -635,8 +635,8 @@ m.reply("Emoji error, please enter another emoji\nNOTE : Just enter 1 emoji")
             }
             let isWin = room.terjawab.length === room.terjawab.filter(v => v).length
             let caption = `
-Jawablah Pertanyaan Berikut :\n${room.soal}\n\n\nTerdapat ${room.jawaban.length} Jawaban ${room.jawaban.find(v => v.includes(' ')) ? `(beberapa Jawaban Terdapat Spasi)` : ''}
-${isWin ? `Semua Jawaban Terjawab` : isSurender ? 'Menyerah!' : ''}
+Answer the following questions :\n${room.soal}\n\n\nThere is ${room.jawaban.length} Answer ${room.jawaban.find(v => v.includes(' ')) ? `(some answers have spaces)` : ''}
+${isWin ? `All Answers Answered` : isSurender ? 'Give up!' : ''}
 ${Array.from(room.jawaban, (jawaban, index) => {
         return isSurender || room.terjawab[index] ? `(${index + 1}) ${jawaban} ${room.terjawab[index] ? '@' + room.terjawab[index].split('@')[0] : ''}`.trim() : false
     }).filter(v => v).join('\n')}
@@ -649,36 +649,36 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebaklagu[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, XeonBotInc.user.name, m)
+                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess song', buttonText: { displayText: 'Guess The Song' }, type: 1 }], `🔖Ž® Guess The Music 🔖Ž®\n\nCorrect Answer 🔖Ž‰\n\nWant To Play Again? Press The Button Below`, XeonBotInc.user.name, m)
                 delete tebaklagu[m.sender.split('@')[0]]
-            } else m.reply('*Jawaban Salah!*')
+            } else m.reply('*Wrong answer!*')
         }
 
         if (kuismath.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = kuismath[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await m.reply(`🎮 Kuis Matematika  🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? kirim ${prefix}math mode`)
+                await m.reply(`🔖Ž® Math Quiz 🔖Ž®\n\nCorrect Answer 🔖Ž‰\n\nWant To Play Again? Send ${prefix}math mode`)
                 delete kuismath[m.sender.split('@')[0]]
-            } else m.reply('*Jawaban Salah!*')
+            } else m.reply('*Wrong answer!*')
         }
 
         if (tebakgambar.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = tebakgambar[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, XeonBotInc.user.name, m)
+                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess picture', buttonText: { displayText: 'Guess The Picture' }, type: 1 }], `🔖Ž® Guess The Picture 🔖Ž®\n\nCorrect Answer 🔖Ž‰\n\nWant To Play Again? Press The Button Below`, XeonBotInc.user.name, m)
                 delete tebakgambar[m.sender.split('@')[0]]
-            } else m.reply('*Jawaban Salah!*')
+            } else m.reply('*Wrong answer!*')
         }
 
         if (tebakkata.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = tebakkata[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, XeonBotInc.user.name, m)
+                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess word', buttonText: { displayText: 'Guess The Word' }, type: 1 }], `🔖Ž® Guess The Word 🔖Ž®\n\nCorrect Answer 🔖Ž‰\n\nWant To Play Again? Press The Button Below`, XeonBotInc.user.name, m)
                 delete tebakkata[m.sender.split('@')[0]]
-            } else m.reply('*Jawaban Salah!*')
+            } else m.reply('*Wrong answer!*')
         }
 
         if (caklontong.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
@@ -686,37 +686,37 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             jawaban = caklontong[m.sender.split('@')[0]]
 	    deskripsi = caklontong_desk[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `🎮 Cak Lontong 🎮\n\nJawaban Benar 🎉\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, XeonBotInc.user.name, m)
+                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess blank', buttonText: { displayText: 'Guess The Blank' }, type: 1 }], `🔖Ž® Guess The Blank 🔖Ž®\n\nCorrect Answer 🔖Ž‰\n*${deskripsi}*\n\nWant To Play Again? Press The Button Below`, XeonBotInc.user.name, m)
                 delete caklontong[m.sender.split('@')[0]]
 		delete caklontong_desk[m.sender.split('@')[0]]
-            } else m.reply('*Jawaban Salah!*')
+            } else m.reply('*Wrong answer!*')
         }
 
         if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = tebakkalimat[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, XeonBotInc.user.name, m)
+                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess sentence', buttonText: { displayText: 'Guess The Sentence' }, type: 1 }], `🔖Ž® Guess The Sentence 🔖Ž®\n\nCorrect Answer 🔖Ž‰\n\nWant To Play Again? Press The Button Below`, XeonBotInc.user.name, m)
                 delete tebakkalimat[m.sender.split('@')[0]]
-            } else m.reply('*Jawaban Salah!*')
+            } else m.reply('*Wrong answer!*')
         }
 
         if (tebaklirik.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = tebaklirik[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, XeonBotInc.user.name, m)
+                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess lyrics', buttonText: { displayText: 'Guess The Lyrics' }, type: 1 }], `🔖Ž® Guess The Lyrics 🔖Ž®\n\nCorrect Answer 🔖Ž‰\n\nWant To Play Again? Press The Button Below`, XeonBotInc.user.name, m)
                 delete tebaklirik[m.sender.split('@')[0]]
-            } else m.reply('*Jawaban Salah!*')
+            } else m.reply('*Wrong answer!*')
         }
 	    
 	if (tebaktebakan.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = tebaktebakan[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, XeonBotInc.user.name, m)
+                await XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess riddle', buttonText: { displayText: 'Guess The Riddle' }, type: 1 }], `🔖Ž® Guess The Riddle 🔖Ž®\n\nCorrect Answer 🔖Ž‰\n\nWant To Play Again? Press The Button Below`, XeonBotInc.user.name, m)
                 delete tebaktebakan[m.sender.split('@')[0]]
-            } else m.reply('*Jawaban Salah!*')
+            } else m.reply('*Wrong answer!*')
         }
         
         //TicTacToe
@@ -728,17 +728,17 @@ ${Array.from(room.jawaban, (jawaban, index) => {
 	    let isTie = !1
 	    let isSurrender = !1
 	    // m.reply(`[DEBUG]\n${parseInt(m.text)}`)
-	    if (!/^([1-9]|(me)?nyerah|surr?ender|off|skip)$/i.test(m.text)) return
+	    if (!/^([1-9]|(me)?give up|surr?ender|off|skip)$/i.test(m.text)) return
 	    isSurrender = !/^[1-9]$/.test(m.text)
-	    if (m.sender !== room.game.currentTurn) { // nek wayahku
+	    if (m.sender !== room.game.currentTurn) {  
 	    if (!isSurrender) return !0
 	    }
 	    if (!isSurrender && 1 > (ok = room.game.turn(m.sender === room.game.playerO, parseInt(m.text) - 1))) {
 	    m.reply({
-	    '-3': 'Game telah berakhir',
+	    '-3': 'Game has ended',
 	    '-2': 'Invalid',
-	    '-1': 'Posisi Invalid',
-	    0: 'Posisi Invalid',
+	    '-1': 'Invalid Position',
+	    0: 'Invalid Position',
 	    }[ok])
 	    return !0
 	    }
@@ -746,17 +746,17 @@ ${Array.from(room.jawaban, (jawaban, index) => {
 	    else if (room.game.board === 511) isTie = true
 	    let arr = room.game.render().map(v => {
 	    return {
-	    X: '❌',
-	    O: '⭕',
-	    1: '1️⃣',
-	    2: '2️⃣',
-	    3: '3️⃣',
-	    4: '4️⃣',
-	    5: '5️⃣',
-	    6: '6️⃣',
-	    7: '7️⃣',
-	    8: '8️⃣',
-	    9: '9️⃣',
+	    X: '🔖Œ',
+	    O: '🔖­•',
+	    1: '1ï¸🔖ƒ£',
+	    2: '2ï¸🔖ƒ£',
+	    3: '3ï¸🔖ƒ£',
+	    4: '4ï¸🔖ƒ£',
+	    5: '5ï¸🔖ƒ£',
+	    6: '6ï¸🔖ƒ£',
+	    7: '7ï¸🔖ƒ£',
+	    8: '8ï¸🔖ƒ£',
+	    9: '9ï¸🔖ƒ£',
 	    }[v]
 	    })
 	    if (isSurrender) {
@@ -770,11 +770,11 @@ ${arr.slice(0, 3).join('')}
 ${arr.slice(3, 6).join('')}
 ${arr.slice(6).join('')}
 
-${isWin ? `@${winner.split('@')[0]} Menang!` : isTie ? `Game berakhir` : `Giliran ${['❌', '⭕'][1 * room.game._currentTurn]} (@${room.game.currentTurn.split('@')[0]})`}
-❌: @${room.game.playerX.split('@')[0]}
-⭕: @${room.game.playerO.split('@')[0]}
+${isWin ? `@${winner.split('@')[0]} Win!` : isTie ? `Game over` : `Turn ${['🔖Œ', '🔖­•'][1 * room.game._currentTurn]} (@${room.game.currentTurn.split('@')[0]})`}
+🔖Œ: @${room.game.playerX.split('@')[0]}
+🔖­•: @${room.game.playerO.split('@')[0]}
 
-Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
+Typed *give up* to surrender and admited defeat`
 	    if ((room.game._currentTurn ^ isSurrender ? room.x : room.o) !== m.chat)
 	    room[room.game._currentTurn ^ isSurrender ? 'x' : 'o'] = m.chat
 	    if (room.x !== room.o) await XeonBotInc.sendText(room.x, str, m, { mentions: parseMention(str) } )
@@ -790,9 +790,9 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
 	    if (roof) {
 	    let win = ''
 	    let tie = false
-	    if (m.sender == roof.p2 && /^(acc(ept)?|terima|gas|oke?|tolak|gamau|nanti|ga(k.)?bisa|y)/i.test(m.text) && m.isGroup && roof.status == 'wait') {
-	    if (/^(tolak|gamau|nanti|n|ga(k.)?bisa)/i.test(m.text)) {
-	    XeonBotInc.sendTextWithMentions(m.chat, `@${roof.p2.split`@`[0]} menolak suit, suit dibatalkan`, m)
+	    if (m.sender == roof.p2 && /^(acc(ept)?|accept|yes|okay?|reject|no|later|nop(e.)?yes|y)/i.test(m.text) && m.isGroup && roof.status == 'wait') {
+	    if (/^(reject|no|later|n|nop(e.)?yes)/i.test(m.text)) {
+	    XeonBotInc.sendTextWithMentions(m.chat, `@${roof.p2.split`@`[0]} rejected the suit, the suit is canceled`, m)
 	    delete this.suit[roof.id]
 	    return !0
 	    }
@@ -800,20 +800,20 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
 	    roof.asal = m.chat
 	    clearTimeout(roof.waktu)
 	    //delete roof[roof.id].waktu
-	    XeonBotInc.sendText(m.chat, `Suit telah dikirimkan ke chat
+	    XeonBotInc.sendText(m.chat, `Suit has been sent to chat
 
 @${roof.p.split`@`[0]} dan 
 @${roof.p2.split`@`[0]}
 
-Silahkan pilih suit di chat masing"
-klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] })
-	    if (!roof.pilih) XeonBotInc.sendText(roof.p, `Silahkan pilih \n\nBatu🗿\nKertas📄\nGunting✂️`, m)
-	    if (!roof.pilih2) XeonBotInc.sendText(roof.p2, `Silahkan pilih \n\nBatu🗿\nKertas📄\nGunting✂️`, m)
+Please choose a suit in the respective chat"
+click https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] })
+	    if (!roof.pilih) XeonBotInc.sendText(roof.p, `Please Select \n\Rock🔖—¿\nPaper🔖“„\nScissors🔖œ‚ï¸`, m)
+	    if (!roof.pilih2) XeonBotInc.sendText(roof.p2, `Please Select \n\nRock🔖—¿\nPaper🔖“„\nScissors🔖œ‚ï¸`, m)
 	    roof.waktu_milih = setTimeout(() => {
-	    if (!roof.pilih && !roof.pilih2) XeonBotInc.sendText(m.chat, `Kedua pemain tidak niat main,\nSuit dibatalkan`)
+	    if (!roof.pilih && !roof.pilih2) XeonBotInc.sendText(m.chat, `Both Players Don't Want To Play,\nSuit Canceled`)
 	    else if (!roof.pilih || !roof.pilih2) {
 	    win = !roof.pilih ? roof.p2 : roof.p
-	    XeonBotInc.sendTextWithMentions(m.chat, `@${(roof.pilih ? roof.p2 : roof.p).split`@`[0]} tidak memilih suit, game berakhir`, m)
+	    XeonBotInc.sendTextWithMentions(m.chat, `@${(roof.pilih ? roof.p2 : roof.p).split`@`[0]} Didn't Choose Suit, Game Over!`, m)
 	    }
 	    delete this.suit[roof.id]
 	    return !0
@@ -821,21 +821,21 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 	    }
 	    let jwb = m.sender == roof.p
 	    let jwb2 = m.sender == roof.p2
-	    let g = /gunting/i
-	    let b = /batu/i
-	    let k = /kertas/i
-	    let reg = /^(gunting|batu|kertas)/i
+	    let g = /scissors/i
+	    let b = /rock/i
+	    let k = /paper/i
+	    let reg = /^(scissors|rock|paper)/i
 	    if (jwb && reg.test(m.text) && !roof.pilih && !m.isGroup) {
 	    roof.pilih = reg.exec(m.text.toLowerCase())[0]
 	    roof.text = m.text
-	    m.reply(`Kamu telah memilih ${m.text} ${!roof.pilih2 ? `\n\nMenunggu lawan memilih` : ''}`)
-	    if (!roof.pilih2) XeonBotInc.sendText(roof.p2, '_Lawan sudah memilih_\nSekarang giliran kamu', 0)
+	    m.reply(`You have chosen ${m.text} ${!roof.pilih2 ? `\n\nWaiting for the opponent to choose` : ''}`)
+	    if (!roof.pilih2) XeonBotInc.sendText(roof.p2, '_The opponent has chosen_\nNow it is your turn', 0)
 	    }
 	    if (jwb2 && reg.test(m.text) && !roof.pilih2 && !m.isGroup) {
 	    roof.pilih2 = reg.exec(m.text.toLowerCase())[0]
 	    roof.text2 = m.text
-	    m.reply(`Kamu telah memilih ${m.text} ${!roof.pilih ? `\n\nMenunggu lawan memilih` : ''}`)
-	    if (!roof.pilih) XeonBotInc.sendText(roof.p, '_Lawan sudah memilih_\nSekarang giliran kamu', 0)
+	    m.reply(`You have chosen ${m.text} ${!roof.pilih ? `\n\nWaiting for the opponent to choose` : ''}`)
+	    if (!roof.pilih) XeonBotInc.sendText(roof.p, '_The opponent has chosen_\nNow it is your turn', 0)
 	    }
 	    let stage = roof.pilih
 	    let stage2 = roof.pilih2
@@ -848,10 +848,10 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 	    else if (k.test(stage) && b.test(stage2)) win = roof.p
 	    else if (k.test(stage) && g.test(stage2)) win = roof.p2
 	    else if (stage == stage2) tie = true
-	    XeonBotInc.sendText(roof.asal, `_*Hasil Suit*_${tie ? '\nSERI' : ''}
+	    XeonBotInc.sendText(roof.asal, `_*Suit Results*_${tie ? '\nSERIES' : ''}
 
-@${roof.p.split`@`[0]} (${roof.text}) ${tie ? '' : roof.p == win ? ` Menang \n` : ` Kalah \n`}
-@${roof.p2.split`@`[0]} (${roof.text2}) ${tie ? '' : roof.p2 == win ? ` Menang \n` : ` Kalah \n`}
+@${roof.p.split`@`[0]} (${roof.text}) ${tie ? '' : roof.p == win ? ` Win \n` : ` Lost \n`}
+@${roof.p2.split`@`[0]} (${roof.text2}) ${tie ? '' : roof.p2 == win ? ` Win \n` : ` Lost  \n`}
 `.trim(), m, { mentions: [roof.p, roof.p2] })
 	    delete this.suit[roof.id]
 	    }
@@ -865,51 +865,62 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
             if (!afkTime || afkTime < 0) continue
             let reason = user.afkReason || ''
             m.reply(`
-Jangan tag dia!
-Dia sedang AFK ${reason ? 'dengan alasan ' + reason : 'tanpa alasan'}
-Selama ${clockString(new Date - afkTime)}
+Don't tag him!
+He's in AFK ${reason ? 'with reason ' + reason : 'no reason'}
+During ${clockString(new Date - afkTime)}
 `.trim())
         }
 
         if (db.data.users[m.sender].afkTime > -1) {
             let user = global.db.data.users[m.sender]
-            XeonBotInc.sendTextWithMentions(m.chat, `@${m.sender.split('@')[0]} berhenti AFK${user.afkReason ? ' setelah ' + user.afkReason : ''}
-Selama ${clockString(new Date - user.afkTime)}`)
+            m.reply(`
+You stop AFK${user.afkReason ? ' after ' + user.afkReason : ''}
+During ${clockString(new Date - user.afkTime)}
+`.trim())
             user.afkTime = -1
             user.afkReason = ''
         }
 	    
+	//menu image randomizer
+	let picaks = [flaming,fluming,flarun,flasmurf]
+	let picak = picaks[Math.floor(Math.random() * picaks.length)]
+	
+	//menu doc randomizer
+let documents = [doc1,doc2,doc3,doc4,doc5,doc6]
+let docs = pickRandom(documents)
+	
         switch(command) {
 	    case 'afk': {
                 let user = global.db.data.users[m.sender]
                 user.afkTime = + new Date
                 user.afkReason = text
-                m.reply(`${m.pushName} Telah Afk${text ? ': ' + text : ''}`)
+                m.reply(`${m.pushName} *Already Afk*${text ? ': ' + text : ''}`)
             }
             break	
         case 'ttc': case 'ttt': case 'tictactoe': {
+        	if (!m.isGroup) throw mess.group
             let TicTacToe = require("./lib/tictactoe")
             this.game = this.game ? this.game : {}
-            if (Object.values(this.game).find(room => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))) throw 'Kamu masih didalam game'
+            if (Object.values(this.game).find(room => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))) throw 'You are still in the game'
             let room = Object.values(this.game).find(room => room.state === 'WAITING' && (text ? room.name === text : true))
             if (room) {
-            m.reply('Partner ditemukan!')
+            m.reply('Partners found!')
             room.o = m.chat
             room.game.playerO = m.sender
             room.state = 'PLAYING'
             let arr = room.game.render().map(v => {
             return {
-            X: '❌',
-            O: '⭕',
-            1: '1️⃣',
-            2: '2️⃣',
-            3: '3️⃣',
-            4: '4️⃣',
-            5: '5️⃣',
-            6: '6️⃣',
-            7: '7️⃣',
-            8: '8️⃣',
-            9: '9️⃣',
+            X: '🔖Œ',
+            O: '🔖­•',
+            1: '1ï¸🔖ƒ£',
+            2: '2ï¸🔖ƒ£',
+            3: '3ï¸🔖ƒ£',
+            4: '4ï¸🔖ƒ£',
+            5: '5ï¸🔖ƒ£',
+            6: '6ï¸🔖ƒ£',
+            7: '7ï¸🔖ƒ£',
+            8: '8ï¸🔖ƒ£',
+            9: '9ï¸🔖ƒ£',
             }[v]
             })
             let str = `Room ID: ${room.id}
@@ -918,9 +929,9 @@ ${arr.slice(0, 3).join('')}
 ${arr.slice(3, 6).join('')}
 ${arr.slice(6).join('')}
 
-Menunggu @${room.game.currentTurn.split('@')[0]}
+Wait @${room.game.currentTurn.split('@')[0]}
 
-Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
+Type *give up* to surrender and admit defeat`
             if (room.x !== room.o) await XeonBotInc.sendText(room.x, str, m, { mentions: parseMention(str) } )
             await XeonBotInc.sendText(room.o, str, m, { mentions: parseMention(str) } )
             } else {
@@ -932,16 +943,23 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             state: 'WAITING'
             }
             if (text) room.name = text
-            m.reply('Menunggu partner' + (text ? ` mengetik command dibawah ini ${prefix}${command} ${text}` : ''))
+            m.reply('Waiting for partner' + (text ? ` type the command below ${prefix}${command} ${text}` : ''))
             this.game[room.id] = room
             }
             }
             break
             case 'delttc': case 'delttt': {
-            let roomnya = Object.values(this.game).find(room => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))
-            if (!roomnya) throw `Kamu sedang tidak berada di room tictactoe !`
-            delete this.game[roomnya.id]
-            m.reply(`Berhasil delete session room tictactoe !`)
+            this.game = this.game ? this.game : {}
+            try {
+            if (this.game) {
+            delete this.game
+            XeonBotInc.sendText(m.chat, `Successfully deleted TicTacToe session`, m)
+            } else if (!this.game) {
+            m.reply(`Session TicTacToe🔖Ž® does not exist`)
+            } else throw '?'
+            } catch (e) {
+            m.reply('damaged')
+            }
             }
             break
             case 'suitpvp': case 'suit': {
@@ -950,15 +968,15 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             let poin_lose = 10
             let timeout = 60000
             if (Object.values(this.suit).find(roof => roof.id.startsWith('suit') && [roof.p, roof.p2].includes(m.sender))) m.reply(`Selesaikan suit mu yang sebelumnya`)
-	    if (m.mentionedJid[0] === m.sender) return m.reply(`Tidak bisa bermain dengan diri sendiri !`)
-            if (!m.mentionedJid[0]) return m.reply(`_Siapa yang ingin kamu tantang?_\nTag orangnya..\n\nContoh : ${prefix}suit @${owner[1]}`, m.chat, { mentions: [owner[1] + '@s.whatsapp.net'] })
-            if (Object.values(this.suit).find(roof => roof.id.startsWith('suit') && [roof.p, roof.p2].includes(m.mentionedJid[0]))) throw `Orang yang kamu tantang sedang bermain suit bersama orang lain :(`
+	    if (m.mentionedJid[0] === m.sender) return m.reply(`Can't play with myself !`)
+            if (!m.mentionedJid[0]) return m.reply(`_Who do you want to challenge?_\nTag the person..\n\nExample : ${prefix}suit @${owner[1]}`, m.chat, { mentions: [owner[1] + '@s.whatsapp.net'] })
+            if (Object.values(this.suit).find(roof => roof.id.startsWith('suit') && [roof.p, roof.p2].includes(m.mentionedJid[0]))) throw `The person you are challenging is playing suit with someone else :(`
             let id = 'suit_' + new Date() * 1
             let caption = `_*SUIT PvP*_
 
-@${m.sender.split`@`[0]} menantang @${m.mentionedJid[0].split`@`[0]} untuk bermain suit
+@${m.sender.split`@`[0]} *menantang* @${m.mentionedJid[0].split`@`[0]} *to play suit*
 
-Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
+*Please* @${m.mentionedJid[0].split`@`[0]} *to type accept/reject*`
             this.suit[id] = {
             chat: await XeonBotInc.sendText(m.chat, caption, m, { mentions: parseMention(caption) }),
             id: id,
@@ -966,199 +984,16 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             p2: m.mentionedJid[0],
             status: 'wait',
             waktu: setTimeout(() => {
-            if (this.suit[id]) XeonBotInc.sendText(m.chat, `_Waktu suit habis_`, m)
+            if (this.suit[id]) XeonBotInc.sendText(m.chat, `_Suit time out_`, m)
             delete this.suit[id]
             }, 60000), poin, poin_lose, timeout
             }
             }
             break
-	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                XeonBotInc.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/mDJsX0C/cheemspic.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 13k Per Group via Dana 1 Month\n⭔ 18k via Dana 1 Month\n\n Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment can be via Dana\n\nFor more details, you can chat with the owner\nhttps://wa.me/6283872273467 (Owner)\n\ntrakteer owner kopi☕ : \n\n⭔ Dana : 083872273467` }, { quoted: m })
-            }
-            break
-            case 'sc': {
-                m.reply('Website : https://hidayat-store.my.id\n\n Dont Forget Give Follow\n\ntrakteer : 6281615075793 (Dana)\n\n Dont forget to trakteer owner kopi☕')
-           
-            break
-            case 'chat': {
-                if (!isCreator) throw mess.owner
-                if (!q) throw 'Option : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete'
-                if (args[0] === 'mute') {
-                    XeonBotInc.chatModify({ mute: 'Infinity' }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
-                } else if (args[0] === 'unmute') {
-                    XeonBotInc.chatModify({ mute: null }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
-                } else if (args[0] === 'archive') {
-                    XeonBotInc.chatModify({  archive: true }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
-                } else if (args[0] === 'unarchive') {
-                    XeonBotInc.chatModify({ archive: false }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
-                } else if (args[0] === 'read') {
-                    XeonBotInc.chatModify({ markRead: true }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
-                } else if (args[0] === 'unread') {
-                    XeonBotInc.chatModify({ markRead: false }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
-                } else if (args[0] === 'delete') {
-                    XeonBotInc.chatModify({ clear: { message: { id: m.quoted.id, fromMe: true }} }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
-                }
-            }
-            break
-	    case 'family100': {
-                if ('family100'+m.chat in _family100) {
-                    m.reply('Masih Ada Sesi Yang Belum Diselesaikan!')
-                    throw false
-                }
-                let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/family100.json')
-                let random = anu[Math.floor(Math.random() * anu.length)]
-                let hasil = `*Jawablah Pertanyaan Berikut :*\n${random.soal}\n\nTerdapat *${random.jawaban.length}* Jawaban ${random.jawaban.find(v => v.includes(' ')) ? `(beberapa Jawaban Terdapat Spasi)` : ''}`.trim()
-                _family100['family100'+m.chat] = {
-                    id: 'family100'+m.chat,
-                    pesan: await XeonBotInc.sendText(m.chat, hasil, m),
-                    ...random,
-                    terjawab: Array.from(random.jawaban, () => false),
-                    hadiah: 6,
-                }
-            }
-            break
-            case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
-            if (!m.quoted && !text) throw `Kirim/reply text dengan caption ${prefix + command}`
-            ter = command[1].toLowerCase()
-            tex = m.quoted ? m.quoted.text ? m.quoted.text : q ? q : m.text : q ? q : m.text
-            m.reply(tex.replace(/[aiueo]/g, ter).replace(/[AIUEO]/g, ter.toUpperCase()))
-            break
-            case 'tebak': {
-                if (!text) throw `Example : ${prefix + command} lagu\n\nOption : \n1. lagu\n2. gambar\n3. kata\n4. kalimat\n5. lirik\n6.lontong`
-                if (args[0] === "lagu") {
-                    if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
-                    let anu = await fetchJson('https://fatiharridho.github.io/tebaklagu.json')
-                    let result = anu[Math.floor(Math.random() * anu.length)]
-                    let msg = await XeonBotInc.sendMessage(m.chat, { audio: { url: result.link_song }, mimetype: 'audio/mpeg' }, { quoted: m })
-                    XeonBotInc.sendText(m.chat, `Lagu Tersebut Adalah Lagu dari?\n\nArtist : ${result.artist}\nWaktu : 60s`, msg).then(() => {
-                    tebaklagu[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
-                    })
-                    await sleep(60000)
-                    if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) {
-                    console.log("Jawaban: " + result.jawaban)
-                    XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, XeonBotInc.user.name, m)
-                    delete tebaklagu[m.sender.split('@')[0]]
-                    }
-                } else if (args[0] === 'gambar') {
-                    if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
-                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakgambar.json')
-                    let result = anu[Math.floor(Math.random() * anu.length)]
-                    XeonBotInc.sendImage(m.chat, result.img, `Silahkan Jawab Soal Di Atas Ini\n\nDeskripsi : ${result.deskripsi}\nWaktu : 60s`, m).then(() => {
-                    tebakgambar[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
-                    })
-                    await sleep(60000)
-                    if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) {
-                    console.log("Jawaban: " + result.jawaban)
-                    XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, XeonBotInc.user.name, m)
-                    delete tebakgambar[m.sender.split('@')[0]]
-                    }
-                } else if (args[0] === 'kata') {
-                    if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
-                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkata.json')
-                    let result = anu[Math.floor(Math.random() * anu.length)]
-                    XeonBotInc.sendText(m.chat, `Silahkan Jawab Pertanyaan Berikut\n\n${result.soal}\nWaktu : 60s`, m).then(() => {
-                    tebakkata[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
-                    })
-                    await sleep(60000)
-                    if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) {
-                    console.log("Jawaban: " + result.jawaban)
-                    XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, XeonBotInc.user.name, m)
-                    delete tebakkata[m.sender.split('@')[0]]
-                    }
-                } else if (args[0] === 'kalimat') {
-                    if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
-                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkalimat.json')
-                    let result = anu[Math.floor(Math.random() * anu.length)]
-                    XeonBotInc.sendText(m.chat, `Silahkan Jawab Pertanyaan Berikut\n\n${result.soal}\nWaktu : 60s`, m).then(() => {
-                    tebakkalimat[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
-                    })
-                    await sleep(60000)
-                    if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) {
-                    console.log("Jawaban: " + result.jawaban)
-                    XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, XeonBotInc.user.name, m)
-                    delete tebakkalimat[m.sender.split('@')[0]]
-                    }
-                } else if (args[0] === 'lirik') {
-                    if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
-                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebaklirik.json')
-                    let result = anu[Math.floor(Math.random() * anu.length)]
-                    XeonBotInc.sendText(m.chat, `Ini Adalah Lirik Dari Lagu? : *${result.soal}*?\nWaktu : 60s`, m).then(() => {
-                    tebaklirik[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
-                    })
-                    await sleep(60000)
-                    if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) {
-                    console.log("Jawaban: " + result.jawaban)
-                    XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, XeonBotInc.user.name, m)
-                    delete tebaklirik[m.sender.split('@')[0]]
-                    }
-                } else if (args[0] === 'lontong') {
-                    if (caklontong.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
-                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/caklontong.json')
-                    let result = anu[Math.floor(Math.random() * anu.length)]
-                    XeonBotInc.sendText(m.chat, `*Jawablah Pertanyaan Berikut :*\n${result.soal}*\nWaktu : 60s`, m).then(() => {
-                    caklontong[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
-		    caklontong_desk[m.sender.split('@')[0]] = result.deskripsi
-                    })
-                    await sleep(60000)
-                    if (caklontong.hasOwnProperty(m.sender.split('@')[0])) {
-                    console.log("Jawaban: " + result.jawaban)
-                    XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, XeonBotInc.user.name, m)
-                    delete caklontong[m.sender.split('@')[0]]
-		    delete caklontong_desk[m.sender.split('@')[0]]
-                    }
-                }
-            }
-            break
-            case 'kuismath': case 'math': {
-                if (kuismath.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
-                let { genMath, modes } = require('./src/math')
-                if (!text) throw `Mode: ${Object.keys(modes).join(' | ')}\nContoh penggunaan: ${prefix}math medium`
-                let result = await genMath(text.toLowerCase())
-                XeonBotInc.sendText(m.chat, `*Berapa hasil dari: ${result.soal.toLowerCase()}*?\n\nWaktu: ${(result.waktu / 1000).toFixed(2)} detik`, m).then(() => {
-                    kuismath[m.sender.split('@')[0]] = result.jawaban
-                })
-                await sleep(result.waktu)
-                if (kuismath.hasOwnProperty(m.sender.split('@')[0])) {
-                    console.log("Jawaban: " + result.jawaban)
-                    m.reply("Waktu Habis\nJawaban: " + kuismath[m.sender.split('@')[0]])
-                    delete kuismath[m.sender.split('@')[0]]
-                }
-            }
-            break
-            case 'jodohku': {
-            if (!m.isGroup) throw mess.group
-            let member = participants.map(u => u.id)
-            let me = m.sender
-            let jodoh = member[Math.floor(Math.random() * member.length)]
-            let jawab = `👫Jodoh mu adalah
-
-@${me.split('@')[0]} ❤️ @${jodoh.split('@')[0]}`
-            let ments = [me, jodoh]
-            let buttons = [
-                        { buttonId: 'jodohku', buttonText: { displayText: 'Jodohku' }, type: 1 }
-                    ]
-                    await XeonBotInc.sendButtonText(m.chat, buttons, jawab, XeonBotInc.user.name, m, {mentions: ments})
-            }
-            break
-            case 'jadian': {
-            if (!m.isGroup) throw mess.group
-            let member = participants.map(u => u.id)
-            let orang = member[Math.floor(Math.random() * member.length)]
-            let jodoh = member[Math.floor(Math.random() * member.length)]
-            let jawab = `Ciee yang Jadian💖 Jangan lupa pajak jadiannya🐤
-
-@${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}`
-            let menst = [orang, jodoh]
-            let buttons = [
-                        { buttonId: 'jadian', buttonText: { displayText: 'Jodohku' }, type: 1 }
-                    ]
-                    await XeonBotInc.sendButtonText(m.chat, buttons, jawab, XeonBotInc.user.name, m, {mentions: menst})
-            }
-            break
 	case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
-teks = `*${global.botname} Script *\n\nWebsite: ${global.websitex}\nTrakteer: ${global.botscript}\n\nDont forget to trakteer owner kopi☕, Dana 083872273467, thank you friend`
+teks = `*${global.botname} Script *\n\nWebsite: ${global.websitex}\nJoin Group Whatsapp: ${global.botscript}\n\nDont forget to trakteer owner kopi☕, Dana 083872273467, thank you friend`
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+{buttonId: `owner`, buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://i.ibb.co/LR6sdwh/VID-20221117-WA0005.gif`},
@@ -1175,8 +1010,6 @@ mediaType:1,
 mediaUrl: 'https://i.ibb.co/LR6sdwh/VID-20221117-WA0005.gif',
 sourceUrl: "https://i.ibb.co/LR6sdwh/VID-20221117-WA0005.gif"
 }}
-}
-XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
@@ -1571,11 +1404,11 @@ case 'rate': {
                 if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
-let teks = `══✪〘 *👥 Tag All* 〙✪══
+let teks = `🔖•š🔖»Ë™Î‡Ù 🔖€¢🔖—🔖™¥ Tag All 🔖™¥🔖—🔖€¢Ù Î‡Ë™🔖«🔖• 
  
- ➲ *Pesan : ${q ? q : 'kosong'}*\n\n`
+ 🔖Œ¿ *Message : ${q ? q : 'empty'}*\n\n`
                 for (let mem of participants) {
-                teks += `⭔ @${mem.id.split('@')[0]}\n`
+                teks += `${themeemoji} @${mem.id.split('@')[0]}\n`
                 }
                 XeonBotInc.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
                 }
@@ -1602,35 +1435,35 @@ let teks = `══✪〘 *👥 Tag All* 〙✪══
 	    break
                case 'vote': {
             if (!m.isGroup) throw mess.group
-            if (m.chat in vote) throw `_Masih ada vote di chat ini!_\n\n*${prefix}hapusvote* - untuk menghapus vote`
-            if (!text) throw `Masukkan Alasan Melakukan Vote, Example: *${prefix + command} Owner Ganteng*`
-            m.reply(`Vote dimulai!\n\n*${prefix}upvote* - untuk ya\n*${prefix}devote* - untuk tidak\n*${prefix}cekvote* - untuk mengecek vote\n*${prefix}hapusvote* - untuk menghapus vote`)
+            if (m.chat in vote) throw `_There are still votes in this chat!_\n\n*${prefix}deletevote* - to delete votes`
+            if (!text) throw `Enter Reason for Vote, Example: *${prefix + command} Handsome Owner*`
+            m.reply(`Vote dimulai!\n\n*${prefix}upvote* - for sure\n*${prefix}devote* - for devote\n*${prefix}cekvote* - to check the vote\n*${prefix}deletevote* - to delete votes`)
             vote[m.chat] = [q, [], []]
             await sleep(1000)
             upvote = vote[m.chat][1]
             devote = vote[m.chat][2]
-            teks_vote = `*「 VOTE 」*
+            teks_vote = `*ã€Œ VOTE ã€*
 
-*Alasan:* ${vote[m.chat][0]}
+*Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
-│ 
-├ Total: ${vote[m.chat][1].length}
-│
-│ 
-└────
+🔖”Œã€” UPVOTE ã€•
+🔖”‚ 
+🔖”œ Total: ${vote[m.chat][1].length}
+🔖”‚
+🔖”‚ 
+🔖””🔖”€🔖”€🔖”€🔖”€
 
-┌〔 DEVOTE 〕
-│ 
-├ Total: ${vote[m.chat][2].length}
-│
-│ 
-└────
+🔖”Œã€” DEVOTE ã€•
+🔖”‚ 
+🔖”œ Total: ${vote[m.chat][2].length}
+🔖”‚
+🔖”‚ 
+🔖””🔖”€🔖”€🔖”€🔖”€
 
-*${prefix}hapusvote* - untuk menghapus vote`
+*${prefix}deletevote* - to delete votes`
 let buttonsVote = [
-  {buttonId: `${prefix}upvote`, buttonText: {displayText: '𝚄𝙿𝚅𝙾𝚃𝙴'}, type: 1},
-  {buttonId: `${prefix}devote`, buttonText: {displayText: '𝙳𝙴𝚅𝙾𝚃𝙴'}, type: 1}
+  {buttonId: `${prefix}upvote`, buttonText: {displayText: 'ðš„ð™¿ðš…ð™¾ðšƒð™´'}, type: 1},
+  {buttonId: `${prefix}devote`, buttonText: {displayText: 'ð™³ð™´ðš…ð™¾ðšƒð™´'}, type: 1}
 ]
 
             let buttonMessageVote = {
@@ -1644,34 +1477,34 @@ let buttonsVote = [
             break
                case 'upvote': {
             if (!m.isGroup) throw mess.group
-            if (!(m.chat in vote)) throw `_*tidak ada voting digrup ini!*_\n\n*${prefix}vote* - untuk memulai vote`
+            if (!(m.chat in vote)) throw `_*no voting in this group!*_\n\n*${prefix}vote* - to start voting`
             isVote = vote[m.chat][1].concat(vote[m.chat][2])
             wasVote = isVote.includes(m.sender)
-            if (wasVote) throw 'Kamu Sudah Vote'
+            if (wasVote) throw 'You have Voted'
             vote[m.chat][1].push(m.sender)
             menvote = vote[m.chat][1].concat(vote[m.chat][2])
-            teks_vote = `*「 VOTE 」*
+            teks_vote = `*ã€Œ VOTE ã€*
 
-*Alasan:* ${vote[m.chat][0]}
+*Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
-│ 
-├ Total: ${vote[m.chat][1].length}
-${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
-└────
+🔖”Œã€” UPVOTE ã€•
+🔖”‚ 
+🔖”œ Total: ${vote[m.chat][1].length}
+${vote[m.chat][1].map((v, i) => `🔖”œ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+🔖”‚ 
+🔖””🔖”€🔖”€🔖”€🔖”€
 
-┌〔 DEVOTE 〕
-│ 
-├ Total: ${vote[m.chat][2].length}
-${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
-└────
+🔖”Œã€” DEVOTE ã€•
+🔖”‚ 
+🔖”œ Total: ${vote[m.chat][2].length}
+${vote[m.chat][2].map((v, i) => `🔖”œ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+🔖”‚ 
+🔖””🔖”€🔖”€🔖”€🔖”€
 
-*${prefix}hapusvote* - untuk menghapus vote`
+*${prefix}deletevote* - to delete votes`
             let buttonsUpvote = [
-              {buttonId: `${prefix}upvote`, buttonText: {displayText: '𝚄𝙿𝚅𝙾𝚃𝙴'}, type: 1},
-              {buttonId: `${prefix}devote`, buttonText: {displayText: '𝙳𝙴𝚅𝙾𝚃𝙴'}, type: 1}
+              {buttonId: `${prefix}upvote`, buttonText: {displayText: 'ðš„ð™¿ðš…ð™¾ðšƒð™´'}, type: 1},
+              {buttonId: `${prefix}devote`, buttonText: {displayText: 'ð™³ð™´ðš…ð™¾ðšƒð™´'}, type: 1}
             ]
 
             let buttonMessageUpvote = {
@@ -1686,34 +1519,34 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
              break
                 case 'devote': {
             if (!m.isGroup) throw mess.group
-            if (!(m.chat in vote)) throw `_*tidak ada voting digrup ini!*_\n\n*${prefix}vote* - untuk memulai vote`
+            if (!(m.chat in vote)) throw `_*no voting in this group!*_\n\n*${prefix}vote* - to start voting`
             isVote = vote[m.chat][1].concat(vote[m.chat][2])
             wasVote = isVote.includes(m.sender)
-            if (wasVote) throw 'Kamu Sudah Vote'
+            if (wasVote) throw 'You have Voted'
             vote[m.chat][2].push(m.sender)
             menvote = vote[m.chat][1].concat(vote[m.chat][2])
-            teks_vote = `*「 VOTE 」*
+            teks_vote = `*ã€Œ VOTE ã€*
 
-*Alasan:* ${vote[m.chat][0]}
+*Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
-│ 
-├ Total: ${vote[m.chat][1].length}
-${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
-└────
+🔖”Œã€” UPVOTE ã€•
+🔖”‚ 
+🔖”œ Total: ${vote[m.chat][1].length}
+${vote[m.chat][1].map((v, i) => `🔖”œ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+🔖”‚ 
+🔖””🔖”€🔖”€🔖”€🔖”€
 
-┌〔 DEVOTE 〕
-│ 
-├ Total: ${vote[m.chat][2].length}
-${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
-└────
+🔖”Œã€” DEVOTE ã€•
+🔖”‚ 
+🔖”œ Total: ${vote[m.chat][2].length}
+${vote[m.chat][2].map((v, i) => `🔖”œ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+🔖”‚ 
+🔖””🔖”€🔖”€🔖”€🔖”€
 
-*${prefix}hapusvote* - untuk menghapus vote`
+*${prefix}deletevote* - to delete votes`
             let buttonsDevote = [
-              {buttonId: `${prefix}upvote`, buttonText: {displayText: '𝚄𝙿𝚅𝙾𝚃𝙴'}, type: 1},
-              {buttonId: `${prefix}devote`, buttonText: {displayText: '𝙳𝙴𝚅𝙾𝚃𝙴'}, type: 1}
+              {buttonId: `${prefix}upvote`, buttonText: {displayText: 'ðš„ð™¿ðš…ð™¾ðšƒð™´'}, type: 1},
+              {buttonId: `${prefix}devote`, buttonText: {displayText: 'ð™³ð™´ðš…ð™¾ðšƒð™´'}, type: 1}
             ]
 
             let buttonMessageDevote = {
@@ -1727,39 +1560,39 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 	}
             break
                  
-case 'cekvote':
+case 'checkvote':
 if (!m.isGroup) throw mess.group
-if (!(m.chat in vote)) throw `_*tidak ada voting digrup ini!*_\n\n*${prefix}vote* - untuk memulai vote`
-teks_vote = `*「 VOTE 」*
+if (!(m.chat in vote)) throw `_*no voting in this group!*_\n\n*${prefix}vote* - to start voting`
+teks_vote = `*ã€Œ VOTE ã€*
 
-*Alasan:* ${vote[m.chat][0]}
+*Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
-│ 
-├ Total: ${upvote.length}
-${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
-└────
+🔖”Œã€” UPVOTE ã€•
+🔖”‚ 
+🔖”œ Total: ${upvote.length}
+${vote[m.chat][1].map((v, i) => `🔖”œ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+🔖”‚ 
+🔖””🔖”€🔖”€🔖”€🔖”€
 
-┌〔 DEVOTE 〕
-│ 
-├ Total: ${devote.length}
-${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
-└────
+🔖”Œã€” DEVOTE ã€•
+🔖”‚ 
+🔖”œ Total: ${devote.length}
+${vote[m.chat][2].map((v, i) => `🔖”œ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+🔖”‚ 
+🔖””🔖”€🔖”€🔖”€🔖”€
 
-*${prefix}hapusvote* - untuk menghapus vote
+*${prefix}deletevote* - to delete votes
 
 
-©${XeonBotInc.user.id}
+🔖©${XeonBotInc.user.id}
 `
 XeonBotInc.sendTextWithMentions(m.chat, teks_vote, m)
 break
 		case 'deletevote': case'delvote': case 'hapusvote': {
             if (!m.isGroup) throw mess.group
-            if (!(m.chat in vote)) throw `_*tidak ada voting digrup ini!*_\n\n*${prefix}vote* - untuk memulai vote`
+            if (!(m.chat in vote)) throw `_*no voting in this group!*_\n\n*${prefix}vote* - to start voting`
             delete vote[m.chat]
-            m.reply('Berhasil Menghapus Sesi Vote Di Grup Ini')
+            m.reply('Successfully Deleted Vote Session In This Group')
 	    }
             break
                case 'group': case 'grup': {
@@ -4065,7 +3898,7 @@ case 'asuna':
 m.reply(mess.wait)						
 teks = `Here you go! 🏃🏻‍♂️`
 buffer = `https://revita.herokuapp.com/api/wallpaper/asuna?apikey=ApiRevita`
-XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go! 🏃??‍♂️"}, {quoted:m})
+XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go! 🏃🏻‍♂️"}, {quoted:m})
 break
 case 'anna':
 m.reply(mess.wait)						
@@ -6097,7 +5930,7 @@ var unicorn = await getBuffer(picak+'All Menu')
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️ '}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
