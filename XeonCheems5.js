@@ -2059,19 +2059,20 @@ View list of Messages With ${prefix}listmsg`)
             break
        
             case 'ping': {
-            	m.reply('Ucap salam yang bener!')
             teks = `👀${pushname} Pong🏓`
 let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'Owner 🙋🏻‍♂️ '}, type: 1}
 ]
 let buttonMessage = {
+	image: {url: `#`},
+jpegThumbnail: log0,
 caption: teks,
 footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Ucap Salam Yang Bener!",
-body: "Mikir Cok!", 
+title:"Pong 👀",
+body: "Hi...", 
 thumbnail: fs.readFileSync("https://i.ibb.co/gt88Kqv/st-small-507x507-pad-600x600-f8f8f8-2022-11-24-T224029-004.jpg"),
 mediaType:1,
 mediaUrl: 'https://hidayat-store.my.id',
