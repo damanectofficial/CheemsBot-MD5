@@ -2064,7 +2064,7 @@ let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'Owner 🙋🏻‍♂️ '}, type: 1}
 ]
 let buttonMessage = {
-	image: {url: `#`},
+	image: {url: `https://i.ibb.co/gt88Kqv/st-small-507x507-pad-600x600-f8f8f8-2022-11-24-T224029-004.jpg`},
 jpegThumbnail: log0,
 caption: teks,
 footer: `${botname}`,
