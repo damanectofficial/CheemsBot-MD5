@@ -2075,8 +2075,8 @@ title:"Pong 👀",
 body: "Hi...", 
 thumbnail: fs.readFileSync("https://i.ibb.co/gt88Kqv/st-small-507x507-pad-600x600-f8f8f8-2022-11-24-T224029-004.jpg"),
 mediaType:1,
-mediaUrl: 'https://hidayat-store.my.id',
-sourceUrl: "https://hidayat-store.my.id"
+mediaUrl: 'https://i.ibb.co/gt88Kqv/st-small-507x507-pad-600x600-f8f8f8-2022-11-24-T224029-004.jpg',
+sourceUrl: "https://i.ibb.co/gt88Kqv/st-small-507x507-pad-600x600-f8f8f8-2022-11-24-T224029-004.jpg"
 }}
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
