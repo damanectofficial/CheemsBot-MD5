@@ -2071,7 +2071,7 @@ headerType: 4,
 contextInfo:{externalAdReply:{
 title:"Pong 👀",
 body: "Hi...", 
-thumbnail: fs.readFileSync("https://i.ibb.co/gt88Kqv/st-small-507x507-pad-600x600-f8f8f8-2022-11-24-T224029-004.jpg"),
+thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
 mediaUrl: 'https://i.ibb.co/gt88Kqv/st-small-507x507-pad-600x600-f8f8f8-2022-11-24-T224029-004.jpg',
 sourceUrl: "https://i.ibb.co/gt88Kqv/st-small-507x507-pad-600x600-f8f8f8-2022-11-24-T224029-004.jpg"
@@ -2087,6 +2087,8 @@ let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'Owner 🙋🏻‍♂️ '}, type: 1}
 ]
 let buttonMessage = {
+image: {url: `#`},
+jpegThumbnail: log0,
 caption: teks,
 footer: `${botname}`,
 buttons: buttons,
