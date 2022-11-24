@@ -317,7 +317,7 @@ jumlahharian = `${dataa.value}`
 //anti bad words by xeon
 if (antiToxic)
 if (bad.includes(messagesD)) {
-tos = ['Hey, watch your mouth','Never been taught how to speak?','Stop being toxic my friend','Dont be toxic']
+tos = ['Hey, watch your mouth','Never been taught how to speak?','Stop being toxic my friend🔖¤¢','Dont be toxic🔖¦„']
 sin =  tos[Math.floor(Math.random() * (tos.length))]
 m.reply(sin)
 if (m.text) {
@@ -603,7 +603,7 @@ m.reply("Emoji error, please enter another emoji\nNOTE : Just enter 1 emoji")
       return
       }
 
-       // Respon Cmd with media
+        // Respon Cmd with media
         if (isMedia && m.msg.fileSha256 && (m.msg.fileSha256.toString('base64') in global.db.data.sticker)) {
         let hash = global.db.data.sticker[m.msg.fileSha256.toString('base64')]
         let { text, mentionedJid } = hash
@@ -1178,7 +1178,190 @@ sourceUrl: "https://i.ibb.co/LR6sdwh/VID-20221117-WA0005.gif"
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
-          
+XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+}
+            break		 
+            case 'chat': {
+                if (!isCreator) throw mess.owner
+                if (!q) throw 'Option : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete'
+                if (args[0] === 'mute') {
+                    XeonBotInc.chatModify({ mute: 'Infinity' }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'unmute') {
+                    XeonBotInc.chatModify({ mute: null }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'archive') {
+                    XeonBotInc.chatModify({  archive: true }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'unarchive') {
+                    XeonBotInc.chatModify({ archive: false }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'read') {
+                    XeonBotInc.chatModify({ markRead: true }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'unread') {
+                    XeonBotInc.chatModify({ markRead: false }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'delete') {
+                    XeonBotInc.chatModify({ clear: { message: { id: m.quoted.id, fromMe: true }} }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                }
+            }
+            break
+	    case 'family100': {
+                if ('family100'+m.chat in _family100) {
+                    m.reply('There are still unfinished sessions!')
+                    throw false
+                }
+                let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/family100.json')
+                let random = anu[Math.floor(Math.random() * anu.length)]
+                let hasil = `*Answer the following questions :*\n${random.soal}\n\nThere is *${random.jawaban.length}* Answer ${random.jawaban.find(v => v.includes(' ')) ? `(some answers have spaces)` : ''}`.trim()
+                _family100['family100'+m.chat] = {
+                    id: 'family100'+m.chat,
+                    pesan: await XeonBotInc.sendText(m.chat, hasil, m),
+                    ...random,
+                    terjawab: Array.from(random.jawaban, () => false),
+                    hadiah: 6,
+                }
+            }
+            break
+            case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
+            if (!m.quoted && !text) throw `Send/reply text with caption ${prefix + command}`
+            ter = command[1].toLowerCase()
+            tex = m.quoted ? m.quoted.text ? m.quoted.text : q ? q : m.text : q ? q : m.text
+            m.reply(tex.replace(/[aiueo]/g, ter).replace(/[AIUEO]/g, ter.toUpperCase()))
+            break
+            case 'guess': {
+                if (!args.join(" ")) throw `Example : ${prefix + command} song\n\nOption : \n1.song\n2. picture\n3. saying\n4. sentence\n5. lyrics\n6.food`
+if (args[0] === "song") {
+if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+let anu = await fetchJson('https://fatiharridho.github.io/tebaklagu.json')
+let result = anu[Math.floor(Math.random() * anu.length)]
+let msg = await XeonBotInc.sendMessage(m.chat, { audio: { url: result.link_song }, mimetype: 'audio/mpeg' }, { quoted: m })
+XeonBotInc.sendText(m.chat, `What is the name of this song?\n\nArtist : ${result.artist}\nTime : 60s`, msg).then(() => {
+tebaklagu[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+})
+await sleep(60000)
+if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) {
+console.log("Answer: " + result.jawaban)
+XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess song', buttonText: { displayText: 'Guess the song' }, type: 1 }], `Time has run out\nAnswer:  ${tebaklagu[m.sender.split('@')[0]]}\n\nWant to play? press the button below`, `${global.botname}`, m)
+delete tebaklagu[m.sender.split('@')[0]]
+}
+} else if (args[0] === 'picture') {
+if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakgambar.json')
+let result = anu[Math.floor(Math.random() * anu.length)]
+XeonBotInc.sendImage(m.chat, result.img, `Please answer the question above\n\nDescription : ${result.deskripsi}\nTime : 60s`, m).then(() => {
+tebakgambar[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+})
+await sleep(60000)
+if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) {
+console.log("Answer: " + result.jawaban)
+XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess picture', buttonText: { displayText: 'Guess the picture' }, type: 1 }], `Time has run out\nAnswer:  ${tebakgambar[m.sender.split('@')[0]]}\n\nWant to play? press the button below`,`${global.botname}`, m)
+delete tebakgambar[m.sender.split('@')[0]]
+}
+} else if (args[0] === 'word') {
+if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+let anu = await fetchJson('https://raw.githubusercontent.com/DGXeon/fungames/main/GuessTheWord.js')
+let result = anu[Math.floor(Math.random() * anu.length)]
+XeonBotInc.sendText(m.chat, `Please answer the following question\n\n${result.soal}\nTime : 60s`, m).then(() => {
+tebakkata[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+})
+await sleep(60000)
+if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) {
+console.log("Answer: " + result.jawaban)
+XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess word', buttonText: { displayText: 'Guess The Word' }, type: 1 }], `Time Out\nAnswer:  ${tebakkata[m.sender.split('@')[0]]}\n\nWant to play? press the button below`, `${global.botname}`, m)
+delete tebakkata[m.sender.split('@')[0]]
+}
+} else if (args[0] === 'sentence') {
+if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+let anu = await fetchJson('https://raw.githubusercontent.com/DGXeon/fungames/main/GuessTheSentence.js')
+let result = anu[Math.floor(Math.random() * anu.length)]
+XeonBotInc.sendText(m.chat, `Please answer the following question\n\n${result.soal}\nTime : 60s`, m).then(() => {
+tebakkalimat[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+})
+await sleep(60000)
+if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) {
+console.log("Answer: " + result.jawaban)
+XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess sentence', buttonText: { displayText: 'Guess the Sentence' }, type: 1 }], `Time Out\nAnswer:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nWant to play? press the button below`, `${global.botname}`, m)
+delete tebakkalimat[m.sender.split('@')[0]]
+}
+} else if (args[0] === 'lyrics') {
+if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebaklirik.json')
+let result = anu[Math.floor(Math.random() * anu.length)]
+XeonBotInc.sendText(m.chat, `Fill the missing lyrics below : *${result.soal}*?\nTime : 60s`, m).then(() => {
+tebaklirik[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+})
+await sleep(60000)
+if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) {
+console.log("Answer: " + result.jawaban)
+XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess lyrics', buttonText: { displayText: 'Guess The Lyrics' }, type: 1 }], `Time Out\nAnswer:  ${tebaklirik[m.sender.split('@')[0]]}\n\nWant to play? press the button below`, `${global.botname}`, m)
+delete tebaklirik[m.sender.split('@')[0]]
+}
+} else if (args[0] === 'guess saying') {
+if (caklontong.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/caklontong.json')
+let result = anu[Math.floor(Math.random() * anu.length)]
+XeonBotInc.sendText(m.chat, `*Answer the following questions :*\n${result.soal}*\nTime : 60s`, m).then(() => {
+caklontong[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+caklontong_desk[m.sender.split('@')[0]] = result.deskripsi
+})
+await sleep(60000)
+if (caklontong.hasOwnProperty(m.sender.split('@')[0])) {
+console.log("Answer: " + result.jawaban)
+XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess saying', buttonText: { displayText: 'Guess The Saying' }, type: 1 }], `Time Out\nAnswer:  ${caklontong[m.sender.split('@')[0]]}\nDescription : ${caklontong_desk[m.sender.split('@')[0]]}\n\nWant to play? press the button below`, `${global.botname}`, m)
+delete caklontong[m.sender.split('@')[0]]
+delete caklontong_desk[m.sender.split('@')[0]]
+}
+}
+}
+break
+            case 'kuismath': case 'math': {
+                if (kuismath.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+                let { genMath, modes } = require('./lib/math')
+                if (!text) throw `Mode: ${Object.keys(modes).join(' | ')}\nUsage example: ${prefix}math medium`
+                let result = await genMath(text.toLowerCase())
+                XeonBotInc.sendText(m.chat, `*What is the result of: ${result.soal.toLowerCase()}*?\n\nTime: ${(result.waktu / 1000).toFixed(2)} second`, m).then(() => {
+                    kuismath[m.sender.split('@')[0]] = result.jawaban
+                })
+                await sleep(result.waktu)
+                if (kuismath.hasOwnProperty(m.sender.split('@')[0])) {
+                    console.log("Answer: " + result.jawaban)
+                    m.reply("Time has run out\nAnswer: " + kuismath[m.sender.split('@')[0]])
+                    delete kuismath[m.sender.split('@')[0]]
+                }
+            }
+            break
+            
+            case 'slot': {
+            const somtoy = sotoy[Math.floor(Math.random() * sotoy.length)]
+            let sloth =`[  🔖Ž°VIRTUAL SLOT 🔖Ž°  ]\n------------------------\n\n🔖’ : 🔖Œ : 🔖‡\n${somtoy}<=====\n🔖‡ : 🔖Œ : 🔖’\n\n------------------------\n[  🔖Ž° VIRTUAL SLOT 🔖Ž°  ]\n\n*Information* :\n_If you get 3 of the same fruit_\n_Means You Win_\n\n_Example : 🔖’ : 🔖’ : 🔖’_ <=====`
+            let buttons = [{ buttonId: 'slot', buttonText: { displayText: '🔖Ž°PLAY AGAIN🔖Ž°' }, type: 1 }]
+            await XeonBotInc.sendButtonText(m.chat, buttons, sloth, botname, m)
+            }
+            break
+            case 'soulmate': {
+            if (!m.isGroup) throw mess.group
+            let member = participants.map(u => u.id)
+            let me = m.sender
+            let jodoh = member[Math.floor(Math.random() * member.length)]
+            let jawab = `🔖‘«Your Soulmate Is
+
+@${me.split('@')[0]} 🔖¤ï¸ @${jodoh.split('@')[0]}`
+            let ments = [me, jodoh]
+            let buttons = [
+                        { buttonId: '🔖¤ï¸', buttonText: { displayText: '🔖¤ï¸' }, type: 1 }
+                    ]
+                    await XeonBotInc.sendButtonText(m.chat, buttons, jawab, botname, m, {mentions: ments})
+            }
+            break
+            case 'couple': {
+            if (!m.isGroup) throw mess.group
+            let member = participants.map(u => u.id)
+            let orang = member[Math.floor(Math.random() * member.length)]
+            let jodoh = member[Math.floor(Math.random() * member.length)]
+            let jawab = `@${orang.split('@')[0]} 🔖¤ï¸ @${jodoh.split('@')[0]}
+Cieeee, What's Going On🔖¤ï¸🔖’–🔖‘€`
+            let menst = [orang, jodoh]
+            let buttons = [
+                        { buttonId: '🔖¤ï¸', buttonText: { displayText: '🔖¤ï¸' }, type: 1 }
+                    ]
+                    await XeonBotInc.sendButtonText(m.chat, buttons, jawab, botname, m, {mentions: menst})
+            }
             break
             case 'buttonmaker': {
             if (!isPremium) throw mess.premime
@@ -1742,7 +1925,7 @@ break
             case 'hehehe': {
                 reactionMessage = {
                     react: {
-                        text: '',
+                        text: '🌚',
                         key: { remoteJid: m.chat, fromMe: true, id: quoted.id }
                     }
                 }
@@ -2304,30 +2487,6 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             await XeonBotInc.sendButtonText(m.chat, buttons, akhji, botname, m, {mentions: ments})
             }
             break
-	     case 'imagenobg': case 'removebg': case 'remove-bg': {
-	    if (!/image/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
-	    if (/webp/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
-	    let remobg = require('remove.bg')
-	    let apirnobg = ['q61faXzzR5zNU6cvcrwtUkRU','S258diZhcuFJooAtHTaPEn4T','5LjfCVAp4vVNYiTjq9mXJWHF','aT7ibfUsGSwFyjaPZ9eoJc61','BY63t7Vx2tS68YZFY6AJ4HHF','5Gdq1sSWSeyZzPMHqz7ENfi8','86h6d6u4AXrst4BVMD9dzdGZ','xp8pSDavAgfE5XScqXo9UKHF','dWbCoCb3TacCP93imNEcPxcL']
-	    let apinobg = apirnobg[Math.floor(Math.random() * apirnobg.length)]
-	    hmm = await './src/remobg-'+getRandom('')
-	    localFile = await XeonBotInc.downloadAndSaveMediaMessage(qmsg, hmm)
-	    outputFile = await './src/hremo-'+getRandom('.png')
-	    m.reply(mess.wait)
-	    remobg.removeBackgroundFromImageFile({
-	      path: localFile,
-	      apiKey: apinobg,
-	      size: "regular",
-	      type: "auto",
-	      scale: "100%",
-	      outputFile 
-	    }).then(async result => {
-	    XeonBotInc.sendMessage(m.chat, {image: fs.readFileSync(outputFile), caption: mess.success}, { quoted : m })
-	    await fs.unlinkSync(localFile)
-	    await fs.unlinkSync(outputFile)
-	    })
-	    }
-	    break
 	    case 'yts': case 'ytsearch': {
                 if (!text) throw `Example : ${prefix + command} story wa anime`
                 let yts = require("yt-search")
@@ -2335,7 +2494,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 let teks = 'YouTube Search\n\n Result From '+text+'\n\n'
                 let no = 1
                 for (let i of search.all) {
-                    teks += `⭔ No : ${no++}\n⭔ Type : ${i.type}\n⭔ Video ID : ${i.videoId}\n⭔ Title : ${i.title}\n⭔ Views : ${i.views}\n⭔ Duration : ${i.timestamp}\n⭔ Upload At : ${i.ago}\n⭔ Author : ${i.author.name}\n⭔ Url : ${i.url}\n\n─────────────────\n\n`
+                    teks += `${themeemoji} No : ${no++}\n${themeemoji} Type : ${i.type}\n${themeemoji} Video ID : ${i.videoId}\n${themeemoji} Title : ${i.title}\n${themeemoji} Views : ${i.views}\n${themeemoji} Duration : ${i.timestamp}\n${themeemoji} Upload At : ${i.ago}\n${themeemoji} Author : ${i.author.name}\n${themeemoji} Url : ${i.url}\n\n🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€\n\n`
                 }
                 XeonBotInc.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption: teks }, { quoted: m })
             }
@@ -2346,34 +2505,32 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 google({'query': text}).then(res => {
                 let teks = `Google Search From : ${text}\n\n`
                 for (let g of res) {
-                teks += `⭔ *Title* : ${g.title}\n`
-                teks += `⭔ *Description* : ${g.snippet}\n`
-                teks += `⭔ *Link* : ${g.link}\n\n────────────────────────\n\n`
+                teks += `${themeemoji} *Title* : ${g.title}\n`
+                teks += `${themeemoji} *Description* : ${g.snippet}\n`
+                teks += `${themeemoji} *Link* : ${g.link}\n\n🔖”\n\n`
                 } 
                 m.reply(teks)
                 })
                 }
                 break
         case 'gimage': {
-        if (!text) throw `Example : ${prefix + command} kaori cicak`
-        let gis = require('g-i-s')
-        gis(text, async (error, result) => {
-        n = result
-        images = n[Math.floor(Math.random() * n.length)].url
+       if (!text) throw `Example : ${prefix + command} kaori cicak`
+        anu = await fetchJson(`https://api.akuari.my.id/search/googleimage?query=${text}`)
+        n = anu.result
+        images = n[Math.floor(Math.random() * n.length)]
         let buttons = [
                     {buttonId: `gimage ${text}`, buttonText: {displayText: 'Next Image'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: images },
-                    caption: `*-------「 GIMAGE SEARCH 」-------*
-🤠 *Query* : ${text}
-🔗 *Media Url* : ${images}`,
+                    caption: `*------- GIMAGE SEARCH -------*
+🔖¤  *Query* : ${text}
+🔖”— *Media Url* : ${images}`,
                     footer: XeonBotInc.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
                 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
-        })
         }
         break
 	    case 'play': case 'ytplay': {
@@ -2382,23 +2539,23 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                 let buttons = [
-                    {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: '♫ Audio'}, type: 1},
-                    {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: '► Video'}, type: 1}
+                    {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: '🔊 Audio'}, type: 1},
+                    {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: '📽️ Video'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
                     caption: `
-⭔ Title : ${anu.title}
-⭔ Ext : Search
-⭔ ID : ${anu.videoId}
-⭔ Duration : ${anu.timestamp}
-⭔ Viewers : ${anu.views}
-⭔ Upload At : ${anu.ago}
-⭔ Author : ${anu.author.name}
-⭔ Channel : ${anu.author.url}
-⭔ Description : ${anu.description}
-⭔ Url : ${anu.url}`,
-                    footer: XeonBotInc.user.name,
+${themeemoji} Title : ${anu.title}
+${themeemoji} Ext : Search
+${themeemoji} ID : ${anu.videoId}
+${themeemoji} Duration : ${anu.timestamp}
+${themeemoji} Viewers : ${anu.views}
+${themeemoji} Upload At : ${anu.ago}
+${themeemoji} Author : ${anu.author.name}
+${themeemoji} Channel : ${anu.author.url}
+${themeemoji} Description : ${anu.description}
+${themeemoji} Url : ${anu.url}`,
+                    footer: botname,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -2410,8 +2567,8 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`
                 let quality = args[1] ? args[1] : '128kbps'
                 let media = await yta(text, quality)
-                if (media.filesize >= 100000) return m.reply('File Melebihi Batas '+util.format(media))
-                XeonBotInc.sendImage(m.chat, media.thumb, `⭔ Title : ${media.title}\n⭔ File Size : ${media.filesizeF}\n⭔ Url : ${isUrl(text)}\n⭔ Ext : MP3\n⭔ Resolusi : ${args[1] || '128kbps'}`, m)
+                if (media.filesize >= 100000) return m.reply('File Over Limit '+util.format(media))
+                XeonBotInc.sendImage(m.chat, media.thumb, `${themeemoji} Title : ${media.title}\n${themeemoji} File Size : ${media.filesizeF}\n${themeemoji} Url : ${isUrl(text)}\n${themeemoji} Ext : MP3\n${themeemoji} Resolution : ${args[1] || '128kbps'}`, m)
                 XeonBotInc.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
             break
@@ -2420,35 +2577,8 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 360p`
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(text, quality)
-                if (media.filesize >= 100000) return m.reply('File Melebihi Batas '+util.format(media))
-                XeonBotInc.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `⭔ Title : ${media.title}\n⭔ File Size : ${media.filesizeF}\n⭔ Url : ${isUrl(text)}\n⭔ Ext : MP3\n⭔ Resolusi : ${args[1] || '360p'}` }, { quoted: m })
-            }
-            break
-	    case 'getmusic': {
-                let { yta } = require('./lib/y2mate')
-                if (!text) throw `Example : ${prefix + command} 1`
-                if (!m.quoted) return m.reply('Reply Pesan')
-                if (!m.quoted.isBaileys) throw `Hanya Bisa Membalas Pesan Dari Bot`
-		let urls = quoted.text.match(new RegExp(/(?:https?:\/\/)?(?:youtu\.be\/|(?:www\.|m\.)?youtube\.com\/(?:watch|v|embed|shorts)(?:\.php)?(?:\?.*v=|\/))([a-zA-Z0-9\_-]+)/, 'gi'))
-                if (!urls) throw `Mungkin pesan yang anda reply tidak mengandung result ytsearch`
-                let quality = args[1] ? args[1] : '128kbps'
-                let media = await yta(urls[text - 1], quality)
-                if (media.filesize >= 100000) return m.reply('File Melebihi Batas '+util.format(media))
-                XeonBotInc.sendImage(m.chat, media.thumb, `⭔ Title : ${media.title}\n⭔ File Size : ${media.filesizeF}\n⭔ Url : ${urls[text - 1]}\n⭔ Ext : MP3\n⭔ Resolusi : ${args[1] || '128kbps'}`, m)
-                XeonBotInc.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
-            }
-            break
-            case 'getvideo': {
-                let { ytv } = require('./lib/y2mate')
-                if (!text) throw `Example : ${prefix + command} 1`
-                if (!m.quoted) return m.reply('Reply Pesan')
-                if (!m.quoted.isBaileys) throw `Hanya Bisa Membalas Pesan Dari Bot`
-                let urls = quoted.text.match(new RegExp(/(?:https?:\/\/)?(?:youtu\.be\/|(?:www\.|m\.)?youtube\.com\/(?:watch|v|embed|shorts)(?:\.php)?(?:\?.*v=|\/))([a-zA-Z0-9\_-]+)/, 'gi'))
-                if (!urls) throw `Mungkin pesan yang anda reply tidak mengandung result ytsearch`
-                let quality = args[1] ? args[1] : '360p'
-                let media = await ytv(urls[text - 1], quality)
-                if (media.filesize >= 100000) return m.reply('File Melebihi Batas '+util.format(media))
-                XeonBotInc.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `⭔ Title : ${media.title}\n⭔ File Size : ${media.filesizeF}\n⭔ Url : ${urls[text - 1]}\n⭔ Ext : MP3\n⭔ Resolusi : ${args[1] || '360p'}` }, { quoted: m })
+                if (media.filesize >= 100000) return m.reply('File Over Limit '+util.format(media))
+                XeonBotInc.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `${themeemoji} Title : ${media.title}\n${themeemoji} File Size : ${media.filesizeF}\n${themeemoji} Url : ${isUrl(text)}\n${themeemoji} Ext : MP3\n${themeemoji} Resolution : ${args[1] || '360p'}` }, { quoted: m })
             }
             break
             case 'pinterest': {
@@ -2613,226 +2743,7 @@ case 'tiktokmp3':
 				XeonBotInc.sendMessage(from, { caption: cap, image: {url: aud.thumbnail}})
 				XeonBotInc.sendMessage(from, { audio: { url: aud.audio }, mimetype: 'audio/mpeg'}, { quoted: m })
 				}
-				  break
-	        case 'instagram': case 'ig': case 'igdl': {
-                if (!text) throw 'No Query Url!'
-                m.reply(mess.wait)
-                if (/(?:\/p\/|\/reel\/|\/tv\/)([^\s&]+)/.test(isUrl(text)[0])) {
-                    let anu = await fetchJson(api('zenz', '/downloader/instagram2', { url: isUrl(text)[0] }, 'apikey'))
-                    for (let media of anu.data) XeonBotInc.sendFileUrl(m.chat, media, `Download Url Instagram From ${isUrl(text)[0]}`, m)
-                } else if (/\/stories\/([^\s&]+)/.test(isUrl(text)[0])) {
-                    let anu = await fetchJson(api('zenz', '/downloader/instastory', { url: isUrl(text)[0] }, 'apikey'))
-                    XeonBotInc.sendFileUrl(m.chat, anu.media[0].url, `Download Url Instagram From ${isUrl(text)[0]}`, m)
-                }
-            }
-            break
-            case 'joox': case 'jooxdl': {
-                if (!text) throw 'No Query Title'
-                m.reply(mess.wait)
-                let anu = await fetchJson(api('zenz', '/downloader/joox', { query: text }, 'apikey'))
-                let msg = await XeonBotInc.sendImage(m.chat, anu.result.img, `⭔ Title : ${anu.result.lagu}\n⭔ Album : ${anu.result.album}\n⭔ Singer : ${anu.result.penyanyi}\n⭔ Publish : ${anu.result.publish}\n⭔ Lirik :\n${anu.result.lirik.result}`, m)
-                XeonBotInc.sendMessage(m.chat, { audio: { url: anu.result.mp4aLink }, mimetype: 'audio/mpeg', fileName: anu.result.lagu+'.m4a' }, { quoted: msg })
-            }
-            break
-            case 'soundcloud': case 'scdl': {
-                if (!text) throw 'No Query Title'
-                m.reply(mess.wait)
-                let anu = await fetchJson(api('zenz', '/downloader/soundcloud', { url: isUrl(text)[0] }, 'apikey'))
-                let msg = await XeonBotInc.sendImage(m.chat, anu.result.thumb, `⭔ Title : ${anu.result.title}\n⭔ Url : ${isUrl(text)[0]}`)
-                XeonBotInc.sendMessage(m.chat, { audio: { url: anu.result.url }, mimetype: 'audio/mpeg', fileName: anu.result.title+'.m4a' }, { quoted: msg })
-            }
-            break
-	        case 'twitdl': case 'twitter': {
-                if (!text) throw 'Masukkan Query Link!'
-                m.reply(mess.wait)
-                let anu = await fetchJson(api('zenz', '/api/downloader/twitter', { url: text }, 'apikey'))
-                let buttons = [
-                    {buttonId: `twittermp3 ${text}`, buttonText: {displayText: '► Audio'}, type: 1}
-                ]
-                let buttonMessage = {
-                    video: { url: anu.result.HD || anu.result.SD },
-                    caption: util.format(anu.result),
-                    footer: 'Press The Button Below',
-                    buttons: buttons,
-                    headerType: 5
-                }
-                XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
-            }
-            break
-            case 'twittermp3': case 'twitteraudio': {
-                if (!text) throw 'Masukkan Query Link!'
-                m.reply(mess.wait)
-                let anu = await fetchJson(api('zenz', '/api/downloader/twitter', { url: text }, 'apikey'))
-                let buttons = [
-                    {buttonId: `twitter ${text}`, buttonText: {displayText: '► Video'}, type: 1}
-                ]
-                let buttonMessage = {
-		    image: { url: anu.result.thumb },
-                    caption: util.format(anu.result),
-                    footer: 'Press The Button Below',
-                    buttons: buttons,
-                    headerType: 4
-                }
-                let msg = await XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
-                XeonBotInc.sendMessage(m.chat, { audio: { url: anu.result.audio } }, { quoted: msg })
-            }
-            break
-	        case 'fbdl': case 'fb': case 'facebook': {
-                if (!text) throw 'Masukkan Query Link!'
-                m.reply(mess.wait)
-                let anu = await fetchJson(api('zenz', '/api/downloader/facebook', { url: text }, 'apikey'))
-                XeonBotInc.sendMessage(m.chat, { video: { url: anu.result.url }, caption: `⭔ Title : ${anu.result.title}`}, { quoted: m })
-            }
-            break
-	        case 'pindl': case 'pinterestdl': {
-                if (!text) throw 'Masukkan Query Link!'
-                m.reply(mess.wait)
-                let anu = await fetchJson(api('zenz', '/api/downloader/pinterestdl', { url: text }, 'apikey'))
-                XeonBotInc.sendMessage(m.chat, { video: { url: anu.result }, caption: `Download From ${text}` }, { quoted: m })
-            }
-            break
-            case 'umma': case 'ummadl': {
-	        if (!text) throw `Example : ${prefix + command} https://umma.id/channel/video/post/gus-arafat-sumber-kecewa-84464612933698`
-                let { umma } = require('./lib) scraper')
-		let anu = await umma(isUrl(text)[0])
-		if (anu.type == 'video') {
-		    let buttons = [
-                        {buttonId: `ytmp3 ${anu.media[0]} 128kbps`, buttonText: {displayText: '♫ Audio'}, type: 1},
-                        {buttonId: `ytmp4 ${anu.media[0]} 360p`, buttonText: {displayText: '► Video'}, type: 1}
-                    ]
-		    let buttonMessage = {
-		        image: { url: anu.author.profilePic },
-			caption: `
-⭔ Title : ${anu.title}
-⭔ Author : ${anu.author.name}
-⭔ Like : ${anu.like}
-⭔ Caption : ${anu.caption}
-⭔ Url : ${anu.media[0]}
-Untuk Download Media Silahkan Klik salah satu Button dibawah ini atau masukkan command ytmp3/ytmp4 dengan url diatas
-`,
-			footer: XeonBotInc.user.name,
-			buttons,
-			headerType: 4
-		    }
-		    XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
-		} else if (anu.type == 'image') {
-		    anu.media.map(async (url) => {
-		        XeonBotInc.sendMessage(m.chat, { image: { url }, caption: `⭔ Title : ${anu.title}\n⭔ Author : ${anu.author.name}\n⭔ Like : ${anu.like}\n⭔ Caption : ${anu.caption}` }, { quoted: m })
-		    })
-		}
-	    }
-	    break
-        case 'ringtone': {
-		if (!text) throw `Example : ${prefix + command} black rover`
-        let { ringtone } = require('./lib/scraper')
-		let anu = await ringtone(text)
-		let result = anu[Math.floor(Math.random() * anu.length)]
-		XeonBotInc.sendMessage(m.chat, { audio: { url: result.audio }, fileName: result.title+'.mp3', mimetype: 'audio/mpeg' }, { quoted: m })
-	    }
-	    break
-		case 'iqra': {
-		oh = `Example : ${prefix + command} 3\n\nIQRA Yang tersedia : 1,2,3,4,5,6`
-		if (!text) throw oh
-		yy = await getBuffer(`https://islamic-api-indonesia.herokuapp.com/api/data/pdf/iqra${text}`)
-		XeonBotInc.sendMessage(m.chat, {document: yy, mimetype: 'application/pdf', fileName: `iqra${text}.pdf`}, {quoted:m}).catch ((err) => m.reply(oh))
-		}
-		break
-		case 'hadits': case 'hadis': case 'hadist': {
-		if (!args[0]) throw `Contoh:
-${prefix + command} bukhari 1
-${prefix + command} abu-daud 1
-
-Pilihan tersedia:
-abu-daud
-1 - 4590
-ahmad
-1 - 26363
-bukhari
-1 - 7008
-darimi
-1 - 3367
-tirmidzi
-1 - 3891
-ibnu-majah
-1 - 4331
-nasai
-1 - 5662
-malik
-1 - 1594
-muslim
-1 - 5362`
-		if (!args[1]) throw `Hadis yang ke berapa?\n\ncontoh:\n${prefix + command} muslim 1`
-		try {
-		let res = await fetchJson(`https://fatiharridho.herokuapp.com/api/islamic/hadits?list=${args[0]}`)
-		let { number, arab, id } = res.result.find(v => v.number == args[1])
-		m.reply(`No. ${number}
-
-${arab}
-
-${id}`)
-		} catch (e) {
-		m.reply(`Hadis tidak ditemukan !`)
-		}
-		}
-		break
-		case 'alquran': {
-		if (!args[0]) throw `Contoh penggunaan:\n${prefix + command} 1 2\n\nmaka hasilnya adalah surah Al-Fatihah ayat 2 beserta audionya, dan ayatnya 1 aja`
-		if (!args[1]) throw `Contoh penggunaan:\n${prefix + command} 1 2\n\nmaka hasilnya adalah surah Al-Fatihah ayat 2 beserta audionya, dan ayatnya 1 aja`
-		let res = await fetchJson(`https://islamic-api-indonesia.herokuapp.com/api/data/quran?surah=${args[0]}&ayat=${args[1]}`)
-		let txt = `*Arab* : ${res.result.data.text.arab}
-*English* : ${res.result.data.translation.en}
-*Indonesia* : ${res.result.data.translation.id}
-
-( Q.S ${res.result.data.surah.name.transliteration.id} : ${res.result.data.number.inSurah} )`
-		m.reply(txt)
-		XeonBotInc.sendMessage(m.chat, {audio: { url: res.result.data.audio.primary }, mimetype: 'audio/mpeg'}, { quoted : m })
-		}
-		break
-		case 'tafsirsurah': {
-		if (!args[0]) throw `Contoh penggunaan:\n${prefix + command} 1 2\n\nmaka hasilnya adalah tafsir surah Al-Fatihah ayat 2`
-		if (!args[1]) throw `Contoh penggunaan:\n${prefix + command} 1 2\n\nmaka hasilnya adalah tafsir surah Al-Fatihah ayat 2`
-		let res = await fetchJson(`https://islamic-api-indonesia.herokuapp.com/api/data/quran?surah=${args[0]}&ayat=${args[1]}`)
-		let txt = `「 *Tafsir Surah*  」
-
-*Pendek* : ${res.result.data.tafsir.id.short}
-
-*Panjang* : ${res.result.data.tafsir.id.long}
-
-( Q.S ${res.result.data.surah.name.transliteration.id} : ${res.result.data.number.inSurah} )`
-		m.reply(txt)
-		}
-		break
-		   case 'bass': case 'blown': case 'deep': case 'earrape': case 'fast': case 'fat': case 'nightcore': case 'reverse': case 'robot': case 'slow': case 'smooth': case 'tupai':
-                try {
-                let set
-                if (/bass/.test(command)) set = '-af equalizer=f=54:width_type=o:width=2:g=20'
-                if (/blown/.test(command)) set = '-af acrusher=.1:1:64:0:log'
-                if (/deep/.test(command)) set = '-af atempo=4/4,asetrate=44500*2/3'
-                if (/earrape/.test(command)) set = '-af volume=12'
-                if (/fast/.test(command)) set = '-filter:a "atempo=1.63,asetrate=44100"'
-                if (/fat/.test(command)) set = '-filter:a "atempo=1.6,asetrate=22100"'
-                if (/nightcore/.test(command)) set = '-filter:a atempo=1.06,asetrate=44100*1.25'
-                if (/reverse/.test(command)) set = '-filter_complex "areverse"'
-                if (/robot/.test(command)) set = '-filter_complex "afftfilt=real=\'hypot(re,im)*sin(0)\':imag=\'hypot(re,im)*cos(0)\':win_size=512:overlap=0.75"'
-                if (/slow/.test(command)) set = '-filter:a "atempo=0.7,asetrate=44100"'
-                if (/smooth/.test(command)) set = '-filter:v "minterpolate=\'mi_mode=mci:mc_mode=aobmc:vsbmc=1:fps=120\'"'
-                if (/tupai/.test(command)) set = '-filter:a "atempo=0.5,asetrate=65100"'
-                if (/audio/.test(mime)) {
-                m.reply(mess.wait)
-                let media = await XeonBotInc.downloadAndSaveMediaMessage(qmsg)
-                let ran = getRandom('.mp3')
-                exec(`ffmpeg -i ${media} ${set} ${ran}`, (err, stderr, stdout) => {
-                fs.unlinkSync(media)
-                if (err) return m.reply(err)
-                let buff = fs.readFileSync(ran)
-                XeonBotInc.sendMessage(m.chat, { audio: buff, mimetype: 'audio/mpeg' }, { quoted : m })
-                fs.unlinkSync(ran)
-                })
-                } else m.reply(`Balas audio yang ingin diubah dengan caption *${prefix + command}*`)
-                } catch (e) {
-                m.reply(e)
-                }
-                break
+				break
 case 'setbio':
 if (!q) throw 'Send orders *#setbio text*'
 XeonBotInc.setStatus(`${q}`)
@@ -3897,105 +3808,18 @@ XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
 })
 }
 break
-            case 'gsmarena': {
-            if (!text) throw `Example : ${prefix + command} samsung`
-            let res = await fetchJson(api('zenz', '/webzone/gsmarena', { query: text }, 'apikey'))
-            let { judul, rilis, thumb, ukuran, type, storage, display, inchi, pixel, videoPixel, ram, chipset, batrai, merek_batre, detail } = res.result
-let capt = `⭔ Title: ${judul}
-⭔ Realease: ${rilis}
-⭔ Size: ${ukuran}
-⭔ Type: ${type}
-⭔ Storage: ${storage}
-⭔ Display: ${display}
-⭔ Inchi: ${inchi}
-⭔ Pixel: ${pixel}
-⭔ Video Pixel: ${videoPixel}
-⭔ Ram: ${ram}
-⭔ Chipset: ${chipset}
-⭔ Battery: ${batrai}
-⭔ Battery Brand: ${merek_batre}
-⭔ Detail: ${detail}`
-            XeonBotInc.sendImage(m.chat, thumb, capt, m)
-            }
-            break
-            case 'jadwalbioskop': {
-            if (!text) throw `Example: ${prefix + command} jakarta`
-            let res = await fetchJson(api('zenz', '/webzone/jadwalbioskop', { kota: text }, 'apikey'))
-            let capt = `Jadwal Bioskop From : ${text}\n\n`
-            for (let i of res.result){
-            capt += `⭔ Title: ${i.title}\n`
-            capt += `⭔ Thumbnail: ${i.thumb}\n`
-            capt += `⭔ Url: ${i.url}\n\n──────────────────────\n`
-            }
-            XeonBotInc.sendImage(m.chat, res.result[0].thumb, capt, m)
-            }
-            break
-            case 'nowplayingbioskop': {
-            let res = await fetchJson(api('zenz', '/webzone/nowplayingbioskop', {}, 'apikey'))
-            let capt = `Now Playing Bioskop\n\n`
-            for (let i of res.result){
-            capt += `⭔ Title: ${i.title}\n`
-            capt += `⭔ Url: ${i.url}\n`
-            capt += `⭔ Img Url: ${i.img}\n\n──────────────────────\n`
-            }
-            XeonBotInc.sendImage(m.chat, res.result[0].img, capt, m)
-            }
-            break
-            case 'aminio': {
-            if (!text) throw `Example: ${prefix + command} free fire`
-            let res = await fetchJson(api('zenz', '/webzone/amino', { query: text }, 'apikey'))
-            let capt = `Aminio Search From : ${text}\n\n`
-            for (let i of res.result){
-            capt += `⭔ Community: ${i.community}\n`
-            capt += `⭔ Community Link: ${i.community_link}\n`
-            capt += `⭔ Thumbnail: ${i.community_thumb}\n`
-            capt += `⭔ Description: ${i.community_desc}\n`
-            capt += `⭔ Member Count: ${i.member_count}\n\n──────────────────────\n`
-            }
-            XeonBotInc.sendImage(m.chat, 'https://'+res.result[0].community_thumb, capt, m)
-            }
-            break
             case 'wattpad': {
-            if (!text) throw `Example : ${prefix + command} love`
-            let res = await fetchJson(api('zenz', '/webzone/wattpad', { query: text }, 'apikey'))
+            if (!text) return m.reply(`Example : ${prefix + command} love`)
+            let res = await fetchJson(`https://zenzapis.xyz/webzone/wattpad?query=$text}&apikey=hdiiofficial`)
             let { judul, dibaca, divote, bab, waktu, url, thumb, description } = res.result[0]
-            let capt = `Wattpad From ${text}\n\n`
-            capt += `⭔ Judul: ${judul}\n`
-            capt += `⭔ Dibaca: ${dibaca}\n`
-            capt += `⭔ Divote: ${divote}\n`
-            capt += `⭔ Bab: ${bab}\n`
-            capt += `⭔ Waktu: ${waktu}\n`
-            capt += `⭔ Url: ${url}\n`
-            capt += `⭔ Deskripsi: ${description}`
+            let capt = `Wattpad From query\n\n`
+            capt += ` Title: ${judul}\n`
+            capt += ` Read: ${dibaca}\n`
+            capt += ` Vote: ${divote}\n`
+            capt += ` Chapter: ${bab}\n`
+            capt += ` Url: ${url}\n`
+            capt += ` Description: ${description}`
             XeonBotInc.sendImage(m.chat, thumb, capt, m)
-            }
-            break
-            case 'webtoons': {
-            if (!text) throw `Example : ${prefix + command} love`
-            let res = await fetchJson(api('zenz', '/webzone/webtoons', { query: text }, 'apikey'))
-            let capt = `Webtoons Search From : ${text}\n\n`
-            for (let i of res.result) {
-            capt += `⭔ Judul: ${i.judul}\n`
-            capt += `⭔ Like: ${i.like}\n`
-            capt += `⭔ Creator: ${i.creator}\n`
-            capt += `⭔ Genre: ${i.genre}\n`
-            capt += `⭔ Url: ${i.url}\n\n──────────────────────\n`
-            }
-            m.reply(capt)
-            }
-            break
-            case 'drakor': {
-            if (!text) throw `Example : ${prefix + command} love`
-            let res = await fetchJson(api('zenz', '/webzone/drakor', { query: text }, 'apikey'))
-            let capt = `Drakor Search From : ${text}\n\n`
-            for (let i of res.result) {
-            capt += `⭔ Judul: ${i.judul}\n`
-            capt += `⭔ Years: ${i.years}\n`
-            capt += `⭔ Genre: ${i.genre}\n`
-            capt += `⭔ Url: ${i.url}\n`
-            capt += `⭔ Thumbnail Url: ${i.thumbnail}\n\n──────────────────────\n`
-            }
-            XeonBotInc.sendImage(m.chat, res.result[0].thumbnail, capt, m)
             }
             break
 case 'mcserver': case 'mcquery': {
@@ -4241,7 +4065,7 @@ case 'asuna':
 m.reply(mess.wait)						
 teks = `Here you go! 🏃🏻‍♂️`
 buffer = `https://revita.herokuapp.com/api/wallpaper/asuna?apikey=ApiRevita`
-XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go! 🏃🏻‍♂️"}, {quoted:m})
+XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go! 🏃??‍♂️"}, {quoted:m})
 break
 case 'anna':
 m.reply(mess.wait)						
@@ -5190,7 +5014,7 @@ XeonBotInc.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${s
       case 'scumbag':
       case 'nuts':
       case 'comrade':
-      case 'kontol':
+      case 'fagot':
       case 'scoundrel':
       case 'ditch':
       case 'dope':
@@ -5216,10 +5040,10 @@ XeonBotInc.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${s
             let member = participants.map(u => u.id)
             let me = m.sender
             let jodoh = member[Math.floor(Math.random() * member.length)]
-            let jawab = `Yang paling *${command}* Disini adalah @${jodoh.split('@')[0]}`
+            let jawab = `The Most *${command}* Here Is @${jodoh.split('@')[0]}`
             let ments = [me, jodoh]
             let buttons = [
-                        { buttonId: '🕺🏻', buttonText: { displayText: '🕺🏻' }, type: 1 }
+                        { buttonId: '🔖‘', buttonText: { displayText: '🔖‘🔖˜‚' }, type: 1 }
                     ]
                     await XeonBotInc.sendButtonText(m.chat, buttons, jawab, botname, m, {mentions: ments})
             }
@@ -6090,12 +5914,12 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
    │✑  ${Object.keys(global.db.data.users).length}
    │✑  ${jumlahcmd}
    │✑  ${jumlahharian}
-   │
+   │✑
    │    「 🥷🏻: ${pushname} 」
    └┬ ✑ 🕴🏻: @${me.split('@')[0]}
-      │✑ : ${isPremium ? '🧑🏻‍💻' : ``}
-      │✑ : ${isPremium ? 'Infinity' : `${db.data.users[m.sender].limit}`}
-      │
+      │✑ 🕴🏻: ${isPremium ? '🧑🏻‍💻' : ``}
+      │✑ 🕴🏻: ${isPremium ? 'Infinity' : `${db.data.users[m.sender].limit}`}
+      │✑
      ┌─❖
      │✑ ⏰: ${xtime}
      │✑ 🏷️: ${xdate}
@@ -6271,13 +6095,13 @@ break
 var unicorn = await getBuffer(picak+'All Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️ '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-caption: `┌──⭓🥷🏻 OWNER 	
+    caption: `┌──⭓🥷🏻 OWNER 	
 │
 │⭔  ${prefix}self
 │⭔  ${prefix}public
