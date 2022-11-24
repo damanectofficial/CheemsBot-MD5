@@ -993,7 +993,7 @@ Type *give up* to surrender and admit defeat`
 	case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 teks = `*${global.botname} Script *\n\nWebsite: ${global.websitex}\nJoin Group Whatsapp: ${global.botscript}\n\nDont forget to trakteer owner kopi☕, Dana 083872273467, thank you friend`
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
+{buttonId: `owner`, buttonText: {displayText: 'Owner 🙋🏻‍♂️ '}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://i.ibb.co/LR6sdwh/VID-20221117-WA0005.gif`},
@@ -2057,53 +2057,37 @@ View list of Messages With ${prefix}listmsg`)
                 m.reply('*Successful in Changing To Self Usage*')
             }
             break
-            case 'ping': case 'p': case 'botstatus': case 'statusbot': {
-                const used = process.memoryUsage()
-                const cpus = os.cpus().map(cpu => {
-                    cpu.total = Object.keys(cpu.times).reduce((last, type) => last + cpu.times[type], 0)
-			        return cpu
-                })
-                const cpu = cpus.reduce((last, cpu, _, { length }) => {
-                    last.total += cpu.total
-                    last.speed += cpu.speed / length
-                    last.times.user += cpu.times.user
-                    last.times.nice += cpu.times.nice
-                    last.times.sys += cpu.times.sys
-                    last.times.idle += cpu.times.idle
-                    last.times.irq += cpu.times.irq
-                    return last
-                }, {
-                    speed: 0,
-                    total: 0,
-                    times: {
-			            user: 0,
-			            nice: 0,
-			            sys: 0,
-			            idle: 0,
-			            irq: 0
-                }
-                })
-                let timestamp = speed()
-                let latensi = speed() - timestamp
-                neww = performance.now()
-                oldd = performance.now()
-                respon = `
-Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
-
-🔖’» Info Server
-RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
-
-_NodeJS Memory Usaage_
-${Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v=>v.length)),' ')}: ${formatp(used[key])}`).join('\n')}
-
-${cpus[0] ? `_Total CPU Usage_
-${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}
-_CPU Core(s) Usage (${cpus.length} Core CPU)_
-${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}`).join('\n\n')}` : ''}
-                `.trim()
-                m.reply(respon)
+            case 'ping': case 'botstatus': case 'statusbot': {
+                XeonBotInc.sendMessage(m.chat, caption: `👀 *${m.pushName}*\n\n Pong🏓` }, { quoted: m })
             }
             break
+            case 'p': {
+            	m.reply('Ucap salam yang bener!')
+            teks = `*${pushname} Salam yang benar lah masbro *\n\n Harus diruqiah keknya ni bocah`
+let buttons = [
+{buttonId: `owner`, buttonText: {displayText: 'Owner 🙋🏻‍♂️ '}, type: 1}
+]
+let buttonMessage = {
+image: {url: `https://i.ibb.co/RBDnt3C/images-2022-11-24-T212108-477.jpg`},
+jpegThumbnail: log0,
+caption: teks,
+footer: `${botname}`,
+buttons: buttons,
+headerType: 4,
+contextInfo:{externalAdReply:{
+title:"Ucap Salam Yang Bener!",
+body: "Mikir Cok!", 
+thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
+mediaType:1,
+mediaUrl: 'https://i.ibb.co/RBDnt3C/images-2022-11-24-T212108-477.jpg',
+sourceUrl: "https://i.ibb.co/RBDnt3C/images-2022-11-24-T212108-477.jpg"
+}}
+}
+XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+}
+            
+            break
+            	
             case 'speedtest': {
             m.reply('Testing Speed...')
             let cp = require('child_process')
@@ -5747,12 +5731,12 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
    │✑  ${Object.keys(global.db.data.users).length}
    │✑  ${jumlahcmd}
    │✑  ${jumlahharian}
-   │✑
+   │
    │    「 🥷🏻: ${pushname} 」
    └┬ ✑ 🕴🏻: @${me.split('@')[0]}
-      │✑ 🕴🏻: ${isPremium ? '🧑🏻‍💻' : ``}
-      │✑ 🕴🏻: ${isPremium ? 'Infinity' : `${db.data.users[m.sender].limit}`}
-      │✑
+      │✑ : ${isPremium ? '🧑🏻‍💻' : ``}
+      │✑ : ${isPremium ? 'Infinity' : `${db.data.users[m.sender].limit}`}
+      │
      ┌─❖
      │✑ ⏰: ${xtime}
      │✑ 🏷️: ${xdate}
@@ -5930,7 +5914,7 @@ var unicorn = await getBuffer(picak+'All Menu')
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️ '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
