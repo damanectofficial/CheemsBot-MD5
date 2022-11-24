@@ -2081,6 +2081,13 @@ sourceUrl: "https://hidayat-store.my.id"
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
+break
+   case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
+                XeonBotInc.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/mDJsX0C/cheemspic.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 13k Per Group via Dana 1 Month\n⭔ 18k via Dana 1 Month\n\n Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment can be via Dana\n\nFor more details, you can chat with the owner\nhttps://wa.me/6283872273467 (Owner)\n\ntrakteer owner kopi☕ : \n\n⭔ Dana : 083872273467` }, { quoted: m })
+            }
+            break
+            case 'sc': {
+                m.reply('Website : https://hidayat-store.my.id\n\n Dont Forget Give Follow\n\ntrakteer : 6281615075793 (Dana)\n\n Dont forget to trakteer owner kopi☕')
             break
            case 'p': {
             	m.reply('Ucap salam yang bener!')
@@ -4226,7 +4233,7 @@ m.reply(mess.wait)
         ]
       let buttonsTsMessages = {
        image: {url:waifudd.data.url},
-       caption:  `Here you go! 🏃🏻‍♂️`,
+       caption:  `Here you go! 🏃??‍♂️`,
       footer: `${global.botname}`,
       buttons: wbuttsss,
       headerType: 4
@@ -5933,7 +5940,7 @@ break
 var unicorn = await getBuffer(picak+'All Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️ '}, type: 1}
 ]
