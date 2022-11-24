@@ -2057,10 +2057,7 @@ View list of Messages With ${prefix}listmsg`)
                 m.reply('*Successful in Changing To Self Usage*')
             }
             break
-            case 'ping': {
-            	m.reply('👀 ${m.pushName}\n\n Pong🏓')
-            }
-            break
+       
             case 'assalamualaikum': {
             	m.reply(' ${m.pushName}\n\n waalaikumsallam')
             }
