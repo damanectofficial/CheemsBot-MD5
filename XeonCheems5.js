@@ -2061,11 +2061,15 @@ View list of Messages With ${prefix}listmsg`)
             case 'assalamualaikum': {
             	m.reply(' ${m.pushName}\n\n waalaikumsallam')
             }
+            XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+}
          
             break
             case 'owner': {
             	m.reply(' @${ownernya.split('@')[0]}\n\n ini ownerku yang sangat ganteng')
             }
+            XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+}
             break
            case 'p': {
             	m.reply('Ucap salam yang bener!')
