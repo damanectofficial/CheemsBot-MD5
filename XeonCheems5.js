@@ -2058,14 +2058,12 @@ View list of Messages With ${prefix}listmsg`)
             }
             break
        
-            case 'ping': {
+            case 'ping.': {
             teks = `👀${pushname} Pong🏓`
 let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'Owner 🙋🏻‍♂️ '}, type: 1}
 ]
 let buttonMessage = {
-	image: {url: `https://i.ibb.co/gt88Kqv/st-small-507x507-pad-600x600-f8f8f8-2022-11-24-T224029-004.jpg`},
-jpegThumbnail: log0,
 caption: teks,
 footer: `${botname}`,
 buttons: buttons,
@@ -2089,8 +2087,6 @@ let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'Owner 🙋🏻‍♂️ '}, type: 1}
 ]
 let buttonMessage = {
-image: {url: `https://i.ibb.co/RBDnt3C/images-2022-11-24-T212108-477.jpg`},
-jpegThumbnail: log0,
 caption: teks,
 footer: `${botname}`,
 buttons: buttons,
