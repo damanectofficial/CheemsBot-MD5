@@ -978,7 +978,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
             case 'sc': {
                 m.reply('Script : https://hidayat-store.my.id\n\n Dont Forget Give Follow\n\ntrakteer : 6281615075793 (Dana)\n\n Dont forget to trakteer owner kopi☕')
-            }
+           
             break
             case 'chat': {
                 if (!isCreator) throw mess.owner
@@ -1156,7 +1156,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 	case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
-teks = `*${global.botname} Script *\n\nWebsite: ${global.websitex}\nJoin Group Whatsapp: ${global.botscript}\n\nDont forget to trakteer owner kopi☕, Dana 083872273467, thank you friend`
+teks = `*${global.botname} Script *\n\nWebsite: ${global.websitex}\nSewa: ${global.botscript}\n\nDont forget to trakteer owner kopi☕, Dana 083872273467, thank you friend`
 let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
@@ -5190,7 +5190,7 @@ XeonBotInc.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${s
       case 'scumbag':
       case 'nuts':
       case 'comrade':
-      case 'fagot':
+      case 'kontol':
       case 'scoundrel':
       case 'ditch':
       case 'dope':
@@ -5216,10 +5216,10 @@ XeonBotInc.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${s
             let member = participants.map(u => u.id)
             let me = m.sender
             let jodoh = member[Math.floor(Math.random() * member.length)]
-            let jawab = `The Most *${command}* Here Is @${jodoh.split('@')[0]}`
+            let jawab = `Yang paling *${command}* Disini adalah @${jodoh.split('@')[0]}`
             let ments = [me, jodoh]
             let buttons = [
-                        { buttonId: '🔖‘', buttonText: { displayText: '🔖‘🔖˜‚' }, type: 1 }
+                        { buttonId: '🕺🏻', buttonText: { displayText: '🕺🏻' }, type: 1 }
                     ]
                     await XeonBotInc.sendButtonText(m.chat, buttons, jawab, botname, m, {mentions: ments})
             }
@@ -6090,12 +6090,12 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
    │✑  ${Object.keys(global.db.data.users).length}
    │✑  ${jumlahcmd}
    │✑  ${jumlahharian}
-   │✑
+   │
    │    「 🥷🏻: ${pushname} 」
    └┬ ✑ 🕴🏻: @${me.split('@')[0]}
-      │✑ 🕴🏻: ${isPremium ? '🧑🏻‍💻' : ``}
-      │✑ 🕴🏻: ${isPremium ? 'Infinity' : `${db.data.users[m.sender].limit}`}
-      │✑
+      │✑ : ${isPremium ? '🧑🏻‍💻' : ``}
+      │✑ : ${isPremium ? 'Infinity' : `${db.data.users[m.sender].limit}`}
+      │
      ┌─❖
      │✑ ⏰: ${xtime}
      │✑ 🏷️: ${xdate}
@@ -6259,7 +6259,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 						]
 const listMessage = {
   text: "Silahkeun Pilih Menu",
-  footer: `${botname}\n“🕴🏻Website: ${websitex}\n🕴🏻Join Group Whatsapp: ${botscript}`,
+  footer: `${botname}\n“🕴🏻Website: ${websitex}\n🕴🏻Sewa: ${botscript}`,
   title: `Hi👋🏻 ‘‹ ${pushname}`,
   buttonText: "Menu🙇🏻‍♂️",
   sections
@@ -6271,331 +6271,714 @@ break
 var unicorn = await getBuffer(picak+'All Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-caption: `┌──⭓ *Group Menu*
+caption: `┌──⭓🥷🏻 OWNER 	
 │
-│⭔ ${prefix}linkgroup
-│⭔ ${prefix}ephemeral [option]
-│⭔ ${prefix}setppgc [image]
-│⭔ ${prefix}setname [text]
-│⭔ ${prefix}setdesc [text]
-│⭔ ${prefix}group [option]
-│⭔ ${prefix}editinfo [option]
-│⭔ ${prefix}add @user
-│⭔ ${prefix}kick @user
-│⭔ ${prefix}hidetag [text]
-│⭔ ${prefix}tagall [text]
-│⭔ ${prefix}totag [reply]
-│⭔ ${prefix}antilink [on/off]
-│⭔ ${prefix}mute [on/off]
-│⭔ ${prefix}promote @user
-│⭔ ${prefix}demote @user
-│⭔ ${prefix}vote [text]
-│⭔ ${prefix}devote
-│⭔ ${prefix}upvote
-│⭔ ${prefix}cekvote
-│⭔ ${prefix}hapusvote
+│⭔  ${prefix}self
+│⭔  ${prefix}public
+│⭔  ${prefix}join [link]
+│⭔  ${prefix}leavegc
+│⭔  ${prefix}setbio
+│⭔  ${prefix}broadcast [text]
+│⭔  ${prefix}setppbot [image]
+│⭔  ${prefix}setthumb [reply img]
+│⭔  ${prefix}setexif
+│⭔  ${prefix}hijack
+│⭔  ${prefix}creategroup [name]
+│⭔  ${prefix}block [tag/number]
+│⭔  ${prefix}unblock [tag/number]
 │
 └───────⭓
 
-┌──⭓ *Webzone Menu*
+┌──⭓➡️ GROUP 	        
+│     
+│⭔ ${prefix}grousetting
+│⭔ ${prefix}grouplink
+│⭔ ${prefix}ephemeral [option]
+│⭔ ${prefix}setgcpp [image]
+│⭔ ${prefix}setname [text]
+│⭔ ${prefix}setdesc [text]
+│⭔ ${prefix}group 
+│⭔ ${prefix}resetgrouplink
+│⭔ ${prefix}editinfo [option]
+│⭔ ${prefix}menfess [number]
+│⭔ ${prefix}add [user]
+│⭔ ${prefix}kick [reply/tag]
+│⭔ ${prefix}hidetag [text]
+│⭔ ${prefix}tagall [text]
+│⭔ ${prefix}antilinkgc [on/off]
+│⭔ ${prefix}antilinktg [on/off]
+│⭔ ${prefix}antilinktt [on/off]
+│⭔ ${prefix}antilinkytch [on/off]
+│⭔ ${prefix}antilinkytvid [on/off]
+│⭔ ${prefix}antilinkig [on/off]
+│⭔ ${prefix}antilinkfb [on/off]
+│⭔ ${prefix}antilinktwit [on/off]
+│⭔ ${prefix}antilinkall [on/off]
+│⭔ ${prefix}antivirus [on/off]
+│⭔ ${prefix}antitoxic [on/off]
+│⭔ ${prefix}antiwame [on/off]
+│⭔ ${prefix}nsfw [on/off]
+│⭔ ${prefix}nsfw [on/off]
+│⭔ ${prefix}promote [reply/tag]
+│⭔ ${prefix}demote [reply/tag]
+│⭔ ${prefix}react [reply emoji]
+│⭔ ${prefix}vote
+│⭔ ${prefix}devote
+│⭔ ${prefix}upvote
+│⭔ ${prefix}checkvote
+│⭔ ${prefix}delvote
 │
-│⭔ ${prefix}playstore
-│⭔ ${prefix}gsmarena
-│⭔ ${prefix}jadwalbioskop
-│⭔ ${prefix}nowplayingbioskop
-│⭔ ${prefix}aminio
-│⭔ ${prefix}wattpad
-│⭔ ${prefix}webtoons
-│⭔ ${prefix}drakor
+└───────⭓
+
+┌──⭓🎨 MAKER 
+│⭔ ${prefix}candy
+│⭔ ${prefix}blackpinkneon
+│⭔ ${prefix}deepsea
+│⭔ ${prefix}scifi
+│⭔ ${prefix}fiction
+│⭔ ${prefix}berry
+│⭔ ${prefix}fruitjuice
+│⭔ ${prefix}biscuit
+│⭔ ${prefix}wood
+│⭔ ${prefix}chocolate
+│⭔ ${prefix}matrix
+│⭔ ${prefix}blood
+│⭔ ${prefix}halloween
+│⭔ ${prefix}wicker
+│⭔ ${prefix}darkgold
+│⭔ ${prefix}firework
+│⭔ ${prefix}skeleton
+│⭔ ${prefix}sand
+│⭔ ${prefix}glue
+│⭔ ${prefix}leaves
+│⭔ ${prefix}magma
+│⭔ ${prefix}lava
+│⭔ ${prefix}rock
+│⭔ ${prefix}bloodglas
+│⭔ ${prefix}underwater
+│⭔ ${prefix}textmaker
+│⭔ ${prefix}honey
+│⭔ ${prefix}ice
+│⭔ ${prefix}watercolor
+│⭔ ${prefix}multicolor
+│⭔ ${prefix}snow
+│⭔ ${prefix}harrypot
+│⭔ ${prefix}harrypotter
+│⭔ ${prefix}brokenglass
+│⭔ ${prefix}waterpipe
+│⭔ ${prefix}spooky
+│⭔ ${prefix}circuit
+│⭔ ${prefix}metallic
+│⭔ ${prefix}demon
+│⭔ ${prefix}sparklechristmas
+│⭔ ${prefix}christmas
+│⭔ ${prefix}3dchristmas
+│⭔ ${prefix}3dbox
+│⭔ ${prefix}waterdrop
+│⭔ ${prefix}lion2
+│⭔ ${prefix}papercut
+│⭔ ${prefix}transformer
+│⭔ ${prefix}neondevil
+│⭔ ${prefix}3davengers
+│⭔ ${prefix}3dstone
+│⭔ ${prefix}3dstone2
+│⭔ ${prefix}summertime
+│⭔ ${prefix}thunder
+│⭔ ${prefix}window
+│⭔ ${prefix}graffiti
+│⭔ ${prefix}graffitibike
+│⭔ ${prefix}pornhub
+│⭔ ${prefix}glitch
+│⭔ ${prefix}blackpink
+│⭔ ${prefix}glitch2
+│⭔ ${prefix}glitch3
+│⭔ ${prefix}3dspace
+│⭔ ${prefix}lion
+│⭔ ${prefix}3dneon
+│⭔ ${prefix}greenneon
+│⭔ ${prefix}bokeh
+│⭔ ${prefix}holographic
+│⭔ ${prefix}bear
+│⭔ ${prefix}wolf
+│⭔ ${prefix}joker
+│⭔ ${prefix}dropwater
+│⭔ ${prefix}dropwater2
+│⭔ ${prefix}thewall
+│⭔ ${prefix}neonlight
+│⭔ ${prefix}natural
+│⭔ ${prefix}carbon
+│⭔ ${prefix}pencil
+│⭔ ${prefix}blackpink2
+│⭔ ${prefix}neon
+│⭔ ${prefix}neonlight2
+│⭔ ${prefix}toxic
+│⭔ ${prefix}strawberry
+│⭔ ${prefix}discovery
+│⭔ ${prefix}1917
+│⭔  ${prefix}sci_fi
+│⭔  ${prefix}ancient
+│⭔  ${prefix}fabric
+│⭔  ${prefix}hoorror
+│⭔  ${prefix}whitebear
+│⭔  ${prefix}juice
+│⭔  ${prefix}batman
+│⭔  ${prefix}multicolor
+│⭔  ${prefix}collwall
+│⭔  ${prefix}wonderful
+│⭔  ${prefix}cool
+│⭔  ${prefix}sketch
+│⭔  ${prefix}marvel
+│⭔  ${prefix}foggy
+│⭔  ${prefix}writing
+│⭔  ${prefix}halloweenfire
+│⭔  ${prefix}halloween
+│⭔  ${prefix}watercolor
+│⭔  ${prefix}classic
 │
 └───────⭓
 
 
-┌──⭓ *Downloader Menu*
-│
-│⭔ ${prefix}tiktoknowm [url]
-│⭔ ${prefix}tiktokwm [url]
-│⭔ ${prefix}tiktokmp3 [url]
-│⭔ ${prefix}instagram [url]
-│⭔ ${prefix}twitter [url]
-│⭔ ${prefix}twittermp3 [url]
-│⭔ ${prefix}facebook [url]
-│⭔ ${prefix}pinterestdl [url]
-│⭔ ${prefix}ytmp3 [url]
-│⭔ ${prefix}ytmp4 [url]
-│⭔ ${prefix}getmusic [query]
-│⭔ ${prefix}getvideo [query]
-│⭔ ${prefix}umma [url]
-│⭔ ${prefix}joox [query]
-│⭔ ${prefix}soundcloud [url]
+┌──⭓  ⬇️ DOWNLOAD	
+│        
+│⭔ ${prefix}tiktok [url]
+│⭔ ${prefix}tiktokaudio[url]
+│⭔ ${prefix}mediafire [url]
+│⭔ ${prefix}ytmp3 [url|quality]
+│⭔ ${prefix}ytmp4 [url|quality]
+│⭔ ${prefix}gitclone [repo link]
+│⭔ ${prefix}soundcloud [url]
+│⭔ ${prefix}zippyshare [url]
 │
 └───────⭓
 
-┌──⭓ *Search Menu*
+
+┌──⭓ 🔎 SEARCH 	
 │
-│⭔ ${prefix}play [query]
-│⭔ ${prefix}yts [query]
-│⭔ ${prefix}google [query]
-│⭔ ${prefix}gimage [query]
-│⭔ ${prefix}pinterest [query]
-│⭔ ${prefix}wallpaper [query]
-│⭔ ${prefix}wikimedia [query]
-│⭔ ${prefix}ytsearch [query]
-│⭔ ${prefix}ringtone [query]
-│⭔ ${prefix}stalk [option] [query]
+│⭔ ${prefix}play [query]
+│⭔ ${prefix}song [query]
+│⭔ ${prefix}yts [query]
+│⭔ ${prefix}lyrics [query]
+│⭔ ${prefix}google [query]
+│⭔ ${prefix}gimage [query]
+│⭔ ${prefix}pinterest [query]
+│⭔ ${prefix}image [query]
+│⭔ ${prefix}film [query]
+│⭔ ${prefix}wallpaper [query]
+│⭔ ${prefix}searchgc [query]
+│⭔ ${prefix}happymod [query]
+│⭔ ${prefix}servermc
+│⭔ ${prefix}mcpedl [query]
+│⭔ ${prefix}tvsearch [query]
+│⭔ ${prefix}wikimedia [query]
+│⭔ ${prefix}ytsearch [query]
+│⭔ ${prefix}ringtone [query]
+│⭔ ${prefix}wattpad [query]
+│⭔  ${prefix}mcserver [ip|port]
 │
 └───────⭓
 
-┌──⭓ *Random Menu*
-│
-│⭔ ${prefix}coffe
-│⭔ ${prefix}quotesanime
-│⭔ ${prefix}motivasi
-│⭔ ${prefix}dilanquote
-│⭔ ${prefix}bucinquote
-│⭔ ${prefix}katasenja
-│⭔ ${prefix}puisi
-│⭔ ${prefix}couple
-│⭔ ${prefix}anime
-│⭔ ${prefix}waifu
-│⭔ ${prefix}husbu
-│⭔ ${prefix}neko
-│⭔ ${prefix}shinobu
-│⭔ ${prefix}waifus (nsfw)
-│⭔ ${prefix}nekos (nsfw)
-│⭔ ${prefix}trap (nsfw)
-│⭔ ${prefix}blowjob (nsfw)
+
+┌──⭓        ♾️ CONVERT
+│        
+│⭔  ${prefix}toimage [reply stick]
+│⭔  ${prefix}sticker [reply img|gif]
+│⭔  ${prefix}take [reply img|gif|stik]
+│⭔  ${prefix}smeme [reply img]
+│⭔  ${prefix}emoji [emoji]
+│⭔  ${prefix}tovideo [reply img]
+│⭔  ${prefix}togif [reply stick]
+│⭔  ${prefix}tourl [reply img]
+│⭔  ${prefix}tovn [reply aud]
+│⭔  ${prefix}tomp3 [reply vn]
+│⭔  ${prefix}toaudio [reply vid]
+│⭔  ${prefix}ebinary [reply txt]
+│⭔  ${prefix}dbinary [reply txt]
+│⭔  ${prefix}tinyurl [link]
+│⭔  ${prefix}styletext [text]
+│⭔ ${prefix}volume [reply aud]
+│⭔ ${prefix}bass [reply aud]
+│⭔ ${prefix}blown [reply aud]
+│⭔ ${prefix}deep [reply aud]
+│⭔ ${prefix}earrape [reply aud]
+│⭔ ${prefix}fast [reply aud]
+│⭔ ${prefix}fat [reply aud]
+│⭔ ${prefix}nightcore [reply aud]
+│⭔ ${prefix}reverse [reply aud]
+│⭔ ${prefix}robot [reply aud]
+│⭔ ${prefix}slow [reply aud]
+│⭔ ${prefix}squirrel [reply aud]
 │
 └───────⭓
 
-┌──⭓ *Text Pro Menu*
-│
-│⭔ ${prefix}3dchristmas
-│⭔ ${prefix}3ddeepsea
-│⭔ ${prefix}americanflag
-│⭔ ${prefix}3dscifi
-│⭔ ${prefix}3drainbow
-│⭔ ${prefix}3dwaterpipe
-│⭔ ${prefix}halloweenskeleton
-│⭔ ${prefix}sketch
-│⭔ ${prefix}bluecircuit
-│⭔ ${prefix}space
-│⭔ ${prefix}metallic
-│⭔ ${prefix}fiction
-│⭔ ${prefix}greenhorror
-│⭔ ${prefix}transformer
-│⭔ ${prefix}berry
-│⭔ ${prefix}thunder
-│⭔ ${prefix}magma
-│⭔ ${prefix}3dcrackedstone
-│⭔ ${prefix}3dneonlight
-│⭔ ${prefix}impressiveglitch
-│⭔ ${prefix}naturalleaves
-│⭔ ${prefix}fireworksparkle
-│⭔ ${prefix}matrix
-│⭔ ${prefix}dropwater
-│⭔ ${prefix}harrypotter
-│⭔ ${prefix}foggywindow
-│⭔ ${prefix}neondevils
-│⭔ ${prefix}christmasholiday
-│⭔ ${prefix}3dgradient
-│⭔ ${prefix}blackpink
-│⭔ ${prefix}gluetext
+
+┌──⭓       🎈IMG EFFECT
+│⭔ ${prefix}wanted [reply img]
+│⭔ ${prefix}triggeredwebp [reply img]
+│⭔ ${prefix}removebg [reply img]
+│⭔ ${prefix}upscaler [reply img]
 │
 └───────⭓
 
-┌──⭓ *Photo Oxy Menu*
-│
-│⭔ ${prefix}shadow
-│⭔ ${prefix}romantic
-│⭔ ${prefix}smoke
-│⭔ ${prefix}burnpapper
-│⭔ ${prefix}naruto
-│⭔ ${prefix}lovemsg
-│⭔ ${prefix}grassmsg
-│⭔ ${prefix}lovetext
-│⭔ ${prefix}coffecup
-│⭔ ${prefix}butterfly
-│⭔ ${prefix}harrypotter
-│⭔ ${prefix}retrolol
+
+┌──⭓       🎠 RANDOM IMG
+│⭔ ${prefix}coffee
+│⭔ ${prefix}woof
+│⭔ ${prefix}meow
+│⭔ ${prefix}lizard
+│⭔ ${prefix}wallneon
+│⭔ ${prefix}wallpubg
+│⭔ ${prefix}wallml
+│⭔ ${prefix}wallrandom
+│⭔ ${prefix}wallcode
+│⭔ ${prefix}animewall [query]
+│⭔ ${prefix}animewall2 [query]
 │
 └───────⭓
 
-┌──⭓ *Ephoto Menu*
+
+┌──⭓      🐣 EMOTE
 │
-│⭔ ${prefix}ffcover
-│⭔ ${prefix}crossfire
-│⭔ ${prefix}galaxy
-│⭔ ${prefix}glass
-│⭔ ${prefix}neon
-│⭔ ${prefix}beach
-│⭔ ${prefix}blackpink
-│⭔ ${prefix}igcertificate
-│⭔ ${prefix}ytcertificate
+│⭔ ${prefix}instagramemoji
+│⭔ ${prefix}facebookemoji
+│⭔ ${prefix}iphoneemoji
+│⭔ ${prefix}samsungemoji
+│⭔ ${prefix}joyemoji
+│⭔ ${prefix}skypeemoji
+│⭔ ${prefix}twitteremoji
+│⭔ ${prefix}whatsappemoji
+│⭔ ${prefix}microsoftemoji
+│⭔ ${prefix}googleemoji
+│⭔ ${prefix}pediaemoji
+│⭔ ${prefix}microsoftemoji
 │
 └───────⭓
 
-┌──⭓ *Fun Menu*
+
+┌──⭓       👾 ANIME
 │
-│⭔ ${prefix}simih
-│⭔ ${prefix}halah
-│⭔ ${prefix}hilih
-│⭔ ${prefix}huluh
-│⭔ ${prefix}heleh
-│⭔ ${prefix}holoh
-│⭔ ${prefix}jadian
-│⭔ ${prefix}jodohku
-│⭔ ${prefix}delttt
-│⭔ ${prefix}tictactoe
-│⭔ ${prefix}family100
-│⭔ ${prefix}tebak [option]
-│⭔ ${prefix}math [mode]
-│⭔ ${prefix}suitpvp [@tag]
+│⭔ ${prefix}asuna
+│⭔ ${prefix}anna
+│⭔ ${prefix}chitoge
+│⭔ ${prefix}cosplay
+│⭔ ${prefix}elaina
+│⭔ ${prefix}emilia
+│⭔ ${prefix}gremory
+│⭔ ${prefix}kaguya
+│⭔ ${prefix}kotori
+│⭔ ${prefix}kurumi
+│⭔ ${prefix}mikasa
+│⭔ ${prefix}rize
+│⭔ ${prefix}naruto
+│⭔ ${prefix}yaoi
+│⭔ ${prefix}animeneko
+│⭔ ${prefix}waifu
+│⭔ ${prefix}animewaifu
+│⭔ ${prefix}animeawoo
+│⭔ ${prefix}shinobu
+│⭔ ${prefix}foxgirl
+│⭔ ${prefix}animemegumin
+│⭔ ${prefix}loli-waifu
+│⭔ ${prefix}8ball
+│⭔ ${prefix}animenom
+│⭔ ${prefix}goose
+│⭔ ${prefix}avatar
+│⭔ ${prefix}tickle
+│⭔ ${prefix}gecg
+│⭔ ${prefix}feed
+│⭔ ${prefix}animeslap
+│⭔ ${prefix}animepat
+│⭔ ${prefix}animeneko
+│⭔ ${prefix}animekiss
+│⭔ ${prefix}animewlp
+│⭔ ${prefix}animecuddle
+│⭔ ${prefix}animecry
+│⭔ ${prefix}animekill
+│⭔ ${prefix}animelick
+│⭔ ${prefix}animebite
+│⭔ ${prefix}animeyeet
+│⭔ ${prefix}animebully
+│⭔ ${prefix}animebonk
+│⭔ ${prefix}animewink
+│⭔ ${prefix}animepoke
+│⭔ ${prefix}animesmile
+│⭔ ${prefix}animewave
+│⭔ ${prefix}animeawoo
+│⭔ ${prefix}animeblush
+│⭔ ${prefix}animesmug
+│⭔ ${prefix}animeglomp
+│⭔ ${prefix}animehappy
+│⭔ ${prefix}animedance
+│⭔ ${prefix}animecringe
+│⭔ ${prefix}animehighfive
+│⭔ ${prefix}animehandhold
+│⭔ ${prefix}animemegumin
+│⭔ ${prefix}animesmug
+│⭔ ${prefix}couplepp
 │
 └───────⭓
 
-┌──⭓ *Primbon Menu*
-│
-│⭔ ${prefix}nomorhoki
-│⭔ ${prefix}artimimpi
-│⭔ ${prefix}artinama
-│⭔ ${prefix}ramaljodoh
-│⭔ ${prefix}ramaljodohbali
-│⭔ ${prefix}suamiistri
-│⭔ ${prefix}ramalcinta
-│⭔ ${prefix}cocoknama
-│⭔ ${prefix}pasangan
-│⭔ ${prefix}jadiannikah
-│⭔ ${prefix}sifatusaha
-│⭔ ${prefix}rezeki
-│⭔ ${prefix}pekerjaan
-│⭔ ${prefix}nasib
-│⭔ ${prefix}penyakit
-│⭔ ${prefix}tarot
-│⭔ ${prefix}fengshui
-│⭔ ${prefix}haribaik
-│⭔ ${prefix}harisangar
-│⭔ ${prefix}harisial
-│⭔ ${prefix}nagahari
-│⭔ ${prefix}arahrezeki
-│⭔ ${prefix}peruntungan
-│⭔ ${prefix}weton
-│⭔ ${prefix}karakter
-│⭔ ${prefix}keberuntungan
-│⭔ ${prefix}memancing
-│⭔ ${prefix}masasubur
-│⭔ ${prefix}zodiak
-│⭔ ${prefix}shio
+
+┌──⭓  🧚🏻‍♂️STICKER
+│⭔  ${prefix}patrick
+│⭔  ${prefix}emoji
+│⭔  ${prefix}emojimix
+│⭔  ${prefix}attp
+│⭔  ${prefix}ttp
+│⭔  ${prefix}doge
+│⭔  ${prefix}lovesticker
+│⭔  ${prefix}animestick
 │
 └───────⭓
 
-┌──⭓ *Convert Menu*
+
+┌──⭓🧚🏻‍♀️ ANIME STICKER
 │
-│⭔ ${prefix}attp
-│⭔ ${prefix}ttp
-│⭔ ${prefix}toimage
-│⭔ ${prefix}removebg
-│⭔ ${prefix}sticker
-│⭔ ${prefix}stickerwm
-│⭔ ${prefix}emojimix
-│⭔ ${prefix}emojimix2
-│⭔ ${prefix}tovideo
-│⭔ ${prefix}togif
-│⭔ ${prefix}tourl
-│⭔ ${prefix}tovn
-│⭔ ${prefix}tomp3
-│⭔ ${prefix}toaudio
-│⭔ ${prefix}ebinary
-│⭔ ${prefix}dbinary
-│⭔ ${prefix}styletext
-│⭔ ${prefix}smeme
+│⭔ ${prefix}loli
+│⭔ ${prefix}bully
+│⭔ ${prefix}cuddle
+│⭔ ${prefix}cry
+│⭔ ${prefix}hug
+│⭔ ${prefix}awoo
+│⭔ ${prefix}kiss
+│⭔ ${prefix}lick
+│⭔ ${prefix}pat
+│⭔ ${prefix}smug
+│⭔ ${prefix}bonk
+│⭔ ${prefix}yeet
+│⭔ ${prefix}blush
+│⭔ ${prefix}smile
+│⭔ ${prefix}wave
+│⭔ ${prefix}highfive
+│⭔ ${prefix}handhold
+│⭔ ${prefix}nom
+│⭔ ${prefix}glomp
+│⭔ ${prefix}bite
+│⭔ ${prefix}slap
+│⭔ ${prefix}kill
+│⭔ ${prefix}happy
+│⭔ ${prefix}wink
+│⭔ ${prefix}poke
+│⭔ ${prefix}dance
+│⭔ ${prefix}cringe
+│⭔ ${prefix}neko
+│⭔ ${prefix}gura
 │
 └───────⭓
 
-┌──⭓ *Main Menu*
-│
-│⭔ ${prefix}ping
-│⭔ ${prefix}owner
-│⭔ ${prefix}menu / ${prefix}help / ${prefix}?
-│⭔ ${prefix}delete
-│⭔ ${prefix}infochat
-│⭔ ${prefix}quoted
-│⭔ ${prefix}listpc
-│⭔ ${prefix}listgc
-│⭔ ${prefix}listonline
-│⭔ ${prefix}speedtest
+
+
+┌──⭓ 🕵🏻‍♂️NSFW
+│       
+│⭔ ${prefix}hentaivideo
+│⭔ ${prefix}hneko
+│⭔ ${prefix}nwaifu
+│⭔ ${prefix}animespank
+│⭔ ${prefix}trap
+│⭔ ${prefix}gasm
 │
 └───────⭓
 
-┌──⭓ *Database Menu*
+
+┌──⭓      🎭 FUN
 │
-│⭔ ${prefix}setcmd
-│⭔ ${prefix}listcmd
-│⭔ ${prefix}delcmd
-│⭔ ${prefix}lockcmd
-│⭔ ${prefix}addmsg
-│⭔ ${prefix}listmsg
-│⭔ ${prefix}getmsg
-│⭔ ${prefix}delmsg
+│⭔  ${prefix}how [text
+│⭔  ${prefix}when [text]
+│⭔  ${prefix}where [text]
+│⭔  ${prefix}is [text]
+│⭔  ${prefix}what [text]
+│⭔  ${prefix}can [text]
+│⭔  ${prefix}rate [text]
+│⭔  ${prefix}beautifulcheck [tag]
+│⭔  ${prefix}awesomecheck [tag]
+│⭔  ${prefix}prettycheck [tag]
+│⭔  ${prefix}lesbiancheck [tag]
+│⭔  ${prefix}gaycheck [tag]
+│⭔  ${prefix}cutecheck [tag]
+│⭔  ${prefix}uglycheck [tag]
+│⭔  ${prefix}hornycheck [tag]
+│⭔  ${prefix}charactercheck [tag]
+│⭔  ${prefix}lovelycheck [tag]
+│⭔  ${prefix}couple
+│⭔  ${prefix}mysoulmate
+│⭔  ${prefix}hot
+│⭔  ${prefix}sexy
+│⭔  ${prefix}kind
+│⭔  ${prefix}idiot
+│⭔  ${prefix}handsome
+│⭔  ${prefix}beautiful
+│⭔  ${prefix}cute
+│⭔  ${prefix}pretty
+│⭔  ${prefix}lesbian
+│⭔  ${prefix}noob
+│⭔  ${prefix}bastard
+│⭔  ${prefix}foolish
+│⭔  ${prefix}nerd
+│⭔  ${prefix}asshole
+│⭔  ${prefix}gay
+│⭔  ${prefix}smart
+│⭔  ${prefix}stubble
+│⭔  ${prefix}dog
+│⭔  ${prefix}horny
+│⭔  ${prefix}cunt
+│⭔  ${prefix}wibu
+│⭔  ${prefix}noobra
+│⭔  ${prefix}nibba
+│⭔  ${prefix}nibbi
+│⭔  ${prefix}comrade
+│⭔  ${prefix}mumu
+│⭔  ${prefix}rascal
+│⭔  ${prefix}scumbag
+│⭔  ${prefix}nuts
+│⭔  ${prefix}fagot
+│⭔  ${prefix}scoundrel
+│⭔  ${prefix}ditch
+│⭔  ${prefix}dope
+│⭔  ${prefix}gucci
+│⭔  ${prefix}lit
+│⭔  ${prefix}dumbass
+│⭔  ${prefix}crackhead
+│⭔  ${prefix}mf
+│⭔  ${prefix}motherfucker
+│⭔  ${prefix}sucker
+│⭔  ${prefix}fuckboy
+│⭔  ${prefix}playboy
+│⭔  ${prefix}fuckgirl
+│⭔  ${prefix}playgirl
 │
 └───────⭓
 
-┌──⭓ *Anonymous Menu*
+
+┌──⭓ 🎧 SOUND
 │
-│⭔ ${prefix}anonymous
-│⭔ ${prefix}start
-│⭔ ${prefix}next
-│⭔ ${prefix}keluar
+│⭔  ${prefix}sound1
+│⭔  ${prefix}sound2
+│⭔  ${prefix}sound3
+│⭔  ${prefix}sound4
+│⭔  ${prefix}sound5
+│⭔  ${prefix}sound6
+│⭔  ${prefix}sound7
+│⭔  ${prefix}sound8
+│⭔  ${prefix}sound9
+│⭔  ${prefix}sound10
+│⭔  ${prefix}sound11
+│⭔  ${prefix}sound12
+│⭔  ${prefix}sound13
+│⭔  ${prefix}sound14
+│⭔  ${prefix}sound15
+│⭔  ${prefix}sound16
+│⭔  ${prefix}sound17
+│⭔  ${prefix}sound18
+│⭔  ${prefix}sound19
+│⭔  ${prefix}sound20
+│⭔  ${prefix}sound21
+│⭔  ${prefix}sound22
+│⭔  ${prefix}sound23
+│⭔  ${prefix}sound24
+│⭔  ${prefix}sound25
+│⭔  ${prefix}sound26
+│⭔  ${prefix}sound27
+│⭔  ${prefix}sound28
+│⭔  ${prefix}sound29
+│⭔  ${prefix}sound30
+│⭔  ${prefix}sound31
+│⭔  ${prefix}sound32
+│⭔  ${prefix}sound33
+│⭔  ${prefix}sound34
+│⭔  ${prefix}sound35
+│⭔  ${prefix}sound36
+│⭔  ${prefix}sound37
+│⭔  ${prefix}sound38
+│⭔  ${prefix}sound39
+│⭔  ${prefix}sound40
+│⭔  ${prefix}sound41
+│⭔  ${prefix}sound42
+│⭔  ${prefix}sound43
+│⭔  ${prefix}sound44
+│⭔  ${prefix}sound45
+│⭔  ${prefix}sound46
+│⭔  ${prefix}sound47
+│⭔  ${prefix}sound48
+│⭔  ${prefix}sound49
+│⭔  ${prefix}sound50
+│⭔  ${prefix}sound51
+│⭔  ${prefix}sound52
+│⭔  ${prefix}sound53
+│⭔  ${prefix}sound54
+│⭔  ${prefix}sound55
+│⭔  ${prefix}sound56
+│⭔  ${prefix}sound57
+│⭔  ${prefix}sound58
+│⭔  ${prefix}sound59
+│⭔  ${prefix}sound60
+│⭔  ${prefix}sound61
+│⭔  ${prefix}sound62
+│⭔  ${prefix}sound63
+│⭔  ${prefix}sound64
+│⭔  ${prefix}sound65
+│⭔  ${prefix}sound66
+│⭔  ${prefix}sound67
+│⭔  ${prefix}sound68
+│⭔  ${prefix}sound69
+│⭔  ${prefix}sound70
+│⭔  ${prefix}sound71
+│⭔  ${prefix}sound72
+│⭔  ${prefix}sound73
+│⭔  ${prefix}sound74
+│⭔  ${prefix}sound75
+│⭔  ${prefix}sound76
+│⭔  ${prefix}sound77
+│⭔  ${prefix}sound78
+│⭔  ${prefix}sound79
+│⭔  ${prefix}sound80
+│⭔  ${prefix}sound81
+│⭔  ${prefix}sound82
+│⭔  ${prefix}sound83
+│⭔  ${prefix}sound84
+│⭔  ${prefix}sound85
+│⭔  ${prefix}sound86
+│⭔  ${prefix}sound87
+│⭔  ${prefix}sound88
+│⭔  ${prefix}sound89
+│⭔  ${prefix}sound90
+│⭔  ${prefix}sound91
+│⭔  ${prefix}sound92
+│⭔  ${prefix}sound93
+│⭔  ${prefix}sound94
+│⭔  ${prefix}sound95
+│⭔  ${prefix}sound96
+│⭔  ${prefix}sound97
+│⭔  ${prefix}sound98
+│⭔  ${prefix}sound99
+│⭔  ${prefix}sound100
+│⭔  ${prefix}sound101
+│⭔  ${prefix}sound102
+│⭔  ${prefix}sound103
+│⭔  ${prefix}sound104
+│⭔  ${prefix}sound105
+│⭔  ${prefix}sound106
+│⭔  ${prefix}sound107
+│⭔  ${prefix}sound108
+│⭔  ${prefix}sound109
+│⭔  ${prefix}sound110
+│⭔  ${prefix}sound111
+│⭔  ${prefix}sound112
+│⭔  ${prefix}sound113
+│⭔  ${prefix}sound114
+│⭔  ${prefix}sound115
+│⭔  ${prefix}sound116
+│⭔  ${prefix}sound117
+│⭔  ${prefix}sound118
+│⭔  ${prefix}sound119
+│⭔  ${prefix}sound120
+│⭔  ${prefix}sound121
+│⭔  ${prefix}sound122
+│⭔  ${prefix}sound123
+│⭔  ${prefix}sound124
+│⭔  ${prefix}sound125
+│⭔  ${prefix}sound126
+│⭔  ${prefix}sound127
+│⭔  ${prefix}sound128
+│⭔  ${prefix}sound129
+│⭔  ${prefix}sound130
+│⭔  ${prefix}sound131
+│⭔  ${prefix}sound132
+│⭔  ${prefix}sound133
+│⭔  ${prefix}sound134
+│⭔  ${prefix}sound135
+│⭔  ${prefix}sound136
+│⭔  ${prefix}sound137
+│⭔  ${prefix}sound138
+│⭔  ${prefix}sound139
+│⭔  ${prefix}sound140
+│⭔  ${prefix}sound141
+│⭔  ${prefix}sound142
+│⭔  ${prefix}sound143
+│⭔  ${prefix}sound144
+│⭔  ${prefix}sound145
+│⭔  ${prefix}sound146
+│⭔  ${prefix}sound147
+│⭔  ${prefix}sound148
+│⭔  ${prefix}sound149
+│⭔  ${prefix}sound150
+│⭔  ${prefix}sound151
+│⭔  ${prefix}sound152
+│⭔  ${prefix}sound153
+│⭔  ${prefix}sound154
+│⭔  ${prefix}sound155
+│⭔  ${prefix}sound156
+│⭔  ${prefix}sound157
+│⭔  ${prefix}sound158
+│⭔  ${prefix}sound159
+│⭔  ${prefix}sound160
+│⭔  ${prefix}sound161
 │
 └───────⭓
 
-┌──⭓ *Islamic Menu*
+
+┌──⭓ 🦄 GAME
 │
-│⭔ ${prefix}iqra
-│⭔ ${prefix}hadist
-│⭔ ${prefix}alquran
-│⭔ ${prefix}tafsirsurah
+│⭔  ${prefix}truth
+│⭔  ${prefix}dare
+│⭔  ${prefix}tictactoe
+│⭔  ${prefix}delttt
+│⭔  ${prefix}guess [option]
+│⭔  ${prefix}math [mode]
+│⭔  ${prefix}suitpvp [tag]
 │
 └───────⭓
 
-┌──⭓ *Voice Changer*
-│
-│⭔ ${prefix}bass
-│⭔ ${prefix}blown
-│⭔ ${prefix}deep
-│⭔ ${prefix}earrape
-│⭔ ${prefix}fast
-│⭔ ${prefix}fat
-│⭔ ${prefix}nightcore
-│⭔ ${prefix}reverse
-│⭔ ${prefix}robot
-│⭔ ${prefix}slow
-│⭔ ${prefix}tupai
+
+┌──⭓👤ANONYMOUS CHAT
+│⭔ ${prefix}anonymous
+│⭔ ${prefix}start
+│⭔ ${prefix}next
+│⭔ ${prefix}leave
 │
 └───────⭓
 
-┌──⭓ *Owner Menu*
+
+┌──⭓📂 DATABASE
+│⭔  ${prefix}setcmd
+│⭔  ${prefix}listcmd
+│⭔  ${prefix}delcmd
+│⭔  ${prefix}lockcmd
+│⭔  ${prefix}addmsg
+│⭔  ${prefix}listmsg
+│⭔  ${prefix}getmsg
+│⭔  ${prefix}delmsg
 │
-│⭔ ${prefix}react [emoji]
-│⭔ ${prefix}chat [option]
-│⭔ ${prefix}join [link]
-│⭔ ${prefix}leave
-│⭔ ${prefix}block @user
-│⭔ ${prefix}unblock @user
-│⭔ ${prefix}bcgroup [text]
-│⭔ ${prefix}bcall [text]
-│⭔ ${prefix}setppbot [image]
-│⭔ ${prefix}setexif
-│⭔ ${prefix}setmenu [option]
-│⭔ ${prefix}anticall [on/off]
-│⭔ ${prefix}setstatus
-│⭔ ${prefix}setnamebot
+└───────⭓
+
+
+┌──⭓  🥷🏻 OTHER 
+│
+│⭔  ${prefix}afk
+│⭔  ${prefix}id
+│⭔  ${prefix}toqr [link]
+│⭔  ${prefix}repeat
+│⭔  ${prefix}readmore [text]
+│⭔  ${prefix}toviewonce
+│⭔  ${prefix}fliptext [text]]
+│⭔  ${prefix}chatinfo
+│⭔  ${prefix}alive
+│⭔  ${prefix}script
+│⭔  ${prefix}speedtest
+│⭔  ${prefix}ping
+│⭔  ${prefix}owner
+│⭔  ${prefix}menu
+│⭔  ${prefix}delete
+│⭔  ${prefix}quoted
+│⭔  ${prefix}listpc
+│⭔  ${prefix}listgc
+│⭔  ${prefix}donate
+│⭔  ${prefix}request
+│⭔  ${prefix}report [bug]
 │
 └───────⭓
 `,
@@ -6609,26 +6992,29 @@ break
       case 'ownermenu':{
 	   var unicorn = await getBuffer(picak+'Owner Menu')
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `🥷🏻 OWNER	
-🔖•  ${prefix}self
-🔖•  ${prefix}public
-🔖•  ${prefix}join [link]
-🔖•  ${prefix}leavegc
-🔖•  ${prefix}setbio
-🔖•  ${prefix}hijack
-🔖•  ${prefix}creategroup [name]
-🔖•  ${prefix}block [user]
-🔖•  ${prefix}unblock [user]
-🔖•  ${prefix}broadcast [text]
-🔖•  ${prefix}setppbot [image]
-🔖•  ${prefix}setthumb [reply img]
-🔖•  ${prefix}setexif
+    caption: `┌──⭓🥷🏻 OWNER 	
+│
+│⭔  ${prefix}self
+│⭔  ${prefix}public
+│⭔  ${prefix}join [link]
+│⭔  ${prefix}leavegc
+│⭔  ${prefix}setbio
+│⭔  ${prefix}broadcast [text]
+│⭔  ${prefix}setppbot [image]
+│⭔  ${prefix}setthumb [reply img]
+│⭔  ${prefix}setexif
+│⭔  ${prefix}hijack
+│⭔  ${prefix}creategroup [name]
+│⭔  ${prefix}block [tag/number]
+│⭔  ${prefix}unblock [tag/number]
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -6641,52 +7027,52 @@ break
 var unicorn = await getBuffer(picak+'Group Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `➡️ GROUP 	
-🔖• ${prefix}grouplink
-🔖• ${prefix}ephemeral [option]
-🔖• ${prefix}setgcpp [image]
-🔖• ${prefix}setname [text]
-🔖• ${prefix}setdesc [text]
-🔖• ${prefix}group
-🔖• ${prefix}botgroups
-🔖• ${prefix}resetgrouplink
-🔖• ${prefix}editinfo [option]
-🔖• ${prefix}add [user]
-🔖• ${prefix}menfess [number]
-🔖• ${prefix}kick [reply/tag]
-🔖• ${prefix}hidetag [text]
-🔖• ${prefix}tagall [text]
-🔖• ${prefix}autosticker [on/off]
-🔖• ${prefix}autostickerpc [on/off]
-🔖• ${prefix}leveling [on/off]
-🔖• ${prefix}antilinkgc [on/off]
-🔖• ${prefix}antilinktg [on/off]
-🔖• ${prefix}antilinktt [on/off]
-🔖• ${prefix}antilinkytch [on/off]
-🔖• ${prefix}antilinkytvid [on/off]
-🔖• ${prefix}antilinkig [on/off]
-🔖• ${prefix}antilinkfb [on/off]
-🔖• ${prefix}antilinktwit [on/off]
-🔖• ${prefix}antilinkall [on/off]
-🔖• ${prefix}antivirus [on/off]
-🔖• ${prefix}antitoxic [on/off]
-🔖• ${prefix}antiwame [on/off]
-🔖• ${prefix}nsfw [on/off]
-🔖• ${prefix}promote [reply/tag]
-🔖• ${prefix}demote [reply/tag]
-🔖• ${prefix}react [reply emoji]
-🔖• ${prefix}getpp [reply user]
-🔖• ${prefix}vote
-🔖• ${prefix}devote
-🔖• ${prefix}upvote
-🔖• ${prefix}checkvote
-🔖• ${prefix}delvote
+    caption: `┌──⭓➡️ GROUP 	        
+│     
+│⭔ ${prefix}grousetting
+│⭔ ${prefix}grouplink
+│⭔ ${prefix}ephemeral [option]
+│⭔ ${prefix}setgcpp [image]
+│⭔ ${prefix}setname [text]
+│⭔ ${prefix}setdesc [text]
+│⭔ ${prefix}group 
+│⭔ ${prefix}resetgrouplink
+│⭔ ${prefix}editinfo [option]
+│⭔ ${prefix}menfess [number]
+│⭔ ${prefix}add [user]
+│⭔ ${prefix}kick [reply/tag]
+│⭔ ${prefix}hidetag [text]
+│⭔ ${prefix}tagall [text]
+│⭔ ${prefix}antilinkgc [on/off]
+│⭔ ${prefix}antilinktg [on/off]
+│⭔ ${prefix}antilinktt [on/off]
+│⭔ ${prefix}antilinkytch [on/off]
+│⭔ ${prefix}antilinkytvid [on/off]
+│⭔ ${prefix}antilinkig [on/off]
+│⭔ ${prefix}antilinkfb [on/off]
+│⭔ ${prefix}antilinktwit [on/off]
+│⭔ ${prefix}antilinkall [on/off]
+│⭔ ${prefix}antivirus [on/off]
+│⭔ ${prefix}antitoxic [on/off]
+│⭔ ${prefix}antiwame [on/off]
+│⭔ ${prefix}nsfw [on/off]
+│⭔ ${prefix}nsfw [on/off]
+│⭔ ${prefix}promote [reply/tag]
+│⭔ ${prefix}demote [reply/tag]
+│⭔ ${prefix}react [reply emoji]
+│⭔ ${prefix}vote
+│⭔ ${prefix}devote
+│⭔ ${prefix}upvote
+│⭔ ${prefix}checkvote
+│⭔ ${prefix}delvote
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -6699,120 +7085,118 @@ case 'makermenu':{
 var unicorn = await getBuffer(picak+'Maker Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `🎨 MAKER	
-🔖• ${prefix}candy
-🔖• ${prefix}8bit
-🔖• ${prefix}horror
-🔖• ${prefix}hoorror
-🔖• ${prefix}retro
-🔖• ${prefix}blackpinkneon
-🔖• ${prefix}deepsea
-🔖• ${prefix}scifi
-🔖• ${prefix}fiction
-🔖• ${prefix}berry
-🔖• ${prefix}fruitjuice
-🔖• ${prefix}biscuit
-🔖• ${prefix}wood
-🔖• ${prefix}chocolate
-🔖• ${prefix}matrix
-🔖• ${prefix}blood
-🔖• ${prefix}halloween
-🔖• ${prefix}wicker
-🔖• ${prefix}darkgold
-🔖• ${prefix}firework
-🔖• ${prefix}skeleton
-🔖• ${prefix}sand
-🔖• ${prefix}glue
-🔖• ${prefix}leaves
-🔖• ${prefix}magma
-🔖• ${prefix}lava
-🔖• ${prefix}rock
-🔖• ${prefix}bloodglas
-🔖• ${prefix}underwater
-🔖• ${prefix}textmaker
-🔖• ${prefix}honey
-🔖• ${prefix}ice
-🔖• ${prefix}watercolor
-🔖• ${prefix}multicolor
-🔖• ${prefix}snow
-🔖• ${prefix}harrypot
-🔖• ${prefix}harrypotter
-🔖• ${prefix}brokenglass
-🔖• ${prefix}waterpipe
-🔖• ${prefix}spooky
-🔖• ${prefix}circuit
-??• ${prefix}metallic
-🔖• ${prefix}demon
-🔖• ${prefix}sparklechristmas
-🔖• ${prefix}christmas
-🔖• ${prefix}3dchristmas
-🔖• ${prefix}3dbox
-🔖• ${prefix}waterdrop
-🔖• ${prefix}lion2
-🔖• ${prefix}papercut
-🔖• ${prefix}transformer
-🔖• ${prefix}neondevil
-🔖• ${prefix}3davengers
-🔖• ${prefix}3dstone
-🔖• ${prefix}3dstone2
-🔖• ${prefix}summertime
-🔖• ${prefix}thunder
-🔖• ${prefix}window
-🔖• ${prefix}graffiti
-🔖• ${prefix}graffitibike
-🔖• ${prefix}pornhub
-🔖• ${prefix}glitch
-🔖• ${prefix}blackpink
-🔖• ${prefix}glitch2
-🔖• ${prefix}glitch3
-🔖• ${prefix}3dspace
-🔖• ${prefix}lion
-🔖• ${prefix}3dneon
-🔖• ${prefix}greenneon
-🔖• ${prefix}bokeh
-🔖• ${prefix}holographic
-🔖• ${prefix}bear
-🔖• ${prefix}wolf
-🔖• ${prefix}joker
-🔖• ${prefix}dropwater
-🔖• ${prefix}dropwater2
-🔖• ${prefix}thewall
-🔖• ${prefix}neonlight
-🔖• ${prefix}natural
-🔖• ${prefix}carbon
-🔖• ${prefix}pencil
-🔖• ${prefix}blackpink2
-🔖• ${prefix}neon
-🔖• ${prefix}neonlight2
-🔖• ${prefix}toxic
-🔖• ${prefix}strawberry
-🔖• ${prefix}discovery
-🔖• ${prefix}1917
-🔖•  ${prefix}sci_fi
-🔖•  ${prefix}ancient
-🔖•  ${prefix}fabric
-🔖•  ${prefix}hoorror
-🔖•  ${prefix}whitebear
-🔖•  ${prefix}juice
-🔖•  ${prefix}batman
-🔖•  ${prefix}multicolor
-🔖•  ${prefix}collwall
-🔖•  ${prefix}wonderful
-🔖•  ${prefix}cool
-🔖•  ${prefix}sketch
-🔖•  ${prefix}marvel
-🔖•  ${prefix}foggy
-🔖•  ${prefix}writing
-🔖•  ${prefix}halloweenfire
-🔖•  ${prefix}halloween
-🔖•  ${prefix}watercolor
-🔖•  ${prefix}classic
+    caption: `┌──⭓🎨 MAKER 
+│⭔ ${prefix}candy
+│⭔ ${prefix}blackpinkneon
+│⭔ ${prefix}deepsea
+│⭔ ${prefix}scifi
+│⭔ ${prefix}fiction
+│⭔ ${prefix}berry
+│⭔ ${prefix}fruitjuice
+│⭔ ${prefix}biscuit
+│⭔ ${prefix}wood
+│⭔ ${prefix}chocolate
+│⭔ ${prefix}matrix
+│⭔ ${prefix}blood
+│⭔ ${prefix}halloween
+│⭔ ${prefix}wicker
+│⭔ ${prefix}darkgold
+│⭔ ${prefix}firework
+│⭔ ${prefix}skeleton
+│⭔ ${prefix}sand
+│⭔ ${prefix}glue
+│⭔ ${prefix}leaves
+│⭔ ${prefix}magma
+│⭔ ${prefix}lava
+│⭔ ${prefix}rock
+│⭔ ${prefix}bloodglas
+│⭔ ${prefix}underwater
+│⭔ ${prefix}textmaker
+│⭔ ${prefix}honey
+│⭔ ${prefix}ice
+│⭔ ${prefix}watercolor
+│⭔ ${prefix}multicolor
+│⭔ ${prefix}snow
+│⭔ ${prefix}harrypot
+│⭔ ${prefix}harrypotter
+│⭔ ${prefix}brokenglass
+│⭔ ${prefix}waterpipe
+│⭔ ${prefix}spooky
+│⭔ ${prefix}circuit
+│⭔ ${prefix}metallic
+│⭔ ${prefix}demon
+│⭔ ${prefix}sparklechristmas
+│⭔ ${prefix}christmas
+│⭔ ${prefix}3dchristmas
+│⭔ ${prefix}3dbox
+│⭔ ${prefix}waterdrop
+│⭔ ${prefix}lion2
+│⭔ ${prefix}papercut
+│⭔ ${prefix}transformer
+│⭔ ${prefix}neondevil
+│⭔ ${prefix}3davengers
+│⭔ ${prefix}3dstone
+│⭔ ${prefix}3dstone2
+│⭔ ${prefix}summertime
+│⭔ ${prefix}thunder
+│⭔ ${prefix}window
+│⭔ ${prefix}graffiti
+│⭔ ${prefix}graffitibike
+│⭔ ${prefix}pornhub
+│⭔ ${prefix}glitch
+│⭔ ${prefix}blackpink
+│⭔ ${prefix}glitch2
+│⭔ ${prefix}glitch3
+│⭔ ${prefix}3dspace
+│⭔ ${prefix}lion
+│⭔ ${prefix}3dneon
+│⭔ ${prefix}greenneon
+│⭔ ${prefix}bokeh
+│⭔ ${prefix}holographic
+│⭔ ${prefix}bear
+│⭔ ${prefix}wolf
+│⭔ ${prefix}joker
+│⭔ ${prefix}dropwater
+│⭔ ${prefix}dropwater2
+│⭔ ${prefix}thewall
+│⭔ ${prefix}neonlight
+│⭔ ${prefix}natural
+│⭔ ${prefix}carbon
+│⭔ ${prefix}pencil
+│⭔ ${prefix}blackpink2
+│⭔ ${prefix}neon
+│⭔ ${prefix}neonlight2
+│⭔ ${prefix}toxic
+│⭔ ${prefix}strawberry
+│⭔ ${prefix}discovery
+│⭔ ${prefix}1917
+│⭔  ${prefix}sci_fi
+│⭔  ${prefix}ancient
+│⭔  ${prefix}fabric
+│⭔  ${prefix}hoorror
+│⭔  ${prefix}whitebear
+│⭔  ${prefix}juice
+│⭔  ${prefix}batman
+│⭔  ${prefix}multicolor
+│⭔  ${prefix}collwall
+│⭔  ${prefix}wonderful
+│⭔  ${prefix}cool
+│⭔  ${prefix}sketch
+│⭔  ${prefix}marvel
+│⭔  ${prefix}foggy
+│⭔  ${prefix}writing
+│⭔  ${prefix}halloweenfire
+│⭔  ${prefix}halloween
+│⭔  ${prefix}watercolor
+│⭔  ${prefix}classic
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -6825,21 +7209,24 @@ break
 var unicorn = await getBuffer(picak+'Download Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `⬇️ DOWNLOAD	
-🔖• ${prefix}tiktok [url]
-🔖• ${prefix}tiktokaudio[url]
-🔖• ${prefix}mediafire [url]
-🔖• ${prefix}ytmp3 [url|quality]
-🔖• ${prefix}ytmp4 [url|quality]
-🔖• ${prefix}gitclone [repo link]
-🔖• ${prefix}soundcloud [url]
-🔖• ${prefix}zippyshare [url]
+    caption: `┌──⭓  ⬇️ DOWNLOAD	
+│        
+│⭔ ${prefix}tiktok [url]
+│⭔ ${prefix}tiktokaudio[url]
+│⭔ ${prefix}mediafire [url]
+│⭔ ${prefix}ytmp3 [url|quality]
+│⭔ ${prefix}ytmp4 [url|quality]
+│⭔ ${prefix}gitclone [repo link]
+│⭔ ${prefix}soundcloud [url]
+│⭔ ${prefix}zippyshare [url]
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -6852,33 +7239,36 @@ break
 var unicorn = await getBuffer(picak+'Search Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `🔎 SEARCH	
-🔖• ${prefix}play [query]
-🔖• ${prefix}song [query]
-🔖• ${prefix}yts [query]
-🔖• ${prefix}lyrics [query]
-🔖• ${prefix}google [query]
-🔖• ${prefix}gimage [query]
-🔖• ${prefix}pinterest [query]
-🔖• ${prefix}image [query]
-🔖• ${prefix}film [query]
-🔖• ${prefix}wallpaper [query]
-🔖• ${prefix}searchgc [query]
-🔖• ${prefix}happymod [query]
-🔖• ${prefix}servermc
-🔖• ${prefix}mcpedl [query]
-🔖• ${prefix}tvsearch [query]
-🔖• ${prefix}wikimedia [query]
-🔖• ${prefix}ytsearch [query]
-🔖• ${prefix}ringtone [query]
-🔖• ${prefix}wattpad [query]
-🔖•  ${prefix}mcserver [ip|port]
+    caption: `┌──⭓ 🔎 SEARCH 	
+│
+│⭔ ${prefix}play [query]
+│⭔ ${prefix}song [query]
+│⭔ ${prefix}yts [query]
+│⭔ ${prefix}lyrics [query]
+│⭔ ${prefix}google [query]
+│⭔ ${prefix}gimage [query]
+│⭔ ${prefix}pinterest [query]
+│⭔ ${prefix}image [query]
+│⭔ ${prefix}film [query]
+│⭔ ${prefix}wallpaper [query]
+│⭔ ${prefix}searchgc [query]
+│⭔ ${prefix}happymod [query]
+│⭔ ${prefix}servermc
+│⭔ ${prefix}mcpedl [query]
+│⭔ ${prefix}tvsearch [query]
+│⭔ ${prefix}wikimedia [query]
+│⭔ ${prefix}ytsearch [query]
+│⭔ ${prefix}ringtone [query]
+│⭔ ${prefix}wattpad [query]
+│⭔  ${prefix}mcserver [ip|port]
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -6891,40 +7281,43 @@ break
 var unicorn = await getBuffer(picak+'Convert Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `♾️ CONVERT	
-🔖•  ${prefix}toimage [reply stick]
-🔖•  ${prefix}sticker [reply img|gif]
-🔖•  ${prefix}take [reply img|gif|stik]
-🔖•  ${prefix}smeme [reply img]
-🔖•  ${prefix}emoji [emoji]
-🔖•  ${prefix}tovideo [reply img]
-🔖•  ${prefix}togif [reply stick]
-🔖•  ${prefix}tourl [reply img]
-🔖•  ${prefix}tovn [reply aud]
-🔖•  ${prefix}tomp3 [reply vn]
-🔖•  ${prefix}toaudio [reply vid]
-🔖•  ${prefix}ebinary [reply txt]
-🔖•  ${prefix}dbinary [reply txt]
-🔖•  ${prefix}tinyurl [link]
-🔖•  ${prefix}styletext [text]
-🔖• ${prefix}volume [reply aud]
-🔖• ${prefix}bass [reply aud]
-🔖• ${prefix}blown [reply aud]
-🔖• ${prefix}deep [reply aud]
-🔖• ${prefix}earrape [reply aud]
-🔖• ${prefix}fast [reply aud]
-🔖• ${prefix}fat [reply aud]
-🔖• ${prefix}nightcore [reply aud]
-🔖• ${prefix}reverse [reply aud]
-🔖• ${prefix}robot [reply aud]
-🔖• ${prefix}slow [reply aud]
-🔖• ${prefix}squirrel [reply aud]
+    caption: `┌──⭓        ♾️ CONVERT
+│        
+│⭔  ${prefix}toimage [reply stick]
+│⭔  ${prefix}sticker [reply img|gif]
+│⭔  ${prefix}take [reply img|gif|stik]
+│⭔  ${prefix}smeme [reply img]
+│⭔  ${prefix}emoji [emoji]
+│⭔  ${prefix}tovideo [reply img]
+│⭔  ${prefix}togif [reply stick]
+│⭔  ${prefix}tourl [reply img]
+│⭔  ${prefix}tovn [reply aud]
+│⭔  ${prefix}tomp3 [reply vn]
+│⭔  ${prefix}toaudio [reply vid]
+│⭔  ${prefix}ebinary [reply txt]
+│⭔  ${prefix}dbinary [reply txt]
+│⭔  ${prefix}tinyurl [link]
+│⭔  ${prefix}styletext [text]
+│⭔ ${prefix}volume [reply aud]
+│⭔ ${prefix}bass [reply aud]
+│⭔ ${prefix}blown [reply aud]
+│⭔ ${prefix}deep [reply aud]
+│⭔ ${prefix}earrape [reply aud]
+│⭔ ${prefix}fast [reply aud]
+│⭔ ${prefix}fat [reply aud]
+│⭔ ${prefix}nightcore [reply aud]
+│⭔ ${prefix}reverse [reply aud]
+│⭔ ${prefix}robot [reply aud]
+│⭔ ${prefix}slow [reply aud]
+│⭔ ${prefix}squirrel [reply aud]
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -6937,24 +7330,26 @@ case 'randomimagemenu':{
 var unicorn = await getBuffer(picak+'Random Image Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `🎠 RANDOM IMG 	
-🔖• ${prefix}coffee
-🔖• ${prefix}woof
-🔖• ${prefix}meow
-??• ${prefix}lizard
-🔖• ${prefix}wallneon
-🔖• ${prefix}wallpubg
-🔖• ${prefix}wallml
-🔖• ${prefix}wallrandom
-🔖• ${prefix}wallcode
-🔖• ${prefix}animewall [query]
-🔖• ${prefix}animewall2 [query]
+    caption: `┌──⭓       🎠 RANDOM IMG
+│⭔ ${prefix}coffee
+│⭔ ${prefix}woof
+│⭔ ${prefix}meow
+│⭔ ${prefix}lizard
+│⭔ ${prefix}wallneon
+│⭔ ${prefix}wallpubg
+│⭔ ${prefix}wallml
+│⭔ ${prefix}wallrandom
+│⭔ ${prefix}wallcode
+│⭔ ${prefix}animewall [query]
+│⭔ ${prefix}animewall2 [query]
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -6967,25 +7362,28 @@ break
 var unicorn = await getBuffer(picak+'Emote Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `🐣 EMOTE	
-🔖• ${prefix}instagramemoji
-🔖• ${prefix}facebookemoji
-🔖• ${prefix}iphoneemoji
-🔖• ${prefix}samsungemoji
-🔖• ${prefix}joyemoji
-🔖• ${prefix}skypeemoji
-🔖• ${prefix}twitteremoji
-🔖• ${prefix}whatsappemoji
-🔖• ${prefix}microsoftemoji
-🔖• ${prefix}googleemoji
-🔖• ${prefix}pediaemoji
-🔖• ${prefix}microsoftemoji
+    caption: `┌──⭓      🐣 EMOTE
+│
+│⭔ ${prefix}instagramemoji
+│⭔ ${prefix}facebookemoji
+│⭔ ${prefix}iphoneemoji
+│⭔ ${prefix}samsungemoji
+│⭔ ${prefix}joyemoji
+│⭔ ${prefix}skypeemoji
+│⭔ ${prefix}twitteremoji
+│⭔ ${prefix}whatsappemoji
+│⭔ ${prefix}microsoftemoji
+│⭔ ${prefix}googleemoji
+│⭔ ${prefix}pediaemoji
+│⭔ ${prefix}microsoftemoji
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -6998,17 +7396,19 @@ break
 var unicorn = await getBuffer(picak+'Image Effect Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `🎈 IMG EFFECT 	
-🔖• ${prefix}wanted [reply img]
-🔖• ${prefix}triggeredwebp [reply img]
-🔖• ${prefix}removebg [reply img]
-🔖• ${prefix}upscaler [reply img]
+    caption: `┌──⭓       🎈IMG EFFECT
+│⭔ ${prefix}wanted [reply img]
+│⭔ ${prefix}triggeredwebp [reply img]
+│⭔ ${prefix}removebg [reply img]
+│⭔ ${prefix}upscaler [reply img]
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7021,71 +7421,74 @@ case 'animemenu':{
 var unicorn = await getBuffer(picak+'Anime Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `👾 ANIME 	
-🔖• ${prefix}asuna
-🔖• ${prefix}anna
-🔖• ${prefix}chitoge
-🔖• ${prefix}cosplay
-🔖• ${prefix}elaina
-🔖• ${prefix}emilia
-🔖• ${prefix}gremory
-🔖• ${prefix}kaguya
-🔖• ${prefix}kotori
-🔖• ${prefix}kurumi
-🔖• ${prefix}mikasa
-🔖• ${prefix}rize
-🔖• ${prefix}naruto
-🔖• ${prefix}yaoi
-🔖• ${prefix}animeneko
-🔖• ${prefix}waifu
-🔖• ${prefix}shinobu
-🔖• ${prefix}animeawoo
-🔖• ${prefix}animewaifu
-🔖• ${prefix}foxgirl
-🔖• ${prefix}animenom
-🔖• ${prefix}goose
-🔖• ${prefix}8ball
-🔖• ${prefix}avatar
-🔖• ${prefix}tickle
-🔖• ${prefix}gecg
-🔖• ${prefix}feed
-🔖• ${prefix}animeslap
-🔖• ${prefix}animepat
-🔖• ${prefix}animeneko
-🔖• ${prefix}animekiss
-🔖• ${prefix}animewlp
-🔖• ${prefix}animecuddle
-🔖• ${prefix}animecry
-🔖• ${prefix}animekill
-🔖• ${prefix}animelick
-🔖• ${prefix}animebite
-🔖• ${prefix}animeyeet
-🔖• ${prefix}animebully
-🔖• ${prefix}animebonk
-🔖• ${prefix}animewink
-🔖• ${prefix}animepoke
-👨??‍💻• ${prefix}animesmile
-🔖• ${prefix}animewave
-🔖• ${prefix}animeawoo
-🔖• ${prefix}animeblush
-🔖• ${prefix}animesmug
-🔖• ${prefix}animeglomp
-🔖• ${prefix}animehappy
-🔖• ${prefix}animedance
-🔖• ${prefix}animecringe
-🔖• ${prefix}animehighfive
-🔖• ${prefix}animehandhold
-🔖• ${prefix}animemegumin
-🔖• ${prefix}animemegumin
-🔖• ${prefix}animesmug
-🔖• ${prefix}loli-waifu
-🔖• ${prefix}couplepp
+    caption: `┌──⭓       👾 ANIME
+│
+│⭔ ${prefix}asuna
+│⭔ ${prefix}anna
+│⭔ ${prefix}chitoge
+│⭔ ${prefix}cosplay
+│⭔ ${prefix}elaina
+│⭔ ${prefix}emilia
+│⭔ ${prefix}gremory
+│⭔ ${prefix}kaguya
+│⭔ ${prefix}kotori
+│⭔ ${prefix}kurumi
+│⭔ ${prefix}mikasa
+│⭔ ${prefix}rize
+│⭔ ${prefix}naruto
+│⭔ ${prefix}yaoi
+│⭔ ${prefix}animeneko
+│⭔ ${prefix}waifu
+│⭔ ${prefix}animewaifu
+│⭔ ${prefix}animeawoo
+│⭔ ${prefix}shinobu
+│⭔ ${prefix}foxgirl
+│⭔ ${prefix}animemegumin
+│⭔ ${prefix}loli-waifu
+│⭔ ${prefix}8ball
+│⭔ ${prefix}animenom
+│⭔ ${prefix}goose
+│⭔ ${prefix}avatar
+│⭔ ${prefix}tickle
+│⭔ ${prefix}gecg
+│⭔ ${prefix}feed
+│⭔ ${prefix}animeslap
+│⭔ ${prefix}animepat
+│⭔ ${prefix}animeneko
+│⭔ ${prefix}animekiss
+│⭔ ${prefix}animewlp
+│⭔ ${prefix}animecuddle
+│⭔ ${prefix}animecry
+│⭔ ${prefix}animekill
+│⭔ ${prefix}animelick
+│⭔ ${prefix}animebite
+│⭔ ${prefix}animeyeet
+│⭔ ${prefix}animebully
+│⭔ ${prefix}animebonk
+│⭔ ${prefix}animewink
+│⭔ ${prefix}animepoke
+│⭔ ${prefix}animesmile
+│⭔ ${prefix}animewave
+│⭔ ${prefix}animeawoo
+│⭔ ${prefix}animeblush
+│⭔ ${prefix}animesmug
+│⭔ ${prefix}animeglomp
+│⭔ ${prefix}animehappy
+│⭔ ${prefix}animedance
+│⭔ ${prefix}animecringe
+│⭔ ${prefix}animehighfive
+│⭔ ${prefix}animehandhold
+│⭔ ${prefix}animemegumin
+│⭔ ${prefix}animesmug
+│⭔ ${prefix}couplepp
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7098,21 +7501,23 @@ break
 var unicorn = await getBuffer(picak+'Sticker Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `🧚🏻‍♂️ STICKER	
-🔖•  ${prefix}patrick
-🔖•  ${prefix}emoji
-🔖•  ${prefix}emojimix
-🔖•  ${prefix}attp
-🔖•  ${prefix}ttp
-🔖•  ${prefix}doge
-🔖•  ${prefix}lovesticker
-🔖•  ${prefix}animestick
+    caption: `┌──⭓  🧚🏻‍♂️STICKER
+│⭔  ${prefix}patrick
+│⭔  ${prefix}emoji
+│⭔  ${prefix}emojimix
+│⭔  ${prefix}attp
+│⭔  ${prefix}ttp
+│⭔  ${prefix}doge
+│⭔  ${prefix}lovesticker
+│⭔  ${prefix}animestick
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7125,42 +7530,45 @@ case 'animestickermenu':{
 var unicorn = await getBuffer(picak+'Anime Sticker Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `🧚🏻‍♀️  ANIME STICKER	
-🔖• ${prefix}loli
-🔖• ${prefix}bully
-🔖• ${prefix}cuddle
-🔖• ${prefix}cry
-🔖• ${prefix}hug
-🔖• ${prefix}awoo
-🔖• ${prefix}kiss
-🔖• ${prefix}lick
-🔖• ${prefix}pat
-🔖• ${prefix}smug
-🔖• ${prefix}bonk
-🔖• ${prefix}yeet
-🔖• ${prefix}blush
-🔖• ${prefix}smile
-🔖• ${prefix}wave
-🔖• ${prefix}highfive
-🔖• ${prefix}handhold
-🔖• ${prefix}nom
-🔖• ${prefix}glomp
-🔖• ${prefix}bite
-🔖• ${prefix}slap
-🔖• ${prefix}kill
-🔖• ${prefix}happy
-🔖• ${prefix}wink
-🔖• ${prefix}poke
-🔖• ${prefix}dance
-🔖• ${prefix}cringe
-🔖• ${prefix}neko
-🔖• ${prefix}gura
+    caption: `┌──⭓🧚🏻‍♀️ ANIME STICKER
+│
+│⭔ ${prefix}loli
+│⭔ ${prefix}bully
+│⭔ ${prefix}cuddle
+│⭔ ${prefix}cry
+│⭔ ${prefix}hug
+│⭔ ${prefix}awoo
+│⭔ ${prefix}kiss
+│⭔ ${prefix}lick
+│⭔ ${prefix}pat
+│⭔ ${prefix}smug
+│⭔ ${prefix}bonk
+│⭔ ${prefix}yeet
+│⭔ ${prefix}blush
+│⭔ ${prefix}smile
+│⭔ ${prefix}wave
+│⭔ ${prefix}highfive
+│⭔ ${prefix}handhold
+│⭔ ${prefix}nom
+│⭔ ${prefix}glomp
+│⭔ ${prefix}bite
+│⭔ ${prefix}slap
+│⭔ ${prefix}kill
+│⭔ ${prefix}happy
+│⭔ ${prefix}wink
+│⭔ ${prefix}poke
+│⭔ ${prefix}dance
+│⭔ ${prefix}cringe
+│⭔ ${prefix}neko
+│⭔ ${prefix}gura
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7173,19 +7581,22 @@ case 'nsfwmenu':{
 var unicorn = await getBuffer(picak+'Nsfw Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `🕵🏻‍♂️ NSFW 	
-🔖• ${prefix}hentaivideo
-🔖• ${prefix}hneko
-🔖• ${prefix}nwaifu
-🔖• ${prefix}animespank
-🔖• ${prefix}trap
-🔖• ${prefix}gasm
+    caption: `┌──⭓ 🕵🏻‍♂️NSFW
+│       
+│⭔ ${prefix}hentaivideo
+│⭔ ${prefix}hneko
+│⭔ ${prefix}nwaifu
+│⭔ ${prefix}animespank
+│⭔ ${prefix}trap
+│⭔ ${prefix}gasm
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7198,76 +7609,79 @@ case 'funmenu':{
 var unicorn = await getBuffer(picak+'Fun Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `🎠	
-🔖•  ${prefix}how [text
-🔖•  ${prefix}when [text]
-🔖•  ${prefix}where [text]
-🔖•  ${prefix}is [text]
-🔖•  ${prefix}what [text]
-🔖•  ${prefix}can [text]
-🔖•  ${prefix}rate [text]
-🔖•  ${prefix}beautifulcheck [tag]
-🔖•  ${prefix}awesomecheck [tag]
-🔖•  ${prefix}prettycheck [tag]
-🔖•  ${prefix}lesbiancheck [tag]
-🔖•  ${prefix}gaycheck [tag]
-🔖•  ${prefix}cutecheck [tag]
-🔖•  ${prefix}uglycheck [tag]
-🔖•  ${prefix}hornycheck [tag]
-🔖•  ${prefix}charactercheck [tag]
-🔖•  ${prefix}lovelycheck [tag]
-🔖•  ${prefix}couple
-🔖•  ${prefix}mysoulmate
-🔖•  ${prefix}hot
-🔖•  ${prefix}sexy
-🔖•  ${prefix}kind
-🔖•  ${prefix}idiot
-🔖•  ${prefix}handsome
-🔖•  ${prefix}beautiful
-🔖•  ${prefix}cute
-🔖•  ${prefix}pretty
-🔖•  ${prefix}lesbian
-🔖•  ${prefix}noob
-🔖•  ${prefix}bastard
-🔖•  ${prefix}foolish
-🔖•  ${prefix}nerd
-🔖•  ${prefix}asshole
-🔖•  ${prefix}gay
-🔖•  ${prefix}smart
-🔖•  ${prefix}stubble
-🔖•  ${prefix}dog
-🔖•  ${prefix}horny
-🔖•  ${prefix}cunt
-🔖•  ${prefix}wibu
-🔖•  ${prefix}noobra
-🔖•  ${prefix}nibba
-🔖•  ${prefix}nibbi
-🔖•  ${prefix}comrade
-🔖•  ${prefix}mumu
-🔖•  ${prefix}rascal
-🔖•  ${prefix}scumbag
-🔖•  ${prefix}nuts
-🔖•  ${prefix}fagot
-🔖•  ${prefix}scoundrel
-🔖•  ${prefix}ditch
-🔖•  ${prefix}dope
-🔖•  ${prefix}gucci
-🔖•  ${prefix}lit
-🔖•  ${prefix}dumbass
-🔖•  ${prefix}crackhead
-🔖•  ${prefix}mf
-🔖•  ${prefix}motherfucker
-🔖•  ${prefix}sucker
-🔖•  ${prefix}fuckboy
-🔖•  ${prefix}playboy
-🔖•  ${prefix}fuckgirl
-🔖•  ${prefix}playgirl
+    caption: `┌──⭓      🎭 FUN
+│
+│⭔  ${prefix}how [text
+│⭔  ${prefix}when [text]
+│⭔  ${prefix}where [text]
+│⭔  ${prefix}is [text]
+│⭔  ${prefix}what [text]
+│⭔  ${prefix}can [text]
+│⭔  ${prefix}rate [text]
+│⭔  ${prefix}beautifulcheck [tag]
+│⭔  ${prefix}awesomecheck [tag]
+│⭔  ${prefix}prettycheck [tag]
+│⭔  ${prefix}lesbiancheck [tag]
+│⭔  ${prefix}gaycheck [tag]
+│⭔  ${prefix}cutecheck [tag]
+│⭔  ${prefix}uglycheck [tag]
+│⭔  ${prefix}hornycheck [tag]
+│⭔  ${prefix}charactercheck [tag]
+│⭔  ${prefix}lovelycheck [tag]
+│⭔  ${prefix}couple
+│⭔  ${prefix}mysoulmate
+│⭔  ${prefix}hot
+│⭔  ${prefix}sexy
+│⭔  ${prefix}kind
+│⭔  ${prefix}idiot
+│⭔  ${prefix}handsome
+│⭔  ${prefix}beautiful
+│⭔  ${prefix}cute
+│⭔  ${prefix}pretty
+│⭔  ${prefix}lesbian
+│⭔  ${prefix}noob
+│⭔  ${prefix}bastard
+│⭔  ${prefix}foolish
+│⭔  ${prefix}nerd
+│⭔  ${prefix}asshole
+│⭔  ${prefix}gay
+│⭔  ${prefix}smart
+│⭔  ${prefix}stubble
+│⭔  ${prefix}dog
+│⭔  ${prefix}horny
+│⭔  ${prefix}cunt
+│⭔  ${prefix}wibu
+│⭔  ${prefix}noobra
+│⭔  ${prefix}nibba
+│⭔  ${prefix}nibbi
+│⭔  ${prefix}comrade
+│⭔  ${prefix}mumu
+│⭔  ${prefix}rascal
+│⭔  ${prefix}scumbag
+│⭔  ${prefix}nuts
+│⭔  ${prefix}fagot
+│⭔  ${prefix}scoundrel
+│⭔  ${prefix}ditch
+│⭔  ${prefix}dope
+│⭔  ${prefix}gucci
+│⭔  ${prefix}lit
+│⭔  ${prefix}dumbass
+│⭔  ${prefix}crackhead
+│⭔  ${prefix}mf
+│⭔  ${prefix}motherfucker
+│⭔  ${prefix}sucker
+│⭔  ${prefix}fuckboy
+│⭔  ${prefix}playboy
+│⭔  ${prefix}fuckgirl
+│⭔  ${prefix}playgirl
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7280,174 +7694,177 @@ case 'soundmenu':{
 var unicorn = await getBuffer(picak+'Sound Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `🎧 Sound 
-🔖•  ${prefix}sound1
-🔖•  ${prefix}sound2
-🔖•  ${prefix}sound3
-🔖•  ${prefix}sound4
-🔖•  ${prefix}sound5
-🔖•  ${prefix}sound6
-🔖•  ${prefix}sound7
-🔖•  ${prefix}sound8
-🔖•  ${prefix}sound9
-🔖•  ${prefix}sound10
-🔖•  ${prefix}sound11
-🔖•  ${prefix}sound12
-🔖•  ${prefix}sound13
-🔖•  ${prefix}sound14
-🔖•  ${prefix}sound15
-🔖•  ${prefix}sound16
-🔖•  ${prefix}sound17
-🔖•  ${prefix}sound18
-🔖•  ${prefix}sound19
-🔖•  ${prefix}sound20
-🔖•  ${prefix}sound21
-🔖•  ${prefix}sound22
-🔖•  ${prefix}sound23
-🔖•  ${prefix}sound24
-🔖•  ${prefix}sound25
-🔖•  ${prefix}sound26
-🔖•  ${prefix}sound27
-🔖•  ${prefix}sound28
-🔖•  ${prefix}sound29
-🔖•  ${prefix}sound30
-🔖•  ${prefix}sound31
-🔖•  ${prefix}sound32
-🔖•  ${prefix}sound33
-🔖•  ${prefix}sound34
-🔖•  ${prefix}sound35
-🔖•  ${prefix}sound36
-🔖•  ${prefix}sound37
-🔖•  ${prefix}sound38
-🔖•  ${prefix}sound39
-🔖•  ${prefix}sound40
-🔖•  ${prefix}sound41
-🔖•  ${prefix}sound42
-🔖•  ${prefix}sound43
-🔖•  ${prefix}sound44
-🔖•  ${prefix}sound45
-🔖•  ${prefix}sound46
-🔖•  ${prefix}sound47
-🔖•  ${prefix}sound48
-🔖•  ${prefix}sound49
-🔖•  ${prefix}sound50
-🔖•  ${prefix}sound51
-🔖•  ${prefix}sound52
-🔖•  ${prefix}sound53
-🔖•  ${prefix}sound54
-🔖•  ${prefix}sound55
-🔖•  ${prefix}sound56
-🔖•  ${prefix}sound57
-🔖•  ${prefix}sound58
-🔖•  ${prefix}sound59
-🔖•  ${prefix}sound60
-🔖•  ${prefix}sound61
-🔖•  ${prefix}sound62
-🔖•  ${prefix}sound63
-🔖•  ${prefix}sound64
-🔖•  ${prefix}sound65
-🔖•  ${prefix}sound66
-🔖•  ${prefix}sound67
-🔖•  ${prefix}sound68
-🔖•  ${prefix}sound69
-🔖•  ${prefix}sound70
-🔖•  ${prefix}sound71
-🔖•  ${prefix}sound72
-🔖•  ${prefix}sound73
-🔖•  ${prefix}sound74
-🔖•  ${prefix}sound75
-🔖•  ${prefix}sound76
-🔖•  ${prefix}sound77
-🔖•  ${prefix}sound78
-🔖•  ${prefix}sound79
-🔖•  ${prefix}sound80
-🔖•  ${prefix}sound81
-🔖•  ${prefix}sound82
-🔖•  ${prefix}sound83
-🔖•  ${prefix}sound84
-🔖•  ${prefix}sound85
-🔖•  ${prefix}sound86
-🔖•  ${prefix}sound87
-🔖•  ${prefix}sound88
-🔖•  ${prefix}sound89
-🔖•  ${prefix}sound90
-🔖•  ${prefix}sound91
-🔖•  ${prefix}sound92
-👨??‍💻•  ${prefix}sound93
-👨??‍💻•  ${prefix}sound94
-🔖•  ${prefix}sound95
-🔖•  ${prefix}sound96
-🔖•  ${prefix}sound97
-🔖•  ${prefix}sound98
-🔖•  ${prefix}sound99
-🔖•  ${prefix}sound100
-🔖•  ${prefix}sound101
-🔖•  ${prefix}sound102
-🔖•  ${prefix}sound103
-🔖•  ${prefix}sound104
-🔖•  ${prefix}sound105
-🔖•  ${prefix}sound106
-??•  ${prefix}sound107
-??•  ${prefix}sound108
-🔖•  ${prefix}sound109
-🔖•  ${prefix}sound110
-🔖•  ${prefix}sound111
-🔖•  ${prefix}sound112
-🔖•  ${prefix}sound113
-🔖•  ${prefix}sound114
-??•  ${prefix}sound115
-🔖•  ${prefix}sound116
-🔖•  ${prefix}sound117
-??•  ${prefix}sound118
-🔖•  ${prefix}sound119
-🔖•  ${prefix}sound120
-🔖•  ${prefix}sound121
-🔖•  ${prefix}sound122
-🔖•  ${prefix}sound123
-🔖•  ${prefix}sound124
-🔖•  ${prefix}sound125
-🔖•  ${prefix}sound126
-🔖•  ${prefix}sound127
-🔖•  ${prefix}sound128
-🔖•  ${prefix}sound129
-🔖•  ${prefix}sound130
-🔖•  ${prefix}sound131
-🔖•  ${prefix}sound132
-🔖•  ${prefix}sound133
-🔖•  ${prefix}sound134
-🔖•  ${prefix}sound135
-🔖•  ${prefix}sound136
-🔖•  ${prefix}sound137
-🔖•  ${prefix}sound138
-🔖•  ${prefix}sound139
-🔖•  ${prefix}sound140
-🔖•  ${prefix}sound141
-🔖•  ${prefix}sound142
-🔖•  ${prefix}sound143
-🔖•  ${prefix}sound144
-🔖•  ${prefix}sound145
-🔖•  ${prefix}sound146
-🔖•  ${prefix}sound147
-🔖•  ${prefix}sound148
-🔖•  ${prefix}sound149
-🔖•  ${prefix}sound150
-🔖•  ${prefix}sound151
-🔖•  ${prefix}sound152
-🔖•  ${prefix}sound153
-🔖•  ${prefix}sound154
-🔖•  ${prefix}sound155
-🔖•  ${prefix}sound156
-🔖•  ${prefix}sound157
-🔖•  ${prefix}sound158
-🔖•  ${prefix}sound159
-🔖•  ${prefix}sound160
-🔖•  ${prefix}sound161
+    caption: `┌──⭓ 🎧 SOUND
+│
+│⭔  ${prefix}sound1
+│⭔  ${prefix}sound2
+│⭔  ${prefix}sound3
+│⭔  ${prefix}sound4
+│⭔  ${prefix}sound5
+│⭔  ${prefix}sound6
+│⭔  ${prefix}sound7
+│⭔  ${prefix}sound8
+│⭔  ${prefix}sound9
+│⭔  ${prefix}sound10
+│⭔  ${prefix}sound11
+│⭔  ${prefix}sound12
+│⭔  ${prefix}sound13
+│⭔  ${prefix}sound14
+│⭔  ${prefix}sound15
+│⭔  ${prefix}sound16
+│⭔  ${prefix}sound17
+│⭔  ${prefix}sound18
+│⭔  ${prefix}sound19
+│⭔  ${prefix}sound20
+│⭔  ${prefix}sound21
+│⭔  ${prefix}sound22
+│⭔  ${prefix}sound23
+│⭔  ${prefix}sound24
+│⭔  ${prefix}sound25
+│⭔  ${prefix}sound26
+│⭔  ${prefix}sound27
+│⭔  ${prefix}sound28
+│⭔  ${prefix}sound29
+│⭔  ${prefix}sound30
+│⭔  ${prefix}sound31
+│⭔  ${prefix}sound32
+│⭔  ${prefix}sound33
+│⭔  ${prefix}sound34
+│⭔  ${prefix}sound35
+│⭔  ${prefix}sound36
+│⭔  ${prefix}sound37
+│⭔  ${prefix}sound38
+│⭔  ${prefix}sound39
+│⭔  ${prefix}sound40
+│⭔  ${prefix}sound41
+│⭔  ${prefix}sound42
+│⭔  ${prefix}sound43
+│⭔  ${prefix}sound44
+│⭔  ${prefix}sound45
+│⭔  ${prefix}sound46
+│⭔  ${prefix}sound47
+│⭔  ${prefix}sound48
+│⭔  ${prefix}sound49
+│⭔  ${prefix}sound50
+│⭔  ${prefix}sound51
+│⭔  ${prefix}sound52
+│⭔  ${prefix}sound53
+│⭔  ${prefix}sound54
+│⭔  ${prefix}sound55
+│⭔  ${prefix}sound56
+│⭔  ${prefix}sound57
+│⭔  ${prefix}sound58
+│⭔  ${prefix}sound59
+│⭔  ${prefix}sound60
+│⭔  ${prefix}sound61
+│⭔  ${prefix}sound62
+│⭔  ${prefix}sound63
+│⭔  ${prefix}sound64
+│⭔  ${prefix}sound65
+│⭔  ${prefix}sound66
+│⭔  ${prefix}sound67
+│⭔  ${prefix}sound68
+│⭔  ${prefix}sound69
+│⭔  ${prefix}sound70
+│⭔  ${prefix}sound71
+│⭔  ${prefix}sound72
+│⭔  ${prefix}sound73
+│⭔  ${prefix}sound74
+│⭔  ${prefix}sound75
+│⭔  ${prefix}sound76
+│⭔  ${prefix}sound77
+│⭔  ${prefix}sound78
+│⭔  ${prefix}sound79
+│⭔  ${prefix}sound80
+│⭔  ${prefix}sound81
+│⭔  ${prefix}sound82
+│⭔  ${prefix}sound83
+│⭔  ${prefix}sound84
+│⭔  ${prefix}sound85
+│⭔  ${prefix}sound86
+│⭔  ${prefix}sound87
+│⭔  ${prefix}sound88
+│⭔  ${prefix}sound89
+│⭔  ${prefix}sound90
+│⭔  ${prefix}sound91
+│⭔  ${prefix}sound92
+│⭔  ${prefix}sound93
+│⭔  ${prefix}sound94
+│⭔  ${prefix}sound95
+│⭔  ${prefix}sound96
+│⭔  ${prefix}sound97
+│⭔  ${prefix}sound98
+│⭔  ${prefix}sound99
+│⭔  ${prefix}sound100
+│⭔  ${prefix}sound101
+│⭔  ${prefix}sound102
+│⭔  ${prefix}sound103
+│⭔  ${prefix}sound104
+│⭔  ${prefix}sound105
+│⭔  ${prefix}sound106
+│⭔  ${prefix}sound107
+│⭔  ${prefix}sound108
+│⭔  ${prefix}sound109
+│⭔  ${prefix}sound110
+│⭔  ${prefix}sound111
+│⭔  ${prefix}sound112
+│⭔  ${prefix}sound113
+│⭔  ${prefix}sound114
+│⭔  ${prefix}sound115
+│⭔  ${prefix}sound116
+│⭔  ${prefix}sound117
+│⭔  ${prefix}sound118
+│⭔  ${prefix}sound119
+│⭔  ${prefix}sound120
+│⭔  ${prefix}sound121
+│⭔  ${prefix}sound122
+│⭔  ${prefix}sound123
+│⭔  ${prefix}sound124
+│⭔  ${prefix}sound125
+│⭔  ${prefix}sound126
+│⭔  ${prefix}sound127
+│⭔  ${prefix}sound128
+│⭔  ${prefix}sound129
+│⭔  ${prefix}sound130
+│⭔  ${prefix}sound131
+│⭔  ${prefix}sound132
+│⭔  ${prefix}sound133
+│⭔  ${prefix}sound134
+│⭔  ${prefix}sound135
+│⭔  ${prefix}sound136
+│⭔  ${prefix}sound137
+│⭔  ${prefix}sound138
+│⭔  ${prefix}sound139
+│⭔  ${prefix}sound140
+│⭔  ${prefix}sound141
+│⭔  ${prefix}sound142
+│⭔  ${prefix}sound143
+│⭔  ${prefix}sound144
+│⭔  ${prefix}sound145
+│⭔  ${prefix}sound146
+│⭔  ${prefix}sound147
+│⭔  ${prefix}sound148
+│⭔  ${prefix}sound149
+│⭔  ${prefix}sound150
+│⭔  ${prefix}sound151
+│⭔  ${prefix}sound152
+│⭔  ${prefix}sound153
+│⭔  ${prefix}sound154
+│⭔  ${prefix}sound155
+│⭔  ${prefix}sound156
+│⭔  ${prefix}sound157
+│⭔  ${prefix}sound158
+│⭔  ${prefix}sound159
+│⭔  ${prefix}sound160
+│⭔  ${prefix}sound161
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7460,20 +7877,23 @@ case 'gamemenu':{
 var unicorn = await getBuffer(picak+'Game Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `🦄 GAME	
-🔖•  ${prefix}truth
-🔖•  ${prefix}dare
-🔖•  ${prefix}tictactoe
-🔖•  ${prefix}delttt
-🔖•  ${prefix}guess [option]
-🔖•  ${prefix}math [mode]
-🔖•  ${prefix}suitpvp [tag]
+    caption: `┌──⭓ 🦄 GAME
+│
+│⭔  ${prefix}truth
+│⭔  ${prefix}dare
+│⭔  ${prefix}tictactoe
+│⭔  ${prefix}delttt
+│⭔  ${prefix}guess [option]
+│⭔  ${prefix}math [mode]
+│⭔  ${prefix}suitpvp [tag]
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7486,17 +7906,19 @@ break
 var unicorn = await getBuffer(picak+'Anonymous Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `👤 ANONYMOUS 
-🔖• ${prefix}anonymous
-🔖• ${prefix}start
-🔖• ${prefix}next
-🔖• ${prefix}leave
+    caption: `┌──⭓👤ANONYMOUS CHAT
+│⭔ ${prefix}anonymous
+│⭔ ${prefix}start
+│⭔ ${prefix}next
+│⭔ ${prefix}leave
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7509,21 +7931,23 @@ case 'databasemenu':{
 var unicorn = await getBuffer(picak+'Database Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `📂 DATABASE 
-🔖•  ${prefix}setcmd
-🔖•  ${prefix}listcmd
-🔖•  ${prefix}delcmd
-🔖•  ${prefix}lockcmd
-🔖•  ${prefix}addmsg
-🔖•  ${prefix}listmsg
-🔖•  ${prefix}getmsg
-🔖•  ${prefix}delmsg
+    caption: `┌──⭓📂 DATABASE
+│⭔  ${prefix}setcmd
+│⭔  ${prefix}listcmd
+│⭔  ${prefix}delcmd
+│⭔  ${prefix}lockcmd
+│⭔  ${prefix}addmsg
+│⭔  ${prefix}listmsg
+│⭔  ${prefix}getmsg
+│⭔  ${prefix}delmsg
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7536,34 +7960,37 @@ case 'othermenu':{
 var unicorn = await getBuffer(picak+'Other Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
+  {buttonId: 'sewa', buttonText: {displayText: 'Sewa'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `🥷🏻 OTHER 	
-🔖•  ${prefix}afk
-🔖•  ${prefix}id
-🔖•  ${prefix}toqr [link]
-🔖•  ${prefix}repeat
-🔖•  ${prefix}readmore [text]
-🔖•  ${prefix}toviewonce
-🔖•  ${prefix}fliptext [text]] 
-🔖•  ${prefix}alive
-🔖•  ${prefix}script
-🔖•  ${prefix}speedtest
-🔖•  ${prefix}ping
-🔖•  ${prefix}owner
-🔖•  ${prefix}menu
-🔖•  ${prefix}delete
-🔖•  ${prefix}chatinfo
-🔖•  ${prefix}quoted
-🔖•  ${prefix}listpc
-🔖•  ${prefix}listgc
-🔖•  ${prefix}donate
-🔖•  ${prefix}request
-🔖•  ${prefix}report [bug]
+    caption: `┌──⭓  🥷🏻 OTHER 
+│
+│⭔  ${prefix}afk
+│⭔  ${prefix}id
+│⭔  ${prefix}toqr [link]
+│⭔  ${prefix}repeat
+│⭔  ${prefix}readmore [text]
+│⭔  ${prefix}toviewonce
+│⭔  ${prefix}fliptext [text]]
+│⭔  ${prefix}chatinfo
+│⭔  ${prefix}alive
+│⭔  ${prefix}script
+│⭔  ${prefix}speedtest
+│⭔  ${prefix}ping
+│⭔  ${prefix}owner
+│⭔  ${prefix}menu
+│⭔  ${prefix}delete
+│⭔  ${prefix}quoted
+│⭔  ${prefix}listpc
+│⭔  ${prefix}listgc
+│⭔  ${prefix}donate
+│⭔  ${prefix}request
+│⭔  ${prefix}report [bug]
+│
+└───────⭓
 `,
     footer: `${botname}`,
     buttons: buttons,
