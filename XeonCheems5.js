@@ -2057,9 +2057,30 @@ View list of Messages With ${prefix}listmsg`)
                 m.reply('*Successful in Changing To Self Usage*')
             }
             break
-            case 'ping': case 'botstatus': case 'statusbot': {
-                XeonBotInc.sendMessage(m.chat, caption: `👀 *${m.pushName}*\n\n Pong🏓` }, { quoted: m })
-            }
+           case 'p': {
+            	m.reply('Ucap salam yang bener!')
+            teks = `*${pushname} Salam yang benar lah masbro *\n\n Harus diruqiah keknya ni bocah`
+let buttons = [
+{buttonId: `owner`, buttonText: {displayText: 'Owner 🙋🏻‍♂️ '}, type: 1}
+]
+let buttonMessage = {
+image: {url: `https://i.ibb.co/RBDnt3C/images-2022-11-24-T212108-477.jpg`},
+jpegThumbnail: log0,
+caption: teks,
+footer: `${botname}`,
+buttons: buttons,
+headerType: 4,
+contextInfo:{externalAdReply:{
+title:"Ucap Salam Yang Bener!",
+body: "Mikir Cok!", 
+thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
+mediaType:1,
+mediaUrl: 'https://i.ibb.co/RBDnt3C/images-2022-11-24-T212108-477.jpg',
+sourceUrl: "https://i.ibb.co/RBDnt3C/images-2022-11-24-T212108-477.jpg"
+}}
+}
+XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+}
             
             break
             	
