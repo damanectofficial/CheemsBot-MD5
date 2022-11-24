@@ -2057,9 +2057,22 @@ View list of Messages With ${prefix}listmsg`)
                 m.reply('*Successful in Changing To Self Usage*')
             }
             break
+            case 'ping': {
+            	m.reply('👀 ${m.pushName}\n\n Pong🏓')
+            }
+            break
+            case 'assalamualaikum': {
+            	m.reply(' ${m.pushName}\n\n waalaikumsallam')
+            }
+         
+            break
+            case 'owner': {
+            	m.reply(' @${ownernya.split('@')[0]}\n\n ini ownerku yang sangat ganteng')
+            }
+            break
            case 'p': {
             	m.reply('Ucap salam yang bener!')
-            teks = `*${pushname} Salam yang benar lah masbro *\n\n Harus diruqiah keknya ni bocah`
+            teks = `${pushname} Salam yang benar lah masbro \n\n Harus diruqiah keknya ni bocah`
 let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'Owner 🙋🏻‍♂️ '}, type: 1}
 ]
