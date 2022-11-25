@@ -2057,7 +2057,7 @@ break
             	m.reply('Ucap salam yang bener!')
             teks = `${pushname} Salam yang benar lah masbro \n\n Harus diruqiah keknya ni bocah`
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'Owner 🙋🏻‍♂️ '}, type: 1}
+{buttonId: `assalamualaikum`, buttonText: {displayText: 'Assalamualaikum '}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://i.ibb.co/RBDnt3C/images-2022-11-24-T212108-477.jpg`},
@@ -2079,6 +2079,30 @@ XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
             
             break
+            
+             case 'assalamualaikum': {
+            teks = `${pushname} waalaikumsalam warahmatullahi wabarakatuh`
+let buttons = [
+{buttonId: `owner`, buttonText: {displayText: 'Owner 🙋🏻‍♂️ '}, type: 1}
+]
+let buttonMessage = {
+image: fs.readFileSync("XeonMedia/theme/waalaikumsallam.jpg"),
+jpegThumbnail: log0,
+caption: teks,
+footer: `${botname}`,
+buttons: buttons,
+headerType: 4,
+contextInfo:{externalAdReply:{
+title:"Waalaikumsalam",
+body: "😊", 
+thumbnail: fs.readFileSync("XeonMedia/theme/waalaikumsallam.jpg"),
+mediaType:1,
+mediaUrl: 'https://hidayat-store.my.id',
+sourceUrl: "https://hidayat-store.my.id"
+}}
+}
+XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+}
             	
             break
             case 'owner': case 'creator': {
