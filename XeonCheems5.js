@@ -34,13 +34,6 @@ const qrcode = require('qrcode')
 const qrcodereader = require('qrcode-reader') 
 const imageToBase64 = require('image-to-base64')
 const ffmpeg = require('fluent-ffmpeg')
-const { mediafireDl } = require('./lib/mediafire.js')
-const { Gempa } = require("./lib/gempa.js")
-const { jadwaltv }= require('./lib/jadwaltv')
-const xeontod = require("tod-api")
-const { pinterest } = require("./lib/pinterest")
-const toHur = require('@develoka/angka-terbilang-js')
-const { hentai } = require('./lib/scraper2.js')
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid, writeExif, writeExifStc } = require('./lib/exif2')
 
 const ini_mark = `0@s.whatsapp.net`
