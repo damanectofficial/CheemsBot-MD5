@@ -6886,7 +6886,7 @@ const buttonMessage = {
 ┃╠${prefix}masasubur (indo)
 ┃╠${prefix}zodiak (indo)
 ┃╠${prefix}shio (indo)
-┃╚═══════✍︎𝑁𝑒𝑥𝑢𝑠𝑁𝑤
+┃╚═══════✍︎𝐻𝒾𝒹𝒶𝓎𝒶𝓉 𝒮𝓉𝑜𝓇𝑒 𝑀𝓎 𝐼𝒹
 ┗━「 *Created By ${ownername}*  𖠌」━⭓
 `,
     footer: `${botname}`,
