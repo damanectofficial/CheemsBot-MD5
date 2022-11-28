@@ -2321,67 +2321,50 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
 	    case 'yts': case 'ytsearch': {
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-if (!args.join(" ")) return replay(`Example : ${prefix + command} stay jb`)
-let yts = require("yt-search")
-let search = await yts(args.join(" "))
-let teks = '*| YOUTUBE SEARCH |*\n\n Result From '+text+'\n\n'
-let no = 1
-for (let i of search.all) {
-teks += `${global.themeemoji} No : ${no++}\n${global.themeemoji} Type : ${i.type}\n${global.themeemoji} Video ID : ${i.videoId}\n${global.themeemoji} Title : ${i.title}\n${global.themeemoji} Views : ${i.views}\n${global.themeemoji} Duration : ${i.timestamp}\n${global.themeemoji} Uploaded : ${i.ago}\n${global.themeemoji} Author : ${i.author.name}\n${global.themeemoji} Url : ${i.url}\n\n─────────────────\n\n`
-}
-XeonBotInc.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption: teks }, { quoted: m })
-}
+                if (!text) throw `Example : ${prefix + command} story wa anime`
+                let yts = require("yt-search")
+                let search = await yts(text)
+                let teks = 'YouTube Search\n\n Result From '+text+'\n\n'
+                let no = 1
+                for (let i of search.all) {
+                    teks += `${themeemoji} No : ${no++}\n${themeemoji} Type : ${i.type}\n${themeemoji} Video ID : ${i.videoId}\n${themeemoji} Title : ${i.title}\n${themeemoji} Views : ${i.views}\n${themeemoji} Duration : ${i.timestamp}\n${themeemoji} Upload At : ${i.ago}\n${themeemoji} Author : ${i.author.name}\n${themeemoji} Url : ${i.url}\n\n🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€\n\n`
+                }
+                XeonBotInc.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption: teks }, { quoted: m })
+            }
             break
         case 'google': {
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-if (!args[0]) return reply(`Example: ${prefix + command} <query>\nUses : ${prefix + command} apa arti cinta`)
-let google = require('google-it')
-google({'query': args.join(" ")}).then(res => {
-let teks = `Google Search From : ${text}\n\n`
-for (let g of res) {
-teks += `${global.themeemoji} *Title* : ${g.title}\n`
-teks += `${global.themeemoji} *Description* : ${g.snippet}\n`
-teks += `${global.themeemoji} *Link* : ${g.link}\n\n────────────────────────\n\n`
-} 
-reply(teks)
-})
-}
+                if (!text) throw `Example : ${prefix + command} fatih arridho`
+                let google = require('google-it')
+                google({'query': text}).then(res => {
+                let teks = `Google Search From : ${text}\n\n`
+                for (let g of res) {
+                teks += `${themeemoji} *Title* : ${g.title}\n`
+                teks += `${themeemoji} *Description* : ${g.snippet}\n`
+                teks += `${themeemoji} *Link* : ${g.link}\n\n🔖”\n\n`
+                } 
+                m.reply(teks)
+                })
+                }
                 break
-        case 'gimage': case 'googleimage': {
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-if (!args[0]) return reply("What picture are you looking for??")
-let gis = require('g-i-s')
-gis(args.join(" "), async (error, result) => {
-n = result
-images = n[Math.floor(Math.random() * n.length)].url
-let buttons = [
-{buttonId: `gimage ${args.join(" ")}`, buttonText: {displayText: 'Next Image 👀'}, type: 1}
-]
-let buttonMessage = {
-image: { url: images },
-caption: `*| GOOGLE IMAGE |*
-
-${global.themeemoji} Query : ${text}
-${global.themeemoji} Media Url : ${images}`,
-footer: `${global.botname}`,
-buttons: buttons,
-headerType: 4,
-contextInfo:{externalAdReply:{
-title:`${global.ownername}`,
-body:`${global.watermark}`,
-thumbnail: log0,
-mediaType:2,
-mediaUrl: `${global.websitex}`,
-sourceUrl: `{global.websitex}`
-}}
-}
-XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
-})
-}
+        case 'gimage': {
+       if (!text) throw `Example : ${prefix + command} kaori cicak`
+        anu = await fetchJson(`https://api.akuari.my.id/search/googleimage?query=${text}`)
+        n = anu.result
+        images = n[Math.floor(Math.random() * n.length)]
+        let buttons = [
+                    {buttonId: `gimage ${text}`, buttonText: {displayText: 'Next Image'}, type: 1}
+                ]
+                let buttonMessage = {
+                    image: { url: images },
+                    caption: `*------- GIMAGE SEARCH -------*
+🔖¤  *Query* : ${text}
+🔖”— *Media Url* : ${images}`,
+                    footer: XeonBotInc.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+        }
         break
 	    case 'play': case 'ytplay': {
                 if (!text) throw `Example : ${prefix + command} story wa anime`
@@ -3570,263 +3553,16 @@ case 'image': {
                 XeonBotInc.sendMessage(m.chat, { image: { url: resultkkk3 }, caption: ` ${themeemoji} Media Url : `+resultkkk3 }, { quoted: m })
             }
             break
-case 'drakorxxx':
-               if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-                if (!text) return reply('What Are You Looking For??')
-                await reply(mess.wait)
-                xeonkey.Drakor(`${text}`).then(async data => {
-                    let txt = `*-----「 DRAKOR-SEARCH 」-----*\n\n`
-                    for (let i of data) {
-                        txt += `*📫 Title :* ${i.judul}\n`
-                        txt += `*📆 Years :* ${i.years}\n`
-                        txt += `*🎥 Genre :* ${i.genre}\n`
-                        txt += `*📚 Url :* ${i.url}\n-----------------------------------------------------\n`
-                    }
-                    await sendFileFromUrl(from,data[0].thumbnail,txt,m)
-                })
-                .catch((err) => {
-                    reply(mess.error)
-                })
-            break
-            case 'drakor': {
-            	            	if (isBan) return reply(mess.ban)
-	if (isBanChat) return reply(mess.banChat)
-            if (!text) return reply(`Example : ${prefix + command} love`)
-            let res = await fetchJson(`https://zenzapis.xyz/webzone/drakor?query=${text}&apikey=hdiiofficial`)
-            let capt = `Drakor Search From : ${text}\n\n`
-            for (let i of res.result) {
-            capt += `${themeemoji} Title: ${i.judul}\n`
-            capt += `${themeemoji} Years: ${i.years}\n`
-            capt += `${themeemoji} Genre: ${i.genre}\n`
-            capt += `${themeemoji} Url: ${i.url}\n`
-            capt += `${themeemoji} Thumbnail Url: ${i.thumbnail}\n\n──────────────────────\n`
-            }
-            XeonBotInc.sendImage(m.chat, res.result[0].thumbnail, capt, m)
-            }
-            break
-            case 'animexxx':{
-            	   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-                if (!text) return reply(`What Anime Are You Looking For??`)
-                await reply(mess.wait)
-                xeonkey.Anime(q).then(async data => {
-                    let txt = `*-------「 ANIME-SEARCH 」-------*\n\n`
-                    for (let i of data) {
-                        txt += `*📫 Title :* ${i.judul}\n`
-                        txt += `*📚 Url :* ${i.link}\n-----------------------------------------------------\n`
-                    }
-                    let gam = await getBuffer(data[0].thumbnail.replace('https://www.anime-planet.com',''))
-                    var but = [
-				{
-					"urlButton": {
-						"displayText": "Watch🎥",
-						"url": `${websitex}`
-						}
-					}
-				]
-				await XeonBotInc.send5ButLoc(from, txt , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
-                })
-                .catch((err) => {
-                    reply(mess.error)
-                })
-                }
-            break
-            case 'characterxxx': case 'karakterxxx':
-               if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-                if (!text) return reply(`What Anime Character Are You Looking For??`)
-                await reply(mess.wait)
-                xeonkey.Character(q).then(async data => {
-                    let txt = `*---「 CHARACTER-SEARCH 」---*\n\n`
-                    for (let i of data) {
-                        txt += `*📫 Character :* ${i.character}\n`
-                        txt += `*📚 Url :* ${i.link}\n-----------------------------------------------------\n`
-                    }
-                    let gam = await getBuffer(data[0].thumbnail.replace('https://www.anime-planet.com',''))
-                    var but = [
-				{
-					"urlButton": {
-						"displayText": "YouTube📍",
-						"url": `${websitex}`
-						}
-					}
-				]
-				await XeonBotInc.send5ButLoc(from, txt , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
-                })
-                .catch((err) => {
-                    reply(mess.error)
-                })
-            break
-            case 'manga2':
-               if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-                if (!text) return reply(`What Manga Are You Looking For??`)
-                await reply(mess.wait)
-                xeonkey.Manga(`${text}`).then(async data => {
-                    let txt = `*------「 MANGA-SEARCH 」------*\n\n`
-                    for (let i of data) {
-                         txt += `*📫 Title :* ${i.judul}\n`
-                         txt += `*📚 Url :* ${i.link}\n-----------------------------------------------------\n`
-                    }
-                    let gam = await getBuffer(data[0].thumbnail.replace('https://www.anime-planet.com',''))
-                    var but = [
-				{
-					"urlButton": {
-						"displayText": "YouTube📍",
-						"url": `${websitex}`
-						}
-					}
-				]
-				await XeonBotInc.send5ButLoc(from, txt , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
-                })
-                .catch((err) => {
-                    reply(mess.error)
-                })
-                case 'anime':
-   if (isBan) return reply(mess.ban)
-	if (isBanChat) return reply(mess.banChat)
-	    if(!q) return reply(`Which anime do you want to search?\nExample ${prefix}manga naruto`)
-reply(mess.wait)						
-const { Anime } =require("@shineiichijo/marika")
-    const client = new Anime();
-     let anime = await client.searchAnime(q)
-    let result = anime.data[0];
-    console.log(result)
-   let details = `🎀 *Title: ${result.title}*\n`;
-    details += `🎋 *Format: ${result.type}*\n`;
-    details += `📈 *Status: ${result.status.toUpperCase().replace(/\_/g, " ")}*\n`;
-    details += `🍥 *Total episodes: ${result.episodes}*\n`;
-    details += `🎈 *Duration: ${result.duration}*\n`;
-    details += `🧧 *Genres:*\n`;
-    for (let i = 0; i < result.genres.length; i++) {
-      details += `\t\t\t\t\t\t\t\t*${result.genres[i].name}*\n`;
-    }
-    details += `✨ *Based on: ${result.source.toUpperCase()}*\n`;
-    details += `📍 *Studios:*\n`;
-    for (let i = 0; i < result.studios.length; i++) {
-      details += `\t\t\t\t\t\t\t\t*${result.studios[i].name}*\n`;
-    }
-    details += `🎴 *Producers:*\n`;
-    for (let i = 0; i < result.producers.length; i++) {
-      details += `\t\t\t\t\t\t\t\t\t\t*${result.producers[i].name}*\n`;
-    }
-    details += `💫 *Premiered on: ${result.aired.from}*\n`;
-    details += `?? *Ended on: ${result.aired.to}*\n`;
-    details += `🎐 *Popularity: ${result.popularity}*\n`;
-    details += `🎏 *Favorites: ${result.favorites}*\n`;
-    details += `🎇 *Rating: ${result.rating}*\n`;
-    details += `🏅 *Rank: ${result.rank}*\n\n`;
-    if (result.trailer.url !== null)
-      details += `♦ *Trailer: ${result.trailer.url}*\n\n`;
-    details += `🌐 *URL: ${result.url}*\n\n`;
-    if (result.background !== null)
-      details += `🎆 *Background:* ${result.background}*\n\n`;
-    details += `❄ *Description:* ${result.synopsis.replace(
-      /\[Written by MAL Rewrite]/g,
-      ""
-    )}`
-XeonBotInc.sendMessage(m.chat,{image:{url:result.images.jpg.large_image_url},caption:details},{quoted:m})   
-break
-case 'manga':
-   if (isBan) return reply(mess.ban)
-	if (isBanChat) return reply(mess.banChat)
-reply(mess.wait)						
-const { Manga } =require("@shineiichijo/marika")
-const manga = new Manga();
-if(!q) return reply(`Which manga do you want to search?\nExample ${prefix}manga naruto`)
-let srh = await manga.searchManga(q)
-    let mang = `🎀 *Title: ${srh.data[0].title}*\n`;
-    mang += `📈 *Status: ${srh.data[0].status}*\n`;
-    mang += `🌸 *Total Volumes: ${srh.data[0].volumes}*\n`;
-    mang += `🎗 *Total Chapters: ${srh.data[0].chapters}*\n`;
-    mang += `🧧 *Genres:*\n`;
-    for (let i = 0; i < srh.data[0].genres.length; i++) {
-      mang += `\t\t\t\t\t\t\t\t*${srh.data[0].genres[i].name}*\n`;
-    }
-    mang += `✨ *Published on: ${srh.data[0].published.from}*\n`;
-    mang += `🌟 *Score: ${srh.data[0].scored}*\n`;
-    mang += `🎐 *Popularity: ${srh.data[0].popularity}*\n`;
-    mang += `🎏 *Favorites: ${srh.data[0].favorites}*\n`;
-    mang += `✍ *Authors:*\n`;
-    for (let i = 0; i < srh.data[0].authors.length; i++) {
-      mang += `\t\t\t\t\t\t\t\t\t*${srh.data[0].authors[i].name}* *(${srh.data[0].authors[0].type})*\n`;
-    }
-    mang += `\n🌐 *URL: ${srh.data[0].url}*\n\n`;
-    if (srh.data[0].background !== null)
-      mang += `🎆 *Background:* ${srh.data[0].background}`;
-    mang += `❄️ *Description:* ${srh.data[0].synopsis.replace(
-      /\[Written by MAL Rewrite]/g,
-      ""
-    )}`;
-XeonBotInc.sendMessage(m.chat,{image:{url:srh.data[0].images.jpg.large_image_url},caption:mang},{quoted:m})   
-break
-            break
-case 'lyrics': {
-		            	if (isBan) return reply(mess.ban)
-	if (isBanChat) return reply(mess.banChat)
-	    if (!text) return reply(`Use example ${prefix}lyrics Despacito`)
-	reply(mess.wait)
-	const { lyrics, lyricsv2 } = require('@bochilteam/scraper')
-    const result = await lyricsv2(text).catch(async _ => await lyrics(text))
-    reply(`
-${themeemoji} Title : *${result.title}*
-${themeemoji} Author : ${result.author}
-${themeemoji} Lyrics : ${result.lyrics}
-${themeemoji} Url : ${result.link}
-`.trim())
-}
-break
-case 'earthquake':
-if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-const tres = await Gempa()
-var { Waktu, Lintang, Bujur, Magnitude, Kedalaman, Wilayah, Map } = tres.result
-console.log(Map)
-const captt = `Time : ${Waktu}\nLatitude : ${Lintang}\nLongitude : ${Bujur}\nRegion : ${Wilayah}`
-XeonBotInc.sendMessage(from, { image : { url : Map }, caption : captt})
-break
-case 'covidindo':
-case 'covid':
-if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-const c = await covid()
-var { kasus, kematian, sembuh } = c[0]
-XeonBotInc.sendMessage(from, {text : `Case : ${kasus}\n\nDead : ${kematian}\n\nHealed : ${sembuh}`}, m)
-break
-case 'tvschedule':
-if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-if (!q) return reply('Send orders *#tvschedule [channel]*')
-reply(await jadwaltv(q))
-break
-case 'playstore': case 'apk':
-if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-if(!q) return reply('what are you looking for?')
-let play = await hx.playstore(q)
-let storee = '❉─────────────────────❉\n'
-for (let i of play){
-storee += `\n*「 *PLAY STORE* 」*\n
-- *Name* : ${i.name}
-- *Link* : ${i.link}\n
-- *Dev* : ${i.developer}
-- *Dev Link* : ${i.link_dev}\n❉─────────────────────❉`
-}
-reply(storee)
-break
-case 'film':
-if (isBan) return reply(mess.ban)
-	if (isBanChat) return reply(mess.banChat)
-	reply(mess.wait)
-if (!q) return reply(`What film you wanna search?\nExample: ${prefix}film Spiderman`)
-xeonkey.Film(q)
+case 'film': case 'movie':
+	m.reply(mess.wait)
+if (!q) return m.reply(`What film you wanna search?\nExample: ${prefix}film Spiderman`)
+xfar.Film(q)
     .then(data => {console.log(data)
-    let krl = `*❒「  Film ${q} 」*\n*🌿 Author* : ${data[0].author}\n\n`
+    let krl = `*🔖’ã€Œ  Film ${q} ã€*\n*🔖Œ¿ Author* : ${data[0].author}\n\n`
 			    for (let i of data) {
-                 krl += (`\n────────────────────\n\n *📍Title :* ${i.judul}\n *📟 Quality :* ${i.quality}\n *🖥️ Type : ${i.type}*\n *⌛ Uploaded :* ${i.upload}\n *🌍 Source :* ${i.link}`)
+                krl += (`\n🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€🔖”€\n\n *🔖“Title :* ${i.judul}\n *🔖“Ÿ Quality :* ${i.quality}\n *🔖–¥ï¸ Type : ${i.type}*\n *🔖Œ› Uploaded :* ${i.upload}\n *🔖Œ Source :* ${i.link}`)
                 }
-               XeonBotInc.sendMessage(from, { image: { url: data[0].thumb}, caption: krl }, { quoted: fdocs })
+               XeonBotInc.sendMessage(from, { image: { url: data[0].thumb}, caption: krl }, { quoted: fdoc })
 });
 break
 case 'zippyshare': {
@@ -3905,415 +3641,8 @@ XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
 })
 }
 break
-            case 'igstoryxx': case 'instagramstoryxx': {
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-if (!args[0]) return reply(`Example :\n${prefix + command} josephxeon13`)
-try {
-hx.igstory(args[0]).then(async(resed) => {
-ini_anu = []
-anu_list = []
-textbv = `*| INSTAGRAM STORY |*\n\n${global.themeemoji} Username : ${resed.user.username ? resed.user.name : "undefined"}\n${global.themeemoji} Followers : ${resed.user.followers}`
-urut = 1
-for (let i = 0; i < resed.medias.length; i++) {
-ini_anu.push({
- "type": resed.medias[i].fileType,
- "url": resed.medias[i].url
-})
-}
-ilod = 1
-for (let i of ini_anu) {
-anu_list.push({buttonId: `ig ${i.type} ${i.url}`, buttonText: {displayText: `Media ${ilod++}`}, type: 1})
-}
-textbv += `\n\n_Select the media below to download_`
-let buttons = anu_list
-let buttonMessage = {
-image:log0,
-jpegThumbnail:thum,
-caption: textbv,
-footer: `${global.botname}`,
-buttons: buttons,
-headerType: 4
-}
-XeonBotInc.sendMessage(from, buttonMessage, {quoted:m})
-})
-} catch (err) {
-reply(String(err))
-}
-}
-break
-case 'igs2': case 'igstory2': case 'instagramstory2': {
-if (isBan) return reply(mess.ban)
-	if (isBanChat) return reply(mess.banChat)
-                if (!text) return reply(`Where is the username?\nExample: ${prefix}igstory josephxeon13`)
-                let urlnya = text
-	            hx.igstory(urlnya)
-	            .then(async(result) => {
-		        var halo = 0		
-	            XeonBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTAGRAM STORY 」----*\n\n*${themeemoji} Username :* ${result.user.username}\n*${themeemoji} Fullname :* ${result.user.fullName}\n*${themeemoji} Followers :* ${result.user.followers}\n*${themeemoji} Following :* ${result.user.following}\n*${themeemoji} ID :* ${result.user.id}\n*${themeemoji} Filetype :* ${result.medias[0].fileType}\n*${themeemoji} Type :* ${result.medias[0].type}\n*${themeemoji} Media :* ${result.medias.length}\n*${themeemoji} Bio :* ${result.user.biography}\n\n*${botname}*` }, { quoted: m })	                                  	                      	            
-		        for(let i of result.medias) {
-			    if(i.url.includes('mp4')){
-				let link = await getBuffer(i.url)
-                XeonBotInc.sendMessage(m.chat, { video: link, jpegThumbnail: await getBuffer(i.preview), caption: `*Story ${i.type}*` }, { quoted: m }) 
-                } else {
-                    let link = await getBuffer(i.url)
-                  XeonBotInc.sendMessage(m.chat, { image: link, jpegThumbnail: await getBuffer(i.preview), caption: `*Story ${i.type}*` }, { quoted: m })                  
-                }
-            }
-            }).catch((err) => reply(`Sorry username ${text} was not found or maybe he/she has no story uploaded in her id`))
-            }	
-			break
-case 'ig2': case 'igdl2': case 'instagram2': {
-               if (isBan) return reply(mess.ban)
-	if (isBanChat) return reply(mess.banChat)
-                if (!text) return reply(`Where is the link bro`)
-                if (!isUrl(args[0]) && !args[0].includes('instagram.com')) return reply(`The link you provided is not a instagram link`)             
-                let urlnya = text
-	            hx.igdl(urlnya)
-	            .then(async(result) => {	  
-	            var halo = 0		
-	            XeonBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTAGRAM DOWNLOADER 」----*\n\n*${themeemoji} Username :* ${result.user.username}\n*${themeemoji} Fullname :* ${result.user.fullName}\n*${themeemoji} Followers :* ${result.user.followers}\n*${themeemoji} Following :* ${result.user.following}\n*${themeemoji} ID :* ${result.user.id}\n*${themeemoji} Filetype :* ${result.medias[0].fileType}\n*${themeemoji} Type :* ${result.medias[0].type}\n*${themeemoji} Jumlah Media :* ${result.medias.length}\n*${themeemoji} Url :* ${text}\n\n*${botname}*` }, { quoted: m })	                                  	                      	            
-		        for(let i of result.medias) {		
-		        if(i.url.includes('mp4')){		           			    				
-				let link = await getBuffer(i.url)
-                XeonBotInc.sendMessage(m.chat, { video: link, jpegThumbnail: await getBuffer(i.preview), caption: `*Instagram ${i.type}*` }, { quoted: m })
-                } else {
-                let link = await getBuffer(i.url)
-                XeonBotInc.sendMessage(m.chat, { image: link, jpegThumbnail: await getBuffer(i.preview), caption: `*Instagram ${i.type}*` }, { quoted: m })                      
-               }
-              }
-            }).catch((err) => reply(mess.error))
-            }		
-			break
-case 'igdl': case 'instagram': case 'instagramreels': case 'igreels': {
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-if (!args[0]) return reply(`Example :\n${prefix + command} https://www.instagram.com/p/CcvJGuxh9VI/?igshid=YmMyMTA2M2Y=`)
-try {
-hx.igdl(args[0]).then(async(resed) => {
-ini_anu = []
-anu_list = []
-textbv = `*| INSTAGRAM DOWNLOADER |*\n\n${global.themeemoji} Username : ${resed.user.username ? resed.user.name : "undefined"}\n${global.themeemoji} Followers : ${resed.user.followers}`
-urut = 1
-for (let i = 0; i < resed.medias.length; i++) {
-ini_anu.push({
- "type": resed.medias[i].fileType,
- "url": resed.medias[i].url
-})
-}
-ilod = 1
-for (let i of ini_anu) {
-anu_list.push({buttonId: `ig ${i.type} ${i.url}`, buttonText: {displayText: `Media ${ilod++}`}, type: 1})
-}
-textbv += `\n\n_Select the media below to download_`
-let buttons = anu_list
-let buttonMessage = {
-image:log0,
-jpegThumbnail:thum,
-caption: textbv,
-footer: `${global.botname}`,
-buttons: buttons,
-headerType: 4
-}
-XeonBotInc.sendMessage(from, buttonMessage, {quoted:m})
-})
-} catch (err) {
-reply(String(err))
-}
-}
-break
-case 'ig': {
-	   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-if (args[0] === "mp4") {
-XeonBotInc.sendMessage(from, {video:{url:args[1]}, caption:'Done!', mimetype:'video/mp4'}, {quoted:m})
-} else if (args[0] === "jpg") {
-XeonBotInc.sendMessage(from, {image:{url:args[1]}, caption:'Done!'}, {quoted:m})
-} else {
-reply("Error! ")
-}
-}
-break
-case 'mp4' : {
-	   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-if (!args[0]) return reply(`Where's the link ?`)
-try {
-XeonBotInc.sendMessage(from, {video:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:`${global.botname}`,
-body:`${global.ownername}`,
-thumbnail: log0,
-mediaType:2,
-mediaUrl: `${global.websitex}`,
-sourceUrl: `${global.websitex}`
-}}}, {quoted:m})
-} catch {
-reply("Link error!")
-}
-}
-break
-case 'jpeg': {
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-if (!args[0]) return reply(`Where's the link?`)
-try {
-XeonBotInc.sendMessage(from, {image:{url:args[0]}, caption:"Success", contextInfo:{externalAdReply:{
-title:`${global.botname}`,
-body:`${global.ownername}`,
-thumbnail: log0,
-mediaType:2,
-mediaUrl: `${global.websitex}`,
-sourceUrl: `${global.websitex}`
-}}}, {quoted:m})
-} catch {
-reply("Link error")
-}
-}
-break
-case 'igtv': {	            
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-                if (!text) return reply(`Where is the link boss?`)
-                const { instagramdl, instagramdlv2, instagramdlv3 } = require('@bochilteam/scraper')
-                if (!isUrl(args[0]) && !args[0].includes('instagram.com')) return reply('*The link you provided is not valid*')
-                instagramdlv3(`${text}`).then(async (data) => {            
-                var buf = await getBuffer(data[0].thumbnail)        
-                XeonBotInc.sendMessage(m.chat, { video: { url: data[0].url }, jpegThumbnail:buf, caption: `${botname}`}, { quoted: m })
-                }).catch((err) => {
-                    reply(mess.error)
-                })
-            }
-            break
-            case 'twitter': case 'td': case 'twitterdl': {     
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)	             
-             if (!text) return reply(`Where is the link?`)
-                if (!isUrl(args[0]) && !args[0].includes('twitter.com')) return reply(`The link you provided is not valid`)
-                xeonkey.Twitter(`${text}`).then(async (data) => {                    
-                    let txt = `*TWITTER DOWNLOADER*\n\n`
-                    txt += `*${themeemoji}TITLE :* ${data.title}\n`
-                    txt += `*${themeemoji}QUALITY :* ${data.medias[1].quality}\n`
-                    txt += `*${themeemoji}TYPE :* ${data.medias[1].extension}\n`
-                    txt += `*${themeemoji}SIZE :* ${data.medias[1].formattedSize}\n`
-                    txt += `*${themeemoji}DURATION :* ${data.medias.length}\n`
-                    txt += `*${themeemoji}URL :* ${data.url}\n\n`
-                    txt += `*${botname}*`
-                buf = await getBuffer(data.thumbnail)    
-                XeonBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m })
-                for (let i of data.medias) {
-                XeonBotInc.sendMessage(m.chat, { video: { url: i.url }, jpegThumbnail:buf, caption: `*${text}*`}, { quoted: m })
-                }
-                }).catch((err) => {
-                    reply(mess.error)
-                })
-            }
-            break
-            case 'twittermp3': case 'twitteraudio': { 
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)	             
-             if (!text) return reply(`Where is the link?`)
-                if (!isUrl(args[0]) && !args[0].includes('twitter.com')) return reply(`*The link you provided is not valid*`)
-                xeonkey.Twitter(`${text}`).then(async (data) => {
-                XeonBotInc.sendMessage(m.chat, { audio: { url: data.medias[1].url }, mimetype: 'audio/mp4'}, { quoted: m })
-                }).catch((err) => {
-                    reply(mess.reply)
-                })
-            }
-            break
-case 'twitterxx': case 'twdlxx': case 'twmp4xx': {
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-if (!args[0]) return reply(`Example :\n${prefix + command} https://twitter.com/cinema21/status/1517754155644821504?t=rUnbyqwh4vAE1QXMXlsVeQ&s=19`)
-try {
-let lotwit = await aiovideodl(args[0])
-teks = `*| TWITTER DOWNLOADER |*
-
-Caption : ${lotwit.title ? lotwit.title : "undefined"}
-Type : ${lotwit.medias[1].extension}
-Size : ${lotwit.medias[1].formattedSize}
-Link : ${lotwit.medias[1].url}
-
-_Choose the video quality below by clicking the button_`
-let buttons = [
-{buttonId: `twddl ${lotwit.medias[0].url}`, buttonText: {displayText: `Quality ${lotwit.medias[0].quality}`}, type: 1},
-{buttonId: `twddl ${lotwit.medias[2].url}`, buttonText: {displayText: `Quality ${lotwit.medias[2].quality}`}, type: 1}
-]
-let buttonMessage = {
-video: {url:lotwit.medias[1].url},
-caption: teks,
-footer: `${pushname}`,
-buttons: buttons,
-headerType: 4,
-contextInfo:{externalAdReply:{
-title:`${global.botname}`,
-body:lotwit.title ? lotwit.title : "Twitter Downloader",
-thumbnail: log0,
-mediaType:1,
-mediaUrl: args[0],
-sourceUrl: args[0]
-}}
-}
-XeonBotInc.sendMessage(from, buttonMessage, {quoted:m})
-} catch {
-reply("Error link!")
-}
-}
-break
-case 'twddlxx': {
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-let buttons = [
-{buttonId: `menu`, buttonText: {displayText: 'Menu 🐥'}, type: 1}
-]
-let buttonMessage = {
-video: {url:args[0]},
-caption: "Done!",
-footer: `${pushname}`,
-buttons: buttons,
-headerType: 4,
-contextInfo:{externalAdReply:{
-title:`${global.botname}`,
-body: "Twitter Downloader",
-thumbnail: log0,
-mediaType:1,
-mediaUrl: args[0],
-sourceUrl: args[0]
-}}
-}
-XeonBotInc.sendMessage(from, buttonMessage, {quoted:m})
-}
-break
-case 'fbdl': case 'fb': case 'facebook': case 'fbmp4': {     	    
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-             if (!text) return reply(`Where is the link bro?\nExample: ${prefix}facebook https://www.facebook.com/groups/599913174599515/permalink/705467384044093/`)
-                if (!isUrl(args[0]) && !args[0].includes('facebook.com')) return reply(`The link you provided is not valid`)
-            let bocil = require('@bochilteam/scraper')  
-                bocil.facebookdlv2(`${text}`).then(async (data) => {                   
-                    let txt = `*FB DOWNLOADER*\n\n`
-                    txt += `*${themeemoji}TITLE :* ${data.title}\n`
-                    txt += `*${themeemoji}QUALITY :* ${data.result[0].quality}\n`
-                    txt += `*${themeemoji}DESCRIPTION :* ${data.description}\n`
-                    txt += `*${themeemoji}ID :* ${watermark}\n`
-                    txt += `*${themeemoji}URL :* ${text}\n\n`
-                buf = await getBuffer(data.thumbnail)    
-                XeonBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m })         
-                for (let i of data.result) {     
-                XeonBotInc.sendMessage(m.chat, { video: { url: i.url }, jpegThumbnail:buf, caption: `*${themeemoji} Quality :* ${i.quality}`}, { quoted: m })
-                }          
-                }).catch((err) => {
-                    reply(mess.error)
-                })
-            }
-            break
-            case 'fbmp3': case 'facebookmp3': case 'facebookaudio': {
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-                  if (!text) return reply(`Where is the link?\nExample: ${prefix + command} https://www.facebook.com/groups/599913174599515/permalink/705467384044093/`)
-                  if (!isUrl(args[0]) && !args[0].includes('facebook.com')) return reply(`The link you provided is not valid`)
-  let noh = require('@bochilteam/scraper')                
-  noh.savefrom(`${text}`).then(async (anu) => {  
-  XeonBotInc.sendMessage(m.chat, { audio: { url: anu.url[0].url }, mimetype: 'audio/mp4' }, { quoted: m })      
-                }).catch((err) => {
-                    reply(mess.error)
-                })
-            }
-            break
-case 'facebookxx': case 'fbdlxxx': case 'fbmp4xxx': case 'fbxxx': {
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-if (!args[0]) return reply(`Example :\n${prefix + command} https://fb.watch/cAX2dep-BZ/`)
-try {
-let resd = await aiovideodl(args[0])
-teks = `*| FACEBOOK DOWNLOADER |*
-
-Type : video/${resd.medias[0].extension}
-Quality : ${resd.medias[0].quality}
-Size : ${resd.medias[0].formattedSize}
-
-_For HD quality you can click the button below_`
-let buttons = [
-{buttonId: `fbddl ${resd.medias[1].url}`, buttonText: {displayText: 'QualityHD'}, type: 1}
-]
-let buttonMessage = {
-video: {url:resd.medias[0].url},
-caption: teks,
-footer: `${pushname}`,
-buttons: buttons,
-headerType: 4,
-contextInfo:{externalAdReply:{
-title:`${global.botname}`,
-body:"Facebook Downloader",
-thumbnail: log0,
-mediaType:1,
-mediaUrl: args[0],
-sourceUrl: args[0]
-}}
-}
-XeonBotInc.sendMessage(from, buttonMessage, {quoted:m})
-} catch {
-reply("Link invalid!")
-}
-}
-break
-case 'fbddlxx': {
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-let buttons = [
-{buttonId: `menu`, buttonText: {displayText: 'Menu 🐥'}, type: 1}
-]
-let buttonMessage = {
-video: {url:args[0]},
-caption: "Done!",
-footer: `${pushname}`,
-buttons: buttons,
-headerType: 4,
-contextInfo:{externalAdReply:{
-title:`${global.botname}`,
-body: " Facebook Downloader",
-thumbnail: log0,
-mediaType:1,
-mediaUrl: args[0],
-sourceUrl: args[0]
-}}
-}
-XeonBotInc.sendMessage(from, buttonMessage, {quoted:m})
-}
-break
-            case 'pinterest2': {
-            	   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-                reply(mess.wait)
-		let { pinterest } = require('./lib/scraper')
-                anu = await pinterest(text)
-                result = anu[Math.floor(Math.random() * anu.length)]
-                XeonBotInc.sendMessage(m.chat, { image: { url: result }, caption: '${themeemoji} Media Url : '+result }, { quoted: m })
-            }
-            break
-case 'webtonsearch': case 'webtoon':
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-                if (!text) return reply('What Are you Looking For??')
-                await reply(mess.wait)
-                xeonkey.Webtoons(q).then(async data => {
-                    let txt = `*------「 WEBTOONS-SEARCH 」------*\n\n`
-                    for (let i of data) {
-                        txt += `*📫 Title :* ${i.judul}\n`
-                        txt += `*👍🏻 Like :* ${i.like}\n`
-                        txt += `*🤴🏻 Creator :* ${i.creator}\n`
-                        txt += `*🎥 Genre :* ${i.genre}\n`
-                        txt += `*📚 Url :* ${i.url}\n ----------------------------------------------------------\n`
-                    }
-                    await reply(txt)
-                })
-                .catch((err) => {
-                    reply(mess.error)
-                })
-            break
             case 'wattpad': {
-            	            	if (isBan) return reply(mess.ban)
-	if (isBanChat) return reply(mess.banChat)
-            if (!text) return reply(`Example : ${prefix + command} love`)
+            if (!text) return m.reply(`Example : ${prefix + command} love`)
             let res = await fetchJson(`https://zenzapis.xyz/webzone/wattpad?query=$text}&apikey=hdiiofficial`)
             let { judul, dibaca, divote, bab, waktu, url, thumb, description } = res.result[0]
             let capt = `Wattpad From query\n\n`
@@ -4325,63 +3654,6 @@ if (isBanChat) return reply(mess.banChat)
             capt += ` Description: ${description}`
             XeonBotInc.sendImage(m.chat, thumb, capt, m)
             }
-            break
-case 'apk': case 'apkmod': case 'apkdl': {      
-if (isBan) return reply(mess.ban)
-	if (isBanChat) return reply(mess.banChat)
-  if (!text) return reply(`Use${prefix + command} whatsapp`) 
-  let noh = require('./lib/myfunc2')                
-  noh.rexdl(`${text}`).then(async (data) => {
-  let sections = []   
-  for (let i of data) {
-  const list = {title: `${i.judul}`,
-  rows: [
-	    {
-	     title: `${i.judul}`, 
-	     rowId: `${prefix}donlod ${i.link}`,
-	     description: `Category: ${i.kategori}\nPublish: ${i.upload_date}\nInfo: ${i.deskripsi}`
-	    }, 
-	    ]
-     }
-     sections.push(list)   
-     }
-  const sendm =  XeonBotInc.sendMessage(
-      m.chat, 
-      {
-       text: `${ucapannya2} ${pushname} *Search Results From ${text} Click the button below to choose*`,
-       footer: `${botname}`,
-       title: "*APK DOWNLOADER,*",
-       buttonText: "CLICK HERE",
-       sections
-      }, { quoted : m })                 
-                }).catch((err) => {
-                    reply(`*${text} Not found*`)
-                })
-            }
-            break
-case 'donlod': {                
-if (isBan) return reply(mess.ban)
-	if (isBanChat) return reply(mess.banChat)
-                if (!text) return reply(`Use${prefix + command} whatsapp`)
-                if (!isUrl(args[0]) && !args[0].includes('rexdl.com')) reply('*The link you provided is invalid*')
-           let rex = require('./lib/ApkDown.js')
-           rex.ApkDown(`${text}`).then(async (anu) => {        
-           if (anu[0].size.split('MB')[0] >= 150) return reply('*File Over Limit* '+util.format(anu))
-           for (let i of anu) {    
-           linkye = `*APK DOWNLOAD*\n\n*Title:* ${i.title}\n*Updated:* ${i.up}\n*Version:* ${i.vers}\n*Size:* ${i.size}\n*Url:* \n*Desc:* ${i.desc}`         
-                XeonBotInc.sendMessage(m.chat, { image: await getBuffer(i.thumb), jpegThumbnail: await getBuffer(i.thumb), caption: `${linkye}` }, { quoted: m })
-                XeonBotInc.sendMessage(m.chat, {document: await getBuffer(i.link), mimetype: `application/vnd.android.package-archive`, fileName: `${i.title}`}, {quoted:m})  
-                }  
-                }).catch((err) => {
-                    reply(mess.error)
-                }) 
-                }                          
-                break
-case 'tagme': {
-	if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-XeonBotInc.sendMessage(m.chat, {text:`@${m.sender.split("@")[0]}`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
-}
             break
 case 'mcserver': case 'mcquery': {
 if (!args.join(" ")) return m.reply(`Example : \n${prefix + command} ip|port\nUses : \n${prefix + command} play.xeon.com|19132`)
@@ -6245,30 +5517,21 @@ case 'setthumb':{
                m.reply(mess.success)
             }
           break
- case 'imagenobgxxx': case 'removebgxxx': case 'remove-bgxxx': {
-	    if (!quoted) return replay(`Send/Reply Image With Caption ${prefix + command}`)
-	    if (!/image/.test(mime)) return replay(`Send/Reply Image With Caption ${prefix + command}`)
-	    if (/webp/.test(mime)) return replay(`Send/Reply Image With Caption ${prefix + command}`)
-	    let remobg = require('remove.bg')
-	    let apirnobg = ['q61faXzzR5zNU6cvcrwtUkRU','S258diZhcuFJooAtHTaPEn4T','5LjfCVAp4vVNYiTjq9mXJWHF','aT7ibfUsGSwFyjaPZ9eoJc61','BY63t7Vx2tS68YZFY6AJ4HHF','5Gdq1sSWSeyZzPMHqz7ENfi8','86h6d6u4AXrst4BVMD9dzdGZ','xp8pSDavAgfE5XScqXo9UKHF','dWbCoCb3TacCP93imNEcPxcL']
-	    let apinobg = apirnobg[Math.floor(Math.random() * apirnobg.length)]
-	    hmm = await './src/remobg-'+getRandom('')
-	    localFile = await XeonBotInc.downloadAndSaveMediaMessage(quoted, hmm)
-	    outputFile = await './src/hremo-'+getRandom('.png')
-	    reply(mess.wait)
-	    remobg.removeBackgroundFromImageFile({
-	      path: localFile,
-	      apiKey: apinobg,
-	      size: "regular",
-	      type: "auto",
-	      scale: "100%",
-	      outputFile 
-	    }).then(async result => {
-	    XeonBotInc.sendMessage(m.chat, {image: fs.readFileSync(outputFile), caption: mess.success}, { quoted : m })
-	    await fs.unlinkSync(localFile)
-	    await fs.unlinkSync(outputFile)
-	    })
-	    }
+case 'imagenobg': case 'removebg': case 'remove-bg': {
+   if (!isQuotedImage) return m.reply('Reply the picture!') 
+     let media = await XeonBotInc.downloadMediaMessage(m.message.extendedTextMessage.contextInfo.quotedMessage.imageMessage, 'image')
+     let ranE = getRandom('.jpg')
+       await fs.writeFileSync('./XeonMedia/image/' + ranE, media)
+     const _buff = './XeonMedia/image/' + ranE
+     let anu = await remove(fs.readFileSync(_buff))
+     console.log(anu)
+      	let ranJ = getRandom('.jpg')
+        await fs.writeFileSync('./XeonMedia/image/' + ranJ, anu)
+        const buff = './XeonMedia/image/' + ranJ        
+          await XeonBotInc.sendMessage(from, { image: { url: buff }, caption:"Here you go! 🏃🏻‍♂️"}, { quoted: m })
+        setTimeout(() => { fs.unlinkSync(buff) }, 10000)
+        setTimeout(() => { fs.unlinkSync(_buff) }, 10000)     
+   }
    break
 case 'readqr':{
    if ((!isMedia && !isQuotedImage)  && args.length == 0) {
@@ -6469,22 +5732,33 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
             let xeonezy = `
 ┌─❖
 │「 Assalamualaikum 🙇🏻‍♂️ 」
-└┬❖ 「 ${pushname} 」
-┌┤ൠ ${ucapanWaktu} 
-│└───────────────┈ ⳹
-│ 「 BOT INFO 」
-│✎ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│✎ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│✎ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
-│✎ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : @${ownernya.split('@')[0]}
-│✎ 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
-│✎ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│✎ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│✎ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
-└┬──────────────┈ ⳹
-   │✑   🛂  Please Select
-   │✑   🛂  The Button Below 🎠
-   └───────────────┈ ⳹
+└┬❖ 「 👋?? ${pushname} 」
+   │✑  ${ucapanWaktu} 
+   │
+   │✑  ${latensie.toFixed(4)} miliseconds
+   │✑  ${runtime(process.uptime())}
+   │✑  @${ini_mark.split('@')[0]}
+   │✑  ${global.botname}
+   │✑ @${ownernya.split('@')[0]}
+   │       NO-PREFIX
+   │✑  ${XeonBotInc.public ? 'Public' : `Self`}
+   │✑  ${os.hostname()}
+   │✑  ${os.platform()}
+   │✑  ${Object.keys(global.db.data.users).length}
+   │✑  ${jumlahcmd}
+   │✑  ${jumlahharian}
+   │✑
+   │    「 🥷🏻: ${pushname} 」
+   └┬ ✑ 🕴🏻: @${me.split('@')[0]}
+      │✑ 🕴🏻: ${isPremium ? '🧑🏻‍💻' : ``}
+      │✑ 🕴🏻: ${isPremium ? 'Infinity' : `${db.data.users[m.sender].limit}`}
+      │✑
+     ┌─❖
+     │✑ ⏰: ${xtime}
+     │✑ 🏷️: ${xdate}
+     │✑   🛂  Please Select
+     │✑   🛂  The Button Below 🎠
+     └───────────────┈ ⳹
    `
             let ments = [ownernya, me, ini_mark]        
             let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: 'All Menu' }, type: 1 },{ buttonId: 'command', buttonText: { displayText: 'List Menu' }, type: 1 },{ buttonId: 'sc', buttonText: { displayText: 'Script' }, type: 1 }]
@@ -6660,234 +5934,642 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┏━「 *${botname}* 」━━⭓ 
-┃╔══☯︎「 MAIN 」☯︎
-┃╠ ${prefix}alive
-┃╠ ${prefix}script
-┃╠ ${prefix}speedtest
-┃╠ ${prefix}ping
-┃╠ ${prefix}owner
-┃╠ ${prefix}menu
-┃╠ ${prefix}delete
-┃╠ ${prefix}chatinfo
-┃╠ ${prefix}quoted
-┃╠ ${prefix}listpc
-┃╠ ${prefix}listgc
-┃╠ ${prefix}donate
-┃╠ ${prefix}report [bug]
-┃╠══✪「 OWNER 」 ☯︎
-┃╠ ${prefix}chat [option]
-┃╠ ${prefix}join [link]
-┃╠ ${prefix}leave
-┃╠ ${prefix}block [user]
-┃╠ ${prefix}unblock [user]
-┃╠ ${prefix}bcgroup [text]
-┃╠ ${prefix}bcall [text]
-┃╠ ${prefix}setppbot [image]
-┃╠ ${prefix}setexif
-┃╠══✪「 GROUP 」 ☯︎      
-┃╠${prefix}grouplink
-┃╠${prefix}ephemeral [option]
-┃╠${prefix}setgcpp [image]
-┃╠${prefix}setname [text]
-┃╠${prefix}setdesc [text]
-┃╠${prefix}group [text]
-┃╠${prefix}editinfo [option]
-┃╠${prefix}add [user]
-┃╠${prefix}kick [reply/tag]
-┃╠${prefix}hidetag [text]
-┃╠${prefix}tagall [text]
-┃╠${prefix}antilink [on/off]
-┃╠${prefix}mute [on/off]
-┃╠${prefix}promote [reply/tag]
-┃╠${prefix}demote [reply/tag]
-┃╠${prefix}vote
-┃╠${prefix}devote
-┃╠${prefix}upvote
-┃╠${prefix}checkvote
-┃╠${prefix}delvote
-┃╠══☯︎「 RPG 」 ☯︎
-┃╠${prefix}hunting
-┃╠${prefix}mining
-┃╠${prefix}heal
-┃╠${prefix}userlimit
-┃╠${prefix}profile
-┃╠${prefix}inventory
-┃╠${prefix}leaderboard
-┃╠${prefix}buy [option]
-┃╠${prefix}sell [option]
-┃╠═✪「 DOWNLOADER 」☯︎
-┃╠${prefix}ytmp3 [url|quality]
-┃╠${prefix}ytmp4 [url|quality]
-┃╠${prefix}getmusic [yt link]
-┃╠${prefix}getvideo [yt link]
-┃╠${prefix}umma [query]
-┃╠${prefix}joox [query]
-┃╠${prefix}soundcloud [url]
-┃╠══✪「 SEARCHER 」 ☯︎
-┃╠${prefix}play [query]
-┃╠${prefix}song [query]
-┃╠${prefix}yts [query]
-┃╠${prefix}google [query]
-┃╠${prefix}gimage [query]
-┃╠${prefix}pinterest [query]
-┃╠${prefix}wallpaper [query]
-┃╠${prefix}wikimedia [query]
-┃╠${prefix}ytsearch [query]
-┃╠${prefix}ringtone [query]
-┃╠${prefix}webtoon [query]
-┃╠══✪「 RANDOM 」☯︎
-┃╠${prefix}coffee
-┃╠${prefix}animequote (indo)
-┃╠${prefix}couplepp
-┃╠═✪「 RANDOM ANIME 」☯︎
-┃╠${prefix}loli
-┃╠${prefix}bully
-┃╠${prefix}cuddle
-┃╠${prefix}cry
-┃╠${prefix}hug
-┃╠${prefix}awoo
-┃╠${prefix}kiss
-┃╠${prefix}lick
-┃╠${prefix}pat
-┃╠${prefix}smug
-┃╠${prefix}bonk
-┃╠${prefix}yeet
-┃╠${prefix}blush
-┃╠${prefix}smile
-┃╠${prefix}wave
-┃╠${prefix}highfive
-┃╠${prefix}handhold
-┃╠${prefix}nom
-┃╠${prefix}glomp
-┃╠${prefix}bite
-┃╠${prefix}slap
-┃╠${prefix}kill
-┃╠${prefix}happy
-┃╠${prefix}wink
-┃╠${prefix}poke
-┃╠${prefix}dance
-┃╠${prefix}cringe
-┃╠══✪「 FUN 」 ☯︎
-┃╠ ${prefix}how [text
-┃╠ ${prefix}when [text]
-┃╠ ${prefix}is [text]
-┃╠ ${prefix}what [text]
-┃╠ ${prefix}can [text]
-┃╠ ${prefix}rate [text]
-┃╠ ${prefix}wangy [text]
-┃╠ ${prefix}beautifulcheck [tag]
-┃╠ ${prefix}awesomecheck [tag]
-┃╠ ${prefix}prettycheck [tag]
-┃╠ ${prefix}lesbiancheck [tag]
-┃╠ ${prefix}gaycheck [tag]
-┃╠ ${prefix}cutecheck [tag]
-┃╠ ${prefix}uglycheck [tag]
-┃╠ ${prefix}hornycheck [tag]
-┃╠ ${prefix}charactercheck [tag]
-┃╠ ${prefix}lovelycheck [tag]
-┃╠ ${prefix}couple
-┃╠ ${prefix}mysoulmate
-┃╠ ${prefix}hot
-┃╠ ${prefix}sexy
-┃╠ ${prefix}kind
-┃╠ ${prefix}idiot
-┃╠ ${prefix}handsome
-┃╠ ${prefix}beautiful
-┃╠ ${prefix}cute
-┃╠ ${prefix}pretty
-┃╠ ${prefix}lesbian
-┃╠ ${prefix}noob
-┃╠ ${prefix}bastard
-┃╠ ${prefix}foolish
-┃╠ ${prefix}nerd
-┃╠ ${prefix}asshole
-┃╠ ${prefix}gay
-┃╠ ${prefix}smart
-┃╠ ${prefix}stubble
-┃╠ ${prefix}dog
-┃╠ ${prefix}horny
-┃╠ ${prefix}cunt
-┃╠ ${prefix}wibu
-┃╠ ${prefix}tictactoe
-┃╠ ${prefix}delttt
-┃╠ ${prefix}guess [option]
-┃╠ ${prefix}math [mode]
-┃╠ ${prefix}suitpvp [tag]
-┃╠═══✪「 CONVERTER 」 ☯︎
-┃╠ ${prefix}toimage [reply stick]
-┃╠ ${prefix}sticker [reply img|gif]
-┃╠ ${prefix}emojimix [moji+moji]
-┃╠ ${prefix}tovideo [reply img]
-┃╠ ${prefix}togif [reply stick]
-┃╠ ${prefix}tourl [reply img]
-┃╠ ${prefix}tovn [reply aud]
-┃╠ ${prefix}tomp3 [reply vn]
-┃╠ ${prefix}toaudio [reply vid]
-┃╠ ${prefix}ebinary [reply txt]
-┃╠ ${prefix}dbinary [reply txt]
-┃╠ ${prefix}styletext [text]
-┃╠══✪「 DATABASE 」 ☯︎
-┃╠ ${prefix}setcmd
-┃╠ ${prefix}listcmd
-┃╠ ${prefix}delcmd
-┃╠ ${prefix}lockcmd
-┃╠ ${prefix}addmsg
-┃╠ ${prefix}listmsg
-┃╠ ${prefix}getmsg
-┃╠ ${prefix}delmsg
-┃╠═✪「 ANONYMOUS CHAT 」☯︎
-┃╠${prefix}anonymous
-┃╠${prefix}start
-┃╠${prefix}next
-┃╠${prefix}leave
-┃╠═✪「 VOICE CHANGER 」☯︎
-┃╠${prefix}bass [reply aud]
-┃╠${prefix}blown [reply aud]
-┃╠${prefix}deep [reply aud]
-┃╠${prefix}earrape [reply aud]
-┃╠${prefix}fast [reply aud]
-┃╠${prefix}fat [reply aud]
-┃╠${prefix}nightcore [reply aud]
-┃╠${prefix}reverse [reply aud]
-┃╠${prefix}robot [reply aud]
-┃╠${prefix}slow [reply aud]
-┃╠${prefix}squirrel [reply aud]
-┃╠══✪「 ISLAMIC 」☯︎
-┃╠${prefix}juzamma
-┃╠══✪「 HOROSCOPE 」☯︎
-┃╠${prefix}nomorhoki (indo)
-┃╠${prefix}artimimpi (indo)
-┃╠${prefix}artinama (indo)
-┃╠${prefix}ramaljodoh (indo)
-┃╠${prefix}ramaljodohbali (indo)
-┃╠${prefix}suamiistri (indo)
-┃╠${prefix}ramalcinta (indo)
-┃╠${prefix}cocoknama (indo)
-┃╠${prefix}pasangan (indo)
-┃╠${prefix}jadiannikah (indo)
-┃╠${prefix}sifatusaha (indo)
-┃╠${prefix}rezeki (indo)
-┃╠${prefix}pekerjaan (indo)
-┃╠${prefix}nasib (indo)
-┃╠${prefix}penyakit (indo)
-┃╠${prefix}tarot (indo)
-┃╠${prefix}fengshui (indo)
-┃╠${prefix}haribaik (indo)
-┃╠${prefix}harisangar (indo)
-┃╠${prefix}harisial (indo)
-┃╠${prefix}nagahari (indo)
-┃╠${prefix}arahrezeki (indo)
-┃╠${prefix}peruntungan (indo)
-┃╠${prefix}weton (indo)
-┃╠${prefix}karakter (indo)
-┃╠${prefix}keberuntungan (indo)
-┃╠${prefix}memancing (indo)
-┃╠${prefix}masasubur (indo)
-┃╠${prefix}zodiak (indo)
-┃╠${prefix}shio (indo)
-┃╚═══════✍︎𝐻𝒾𝒹𝒶𝓎𝒶𝓉 𝒮𝓉𝑜𝓇𝑒 𝑀𝓎 𝐼𝒹
-┗━「 *Created By ${ownername}*  𖠌」━⭓
+    caption: `🥷🏻 OWNER 	
+🔖•  ${prefix}self
+🔖•  ${prefix}public
+🔖•  ${prefix}join [link]
+🔖•  ${prefix}leavegc
+🔖•  ${prefix}setbio
+🔖•  ${prefix}broadcast [text]
+🔖•  ${prefix}setppbot [image]
+🔖•  ${prefix}setthumb [reply img]
+🔖•  ${prefix}setexif
+🔖•  ${prefix}hijack
+🔖•  ${prefix}creategroup [name]
+🔖•  ${prefix}block [tag/number]
+🔖•  ${prefix}unblock [tag/number]
+
+       ➡️ GROUP 	        
+🔖• ${prefix}grousetting
+🔖• ${prefix}grouplink
+🔖• ${prefix}ephemeral [option]
+🔖• ${prefix}setgcpp [image]
+🔖• ${prefix}setname [text]
+🔖• ${prefix}setdesc [text]
+🔖• ${prefix}group 
+🔖• ${prefix}resetgrouplink
+🔖• ${prefix}editinfo [option]
+🔖• ${prefix}menfess [number]
+🔖• ${prefix}add [user]
+🔖• ${prefix}kick [reply/tag]
+🔖• ${prefix}hidetag [text]
+🔖• ${prefix}tagall [text]
+🔖• ${prefix}antilinkgc [on/off]
+🔖• ${prefix}antilinktg [on/off]
+🔖• ${prefix}antilinktt [on/off]
+🔖• ${prefix}antilinkytch [on/off]
+🔖• ${prefix}antilinkytvid [on/off]
+🔖• ${prefix}antilinkig [on/off]
+🔖• ${prefix}antilinkfb [on/off]
+🔖• ${prefix}antilinktwit [on/off]
+🔖• ${prefix}antilinkall [on/off]
+🔖• ${prefix}antivirus [on/off]
+🔖• ${prefix}antitoxic [on/off]
+🔖• ${prefix}antiwame [on/off]
+🔖• ${prefix}nsfw [on/off]
+🔖• ${prefix}nsfw [on/off]
+🔖• ${prefix}promote [reply/tag]
+🔖• ${prefix}demote [reply/tag]
+🔖• ${prefix}react [reply emoji]
+🔖• ${prefix}vote
+🔖• ${prefix}devote
+🔖• ${prefix}upvote
+🔖• ${prefix}checkvote
+🔖• ${prefix}delvote
+
+       🎨 MAKER 
+🔖• ${prefix}candy
+🔖• ${prefix}blackpinkneon
+🔖• ${prefix}deepsea
+🔖• ${prefix}scifi
+🔖• ${prefix}fiction
+🔖• ${prefix}berry
+🔖• ${prefix}fruitjuice
+🔖• ${prefix}biscuit
+🔖• ${prefix}wood
+🔖• ${prefix}chocolate
+🔖• ${prefix}matrix
+🔖• ${prefix}blood
+🔖• ${prefix}halloween
+🔖• ${prefix}wicker
+🔖• ${prefix}darkgold
+🔖• ${prefix}firework
+🔖• ${prefix}skeleton
+🔖• ${prefix}sand
+🔖• ${prefix}glue
+🔖• ${prefix}leaves
+🔖• ${prefix}magma
+🔖• ${prefix}lava
+🔖• ${prefix}rock
+🔖• ${prefix}bloodglas
+🔖• ${prefix}underwater
+🔖• ${prefix}textmaker
+??• ${prefix}honey
+🔖• ${prefix}ice
+🔖• ${prefix}watercolor
+🔖• ${prefix}multicolor
+🔖• ${prefix}snow
+🔖• ${prefix}harrypot
+🔖• ${prefix}harrypotter
+🔖• ${prefix}brokenglass
+🔖• ${prefix}waterpipe
+🔖• ${prefix}spooky
+🔖• ${prefix}circuit
+🔖• ${prefix}metallic
+🔖• ${prefix}demon
+🔖• ${prefix}sparklechristmas
+🔖• ${prefix}christmas
+🔖• ${prefix}3dchristmas
+🔖• ${prefix}3dbox
+🔖• ${prefix}waterdrop
+🔖• ${prefix}lion2
+🔖• ${prefix}papercut
+🔖• ${prefix}transformer
+🔖• ${prefix}neondevil
+🔖• ${prefix}3davengers
+🔖• ${prefix}3dstone
+🔖• ${prefix}3dstone2
+🔖• ${prefix}summertime
+🔖• ${prefix}thunder
+🔖• ${prefix}window
+🔖• ${prefix}graffiti
+🔖• ${prefix}graffitibike
+🔖• ${prefix}pornhub
+🔖• ${prefix}glitch
+🔖• ${prefix}blackpink
+🔖• ${prefix}glitch2
+🔖• ${prefix}glitch3
+🔖• ${prefix}3dspace
+🔖• ${prefix}lion
+🔖• ${prefix}3dneon
+🔖• ${prefix}greenneon
+🔖• ${prefix}bokeh
+🔖• ${prefix}holographic
+🔖• ${prefix}bear
+🔖• ${prefix}wolf
+🔖• ${prefix}joker
+🔖• ${prefix}dropwater
+🔖• ${prefix}dropwater2
+🔖• ${prefix}thewall
+🔖• ${prefix}neonlight
+🔖• ${prefix}natural
+🔖• ${prefix}carbon
+🔖• ${prefix}pencil
+🔖• ${prefix}blackpink2
+🔖• ${prefix}neon
+🔖• ${prefix}neonlight2
+🔖• ${prefix}toxic
+🔖• ${prefix}strawberry
+🔖• ${prefix}discovery
+🔖• ${prefix}1917
+🔖•  ${prefix}sci_fi
+🔖•  ${prefix}ancient
+🔖•  ${prefix}fabric
+🔖•  ${prefix}hoorror
+🔖•  ${prefix}whitebear
+🔖•  ${prefix}juice
+🔖•  ${prefix}batman
+🔖•  ${prefix}multicolor
+🔖•  ${prefix}collwall
+🔖•  ${prefix}wonderful
+🔖•  ${prefix}cool
+🔖•  ${prefix}sketch
+🔖•  ${prefix}marvel
+🔖•  ${prefix}foggy
+🔖•  ${prefix}writing
+🔖•  ${prefix}halloweenfire
+🔖•  ${prefix}halloween
+🔖•  ${prefix}watercolor
+🔖•  ${prefix}classic
+
+        ⬇️ DOWNLOAD	
+🔖• ${prefix}tiktok [url]
+🔖• ${prefix}tiktokaudio[url]
+🔖• ${prefix}mediafire [url]
+🔖• ${prefix}ytmp3 [url|quality]
+🔖• ${prefix}ytmp4 [url|quality]
+🔖• ${prefix}gitclone [repo link]
+🔖• ${prefix}soundcloud [url]
+🔖• ${prefix}zippyshare [url]
+
+        🔎 SEARCH 	
+🔖• ${prefix}play [query]
+🔖• ${prefix}song [query]
+🔖• ${prefix}yts [query]
+🔖• ${prefix}lyrics [query]
+🔖• ${prefix}google [query]
+🔖• ${prefix}gimage [query]
+🔖• ${prefix}pinterest [query]
+🔖• ${prefix}image [query]
+🔖• ${prefix}film [query]
+🔖• ${prefix}wallpaper [query]
+🔖• ${prefix}searchgc [query]
+🔖• ${prefix}happymod [query]
+🔖• ${prefix}servermc
+🔖• ${prefix}mcpedl [query]
+🔖• ${prefix}tvsearch [query]
+🔖• ${prefix}wikimedia [query]
+🔖• ${prefix}ytsearch [query]
+🔖• ${prefix}ringtone [query]
+🔖• ${prefix}wattpad [query]
+🔖•  ${prefix}mcserver [ip|port]
+
+        ♾️ CONVERT
+🔖•  ${prefix}toimage [reply stick]
+🔖•  ${prefix}sticker [reply img|gif]
+🔖•  ${prefix}take [reply img|gif|stik]
+🔖•  ${prefix}smeme [reply img]
+🔖•  ${prefix}emoji [emoji]
+🔖•  ${prefix}tovideo [reply img]
+🔖•  ${prefix}togif [reply stick]
+🔖•  ${prefix}tourl [reply img]
+🔖•  ${prefix}tovn [reply aud]
+🔖•  ${prefix}tomp3 [reply vn]
+🔖•  ${prefix}toaudio [reply vid]
+🔖•  ${prefix}ebinary [reply txt]
+🔖•  ${prefix}dbinary [reply txt]
+🔖•  ${prefix}tinyurl [link]
+🔖•  ${prefix}styletext [text]
+🔖• ${prefix}volume [reply aud]
+🔖• ${prefix}bass [reply aud]
+🔖• ${prefix}blown [reply aud]
+🔖• ${prefix}deep [reply aud]
+🔖• ${prefix}earrape [reply aud]
+🔖• ${prefix}fast [reply aud]
+🔖• ${prefix}fat [reply aud]
+🔖• ${prefix}nightcore [reply aud]
+🔖• ${prefix}reverse [reply aud]
+🔖• ${prefix}robot [reply aud]
+🔖• ${prefix}slow [reply aud]
+🔖• ${prefix}squirrel [reply aud]
+
+       🎈IMG EFFECT
+🔖• ${prefix}wanted [reply img]
+🔖• ${prefix}triggeredwebp [reply img]
+🔖• ${prefix}removebg [reply img]
+🔖• ${prefix}upscaler [reply img]
+
+       🎠 RANDOM IMG
+🔖• ${prefix}coffee
+🔖• ${prefix}woof
+🔖• ${prefix}meow
+🔖• ${prefix}lizard
+🔖• ${prefix}wallneon
+🔖• ${prefix}wallpubg
+🔖• ${prefix}wallml
+🔖• ${prefix}wallrandom
+🔖• ${prefix}wallcode
+🔖• ${prefix}animewall [query]
+🔖• ${prefix}animewall2 [query]
+
+       🐣 EMOTE
+🔖• ${prefix}instagramemoji
+👨??‍💻• ${prefix}facebookemoji
+🔖• ${prefix}iphoneemoji
+🔖• ${prefix}samsungemoji
+🔖• ${prefix}joyemoji
+🔖• ${prefix}skypeemoji
+🔖• ${prefix}twitteremoji
+🔖• ${prefix}whatsappemoji
+🔖• ${prefix}microsoftemoji
+🔖• ${prefix}googleemoji
+🔖• ${prefix}pediaemoji
+🔖• ${prefix}microsoftemoji
+
+       👾 ANIME
+🔖• ${prefix}asuna
+🔖• ${prefix}anna
+🔖• ${prefix}chitoge
+🔖• ${prefix}cosplay
+🔖• ${prefix}elaina
+🔖• ${prefix}emilia
+🔖• ${prefix}gremory
+🔖• ${prefix}kaguya
+🔖• ${prefix}kotori
+🔖• ${prefix}kurumi
+🔖• ${prefix}mikasa
+🔖• ${prefix}rize
+🔖• ${prefix}naruto
+🔖• ${prefix}yaoi
+🔖• ${prefix}animeneko
+🔖• ${prefix}waifu
+🔖• ${prefix}animewaifu
+🔖• ${prefix}animeawoo
+🔖• ${prefix}shinobu
+🔖• ${prefix}foxgirl
+🔖• ${prefix}animemegumin
+🔖• ${prefix}loli-waifu
+🔖• ${prefix}8ball
+🔖• ${prefix}animenom
+🔖• ${prefix}goose
+🔖• ${prefix}avatar
+🔖• ${prefix}tickle
+🔖• ${prefix}gecg
+🔖• ${prefix}feed
+🔖• ${prefix}animeslap
+🔖• ${prefix}animepat
+🔖• ${prefix}animeneko
+🔖• ${prefix}animekiss
+🔖• ${prefix}animewlp
+🔖• ${prefix}animecuddle
+🔖• ${prefix}animecry
+🔖• ${prefix}animekill
+🔖• ${prefix}animelick
+🔖• ${prefix}animebite
+🔖• ${prefix}animeyeet
+🔖• ${prefix}animebully
+🔖• ${prefix}animebonk
+🔖• ${prefix}animewink
+🔖• ${prefix}animepoke
+🔖• ${prefix}animesmile
+🔖• ${prefix}animewave
+🔖• ${prefix}animeawoo
+🔖• ${prefix}animeblush
+🔖• ${prefix}animesmug
+🔖• ${prefix}animeglomp
+🔖• ${prefix}animehappy
+🔖• ${prefix}animedance
+🔖• ${prefix}animecringe
+🔖• ${prefix}animehighfive
+🔖• ${prefix}animehandhold
+🔖• ${prefix}animemegumin
+🔖• ${prefix}animesmug
+🔖• ${prefix}couplepp
+
+       🧚🏻‍♂️STICKER
+🔖•  ${prefix}patrick
+🔖•  ${prefix}emoji
+🔖•  ${prefix}emojimix
+🔖•  ${prefix}attp
+🔖•  ${prefix}ttp
+🔖•  ${prefix}doge
+🔖•  ${prefix}lovesticker
+🔖•  ${prefix}animestick
+
+       🧚🏻‍♀️ ANIME STICKER
+🔖• ${prefix}loli
+🔖• ${prefix}bully
+🔖• ${prefix}cuddle
+🔖• ${prefix}cry
+🔖• ${prefix}hug
+🔖• ${prefix}awoo
+🔖• ${prefix}kiss
+🔖• ${prefix}lick
+🔖• ${prefix}pat
+🔖• ${prefix}smug
+🔖• ${prefix}bonk
+🔖• ${prefix}yeet
+🔖• ${prefix}blush
+🔖• ${prefix}smile
+🔖• ${prefix}wave
+🔖• ${prefix}highfive
+🔖• ${prefix}handhold
+🔖• ${prefix}nom
+🔖• ${prefix}glomp
+🔖• ${prefix}bite
+🔖• ${prefix}slap
+🔖• ${prefix}kill
+🔖• ${prefix}happy
+🔖• ${prefix}wink
+🔖• ${prefix}poke
+🔖• ${prefix}dance
+🔖• ${prefix}cringe
+🔖• ${prefix}neko
+🔖• ${prefix}gura
+
+       🕵🏻‍♂️NSFW
+🔖• ${prefix}hentaivideo
+🔖• ${prefix}hneko
+🔖• ${prefix}nwaifu
+🔖• ${prefix}animespank
+🔖• ${prefix}trap
+🔖• ${prefix}gasm
+
+      🎭 FUN
+🔖•  ${prefix}how [text
+🔖•  ${prefix}when [text]
+🔖•  ${prefix}where [text]
+🔖•  ${prefix}is [text]
+🔖•  ${prefix}what [text]
+🔖•  ${prefix}can [text]
+🔖•  ${prefix}rate [text]
+🔖•  ${prefix}beautifulcheck [tag]
+🔖•  ${prefix}awesomecheck [tag]
+🔖•  ${prefix}prettycheck [tag]
+🔖•  ${prefix}lesbiancheck [tag]
+🔖•  ${prefix}gaycheck [tag]
+🔖•  ${prefix}cutecheck [tag]
+🔖•  ${prefix}uglycheck [tag]
+🔖•  ${prefix}hornycheck [tag]
+🔖•  ${prefix}charactercheck [tag]
+🔖•  ${prefix}lovelycheck [tag]
+🔖•  ${prefix}couple
+🔖•  ${prefix}mysoulmate
+🔖•  ${prefix}hot
+🔖•  ${prefix}sexy
+🔖•  ${prefix}kind
+🔖•  ${prefix}idiot
+🔖•  ${prefix}handsome
+🔖•  ${prefix}beautiful
+🔖•  ${prefix}cute
+🔖•  ${prefix}pretty
+🔖•  ${prefix}lesbian
+🔖•  ${prefix}noob
+🔖•  ${prefix}bastard
+🔖•  ${prefix}foolish
+🔖•  ${prefix}nerd
+🔖•  ${prefix}asshole
+🔖•  ${prefix}gay
+🔖•  ${prefix}smart
+🔖•  ${prefix}stubble
+🔖•  ${prefix}dog
+🔖•  ${prefix}horny
+🔖•  ${prefix}cunt
+🔖•  ${prefix}wibu
+🔖•  ${prefix}noobra
+🔖•  ${prefix}nibba
+🔖•  ${prefix}nibbi
+🔖•  ${prefix}comrade
+🔖•  ${prefix}mumu
+🔖•  ${prefix}rascal
+🔖•  ${prefix}scumbag
+🔖•  ${prefix}nuts
+🔖•  ${prefix}fagot
+🔖•  ${prefix}scoundrel
+🔖•  ${prefix}ditch
+🔖•  ${prefix}dope
+🔖•  ${prefix}gucci
+🔖•  ${prefix}lit
+🔖•  ${prefix}dumbass
+🔖•  ${prefix}crackhead
+🔖•  ${prefix}mf
+🔖•  ${prefix}motherfucker
+🔖•  ${prefix}sucker
+🔖•  ${prefix}fuckboy
+🔖•  ${prefix}playboy
+🔖•  ${prefix}fuckgirl
+🔖•  ${prefix}playgirl
+
+        🎧 SOUND
+🔖•  ${prefix}sound1
+🔖•  ${prefix}sound2
+🔖•  ${prefix}sound3
+🔖•  ${prefix}sound4
+🔖•  ${prefix}sound5
+🔖•  ${prefix}sound6
+🔖•  ${prefix}sound7
+🔖•  ${prefix}sound8
+🔖•  ${prefix}sound9
+🔖•  ${prefix}sound10
+🔖•  ${prefix}sound11
+🔖•  ${prefix}sound12
+🔖•  ${prefix}sound13
+🔖•  ${prefix}sound14
+🔖•  ${prefix}sound15
+🔖•  ${prefix}sound16
+🔖•  ${prefix}sound17
+??•  ${prefix}sound18
+🔖•  ${prefix}sound19
+🔖•  ${prefix}sound20
+🔖•  ${prefix}sound21
+🔖•  ${prefix}sound22
+🔖•  ${prefix}sound23
+🔖•  ${prefix}sound24
+🔖•  ${prefix}sound25
+🔖•  ${prefix}sound26
+🔖•  ${prefix}sound27
+🔖•  ${prefix}sound28
+🔖•  ${prefix}sound29
+🔖•  ${prefix}sound30
+🔖•  ${prefix}sound31
+🔖•  ${prefix}sound32
+🔖•  ${prefix}sound33
+🔖•  ${prefix}sound34
+🔖•  ${prefix}sound35
+🔖•  ${prefix}sound36
+🔖•  ${prefix}sound37
+🔖•  ${prefix}sound38
+🔖•  ${prefix}sound39
+🔖•  ${prefix}sound40
+🔖•  ${prefix}sound41
+🔖•  ${prefix}sound42
+🔖•  ${prefix}sound43
+🔖•  ${prefix}sound44
+🔖•  ${prefix}sound45
+🔖•  ${prefix}sound46
+🔖•  ${prefix}sound47
+🔖•  ${prefix}sound48
+🔖•  ${prefix}sound49
+🔖•  ${prefix}sound50
+🔖•  ${prefix}sound51
+🔖•  ${prefix}sound52
+🔖•  ${prefix}sound53
+🔖•  ${prefix}sound54
+🔖•  ${prefix}sound55
+🔖•  ${prefix}sound56
+🔖•  ${prefix}sound57
+🔖•  ${prefix}sound58
+🔖•  ${prefix}sound59
+🔖•  ${prefix}sound60
+🔖•  ${prefix}sound61
+🔖•  ${prefix}sound62
+🔖•  ${prefix}sound63
+🔖•  ${prefix}sound64
+🔖•  ${prefix}sound65
+🔖•  ${prefix}sound66
+🔖•  ${prefix}sound67
+🔖•  ${prefix}sound68
+🔖•  ${prefix}sound69
+🔖•  ${prefix}sound70
+🔖•  ${prefix}sound71
+🔖•  ${prefix}sound72
+🔖•  ${prefix}sound73
+🔖•  ${prefix}sound74
+🔖•  ${prefix}sound75
+🔖•  ${prefix}sound76
+🔖•  ${prefix}sound77
+🔖•  ${prefix}sound78
+🔖•  ${prefix}sound79
+🔖•  ${prefix}sound80
+🔖•  ${prefix}sound81
+🔖•  ${prefix}sound82
+🔖•  ${prefix}sound83
+🔖•  ${prefix}sound84
+🔖•  ${prefix}sound85
+🔖•  ${prefix}sound86
+🔖•  ${prefix}sound87
+🔖•  ${prefix}sound88
+🔖•  ${prefix}sound89
+🔖•  ${prefix}sound90
+🔖•  ${prefix}sound91
+🔖•  ${prefix}sound92
+🔖•  ${prefix}sound93
+🔖•  ${prefix}sound94
+🔖•  ${prefix}sound95
+🔖•  ${prefix}sound96
+🔖•  ${prefix}sound97
+🔖•  ${prefix}sound98
+🔖•  ${prefix}sound99
+🔖•  ${prefix}sound100
+🔖•  ${prefix}sound101
+🔖•  ${prefix}sound102
+🔖•  ${prefix}sound103
+🔖•  ${prefix}sound104
+🔖•  ${prefix}sound105
+🔖•  ${prefix}sound106
+🔖•  ${prefix}sound107
+🔖•  ${prefix}sound108
+🔖•  ${prefix}sound109
+🔖•  ${prefix}sound110
+🔖•  ${prefix}sound111
+🔖•  ${prefix}sound112
+🔖•  ${prefix}sound113
+🔖•  ${prefix}sound114
+🔖•  ${prefix}sound115
+🔖•  ${prefix}sound116
+🔖•  ${prefix}sound117
+🔖•  ${prefix}sound118
+🔖•  ${prefix}sound119
+🔖•  ${prefix}sound120
+🔖•  ${prefix}sound121
+🔖•  ${prefix}sound122
+🔖•  ${prefix}sound123
+🔖•  ${prefix}sound124
+🔖•  ${prefix}sound125
+🔖•  ${prefix}sound126
+🔖•  ${prefix}sound127
+🔖•  ${prefix}sound128
+🔖•  ${prefix}sound129
+🔖•  ${prefix}sound130
+🔖•  ${prefix}sound131
+🔖•  ${prefix}sound132
+🔖•  ${prefix}sound133
+🔖•  ${prefix}sound134
+🔖•  ${prefix}sound135
+🔖•  ${prefix}sound136
+🔖•  ${prefix}sound137
+🔖•  ${prefix}sound138
+🔖•  ${prefix}sound139
+🔖•  ${prefix}sound140
+🔖•  ${prefix}sound141
+🔖•  ${prefix}sound142
+🔖•  ${prefix}sound143
+🔖•  ${prefix}sound144
+🔖•  ${prefix}sound145
+🔖•  ${prefix}sound146
+🔖•  ${prefix}sound147
+🔖•  ${prefix}sound148
+🔖•  ${prefix}sound149
+🔖•  ${prefix}sound150
+🔖•  ${prefix}sound151
+🔖•  ${prefix}sound152
+🔖•  ${prefix}sound153
+🔖•  ${prefix}sound154
+🔖•  ${prefix}sound155
+🔖•  ${prefix}sound156
+🔖•  ${prefix}sound157
+🔖•  ${prefix}sound158
+🔖•  ${prefix}sound159
+🔖•  ${prefix}sound160
+🔖•  ${prefix}sound161
+
+       🦄 GAME
+🔖•  ${prefix}truth
+🔖•  ${prefix}dare
+🔖•  ${prefix}tictactoe
+🔖•  ${prefix}delttt
+🔖•  ${prefix}guess [option]
+🔖•  ${prefix}math [mode]
+🔖•  ${prefix}suitpvp [tag]
+
+       👤ANONYMOUS CHAT
+🔖• ${prefix}anonymous
+🔖• ${prefix}start
+🔖• ${prefix}next
+🔖• ${prefix}leave
+
+        📂 DATABASE
+🔖•  ${prefix}setcmd
+🔖•  ${prefix}listcmd
+🔖•  ${prefix}delcmd
+🔖•  ${prefix}lockcmd
+🔖•  ${prefix}addmsg
+🔖•  ${prefix}listmsg
+🔖•  ${prefix}getmsg
+🔖•  ${prefix}delmsg
+
+         🥷🏻 OTHER 
+🔖•  ${prefix}afk
+🔖•  ${prefix}id
+🔖•  ${prefix}toqr [link]
+🔖•  ${prefix}repeat
+🔖•  ${prefix}readmore [text]
+🔖•  ${prefix}toviewonce
+🔖•  ${prefix}fliptext [text]]
+🔖•  ${prefix}chatinfo
+🔖•  ${prefix}alive
+🔖•  ${prefix}script
+🔖•  ${prefix}speedtest
+🔖•  ${prefix}ping
+🔖•  ${prefix}owner
+🔖•  ${prefix}menu
+🔖•  ${prefix}delete
+🔖•  ${prefix}quoted
+🔖•  ${prefix}listpc
+🔖•  ${prefix}listgc
+🔖•  ${prefix}donate
+🔖•  ${prefix}request
+🔖•  ${prefix}report [bug]
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -6899,29 +6581,26 @@ break
       case 'ownermenu':{
 	   var unicorn = await getBuffer(picak+'Owner Menu')
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓🥷🏻 OWNER 	
-│
-│⭔  ${prefix}self
-│⭔  ${prefix}public
-│⭔  ${prefix}join [link]
-│⭔  ${prefix}leavegc
-│⭔  ${prefix}setbio
-│⭔  ${prefix}broadcast [text]
-│⭔  ${prefix}setppbot [image]
-│⭔  ${prefix}setthumb [reply img]
-│⭔  ${prefix}setexif
-│⭔  ${prefix}hijack
-│⭔  ${prefix}creategroup [name]
-│⭔  ${prefix}block [tag/number]
-│⭔  ${prefix}unblock [tag/number]
-│
-└───────⭓
+    caption: `🥷🏻 OWNER	
+🔖•  ${prefix}self
+🔖•  ${prefix}public
+🔖•  ${prefix}join [link]
+🔖•  ${prefix}leavegc
+🔖•  ${prefix}setbio
+🔖•  ${prefix}hijack
+🔖•  ${prefix}creategroup [name]
+🔖•  ${prefix}block [user]
+🔖•  ${prefix}unblock [user]
+🔖•  ${prefix}broadcast [text]
+🔖•  ${prefix}setppbot [image]
+🔖•  ${prefix}setthumb [reply img]
+🔖•  ${prefix}setexif
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -6934,52 +6613,52 @@ break
 var unicorn = await getBuffer(picak+'Group Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓➡️ GROUP 	        
-│     
-│⭔ ${prefix}grousetting
-│⭔ ${prefix}grouplink
-│⭔ ${prefix}ephemeral [option]
-│⭔ ${prefix}setgcpp [image]
-│⭔ ${prefix}setname [text]
-│⭔ ${prefix}setdesc [text]
-│⭔ ${prefix}group 
-│⭔ ${prefix}resetgrouplink
-│⭔ ${prefix}editinfo [option]
-│⭔ ${prefix}menfess [number]
-│⭔ ${prefix}add [user]
-│⭔ ${prefix}kick [reply/tag]
-│⭔ ${prefix}hidetag [text]
-│⭔ ${prefix}tagall [text]
-│⭔ ${prefix}antilinkgc [on/off]
-│⭔ ${prefix}antilinktg [on/off]
-│⭔ ${prefix}antilinktt [on/off]
-│⭔ ${prefix}antilinkytch [on/off]
-│⭔ ${prefix}antilinkytvid [on/off]
-│⭔ ${prefix}antilinkig [on/off]
-│⭔ ${prefix}antilinkfb [on/off]
-│⭔ ${prefix}antilinktwit [on/off]
-│⭔ ${prefix}antilinkall [on/off]
-│⭔ ${prefix}antivirus [on/off]
-│⭔ ${prefix}antitoxic [on/off]
-│⭔ ${prefix}antiwame [on/off]
-│⭔ ${prefix}nsfw [on/off]
-│⭔ ${prefix}nsfw [on/off]
-│⭔ ${prefix}promote [reply/tag]
-│⭔ ${prefix}demote [reply/tag]
-│⭔ ${prefix}react [reply emoji]
-│⭔ ${prefix}vote
-│⭔ ${prefix}devote
-│⭔ ${prefix}upvote
-│⭔ ${prefix}checkvote
-│⭔ ${prefix}delvote
-│
-└───────⭓
+    caption: `➡️ GROUP 	
+🔖• ${prefix}grouplink
+🔖• ${prefix}ephemeral [option]
+🔖• ${prefix}setgcpp [image]
+🔖• ${prefix}setname [text]
+🔖• ${prefix}setdesc [text]
+🔖• ${prefix}group
+🔖• ${prefix}botgroups
+🔖• ${prefix}resetgrouplink
+🔖• ${prefix}editinfo [option]
+🔖• ${prefix}add [user]
+🔖• ${prefix}menfess [number]
+🔖• ${prefix}kick [reply/tag]
+🔖• ${prefix}hidetag [text]
+🔖• ${prefix}tagall [text]
+🔖• ${prefix}autosticker [on/off]
+🔖• ${prefix}autostickerpc [on/off]
+🔖• ${prefix}leveling [on/off]
+🔖• ${prefix}antilinkgc [on/off]
+🔖• ${prefix}antilinktg [on/off]
+🔖• ${prefix}antilinktt [on/off]
+🔖• ${prefix}antilinkytch [on/off]
+🔖• ${prefix}antilinkytvid [on/off]
+🔖• ${prefix}antilinkig [on/off]
+🔖• ${prefix}antilinkfb [on/off]
+🔖• ${prefix}antilinktwit [on/off]
+🔖• ${prefix}antilinkall [on/off]
+🔖• ${prefix}antivirus [on/off]
+🔖• ${prefix}antitoxic [on/off]
+🔖• ${prefix}antiwame [on/off]
+🔖• ${prefix}nsfw [on/off]
+🔖• ${prefix}promote [reply/tag]
+🔖• ${prefix}demote [reply/tag]
+🔖• ${prefix}react [reply emoji]
+🔖• ${prefix}getpp [reply user]
+🔖• ${prefix}vote
+🔖• ${prefix}devote
+🔖• ${prefix}upvote
+🔖• ${prefix}checkvote
+🔖• ${prefix}delvote
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -6992,118 +6671,120 @@ case 'makermenu':{
 var unicorn = await getBuffer(picak+'Maker Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓🎨 MAKER 
-│⭔ ${prefix}candy
-│⭔ ${prefix}blackpinkneon
-│⭔ ${prefix}deepsea
-│⭔ ${prefix}scifi
-│⭔ ${prefix}fiction
-│⭔ ${prefix}berry
-│⭔ ${prefix}fruitjuice
-│⭔ ${prefix}biscuit
-│⭔ ${prefix}wood
-│⭔ ${prefix}chocolate
-│⭔ ${prefix}matrix
-│⭔ ${prefix}blood
-│⭔ ${prefix}halloween
-│⭔ ${prefix}wicker
-│⭔ ${prefix}darkgold
-│⭔ ${prefix}firework
-│⭔ ${prefix}skeleton
-│⭔ ${prefix}sand
-│⭔ ${prefix}glue
-│⭔ ${prefix}leaves
-│⭔ ${prefix}magma
-│⭔ ${prefix}lava
-│⭔ ${prefix}rock
-│⭔ ${prefix}bloodglas
-│⭔ ${prefix}underwater
-│⭔ ${prefix}textmaker
-│⭔ ${prefix}honey
-│⭔ ${prefix}ice
-│⭔ ${prefix}watercolor
-│⭔ ${prefix}multicolor
-│⭔ ${prefix}snow
-│⭔ ${prefix}harrypot
-│⭔ ${prefix}harrypotter
-│⭔ ${prefix}brokenglass
-│⭔ ${prefix}waterpipe
-│⭔ ${prefix}spooky
-│⭔ ${prefix}circuit
-│⭔ ${prefix}metallic
-│⭔ ${prefix}demon
-│⭔ ${prefix}sparklechristmas
-│⭔ ${prefix}christmas
-│⭔ ${prefix}3dchristmas
-│⭔ ${prefix}3dbox
-│⭔ ${prefix}waterdrop
-│⭔ ${prefix}lion2
-│⭔ ${prefix}papercut
-│⭔ ${prefix}transformer
-│⭔ ${prefix}neondevil
-│⭔ ${prefix}3davengers
-│⭔ ${prefix}3dstone
-│⭔ ${prefix}3dstone2
-│⭔ ${prefix}summertime
-│⭔ ${prefix}thunder
-│⭔ ${prefix}window
-│⭔ ${prefix}graffiti
-│⭔ ${prefix}graffitibike
-│⭔ ${prefix}pornhub
-│⭔ ${prefix}glitch
-│⭔ ${prefix}blackpink
-│⭔ ${prefix}glitch2
-│⭔ ${prefix}glitch3
-│⭔ ${prefix}3dspace
-│⭔ ${prefix}lion
-│⭔ ${prefix}3dneon
-│⭔ ${prefix}greenneon
-│⭔ ${prefix}bokeh
-│⭔ ${prefix}holographic
-│⭔ ${prefix}bear
-│⭔ ${prefix}wolf
-│⭔ ${prefix}joker
-│⭔ ${prefix}dropwater
-│⭔ ${prefix}dropwater2
-│⭔ ${prefix}thewall
-│⭔ ${prefix}neonlight
-│⭔ ${prefix}natural
-│⭔ ${prefix}carbon
-│⭔ ${prefix}pencil
-│⭔ ${prefix}blackpink2
-│⭔ ${prefix}neon
-│⭔ ${prefix}neonlight2
-│⭔ ${prefix}toxic
-│⭔ ${prefix}strawberry
-│⭔ ${prefix}discovery
-│⭔ ${prefix}1917
-│⭔  ${prefix}sci_fi
-│⭔  ${prefix}ancient
-│⭔  ${prefix}fabric
-│⭔  ${prefix}hoorror
-│⭔  ${prefix}whitebear
-│⭔  ${prefix}juice
-│⭔  ${prefix}batman
-│⭔  ${prefix}multicolor
-│⭔  ${prefix}collwall
-│⭔  ${prefix}wonderful
-│⭔  ${prefix}cool
-│⭔  ${prefix}sketch
-│⭔  ${prefix}marvel
-│⭔  ${prefix}foggy
-│⭔  ${prefix}writing
-│⭔  ${prefix}halloweenfire
-│⭔  ${prefix}halloween
-│⭔  ${prefix}watercolor
-│⭔  ${prefix}classic
-│
-└───────⭓
+    caption: `🎨 MAKER	
+🔖• ${prefix}candy
+🔖• ${prefix}8bit
+🔖• ${prefix}horror
+🔖• ${prefix}hoorror
+🔖• ${prefix}retro
+🔖• ${prefix}blackpinkneon
+🔖• ${prefix}deepsea
+🔖• ${prefix}scifi
+🔖• ${prefix}fiction
+🔖• ${prefix}berry
+🔖• ${prefix}fruitjuice
+🔖• ${prefix}biscuit
+🔖• ${prefix}wood
+🔖• ${prefix}chocolate
+🔖• ${prefix}matrix
+🔖• ${prefix}blood
+🔖• ${prefix}halloween
+🔖• ${prefix}wicker
+🔖• ${prefix}darkgold
+🔖• ${prefix}firework
+🔖• ${prefix}skeleton
+🔖• ${prefix}sand
+🔖• ${prefix}glue
+🔖• ${prefix}leaves
+🔖• ${prefix}magma
+🔖• ${prefix}lava
+🔖• ${prefix}rock
+🔖• ${prefix}bloodglas
+🔖• ${prefix}underwater
+🔖• ${prefix}textmaker
+🔖• ${prefix}honey
+🔖• ${prefix}ice
+🔖• ${prefix}watercolor
+🔖• ${prefix}multicolor
+🔖• ${prefix}snow
+🔖• ${prefix}harrypot
+🔖• ${prefix}harrypotter
+🔖• ${prefix}brokenglass
+🔖• ${prefix}waterpipe
+🔖• ${prefix}spooky
+🔖• ${prefix}circuit
+??• ${prefix}metallic
+🔖• ${prefix}demon
+🔖• ${prefix}sparklechristmas
+🔖• ${prefix}christmas
+🔖• ${prefix}3dchristmas
+🔖• ${prefix}3dbox
+🔖• ${prefix}waterdrop
+🔖• ${prefix}lion2
+🔖• ${prefix}papercut
+🔖• ${prefix}transformer
+🔖• ${prefix}neondevil
+🔖• ${prefix}3davengers
+🔖• ${prefix}3dstone
+🔖• ${prefix}3dstone2
+🔖• ${prefix}summertime
+🔖• ${prefix}thunder
+🔖• ${prefix}window
+🔖• ${prefix}graffiti
+🔖• ${prefix}graffitibike
+🔖• ${prefix}pornhub
+🔖• ${prefix}glitch
+🔖• ${prefix}blackpink
+🔖• ${prefix}glitch2
+🔖• ${prefix}glitch3
+🔖• ${prefix}3dspace
+🔖• ${prefix}lion
+🔖• ${prefix}3dneon
+🔖• ${prefix}greenneon
+🔖• ${prefix}bokeh
+🔖• ${prefix}holographic
+🔖• ${prefix}bear
+🔖• ${prefix}wolf
+🔖• ${prefix}joker
+🔖• ${prefix}dropwater
+🔖• ${prefix}dropwater2
+🔖• ${prefix}thewall
+🔖• ${prefix}neonlight
+🔖• ${prefix}natural
+🔖• ${prefix}carbon
+🔖• ${prefix}pencil
+🔖• ${prefix}blackpink2
+🔖• ${prefix}neon
+🔖• ${prefix}neonlight2
+🔖• ${prefix}toxic
+🔖• ${prefix}strawberry
+🔖• ${prefix}discovery
+🔖• ${prefix}1917
+🔖•  ${prefix}sci_fi
+🔖•  ${prefix}ancient
+🔖•  ${prefix}fabric
+🔖•  ${prefix}hoorror
+🔖•  ${prefix}whitebear
+🔖•  ${prefix}juice
+🔖•  ${prefix}batman
+🔖•  ${prefix}multicolor
+🔖•  ${prefix}collwall
+🔖•  ${prefix}wonderful
+🔖•  ${prefix}cool
+🔖•  ${prefix}sketch
+🔖•  ${prefix}marvel
+🔖•  ${prefix}foggy
+🔖•  ${prefix}writing
+🔖•  ${prefix}halloweenfire
+🔖•  ${prefix}halloween
+🔖•  ${prefix}watercolor
+🔖•  ${prefix}classic
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7116,24 +6797,21 @@ break
 var unicorn = await getBuffer(picak+'Download Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓  ⬇️ DOWNLOAD	
-│        
-│⭔ ${prefix}tiktok [url]
-│⭔ ${prefix}tiktokaudio[url]
-│⭔ ${prefix}mediafire [url]
-│⭔ ${prefix}ytmp3 [url|quality]
-│⭔ ${prefix}ytmp4 [url|quality]
-│⭔ ${prefix}gitclone [repo link]
-│⭔ ${prefix}soundcloud [url]
-│⭔ ${prefix}zippyshare [url]
-│
-└───────⭓
+    caption: `⬇️ DOWNLOAD	
+🔖• ${prefix}tiktok [url]
+🔖• ${prefix}tiktokaudio[url]
+🔖• ${prefix}mediafire [url]
+🔖• ${prefix}ytmp3 [url|quality]
+🔖• ${prefix}ytmp4 [url|quality]
+🔖• ${prefix}gitclone [repo link]
+🔖• ${prefix}soundcloud [url]
+🔖• ${prefix}zippyshare [url]
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7146,36 +6824,33 @@ break
 var unicorn = await getBuffer(picak+'Search Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓ 🔎 SEARCH 	
-│
-│⭔ ${prefix}play [query]
-│⭔ ${prefix}song [query]
-│⭔ ${prefix}yts [query]
-│⭔ ${prefix}lyrics [query]
-│⭔ ${prefix}google [query]
-│⭔ ${prefix}gimage [query]
-│⭔ ${prefix}pinterest [query]
-│⭔ ${prefix}image [query]
-│⭔ ${prefix}film [query]
-│⭔ ${prefix}wallpaper [query]
-│⭔ ${prefix}searchgc [query]
-│⭔ ${prefix}happymod [query]
-│⭔ ${prefix}servermc
-│⭔ ${prefix}mcpedl [query]
-│⭔ ${prefix}tvsearch [query]
-│⭔ ${prefix}wikimedia [query]
-│⭔ ${prefix}ytsearch [query]
-│⭔ ${prefix}ringtone [query]
-│⭔ ${prefix}wattpad [query]
-│⭔  ${prefix}mcserver [ip|port]
-│
-└───────⭓
+    caption: `🔎 SEARCH	
+🔖• ${prefix}play [query]
+🔖• ${prefix}song [query]
+🔖• ${prefix}yts [query]
+🔖• ${prefix}lyrics [query]
+🔖• ${prefix}google [query]
+🔖• ${prefix}gimage [query]
+🔖• ${prefix}pinterest [query]
+🔖• ${prefix}image [query]
+🔖• ${prefix}film [query]
+🔖• ${prefix}wallpaper [query]
+🔖• ${prefix}searchgc [query]
+🔖• ${prefix}happymod [query]
+🔖• ${prefix}servermc
+🔖• ${prefix}mcpedl [query]
+🔖• ${prefix}tvsearch [query]
+🔖• ${prefix}wikimedia [query]
+🔖• ${prefix}ytsearch [query]
+🔖• ${prefix}ringtone [query]
+🔖• ${prefix}wattpad [query]
+🔖•  ${prefix}mcserver [ip|port]
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7188,43 +6863,40 @@ break
 var unicorn = await getBuffer(picak+'Convert Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓        ♾️ CONVERT
-│        
-│⭔  ${prefix}toimage [reply stick]
-│⭔  ${prefix}sticker [reply img|gif]
-│⭔  ${prefix}take [reply img|gif|stik]
-│⭔  ${prefix}smeme [reply img]
-│⭔  ${prefix}emoji [emoji]
-│⭔  ${prefix}tovideo [reply img]
-│⭔  ${prefix}togif [reply stick]
-│⭔  ${prefix}tourl [reply img]
-│⭔  ${prefix}tovn [reply aud]
-│⭔  ${prefix}tomp3 [reply vn]
-│⭔  ${prefix}toaudio [reply vid]
-│⭔  ${prefix}ebinary [reply txt]
-│⭔  ${prefix}dbinary [reply txt]
-│⭔  ${prefix}tinyurl [link]
-│⭔  ${prefix}styletext [text]
-│⭔ ${prefix}volume [reply aud]
-│⭔ ${prefix}bass [reply aud]
-│⭔ ${prefix}blown [reply aud]
-│⭔ ${prefix}deep [reply aud]
-│⭔ ${prefix}earrape [reply aud]
-│⭔ ${prefix}fast [reply aud]
-│⭔ ${prefix}fat [reply aud]
-│⭔ ${prefix}nightcore [reply aud]
-│⭔ ${prefix}reverse [reply aud]
-│⭔ ${prefix}robot [reply aud]
-│⭔ ${prefix}slow [reply aud]
-│⭔ ${prefix}squirrel [reply aud]
-│
-└───────⭓
+    caption: `♾️ CONVERT	
+🔖•  ${prefix}toimage [reply stick]
+🔖•  ${prefix}sticker [reply img|gif]
+🔖•  ${prefix}take [reply img|gif|stik]
+🔖•  ${prefix}smeme [reply img]
+🔖•  ${prefix}emoji [emoji]
+🔖•  ${prefix}tovideo [reply img]
+🔖•  ${prefix}togif [reply stick]
+🔖•  ${prefix}tourl [reply img]
+🔖•  ${prefix}tovn [reply aud]
+🔖•  ${prefix}tomp3 [reply vn]
+🔖•  ${prefix}toaudio [reply vid]
+🔖•  ${prefix}ebinary [reply txt]
+🔖•  ${prefix}dbinary [reply txt]
+🔖•  ${prefix}tinyurl [link]
+🔖•  ${prefix}styletext [text]
+🔖• ${prefix}volume [reply aud]
+🔖• ${prefix}bass [reply aud]
+🔖• ${prefix}blown [reply aud]
+🔖• ${prefix}deep [reply aud]
+🔖• ${prefix}earrape [reply aud]
+🔖• ${prefix}fast [reply aud]
+🔖• ${prefix}fat [reply aud]
+🔖• ${prefix}nightcore [reply aud]
+🔖• ${prefix}reverse [reply aud]
+🔖• ${prefix}robot [reply aud]
+🔖• ${prefix}slow [reply aud]
+🔖• ${prefix}squirrel [reply aud]
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7237,26 +6909,24 @@ case 'randomimagemenu':{
 var unicorn = await getBuffer(picak+'Random Image Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓       🎠 RANDOM IMG
-│⭔ ${prefix}coffee
-│⭔ ${prefix}woof
-│⭔ ${prefix}meow
-│⭔ ${prefix}lizard
-│⭔ ${prefix}wallneon
-│⭔ ${prefix}wallpubg
-│⭔ ${prefix}wallml
-│⭔ ${prefix}wallrandom
-│⭔ ${prefix}wallcode
-│⭔ ${prefix}animewall [query]
-│⭔ ${prefix}animewall2 [query]
-│
-└───────⭓
+    caption: `🎠 RANDOM IMG 	
+🔖• ${prefix}coffee
+🔖• ${prefix}woof
+🔖• ${prefix}meow
+🔖• ${prefix}lizard
+🔖• ${prefix}wallneon
+🔖• ${prefix}wallpubg
+🔖• ${prefix}wallml
+🔖• ${prefix}wallrandom
+🔖• ${prefix}wallcode
+🔖• ${prefix}animewall [query]
+🔖• ${prefix}animewall2 [query]
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7269,28 +6939,25 @@ break
 var unicorn = await getBuffer(picak+'Emote Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓      🐣 EMOTE
-│
-│⭔ ${prefix}instagramemoji
-│⭔ ${prefix}facebookemoji
-│⭔ ${prefix}iphoneemoji
-│⭔ ${prefix}samsungemoji
-│⭔ ${prefix}joyemoji
-│⭔ ${prefix}skypeemoji
-│⭔ ${prefix}twitteremoji
-│⭔ ${prefix}whatsappemoji
-│⭔ ${prefix}microsoftemoji
-│⭔ ${prefix}googleemoji
-│⭔ ${prefix}pediaemoji
-│⭔ ${prefix}microsoftemoji
-│
-└───────⭓
+    caption: `🐣 EMOTE	
+🔖• ${prefix}instagramemoji
+🔖• ${prefix}facebookemoji
+🔖• ${prefix}iphoneemoji
+🔖• ${prefix}samsungemoji
+🔖• ${prefix}joyemoji
+🔖• ${prefix}skypeemoji
+🔖• ${prefix}twitteremoji
+🔖• ${prefix}whatsappemoji
+🔖• ${prefix}microsoftemoji
+🔖• ${prefix}googleemoji
+🔖• ${prefix}pediaemoji
+🔖• ${prefix}microsoftemoji
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7303,19 +6970,17 @@ break
 var unicorn = await getBuffer(picak+'Image Effect Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓       🎈IMG EFFECT
-│⭔ ${prefix}wanted [reply img]
-│⭔ ${prefix}triggeredwebp [reply img]
-│⭔ ${prefix}removebg [reply img]
-│⭔ ${prefix}upscaler [reply img]
-│
-└───────⭓
+    caption: `🎈 IMG EFFECT 	
+🔖• ${prefix}wanted [reply img]
+🔖• ${prefix}triggeredwebp [reply img]
+🔖• ${prefix}removebg [reply img]
+🔖• ${prefix}upscaler [reply img]
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7328,74 +6993,71 @@ case 'animemenu':{
 var unicorn = await getBuffer(picak+'Anime Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓       👾 ANIME
-│
-│⭔ ${prefix}asuna
-│⭔ ${prefix}anna
-│⭔ ${prefix}chitoge
-│⭔ ${prefix}cosplay
-│⭔ ${prefix}elaina
-│⭔ ${prefix}emilia
-│⭔ ${prefix}gremory
-│⭔ ${prefix}kaguya
-│⭔ ${prefix}kotori
-│⭔ ${prefix}kurumi
-│⭔ ${prefix}mikasa
-│⭔ ${prefix}rize
-│⭔ ${prefix}naruto
-│⭔ ${prefix}yaoi
-│⭔ ${prefix}animeneko
-│⭔ ${prefix}waifu
-│⭔ ${prefix}animewaifu
-│⭔ ${prefix}animeawoo
-│⭔ ${prefix}shinobu
-│⭔ ${prefix}foxgirl
-│⭔ ${prefix}animemegumin
-│⭔ ${prefix}loli-waifu
-│⭔ ${prefix}8ball
-│⭔ ${prefix}animenom
-│⭔ ${prefix}goose
-│⭔ ${prefix}avatar
-│⭔ ${prefix}tickle
-│⭔ ${prefix}gecg
-│⭔ ${prefix}feed
-│⭔ ${prefix}animeslap
-│⭔ ${prefix}animepat
-│⭔ ${prefix}animeneko
-│⭔ ${prefix}animekiss
-│⭔ ${prefix}animewlp
-│⭔ ${prefix}animecuddle
-│⭔ ${prefix}animecry
-│⭔ ${prefix}animekill
-│⭔ ${prefix}animelick
-│⭔ ${prefix}animebite
-│⭔ ${prefix}animeyeet
-│⭔ ${prefix}animebully
-│⭔ ${prefix}animebonk
-│⭔ ${prefix}animewink
-│⭔ ${prefix}animepoke
-│⭔ ${prefix}animesmile
-│⭔ ${prefix}animewave
-│⭔ ${prefix}animeawoo
-│⭔ ${prefix}animeblush
-│⭔ ${prefix}animesmug
-│⭔ ${prefix}animeglomp
-│⭔ ${prefix}animehappy
-│⭔ ${prefix}animedance
-│⭔ ${prefix}animecringe
-│⭔ ${prefix}animehighfive
-│⭔ ${prefix}animehandhold
-│⭔ ${prefix}animemegumin
-│⭔ ${prefix}animesmug
-│⭔ ${prefix}couplepp
-│
-└───────⭓
+    caption: `👾 ANIME 	
+🔖• ${prefix}asuna
+🔖• ${prefix}anna
+🔖• ${prefix}chitoge
+🔖• ${prefix}cosplay
+🔖• ${prefix}elaina
+🔖• ${prefix}emilia
+🔖• ${prefix}gremory
+🔖• ${prefix}kaguya
+🔖• ${prefix}kotori
+🔖• ${prefix}kurumi
+🔖• ${prefix}mikasa
+🔖• ${prefix}rize
+🔖• ${prefix}naruto
+🔖• ${prefix}yaoi
+🔖• ${prefix}animeneko
+🔖• ${prefix}waifu
+🔖• ${prefix}shinobu
+🔖• ${prefix}animeawoo
+🔖• ${prefix}animewaifu
+🔖• ${prefix}foxgirl
+🔖• ${prefix}animenom
+🔖• ${prefix}goose
+🔖• ${prefix}8ball
+🔖• ${prefix}avatar
+🔖• ${prefix}tickle
+🔖• ${prefix}gecg
+🔖• ${prefix}feed
+🔖• ${prefix}animeslap
+🔖• ${prefix}animepat
+🔖• ${prefix}animeneko
+🔖• ${prefix}animekiss
+🔖• ${prefix}animewlp
+🔖• ${prefix}animecuddle
+🔖• ${prefix}animecry
+🔖• ${prefix}animekill
+🔖• ${prefix}animelick
+🔖• ${prefix}animebite
+🔖• ${prefix}animeyeet
+🔖• ${prefix}animebully
+🔖• ${prefix}animebonk
+🔖• ${prefix}animewink
+🔖• ${prefix}animepoke
+👨??‍💻• ${prefix}animesmile
+🔖• ${prefix}animewave
+🔖• ${prefix}animeawoo
+🔖• ${prefix}animeblush
+🔖• ${prefix}animesmug
+🔖• ${prefix}animeglomp
+🔖• ${prefix}animehappy
+🔖• ${prefix}animedance
+🔖• ${prefix}animecringe
+🔖• ${prefix}animehighfive
+🔖• ${prefix}animehandhold
+🔖• ${prefix}animemegumin
+🔖• ${prefix}animemegumin
+🔖• ${prefix}animesmug
+🔖• ${prefix}loli-waifu
+🔖• ${prefix}couplepp
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7408,23 +7070,21 @@ break
 var unicorn = await getBuffer(picak+'Sticker Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓  🧚🏻‍♂️STICKER
-│⭔  ${prefix}patrick
-│⭔  ${prefix}emoji
-│⭔  ${prefix}emojimix
-│⭔  ${prefix}attp
-│⭔  ${prefix}ttp
-│⭔  ${prefix}doge
-│⭔  ${prefix}lovesticker
-│⭔  ${prefix}animestick
-│
-└───────⭓
+    caption: `🧚🏻‍♂️ STICKER	
+🔖•  ${prefix}patrick
+🔖•  ${prefix}emoji
+🔖•  ${prefix}emojimix
+🔖•  ${prefix}attp
+🔖•  ${prefix}ttp
+🔖•  ${prefix}doge
+🔖•  ${prefix}lovesticker
+🔖•  ${prefix}animestick
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7437,45 +7097,42 @@ case 'animestickermenu':{
 var unicorn = await getBuffer(picak+'Anime Sticker Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓🧚🏻‍♀️ ANIME STICKER
-│
-│⭔ ${prefix}loli
-│⭔ ${prefix}bully
-│⭔ ${prefix}cuddle
-│⭔ ${prefix}cry
-│⭔ ${prefix}hug
-│⭔ ${prefix}awoo
-│⭔ ${prefix}kiss
-│⭔ ${prefix}lick
-│⭔ ${prefix}pat
-│⭔ ${prefix}smug
-│⭔ ${prefix}bonk
-│⭔ ${prefix}yeet
-│⭔ ${prefix}blush
-│⭔ ${prefix}smile
-│⭔ ${prefix}wave
-│⭔ ${prefix}highfive
-│⭔ ${prefix}handhold
-│⭔ ${prefix}nom
-│⭔ ${prefix}glomp
-│⭔ ${prefix}bite
-│⭔ ${prefix}slap
-│⭔ ${prefix}kill
-│⭔ ${prefix}happy
-│⭔ ${prefix}wink
-│⭔ ${prefix}poke
-│⭔ ${prefix}dance
-│⭔ ${prefix}cringe
-│⭔ ${prefix}neko
-│⭔ ${prefix}gura
-│
-└───────⭓
+    caption: `🧚🏻‍♀️  ANIME STICKER	
+🔖• ${prefix}loli
+🔖• ${prefix}bully
+🔖• ${prefix}cuddle
+🔖• ${prefix}cry
+🔖• ${prefix}hug
+🔖• ${prefix}awoo
+🔖• ${prefix}kiss
+🔖• ${prefix}lick
+🔖• ${prefix}pat
+🔖• ${prefix}smug
+🔖• ${prefix}bonk
+🔖• ${prefix}yeet
+🔖• ${prefix}blush
+🔖• ${prefix}smile
+🔖• ${prefix}wave
+🔖• ${prefix}highfive
+🔖• ${prefix}handhold
+🔖• ${prefix}nom
+🔖• ${prefix}glomp
+🔖• ${prefix}bite
+🔖• ${prefix}slap
+🔖• ${prefix}kill
+🔖• ${prefix}happy
+🔖• ${prefix}wink
+🔖• ${prefix}poke
+🔖• ${prefix}dance
+🔖• ${prefix}cringe
+🔖• ${prefix}neko
+🔖• ${prefix}gura
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7488,22 +7145,19 @@ case 'nsfwmenu':{
 var unicorn = await getBuffer(picak+'Nsfw Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓ 🕵🏻‍♂️NSFW
-│       
-│⭔ ${prefix}hentaivideo
-│⭔ ${prefix}hneko
-│⭔ ${prefix}nwaifu
-│⭔ ${prefix}animespank
-│⭔ ${prefix}trap
-│⭔ ${prefix}gasm
-│
-└───────⭓
+    caption: `🕵🏻‍♂️ NSFW 	
+🔖• ${prefix}hentaivideo
+🔖• ${prefix}hneko
+🔖• ${prefix}nwaifu
+🔖• ${prefix}animespank
+🔖• ${prefix}trap
+🔖• ${prefix}gasm
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7516,79 +7170,76 @@ case 'funmenu':{
 var unicorn = await getBuffer(picak+'Fun Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓      🎭 FUN
-│
-│⭔  ${prefix}how [text
-│⭔  ${prefix}when [text]
-│⭔  ${prefix}where [text]
-│⭔  ${prefix}is [text]
-│⭔  ${prefix}what [text]
-│⭔  ${prefix}can [text]
-│⭔  ${prefix}rate [text]
-│⭔  ${prefix}beautifulcheck [tag]
-│⭔  ${prefix}awesomecheck [tag]
-│⭔  ${prefix}prettycheck [tag]
-│⭔  ${prefix}lesbiancheck [tag]
-│⭔  ${prefix}gaycheck [tag]
-│⭔  ${prefix}cutecheck [tag]
-│⭔  ${prefix}uglycheck [tag]
-│⭔  ${prefix}hornycheck [tag]
-│⭔  ${prefix}charactercheck [tag]
-│⭔  ${prefix}lovelycheck [tag]
-│⭔  ${prefix}couple
-│⭔  ${prefix}mysoulmate
-│⭔  ${prefix}hot
-│⭔  ${prefix}sexy
-│⭔  ${prefix}kind
-│⭔  ${prefix}idiot
-│⭔  ${prefix}handsome
-│⭔  ${prefix}beautiful
-│⭔  ${prefix}cute
-│⭔  ${prefix}pretty
-│⭔  ${prefix}lesbian
-│⭔  ${prefix}noob
-│⭔  ${prefix}bastard
-│⭔  ${prefix}foolish
-│⭔  ${prefix}nerd
-│⭔  ${prefix}asshole
-│⭔  ${prefix}gay
-│⭔  ${prefix}smart
-│⭔  ${prefix}stubble
-│⭔  ${prefix}dog
-│⭔  ${prefix}horny
-│⭔  ${prefix}cunt
-│⭔  ${prefix}wibu
-│⭔  ${prefix}noobra
-│⭔  ${prefix}nibba
-│⭔  ${prefix}nibbi
-│⭔  ${prefix}comrade
-│⭔  ${prefix}mumu
-│⭔  ${prefix}rascal
-│⭔  ${prefix}scumbag
-│⭔  ${prefix}nuts
-│⭔  ${prefix}fagot
-│⭔  ${prefix}scoundrel
-│⭔  ${prefix}ditch
-│⭔  ${prefix}dope
-│⭔  ${prefix}gucci
-│⭔  ${prefix}lit
-│⭔  ${prefix}dumbass
-│⭔  ${prefix}crackhead
-│⭔  ${prefix}mf
-│⭔  ${prefix}motherfucker
-│⭔  ${prefix}sucker
-│⭔  ${prefix}fuckboy
-│⭔  ${prefix}playboy
-│⭔  ${prefix}fuckgirl
-│⭔  ${prefix}playgirl
-│
-└───────⭓
+    caption: `🎠	
+🔖•  ${prefix}how [text
+🔖•  ${prefix}when [text]
+🔖•  ${prefix}where [text]
+🔖•  ${prefix}is [text]
+🔖•  ${prefix}what [text]
+🔖•  ${prefix}can [text]
+🔖•  ${prefix}rate [text]
+🔖•  ${prefix}beautifulcheck [tag]
+🔖•  ${prefix}awesomecheck [tag]
+🔖•  ${prefix}prettycheck [tag]
+🔖•  ${prefix}lesbiancheck [tag]
+🔖•  ${prefix}gaycheck [tag]
+🔖•  ${prefix}cutecheck [tag]
+🔖•  ${prefix}uglycheck [tag]
+🔖•  ${prefix}hornycheck [tag]
+🔖•  ${prefix}charactercheck [tag]
+🔖•  ${prefix}lovelycheck [tag]
+🔖•  ${prefix}couple
+🔖•  ${prefix}mysoulmate
+🔖•  ${prefix}hot
+🔖•  ${prefix}sexy
+🔖•  ${prefix}kind
+🔖•  ${prefix}idiot
+🔖•  ${prefix}handsome
+🔖•  ${prefix}beautiful
+🔖•  ${prefix}cute
+🔖•  ${prefix}pretty
+🔖•  ${prefix}lesbian
+🔖•  ${prefix}noob
+🔖•  ${prefix}bastard
+🔖•  ${prefix}foolish
+🔖•  ${prefix}nerd
+🔖•  ${prefix}asshole
+🔖•  ${prefix}gay
+🔖•  ${prefix}smart
+🔖•  ${prefix}stubble
+🔖•  ${prefix}dog
+🔖•  ${prefix}horny
+🔖•  ${prefix}cunt
+🔖•  ${prefix}wibu
+🔖•  ${prefix}noobra
+🔖•  ${prefix}nibba
+🔖•  ${prefix}nibbi
+🔖•  ${prefix}comrade
+🔖•  ${prefix}mumu
+🔖•  ${prefix}rascal
+🔖•  ${prefix}scumbag
+🔖•  ${prefix}nuts
+🔖•  ${prefix}fagot
+🔖•  ${prefix}scoundrel
+🔖•  ${prefix}ditch
+🔖•  ${prefix}dope
+🔖•  ${prefix}gucci
+🔖•  ${prefix}lit
+🔖•  ${prefix}dumbass
+🔖•  ${prefix}crackhead
+🔖•  ${prefix}mf
+🔖•  ${prefix}motherfucker
+🔖•  ${prefix}sucker
+🔖•  ${prefix}fuckboy
+🔖•  ${prefix}playboy
+🔖•  ${prefix}fuckgirl
+🔖•  ${prefix}playgirl
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7601,177 +7252,174 @@ case 'soundmenu':{
 var unicorn = await getBuffer(picak+'Sound Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓ 🎧 SOUND
-│
-│⭔  ${prefix}sound1
-│⭔  ${prefix}sound2
-│⭔  ${prefix}sound3
-│⭔  ${prefix}sound4
-│⭔  ${prefix}sound5
-│⭔  ${prefix}sound6
-│⭔  ${prefix}sound7
-│⭔  ${prefix}sound8
-│⭔  ${prefix}sound9
-│⭔  ${prefix}sound10
-│⭔  ${prefix}sound11
-│⭔  ${prefix}sound12
-│⭔  ${prefix}sound13
-│⭔  ${prefix}sound14
-│⭔  ${prefix}sound15
-│⭔  ${prefix}sound16
-│⭔  ${prefix}sound17
-│⭔  ${prefix}sound18
-│⭔  ${prefix}sound19
-│⭔  ${prefix}sound20
-│⭔  ${prefix}sound21
-│⭔  ${prefix}sound22
-│⭔  ${prefix}sound23
-│⭔  ${prefix}sound24
-│⭔  ${prefix}sound25
-│⭔  ${prefix}sound26
-│⭔  ${prefix}sound27
-│⭔  ${prefix}sound28
-│⭔  ${prefix}sound29
-│⭔  ${prefix}sound30
-│⭔  ${prefix}sound31
-│⭔  ${prefix}sound32
-│⭔  ${prefix}sound33
-│⭔  ${prefix}sound34
-│⭔  ${prefix}sound35
-│⭔  ${prefix}sound36
-│⭔  ${prefix}sound37
-│⭔  ${prefix}sound38
-│⭔  ${prefix}sound39
-│⭔  ${prefix}sound40
-│⭔  ${prefix}sound41
-│⭔  ${prefix}sound42
-│⭔  ${prefix}sound43
-│⭔  ${prefix}sound44
-│⭔  ${prefix}sound45
-│⭔  ${prefix}sound46
-│⭔  ${prefix}sound47
-│⭔  ${prefix}sound48
-│⭔  ${prefix}sound49
-│⭔  ${prefix}sound50
-│⭔  ${prefix}sound51
-│⭔  ${prefix}sound52
-│⭔  ${prefix}sound53
-│⭔  ${prefix}sound54
-│⭔  ${prefix}sound55
-│⭔  ${prefix}sound56
-│⭔  ${prefix}sound57
-│⭔  ${prefix}sound58
-│⭔  ${prefix}sound59
-│⭔  ${prefix}sound60
-│⭔  ${prefix}sound61
-│⭔  ${prefix}sound62
-│⭔  ${prefix}sound63
-│⭔  ${prefix}sound64
-│⭔  ${prefix}sound65
-│⭔  ${prefix}sound66
-│⭔  ${prefix}sound67
-│⭔  ${prefix}sound68
-│⭔  ${prefix}sound69
-│⭔  ${prefix}sound70
-│⭔  ${prefix}sound71
-│⭔  ${prefix}sound72
-│⭔  ${prefix}sound73
-│⭔  ${prefix}sound74
-│⭔  ${prefix}sound75
-│⭔  ${prefix}sound76
-│⭔  ${prefix}sound77
-│⭔  ${prefix}sound78
-│⭔  ${prefix}sound79
-│⭔  ${prefix}sound80
-│⭔  ${prefix}sound81
-│⭔  ${prefix}sound82
-│⭔  ${prefix}sound83
-│⭔  ${prefix}sound84
-│⭔  ${prefix}sound85
-│⭔  ${prefix}sound86
-│⭔  ${prefix}sound87
-│⭔  ${prefix}sound88
-│⭔  ${prefix}sound89
-│⭔  ${prefix}sound90
-│⭔  ${prefix}sound91
-│⭔  ${prefix}sound92
-│⭔  ${prefix}sound93
-│⭔  ${prefix}sound94
-│⭔  ${prefix}sound95
-│⭔  ${prefix}sound96
-│⭔  ${prefix}sound97
-│⭔  ${prefix}sound98
-│⭔  ${prefix}sound99
-│⭔  ${prefix}sound100
-│⭔  ${prefix}sound101
-│⭔  ${prefix}sound102
-│⭔  ${prefix}sound103
-│⭔  ${prefix}sound104
-│⭔  ${prefix}sound105
-│⭔  ${prefix}sound106
-│⭔  ${prefix}sound107
-│⭔  ${prefix}sound108
-│⭔  ${prefix}sound109
-│⭔  ${prefix}sound110
-│⭔  ${prefix}sound111
-│⭔  ${prefix}sound112
-│⭔  ${prefix}sound113
-│⭔  ${prefix}sound114
-│⭔  ${prefix}sound115
-│⭔  ${prefix}sound116
-│⭔  ${prefix}sound117
-│⭔  ${prefix}sound118
-│⭔  ${prefix}sound119
-│⭔  ${prefix}sound120
-│⭔  ${prefix}sound121
-│⭔  ${prefix}sound122
-│⭔  ${prefix}sound123
-│⭔  ${prefix}sound124
-│⭔  ${prefix}sound125
-│⭔  ${prefix}sound126
-│⭔  ${prefix}sound127
-│⭔  ${prefix}sound128
-│⭔  ${prefix}sound129
-│⭔  ${prefix}sound130
-│⭔  ${prefix}sound131
-│⭔  ${prefix}sound132
-│⭔  ${prefix}sound133
-│⭔  ${prefix}sound134
-│⭔  ${prefix}sound135
-│⭔  ${prefix}sound136
-│⭔  ${prefix}sound137
-│⭔  ${prefix}sound138
-│⭔  ${prefix}sound139
-│⭔  ${prefix}sound140
-│⭔  ${prefix}sound141
-│⭔  ${prefix}sound142
-│⭔  ${prefix}sound143
-│⭔  ${prefix}sound144
-│⭔  ${prefix}sound145
-│⭔  ${prefix}sound146
-│⭔  ${prefix}sound147
-│⭔  ${prefix}sound148
-│⭔  ${prefix}sound149
-│⭔  ${prefix}sound150
-│⭔  ${prefix}sound151
-│⭔  ${prefix}sound152
-│⭔  ${prefix}sound153
-│⭔  ${prefix}sound154
-│⭔  ${prefix}sound155
-│⭔  ${prefix}sound156
-│⭔  ${prefix}sound157
-│⭔  ${prefix}sound158
-│⭔  ${prefix}sound159
-│⭔  ${prefix}sound160
-│⭔  ${prefix}sound161
-│
-└───────⭓
+    caption: `🎧 Sound 
+🔖•  ${prefix}sound1
+🔖•  ${prefix}sound2
+🔖•  ${prefix}sound3
+🔖•  ${prefix}sound4
+🔖•  ${prefix}sound5
+🔖•  ${prefix}sound6
+🔖•  ${prefix}sound7
+🔖•  ${prefix}sound8
+🔖•  ${prefix}sound9
+🔖•  ${prefix}sound10
+🔖•  ${prefix}sound11
+🔖•  ${prefix}sound12
+🔖•  ${prefix}sound13
+🔖•  ${prefix}sound14
+🔖•  ${prefix}sound15
+🔖•  ${prefix}sound16
+🔖•  ${prefix}sound17
+🔖•  ${prefix}sound18
+🔖•  ${prefix}sound19
+🔖•  ${prefix}sound20
+🔖•  ${prefix}sound21
+🔖•  ${prefix}sound22
+🔖•  ${prefix}sound23
+🔖•  ${prefix}sound24
+🔖•  ${prefix}sound25
+🔖•  ${prefix}sound26
+🔖•  ${prefix}sound27
+🔖•  ${prefix}sound28
+🔖•  ${prefix}sound29
+🔖•  ${prefix}sound30
+🔖•  ${prefix}sound31
+🔖•  ${prefix}sound32
+🔖•  ${prefix}sound33
+🔖•  ${prefix}sound34
+🔖•  ${prefix}sound35
+🔖•  ${prefix}sound36
+🔖•  ${prefix}sound37
+🔖•  ${prefix}sound38
+🔖•  ${prefix}sound39
+🔖•  ${prefix}sound40
+🔖•  ${prefix}sound41
+🔖•  ${prefix}sound42
+🔖•  ${prefix}sound43
+🔖•  ${prefix}sound44
+🔖•  ${prefix}sound45
+🔖•  ${prefix}sound46
+🔖•  ${prefix}sound47
+🔖•  ${prefix}sound48
+🔖•  ${prefix}sound49
+🔖•  ${prefix}sound50
+🔖•  ${prefix}sound51
+🔖•  ${prefix}sound52
+🔖•  ${prefix}sound53
+🔖•  ${prefix}sound54
+🔖•  ${prefix}sound55
+🔖•  ${prefix}sound56
+🔖•  ${prefix}sound57
+🔖•  ${prefix}sound58
+🔖•  ${prefix}sound59
+🔖•  ${prefix}sound60
+🔖•  ${prefix}sound61
+🔖•  ${prefix}sound62
+🔖•  ${prefix}sound63
+🔖•  ${prefix}sound64
+🔖•  ${prefix}sound65
+🔖•  ${prefix}sound66
+🔖•  ${prefix}sound67
+🔖•  ${prefix}sound68
+🔖•  ${prefix}sound69
+🔖•  ${prefix}sound70
+🔖•  ${prefix}sound71
+🔖•  ${prefix}sound72
+🔖•  ${prefix}sound73
+🔖•  ${prefix}sound74
+🔖•  ${prefix}sound75
+🔖•  ${prefix}sound76
+🔖•  ${prefix}sound77
+🔖•  ${prefix}sound78
+🔖•  ${prefix}sound79
+🔖•  ${prefix}sound80
+🔖•  ${prefix}sound81
+🔖•  ${prefix}sound82
+🔖•  ${prefix}sound83
+🔖•  ${prefix}sound84
+🔖•  ${prefix}sound85
+🔖•  ${prefix}sound86
+🔖•  ${prefix}sound87
+🔖•  ${prefix}sound88
+🔖•  ${prefix}sound89
+🔖•  ${prefix}sound90
+🔖•  ${prefix}sound91
+🔖•  ${prefix}sound92
+👨??‍💻•  ${prefix}sound93
+👨??‍💻•  ${prefix}sound94
+🔖•  ${prefix}sound95
+🔖•  ${prefix}sound96
+🔖•  ${prefix}sound97
+🔖•  ${prefix}sound98
+🔖•  ${prefix}sound99
+🔖•  ${prefix}sound100
+🔖•  ${prefix}sound101
+🔖•  ${prefix}sound102
+🔖•  ${prefix}sound103
+🔖•  ${prefix}sound104
+🔖•  ${prefix}sound105
+🔖•  ${prefix}sound106
+??•  ${prefix}sound107
+??•  ${prefix}sound108
+🔖•  ${prefix}sound109
+🔖•  ${prefix}sound110
+🔖•  ${prefix}sound111
+🔖•  ${prefix}sound112
+🔖•  ${prefix}sound113
+🔖•  ${prefix}sound114
+??•  ${prefix}sound115
+🔖•  ${prefix}sound116
+🔖•  ${prefix}sound117
+??•  ${prefix}sound118
+🔖•  ${prefix}sound119
+🔖•  ${prefix}sound120
+🔖•  ${prefix}sound121
+🔖•  ${prefix}sound122
+🔖•  ${prefix}sound123
+🔖•  ${prefix}sound124
+🔖•  ${prefix}sound125
+🔖•  ${prefix}sound126
+🔖•  ${prefix}sound127
+🔖•  ${prefix}sound128
+🔖•  ${prefix}sound129
+🔖•  ${prefix}sound130
+🔖•  ${prefix}sound131
+🔖•  ${prefix}sound132
+🔖•  ${prefix}sound133
+🔖•  ${prefix}sound134
+🔖•  ${prefix}sound135
+🔖•  ${prefix}sound136
+🔖•  ${prefix}sound137
+🔖•  ${prefix}sound138
+🔖•  ${prefix}sound139
+🔖•  ${prefix}sound140
+🔖•  ${prefix}sound141
+🔖•  ${prefix}sound142
+🔖•  ${prefix}sound143
+🔖•  ${prefix}sound144
+🔖•  ${prefix}sound145
+🔖•  ${prefix}sound146
+🔖•  ${prefix}sound147
+🔖•  ${prefix}sound148
+🔖•  ${prefix}sound149
+🔖•  ${prefix}sound150
+🔖•  ${prefix}sound151
+🔖•  ${prefix}sound152
+🔖•  ${prefix}sound153
+🔖•  ${prefix}sound154
+🔖•  ${prefix}sound155
+🔖•  ${prefix}sound156
+🔖•  ${prefix}sound157
+🔖•  ${prefix}sound158
+🔖•  ${prefix}sound159
+🔖•  ${prefix}sound160
+🔖•  ${prefix}sound161
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7784,23 +7432,20 @@ case 'gamemenu':{
 var unicorn = await getBuffer(picak+'Game Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓ 🦄 GAME
-│
-│⭔  ${prefix}truth
-│⭔  ${prefix}dare
-│⭔  ${prefix}tictactoe
-│⭔  ${prefix}delttt
-│⭔  ${prefix}guess [option]
-│⭔  ${prefix}math [mode]
-│⭔  ${prefix}suitpvp [tag]
-│
-└───────⭓
+    caption: `🦄 GAME	
+🔖•  ${prefix}truth
+🔖•  ${prefix}dare
+🔖•  ${prefix}tictactoe
+🔖•  ${prefix}delttt
+🔖•  ${prefix}guess [option]
+🔖•  ${prefix}math [mode]
+🔖•  ${prefix}suitpvp [tag]
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7813,19 +7458,17 @@ break
 var unicorn = await getBuffer(picak+'Anonymous Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓👤ANONYMOUS CHAT
-│⭔ ${prefix}anonymous
-│⭔ ${prefix}start
-│⭔ ${prefix}next
-│⭔ ${prefix}leave
-│
-└───────⭓
+    caption: `👤 ANONYMOUS 
+🔖• ${prefix}anonymous
+🔖• ${prefix}start
+🔖• ${prefix}next
+🔖• ${prefix}leave
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7838,23 +7481,21 @@ case 'databasemenu':{
 var unicorn = await getBuffer(picak+'Database Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓📂 DATABASE
-│⭔  ${prefix}setcmd
-│⭔  ${prefix}listcmd
-│⭔  ${prefix}delcmd
-│⭔  ${prefix}lockcmd
-│⭔  ${prefix}addmsg
-│⭔  ${prefix}listmsg
-│⭔  ${prefix}getmsg
-│⭔  ${prefix}delmsg
-│
-└───────⭓
+    caption: `📂 DATABASE 
+🔖•  ${prefix}setcmd
+🔖•  ${prefix}listcmd
+🔖•  ${prefix}delcmd
+🔖•  ${prefix}lockcmd
+🔖•  ${prefix}addmsg
+🔖•  ${prefix}listmsg
+🔖•  ${prefix}getmsg
+🔖•  ${prefix}delmsg
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -7867,37 +7508,34 @@ case 'othermenu':{
 var unicorn = await getBuffer(picak+'Other Menu')
 
 const buttons = [
-  
+  {buttonId: 'script', buttonText: {displayText: 'Join Group Whatsapp'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'trakteer owner kopi☕'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🙋🏻‍♂️'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner 🥷🏻 '}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌──⭓  🥷🏻 OTHER 
-│
-│⭔  ${prefix}afk
-│⭔  ${prefix}id
-│⭔  ${prefix}toqr [link]
-│⭔  ${prefix}repeat
-│⭔  ${prefix}readmore [text]
-│⭔  ${prefix}toviewonce
-│⭔  ${prefix}fliptext [text]]
-│⭔  ${prefix}chatinfo
-│⭔  ${prefix}alive
-│⭔  ${prefix}script
-│⭔  ${prefix}speedtest
-│⭔  ${prefix}ping
-│⭔  ${prefix}owner
-│⭔  ${prefix}menu
-│⭔  ${prefix}delete
-│⭔  ${prefix}quoted
-│⭔  ${prefix}listpc
-│⭔  ${prefix}listgc
-│⭔  ${prefix}donate
-│⭔  ${prefix}request
-│⭔  ${prefix}report [bug]
-│
-└───────⭓
+    caption: `🥷🏻 OTHER 	
+🔖•  ${prefix}afk
+🔖•  ${prefix}id
+🔖•  ${prefix}toqr [link]
+🔖•  ${prefix}repeat
+🔖•  ${prefix}readmore [text]
+🔖•  ${prefix}toviewonce
+🔖•  ${prefix}fliptext [text]] 
+🔖•  ${prefix}alive
+🔖•  ${prefix}script
+🔖•  ${prefix}speedtest
+🔖•  ${prefix}ping
+🔖•  ${prefix}owner
+🔖•  ${prefix}menu
+🔖•  ${prefix}delete
+🔖•  ${prefix}chatinfo
+🔖•  ${prefix}quoted
+🔖•  ${prefix}listpc
+🔖•  ${prefix}listgc
+🔖•  ${prefix}donate
+🔖•  ${prefix}request
+🔖•  ${prefix}report [bug]
 `,
     footer: `${botname}`,
     buttons: buttons,
