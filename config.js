@@ -84,6 +84,33 @@ global.packname = "Sticker By" //ur sticker watermark packname
 global.author = "Hi Dayat Ganteng-Bot Whatsap" //ur sticker watermark author
 global.wm = "Hidayat Store My Id" //ur watermark
 
+//Bot theme media
+global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
+global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
+global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+
+//damtabase
+global.premium = ['916909137213'] //ur premium numbers
+global.ntilinkytvid = []
+global.ntilinkytch = []
+global.ntilinkig = []
+global.ntilinkfb = []
+global.ntilinktg = []
+global.ntilinktt = []
+global.ntilinktwt = []
+global.ntilinkall = []
+global.nticall = []
+global.ntwame = []
+global.nttoxic = []
+global.ntnsfw = []
+global.ntvirtex = []
+global.rkyt = []
+global.wlcm = []
+global.gcrevoke = []
+global.autorep = []
+global.ntilink = []
+
 // Other
 global.sessionName = 'session'
 global.prefa = ['','!','.','#','&']
