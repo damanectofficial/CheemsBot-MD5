@@ -34,22 +34,57 @@ const qrcode = require('qrcode')
 const qrcodereader = require('qrcode-reader') 
 const imageToBase64 = require('image-to-base64')
 const ffmpeg = require('fluent-ffmpeg')
-const { imageToWebp, videoToWebp, writeExifImg, writeExifVid, writeExif, writeExifStc } = require('./lib/exif2')
-const { XeonBotIncTiktok } = require('./lib/tiktokbyxeon')
-const thiccysapi = require('textmaker-thiccy')
-const { XeonBotIncWiki } = require('./lib/xeonywiki.js')
-const textpro = require('./lib/textpro')
-const { mediafireDl } = require('./lib/mediafire.js')
 const { Gempa } = require("./lib/gempa.js")
 const { jadwaltv }= require('./lib/jadwaltv')
 const xeontod = require("tod-api")
-const { pinterest } = require("./lib/pinterest")
 const toHur = require('@develoka/angka-terbilang-js')
 const { hentai } = require('./lib/scraper2.js')
+const { imageToWebp, videoToWebp, writeExifImg, writeExifVid, writeExif, writeExifStc } = require('./lib/exif2')
+const {
+ FajarNews, 
+ BBCNews,
+  metroNews,
+  CNNNews,
+  iNews,
+  KumparanNews,
+  TribunNews,
+  DailyNews,
+  DetikNews,
+  OkezoneNews,
+  CNBCNews,
+  KompasNews,
+  SindoNews,
+  TempoNews,
+  IndozoneNews,
+  AntaraNews,
+  RepublikaNews,
+  VivaNews,
+  KontanNews,
+  MerdekaNews,
+  KomikuSearch,
+  AniPlanetSearch,
+  KomikFoxSearch,
+  KomikStationSearch,
+  MangakuSearch,
+  KiryuuSearch,
+  KissMangaSearch,
+  KlikMangaSearch,
+  PalingMurah,
+  LayarKaca21,
+  AminoApps,
+  Mangatoon,
+  WAModsSearch,
+  Emojis,
+  CoronaInfo,
+  JalanTikusMeme, 
+  Cerpen,
+  Quotes,
+  Couples,
+  Darkjokes
+} = require("dhn-api")
 
 const ini_mark = `0@s.whatsapp.net`
 const ownernya = ownernomer + '@s.whatsapp.net'
-
 
 //TIME
 const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
