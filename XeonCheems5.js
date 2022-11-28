@@ -2,40 +2,165 @@ process.on('uncaughtException', console.error)
 require('./config')
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
 const fs = require('fs')
-const os = require('os')
 const util = require('util')
-const path = require('path')
-const hx = require('hxz-api')
-const axios = require('axios')
 const chalk = require('chalk')
-const yts = require('yt-search')
-const xfar = require('xfarr-api')
-const google = require('google-it')
 const { exec, spawn, execSync } = require("child_process")
+const axios = require('axios')
+const path = require('path')
+const fetch = require('node-fetch')
+const os = require('os')
+const maker = require('mumaker')
+const hx = require("hxz-api")
 const moment = require('moment-timezone')
 const { JSDOM } = require('jsdom')
 const speed = require('performance-now')
 const { performance } = require('perf_hooks')
 const { Primbon } = require('scrape-primbon')
 const primbon = new Primbon()
-const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom, getGroupAdmins } = require('./lib/myfunc')
-const fdl = require('caliph-api')
-const maker = require('mumaker')
-const { pinterest } = require('./lib/pinterest') 
-const request = require('request')
-const xeontod = require("tod-api")
+const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom } = require('./lib/myfunc')
+const xeonkey = require('xfarr-api')
+const cheerio = require ("cheerio")
+const { XeonBotIncTiktok } = require('./lib/tiktokbyxeon')
+let { msgFilter } = require('./lib/antispam')
+let { covid } = require('./lib/covid.js') 
 const { EmojiAPI } = require("emoji-api")
 const emoji = new EmojiAPI()
-const { TelegraPh } = require('./lib/telegraph')
-const { imgSuper } = require('./lib/ephoto')
-const { remove, unscreen } = require('./lib/removebg')
-const QrCode = require('qrcode-reader')
-const qrcode = require('qrcode')
-const qrcodereader = require('qrcode-reader') 
-const imageToBase64 = require('image-to-base64')
-const ffmpeg = require('fluent-ffmpeg')
-const { imageToWebp, videoToWebp, writeExifImg, writeExifVid, writeExif, writeExifStc } = require('./lib/exif2')
-
+const thiccysapi = require('textmaker-thiccy')
+const { XeonBotIncWiki } = require('./lib/xeonywiki.js')
+const textpro = require('./lib/textpro')
+const { mediafireDl } = require('./lib/mediafire.js')
+const { Gempa } = require("./lib/gempa.js")
+const { jadwaltv }= require('./lib/jadwaltv')
+const xeontod = require("tod-api")
+const { pinterest } = require("./lib/pinterest")
+const toHur = require('@develoka/angka-terbilang-js')
+const { hentai } = require('./lib/scraper2.js')
+const {
+ FajarNews, 
+ BBCNews,
+  metroNews,
+  CNNNews,
+  iNews,
+  KumparanNews,
+  TribunNews,
+  DailyNews,
+  DetikNews,
+  OkezoneNews,
+  CNBCNews,
+  KompasNews,
+  SindoNews,
+  TempoNews,
+  IndozoneNews,
+  AntaraNews,
+  RepublikaNews,
+  VivaNews,
+  KontanNews,
+  MerdekaNews,
+  KomikuSearch,
+  AniPlanetSearch,
+  KomikFoxSearch,
+  KomikStationSearch,
+  MangakuSearch,
+  KiryuuSearch,
+  KissMangaSearch,
+  KlikMangaSearch,
+  PalingMurah,
+  LayarKaca21,
+  AminoApps,
+  Mangatoon,
+  WAModsSearch,
+  Emojis,
+  CoronaInfo,
+  JalanTikusMeme, 
+  Cerpen,
+  Quotes,
+  Couples,
+  Darkjokes
+} = require("dhn-api")
+//rpg function\\
+   const { 
+     addInventoriDarah, 
+      cekDuluJoinAdaApaKagaDiJson, 
+      addDarah, 
+      kurangDarah, 
+     getDarah 
+   }  = require('./storage/user/darah.js')
+   const { 
+     cekInventoryAdaAtauGak, 
+      addInventori,  
+       addBesi, 
+       addEmas, 
+       addEmerald,
+       addUmpan,
+       addPotion,
+       kurangBesi, 
+       kurangEmas, 
+       kurangEmerald, 
+       kurangUmpan,
+       kurangPotion,
+       getBesi, 
+      getEmas, 
+     getEmerald,
+     getUmpan,
+    getPotion
+   } = require('./storage/user/alat_tukar.js')
+   const { 
+    addInventoriMonay, 
+    cekDuluJoinAdaApaKagaMonaynyaDiJson, 
+    addMonay, 
+    kurangMonay, 
+   getMonay 
+   } = require('./storage/user/monay.js')
+   const { 
+    addInventoriLimit, 
+    cekDuluJoinAdaApaKagaLimitnyaDiJson, 
+    addLimit, 
+    kurangLimit, 
+    getLimit 
+   } = require('./storage/user/limit.js')
+   const { 
+    cekDuluHasilBuruanNya, 
+     addInventoriBuruan, 
+     addIkan,
+      addAyam, 
+      addKelinci, 
+      addDomba, 
+      addSapi,
+      addGajah,
+      kurangIkan,
+      kurangAyam, 
+      kurangKelinci, 
+      kurangDomba, 
+      kurangSapi,
+      kurangGajah,
+      getIkan,
+      getAyam, 
+      getKelinci, 
+      getDomba,
+     getSapi,
+    getGajah
+   } = require('./storage/user/buruan.js')
+   let DarahAwal =  global.rpg.darahawal
+   const isDarah = cekDuluJoinAdaApaKagaDiJson(m.sender)   
+   const isCekDarah = getDarah(m.sender)
+   const isUmpan = getUmpan(m.sender)
+   const isPotion = getPotion(m.sender)
+   const isIkan = getIkan(m.sender)
+   const isAyam = getAyam(m.sender)
+   const isKelinci = getKelinci(m.sender)
+   const isDomba = getDomba(m.sender)
+   const isSapi = getSapi(m.sender)
+   const isGajah = getGajah(m.sender)
+   const isMonay = getMonay(m.sender)
+   const isLimit = getLimit(m.sender)
+   const isBesi = getBesi(m.sender)
+   const isEmas = getEmas(m.sender)
+   const isEmerald = getEmerald(m.sender)
+   const isInventory = cekInventoryAdaAtauGak(m.sender)
+   const isInventoriBuruan = cekDuluHasilBuruanNya(m.sender)
+   const isInventoryLimit = cekDuluJoinAdaApaKagaLimitnyaDiJson(m.sender)
+   const isInventoryMonay = cekDuluJoinAdaApaKagaMonaynyaDiJson(m.sender)
+   const ikan = ['🐟','🐠','🐡']   
 const ini_mark = `0@s.whatsapp.net`
 const ownernya = ownernomer + '@s.whatsapp.net'
 
